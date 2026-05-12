@@ -3,10 +3,10 @@ tabs/tab_region.py
 ==================
 Generisk region-fane brukt for OSLO, NORDIC, EUROPE.
 
-Layout:
-1. Sektor-varmekart (live beregning)
-2. Topp-signaler-tabell fra daglig scan
-3. Drill-down: velg aksje → VSA-chart + Wyckoff-detaljer
+NB: Alle Streamlit-elementer (selectbox, plotly_chart, dataframe) MÅ ha
+en unik `key` som inkluderer regionen. Ellers krasjer Streamlit hvis
+samme aksje finnes i flere regioner (f.eks. EQNR.OL finnes i både
+OSLO og EUROPE-univers).
 """
 
 import streamlit as st
@@ -22,7 +22,7 @@ from core.wyckoff import analyze_wyckoff
 
 
 def render_region_tab(region: Region, state: dict) -> None:
-    """Render hele region-fanen."""
+    """Render hele region-fanen. Region brukes som suffix på alle Streamlit keys."""
     region_signals = state.get("regions", {}).get(region, [])
 
     # === Toppstats ===
@@ -40,8 +40,7 @@ def render_region_tab(region: Region, state: dict) -> None:
     # === 1. Sektor-varmekart ===
     st.subheader("🗺 Sektor-varmekart (relativ styrke)")
     st.caption(
-        "Sektorer fargekodet etter 20d % endring i RS-ratio mot region-indeks. "
-        "Beregnes live."
+        "Sektorer fargekodet etter 20d % endring i RS-ratio mot region-indeks."
     )
 
     with st.spinner("Beregner sektor-RS..."):
@@ -54,7 +53,6 @@ def render_region_tab(region: Region, state: dict) -> None:
     if matrix.empty:
         st.warning("Ingen sektor-data tilgjengelig.")
     else:
-        # Treemap der farge = change_20d
         fig = px.treemap(
             matrix,
             path=["sector"],
@@ -65,7 +63,7 @@ def render_region_tab(region: Region, state: dict) -> None:
             hover_data={"change_20d": ":.2f", "score": ":.0f", "used_region": True},
         )
         fig.update_layout(height=400, margin=dict(t=10, l=10, r=10, b=10))
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, use_container_width=True, key=f"treemap_{region}")
 
         with st.expander("Rådata"):
             st.dataframe(
@@ -75,6 +73,7 @@ def render_region_tab(region: Region, state: dict) -> None:
                     "score": "{:.0f}",
                 }),
                 use_container_width=True,
+                key=f"sector_df_{region}",
             )
 
     st.markdown("---")
@@ -85,7 +84,6 @@ def render_region_tab(region: Region, state: dict) -> None:
         st.info("Ingen signaler i siste scan.")
     else:
         df = pd.DataFrame(region_signals)
-        # Velg viktigste kolonner
         cols = [
             "symbol", "name", "sector", "wyckoff_phase",
             "spring", "markup", "triple_rs_strong",
@@ -100,6 +98,7 @@ def render_region_tab(region: Region, state: dict) -> None:
             }).background_gradient(subset=["final_score"], cmap="Greens"),
             use_container_width=True,
             hide_index=True,
+            key=f"signals_df_{region}",
         )
 
     st.markdown("---")
@@ -111,16 +110,16 @@ def render_region_tab(region: Region, state: dict) -> None:
     selected = st.selectbox(
         "Velg aksje for VSA + Wyckoff-analyse:",
         options,
-        key=f"drilldown_{region}",
+        key=f"drilldown_select_{region}",
     )
     if selected:
         symbol = selected.split(" — ")[0]
         ticker = next(t for t in universe if t.symbol == symbol)
-        _render_drilldown(ticker)
+        _render_drilldown(ticker, region)
 
 
-def _render_drilldown(ticker) -> None:
-    """Detaljert analyse for én aksje."""
+def _render_drilldown(ticker, region: Region) -> None:
+    """Detaljert analyse for én aksje. region brukes for unike keys."""
     with st.spinner(f"Henter data for {ticker.symbol}..."):
         df = fetch_one(ticker.symbol, period="1y")
 
@@ -128,11 +127,8 @@ def _render_drilldown(ticker) -> None:
         st.error(f"Ingen data for {ticker.symbol}")
         return
 
-    # Wyckoff
     w = analyze_wyckoff(df)
-    # VSA
     v = vsa_report(df)
-    # OBV
     obv = compute_obv(df["Close"], df["Volume"])
 
     # Toppstats
@@ -157,7 +153,6 @@ def _render_drilldown(ticker) -> None:
     fig.add_hline(y=w.resistance, line_dash="dash", line_color="red",
                   annotation_text=f"Motstand {w.resistance:.2f}")
 
-    # Marker VSA-signaler
     for sig in v["signals"][:10]:
         color = {"absorption": "blue", "shakeout": "orange",
                  "climactic_buy": "purple", "no_supply": "green"}.get(sig.signal_type, "gray")
@@ -172,23 +167,23 @@ def _render_drilldown(ticker) -> None:
         xaxis_rangeslider_visible=False,
         height=500,
     )
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, use_container_width=True, key=f"price_chart_{region}_{ticker.symbol}")
 
     # Volum + OBV
     col_v, col_o = st.columns(2)
     with col_v:
         vol_fig = go.Figure(go.Bar(x=df.index, y=df["Volume"], name="Volum"))
         vol_fig.update_layout(title="Volum", height=250, margin=dict(t=30))
-        st.plotly_chart(vol_fig, use_container_width=True)
+        st.plotly_chart(vol_fig, use_container_width=True, key=f"vol_chart_{region}_{ticker.symbol}")
     with col_o:
         obv_fig = go.Figure(go.Scatter(x=obv.index, y=obv.values, name="OBV"))
         obv_fig.update_layout(
             title=f"OBV ({'stigende ✓' if v['obv_rising'] else 'fallende ✗'})",
             height=250, margin=dict(t=30),
         )
-        st.plotly_chart(obv_fig, use_container_width=True)
+        st.plotly_chart(obv_fig, use_container_width=True, key=f"obv_chart_{region}_{ticker.symbol}")
 
-    # Detaljerte signaler
+    # VSA-signaler
     with st.expander("VSA-signaler (siste 60d)"):
         if v["signals"]:
             sig_df = pd.DataFrame([
@@ -200,7 +195,8 @@ def _render_drilldown(ticker) -> None:
                 }
                 for s in v["signals"]
             ])
-            st.dataframe(sig_df, hide_index=True, use_container_width=True)
+            st.dataframe(sig_df, hide_index=True, use_container_width=True,
+                         key=f"vsa_sig_df_{region}_{ticker.symbol}")
         else:
             st.info("Ingen VSA-signaler funnet siste 60 dager.")
 
