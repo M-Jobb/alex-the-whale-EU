@@ -3,15 +3,11 @@ app.py
 ======
 Streamlit-hovedapp for Smart Money EU Dashboard.
 
-Tre region-faner:
-- Oslo Børs
-- Norden (Sverige, Danmark, Finland)
-- Europa (STOXX 600)
-
-Hver fane viser:
-1. Sektor-varmekart (RS vs region-indeks)
-2. Signal-liste fra siste daglige scan
-3. Drill-down: klikk på aksje for VSA + Wyckoff-detaljer
+Faner:
+- 🇳🇴 Oslo Børs
+- 🇸🇪🇩🇰🇫🇮 Norden
+- 🇪🇺 Europa (STOXX 600)
+- 💰 Paper trading
 """
 
 import streamlit as st
@@ -19,21 +15,21 @@ from datetime import datetime
 
 from scanner_core import load_signals_state
 from tabs.tab_region import render_region_tab
+from tabs.tab_paper_trading import render_paper_trading_tab
 
 
 st.set_page_config(
     page_title="Smart Money EU",
-    page_icon="🇪🇺",
+    page_icon="🐋",
     layout="wide",
 )
 
-st.title("🇪🇺 Smart Money EU Dashboard")
+st.title("🐋 Smart Money EU Dashboard")
 st.caption(
-    "Wyckoff-, VSA- og RS-analyse for europeiske aksjer. "
+    "Wyckoff/VSA/RS-analyse for europeiske aksjer + paper trading. "
     "Forsknings-/opplæringsverktøy — ikke investeringsråd."
 )
 
-# Last inn siste scan
 state = load_signals_state()
 if state is None:
     st.warning(
@@ -51,11 +47,11 @@ except Exception:
 
 st.caption(f"Siste scan: **{age_str}**")
 
-# Region-faner
-tab_oslo, tab_nordic, tab_europe = st.tabs([
+tab_oslo, tab_nordic, tab_europe, tab_paper = st.tabs([
     "🇳🇴 Oslo Børs",
     "🇸🇪🇩🇰🇫🇮 Norden",
-    "🇪🇺 Europa (STOXX 600)",
+    "🇪🇺 Europa",
+    "💰 Paper trading",
 ])
 
 with tab_oslo:
@@ -66,6 +62,9 @@ with tab_nordic:
 
 with tab_europe:
     render_region_tab("EUROPE", state)
+
+with tab_paper:
+    render_paper_trading_tab()
 
 st.markdown("---")
 st.caption("Bygd med Streamlit + yfinance. Kode: GitHub.")
