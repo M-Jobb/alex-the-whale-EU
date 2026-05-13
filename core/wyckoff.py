@@ -1,31 +1,22 @@
 """
 core/wyckoff.py
 ===============
-Wyckoff-fase-deteksjon med pivot-basert støtte/motstand.
+Wyckoff-fase-deteksjon med to-nivå støtte/motstand:
 
-KJERNE-IDÉEN: I stedet for å lete etter "trading range" som et lav-
-volatilitet-vindu, finner vi de FAKTISKE pivot-toppene (lokale High-
-maks) og pivot-bunnene (lokale Low-min) — slik en menneskelig trader
-ville tegne det.
+1. KORTSIKTIG (siste konsolidering) — primær, brukes for fase-deteksjon
+   og paper trading-signaler. Vi tar den nyligste handlebare TR-en.
 
-Algoritme:
-1. Pivot-high: en dag er pivot-high hvis dens High er høyere enn alle
-   `pivot_width` dager til venstre OG `pivot_width` dager til høyre.
-2. Pivot-low: tilsvarende for lokal bunn.
-3. Vi tar de N nyeste pivot-highs som motstandskandidater og N nyeste
-   pivot-lows som støttekandidater
-4. Hvis aksjen er over en gruppe pivot-highs (breakout-scenario), bruker
-   vi de GAMLE pivot-highs som motstand — de står stille!
-5. Tilsvarende for støtte.
+2. LANGSIKTIG (base) — sekundær, valgfri visning. Den største/lengste
+   konsolideringen som hovedbreakouten kom fra. Brukes til kontekst.
 
-Dette gir oss det Felix Prehn ville tegnet: en motstandslinje på den
-nylige toppen som AKSJEN BRØT UT FRA, og en støttelinje på siste
-solide bunn.
+For Nokia-eksempelet:
+- Kortsiktig: Motstand 11.91, Støtte 8.37 (siste konsolidering)
+- Langsiktig: Motstand ~6.90, Støtte ~5.80 (basen i 2025)
 """
 
 from __future__ import annotations
 from dataclasses import dataclass
-from typing import Literal
+from typing import Literal, Optional
 
 import numpy as np
 import pandas as pd
@@ -36,8 +27,9 @@ WyckoffPhase = Literal["accumulation", "markup", "distribution", "markdown", "un
 
 @dataclass
 class WyckoffAnalysis:
+    # Hovedanalyse (basert på kortsiktig TR)
     phase: WyckoffPhase
-    support: float
+    support: float                # Kortsiktig (siste konsolidering)
     resistance: float
     last_close: float
     in_range: bool
@@ -47,6 +39,11 @@ class WyckoffAnalysis:
     days_in_range: int
     tr_start_idx: int
     tr_end_idx: int
+    # Langsiktig base (valgfri visning)
+    base_support: Optional[float] = None
+    base_resistance: Optional[float] = None
+    base_start_idx: Optional[int] = None
+    base_end_idx: Optional[int] = None
 
 
 # ============================================================
@@ -58,17 +55,9 @@ def find_pivots(
     pivot_width: int = 5,
 ) -> tuple[list[tuple[int, float]], list[tuple[int, float]]]:
     """
-    Finn pivot-highs og pivot-lows i hele historikken.
+    Finn pivot-highs og pivot-lows.
 
-    En pivot-high på indeks i er: H[i] >= H[i-w...i-1] OG H[i] >= H[i+1...i+w]
-    En pivot-low: L[i] <= L[i-w...i-1] OG L[i] <= L[i+1...i+w]
-
-    Args:
-        df: OHLC DataFrame
-        pivot_width: Antall dager på hver side som må være lavere/høyere
-
-    Returns:
-        (pivot_highs, pivot_lows) hver liste = [(idx, pris), ...]
+    En pivot-high på indeks i: H[i] >= H[i-w...i-1] OG H[i] >= H[i+1...i+w]
     """
     n = len(df)
     if n < 2 * pivot_width + 1:
@@ -94,25 +83,36 @@ def find_pivots(
     return pivot_highs, pivot_lows
 
 
+def _cluster_pivots(
+    pivots: list[tuple[int, float]],
+    cluster_pct: float,
+) -> list[list[tuple[int, float]]]:
+    """Gruppér pivots som ligger innenfor cluster_pct av hverandre i pris."""
+    if not pivots:
+        return []
+    sorted_pivots = sorted(pivots, key=lambda x: x[1])
+    clusters = [[sorted_pivots[0]]]
+    for i, p in sorted_pivots[1:]:
+        last_cluster = clusters[-1]
+        avg = np.mean([pp for _, pp in last_cluster])
+        if abs(p - avg) / avg * 100 <= cluster_pct:
+            last_cluster.append((i, p))
+        else:
+            clusters.append([(i, p)])
+    return sorted(clusters, key=lambda c: max(i for i, _ in c))
+
+
+# ============================================================
+# Kortsiktig TR (= siste konsolidering)
+# ============================================================
+
 def find_support_resistance_from_pivots(
     df: pd.DataFrame,
     pivot_width: int = 5,
     cluster_pct: float = 3.0,
 ) -> tuple[float, float, int, int]:
     """
-    Beregn støtte og motstand fra pivot-clusters.
-
-    Algoritme:
-    1. Finn alle pivot-highs og pivot-lows
-    2. Cluster pivot-highs som ligger innenfor `cluster_pct` av hverandre
-    3. Resistance = nyeste cluster av pivot-highs SOM ER OVER siste close
-       (hvis ingen over, bruk siste cluster under siste close — typisk
-       breakout-scenario, vi viser old resistance)
-    4. Tilsvarende for support
-
-    Returns:
-        (support, resistance, tr_start_idx, tr_end_idx)
-        tr_*_idx peker på pivot-indeksene som ble brukt
+    Finn kortsiktig støtte/motstand basert på de nyeste pivot-clustere.
     """
     n = len(df)
     if n < 30:
@@ -124,29 +124,17 @@ def find_support_resistance_from_pivots(
 
     last_close = float(df["Close"].iloc[-1])
 
-    # --- Resistance ---
-    # Strategi:
-    # - Hvis pris er UNDER en cluster pivot-highs: bruk nyeste cluster over pris
-    # - Hvis pris er OVER alle pivot-highs (markup): bruk siste signifikante
-    #   cluster av pivot-highs FØR markup begynte. Dvs. den cluster der
-    #   pivots ligger nær hverandre i tid OG pris (klassisk TR-topp).
+    # === Resistance ===
     resistance_idx = None
     resistance = None
-
     above_close = [(i, p) for i, p in pivot_highs if p > last_close]
     if above_close:
-        # Pris under en eller flere pivot-highs — bruk nærmeste over
         resistance_idx, resistance = above_close[-1]
     else:
-        # Pris er over ALLE pivot-highs (markup-scenario)
-        # Finn den eldste cluster som har minst 2 pivots OG hvor pivotene
-        # er nær hverandre i pris (innenfor cluster_pct) — det er TR-topp
+        # Markup-scenario: bruk nyeste cluster av pivot-highs
         clusters = _cluster_pivots(pivot_highs, cluster_pct)
-        # Filtrér til clusters med minst 2 pivots
         substantial = [c for c in clusters if len(c) >= 2]
         if substantial:
-            # Velg den NYESTE av disse substantielle clustere som er UNDER siste close
-            # (= TR-topp før markup)
             candidates = []
             for cluster in substantial:
                 cluster_max = max(p for _, p in cluster)
@@ -154,16 +142,14 @@ def find_support_resistance_from_pivots(
                 if cluster_max < last_close:
                     candidates.append((cluster_max_idx, cluster_max, cluster))
             if candidates:
-                # Velg nyeste under last_close
                 candidates.sort(key=lambda x: x[0])
                 resistance_idx, resistance, _ = candidates[-1]
         if resistance is None and clusters:
-            # Fallback: nyeste cluster (alt-i-alt)
             last_cluster = clusters[-1]
             resistance_idx = max(i for i, _ in last_cluster)
             resistance = float(np.mean([p for _, p in last_cluster]))
 
-    # --- Support ---
+    # === Support ===
     support_idx = None
     support = None
     below_close = [(i, p) for i, p in pivot_lows if p < last_close]
@@ -179,41 +165,101 @@ def find_support_resistance_from_pivots(
     if support is None or resistance is None:
         return _percentile_fallback(df)
 
-    # TR-grensene fra de respective pivot-indeksene
     tr_start = min(support_idx, resistance_idx)
     tr_end = max(support_idx, resistance_idx)
-
     return support, resistance, tr_start, tr_end
 
 
-def _cluster_pivots(
-    pivots: list[tuple[int, float]],
-    cluster_pct: float,
-) -> list[list[tuple[int, float]]]:
-    """
-    Gruppér pivots som ligger innenfor `cluster_pct` av hverandre.
+# ============================================================
+# LANGSIKTIG BASE (= største/lengste konsolidering)
+# ============================================================
 
-    Returnerer liste av lister, der hver indre liste er ett cluster.
-    Clusters er sortert etter posisjon (nyeste sist).
+def find_base_consolidation(
+    df: pd.DataFrame,
+    pivot_width: int = 5,
+    cluster_pct: float = 5.0,
+    min_cluster_size: int = 3,
+) -> Optional[tuple[float, float, int, int]]:
     """
-    if not pivots:
-        return []
-    # Sorter etter pris
-    sorted_pivots = sorted(pivots, key=lambda x: x[1])
-    clusters = [[sorted_pivots[0]]]
-    for i, p in sorted_pivots[1:]:
-        last_cluster = clusters[-1]
-        avg = np.mean([pp for _, pp in last_cluster])
-        if abs(p - avg) / avg * 100 <= cluster_pct:
-            last_cluster.append((i, p))
-        else:
-            clusters.append([(i, p)])
-    # Sorter clusters etter nyeste indeks
-    return sorted(clusters, key=lambda c: max(i for i, _ in c))
+    Finn den langsiktige basen — den største/eldste meningsfulle
+    konsolideringen i historikken.
 
+    Strategi:
+    - Cluster alle pivot-highs og pivot-lows i tette grupper
+    - Den BESTE clusteret har: flest pivots, størst tidsutstrekning
+    - Vi finner det clusteret som representerer "den lange basen"
+
+    Returns:
+        (base_support, base_resistance, start_idx, end_idx) eller None
+        hvis ingen klar base finnes.
+    """
+    n = len(df)
+    if n < 60:
+        return None
+
+    pivot_highs, pivot_lows = find_pivots(df, pivot_width)
+    if len(pivot_highs) < min_cluster_size or len(pivot_lows) < min_cluster_size:
+        return None
+
+    # Cluster med bredere terskel for å fange større konsolideringer
+    high_clusters = _cluster_pivots(pivot_highs, cluster_pct)
+    low_clusters = _cluster_pivots(pivot_lows, cluster_pct)
+
+    # Score hvert cluster: kombinasjon av antall pivots og tidsutstrekning
+    def score_cluster(cluster):
+        if len(cluster) < min_cluster_size:
+            return 0
+        indices = [i for i, _ in cluster]
+        time_span = max(indices) - min(indices)
+        return len(cluster) * time_span  # størst antall × lengst tid
+
+    # Finn beste high-cluster og low-cluster
+    high_clusters_sorted = sorted(high_clusters, key=score_cluster, reverse=True)
+    low_clusters_sorted = sorted(low_clusters, key=score_cluster, reverse=True)
+
+    best_high = high_clusters_sorted[0] if high_clusters_sorted else None
+    best_low = low_clusters_sorted[0] if low_clusters_sorted else None
+
+    if not best_high or not best_low:
+        return None
+    if len(best_high) < min_cluster_size or len(best_low) < min_cluster_size:
+        return None
+
+    # Verifiser at clustere overlapper i tid (= samme TR)
+    high_indices = [i for i, _ in best_high]
+    low_indices = [i for i, _ in best_low]
+    h_start, h_end = min(high_indices), max(high_indices)
+    l_start, l_end = min(low_indices), max(low_indices)
+
+    # Overlapp må eksistere
+    overlap_start = max(h_start, l_start)
+    overlap_end = min(h_end, l_end)
+    if overlap_end - overlap_start < 20:  # mindre enn 20d overlapp = ikke samme TR
+        return None
+
+    # Hvis denne basen er SAMME som kortsiktig TR, returner None
+    # (vi vil ikke duplisere)
+    short_s, short_r, short_start, short_end = find_support_resistance_from_pivots(df)
+    base_resistance = float(np.mean([p for _, p in best_high]))
+    base_support = float(np.mean([p for _, p in best_low]))
+
+    # Hvis bredde og periode er ~lik kortsiktig, det er samme TR
+    if (
+        abs(base_resistance - short_r) / short_r < 0.05
+        and abs(base_support - short_s) / short_s < 0.05
+    ):
+        return None
+
+    base_start = min(h_start, l_start)
+    base_end = max(h_end, l_end)
+    return base_support, base_resistance, base_start, base_end
+
+
+# ============================================================
+# Fallback
+# ============================================================
 
 def _percentile_fallback(df: pd.DataFrame) -> tuple[float, float, int, int]:
-    """Fallback hvis pivot-deteksjon feiler."""
     n = len(df)
     if n <= 5:
         last = float(df["Close"].iloc[-1])
@@ -241,14 +287,12 @@ def detect_phase(
 ) -> WyckoffPhase:
     if len(df) < 30:
         return "unclear"
-
     last = float(df["Close"].iloc[-1])
 
     if last > resistance * 1.02:
         return "markup"
     if last < support * 0.98:
         return "markdown"
-
     if support <= last <= resistance:
         if tr_start_idx > 10:
             before = df["Close"].iloc[:tr_start_idx].tail(60).values
@@ -259,7 +303,6 @@ def detect_phase(
                 if slope > 0.1:
                     return "distribution"
         return "accumulation"
-
     return "unclear"
 
 
@@ -273,7 +316,7 @@ def _slope_pct(prices) -> float:
 
 
 # ============================================================
-# Spring og Markup-deteksjon
+# Spring / Markup-deteksjon
 # ============================================================
 
 def detect_spring(df: pd.DataFrame, support: float, lookback: int = 5) -> bool:
@@ -326,6 +369,7 @@ def analyze_wyckoff(df: pd.DataFrame) -> WyckoffAnalysis:
             range_pct=0.0, days_in_range=0, tr_start_idx=0, tr_end_idx=0,
         )
 
+    # Kortsiktig (siste konsolidering) — primær
     support, resistance, tr_start, tr_end = find_support_resistance_from_pivots(df)
     last = float(df["Close"].iloc[-1])
     phase = detect_phase(df, support, resistance, tr_start, tr_end)
@@ -335,11 +379,19 @@ def analyze_wyckoff(df: pd.DataFrame) -> WyckoffAnalysis:
     range_pct = (resistance - support) / support * 100 if support > 0 else 0
     days = days_since_tr_end(df, tr_end)
 
+    # Langsiktig base (valgfri)
+    base = find_base_consolidation(df)
+    base_support = base_resistance = base_start = base_end = None
+    if base is not None:
+        base_support, base_resistance, base_start, base_end = base
+
     return WyckoffAnalysis(
         phase=phase, support=support, resistance=resistance, last_close=last,
         in_range=in_range, spring_detected=spring, markup_detected=markup,
         range_pct=range_pct, days_in_range=days,
         tr_start_idx=tr_start, tr_end_idx=tr_end,
+        base_support=base_support, base_resistance=base_resistance,
+        base_start_idx=base_start, base_end_idx=base_end,
     )
 
 
@@ -351,5 +403,4 @@ def find_support_resistance(df: pd.DataFrame, lookback: int = 60,
 
 
 def find_trading_range(df: pd.DataFrame, **kwargs) -> tuple[float, float, int, int]:
-    """Alias for find_support_resistance_from_pivots."""
     return find_support_resistance_from_pivots(df)
