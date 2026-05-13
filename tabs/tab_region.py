@@ -3,10 +3,8 @@ tabs/tab_region.py
 ==================
 Generisk region-fane brukt for OSLO, NORDIC, EUROPE.
 
-NB: Alle Streamlit-elementer (selectbox, plotly_chart, dataframe) MÅ ha
-en unik `key` som inkluderer regionen. Ellers krasjer Streamlit hvis
-samme aksje finnes i flere regioner (f.eks. EQNR.OL finnes i både
-OSLO og EUROPE-univers).
+NB: Alle Streamlit-elementer MÅ ha unik `key` med region som suffix
+for å unngå duplikatfeil når samme aksje finnes i flere regioner.
 """
 
 import streamlit as st
@@ -22,7 +20,6 @@ from core.wyckoff import analyze_wyckoff
 
 
 def render_region_tab(region: Region, state: dict) -> None:
-    """Render hele region-fanen. Region brukes som suffix på alle Streamlit keys."""
     region_signals = state.get("regions", {}).get(region, [])
 
     # === Toppstats ===
@@ -37,11 +34,9 @@ def render_region_tab(region: Region, state: dict) -> None:
 
     st.markdown("---")
 
-    # === 1. Sektor-varmekart ===
+    # === Sektor-varmekart ===
     st.subheader("🗺 Sektor-varmekart (relativ styrke)")
-    st.caption(
-        "Sektorer fargekodet etter 20d % endring i RS-ratio mot region-indeks."
-    )
+    st.caption("Sektorer fargekodet etter 20d % endring i RS-ratio mot region-indeks.")
 
     with st.spinner("Beregner sektor-RS..."):
         try:
@@ -54,12 +49,8 @@ def render_region_tab(region: Region, state: dict) -> None:
         st.warning("Ingen sektor-data tilgjengelig.")
     else:
         fig = px.treemap(
-            matrix,
-            path=["sector"],
-            values="n_components",
-            color="change_20d",
-            color_continuous_scale="RdYlGn",
-            color_continuous_midpoint=0,
+            matrix, path=["sector"], values="n_components", color="change_20d",
+            color_continuous_scale="RdYlGn", color_continuous_midpoint=0,
             hover_data={"change_20d": ":.2f", "score": ":.0f", "used_region": True},
         )
         fig.update_layout(height=400, margin=dict(t=10, l=10, r=10, b=10))
@@ -78,7 +69,7 @@ def render_region_tab(region: Region, state: dict) -> None:
 
     st.markdown("---")
 
-    # === 2. Topp-signaler ===
+    # === Topp-signaler ===
     st.subheader("🎯 Topp signaler (fra siste daglige scan)")
     if not region_signals:
         st.info("Ingen signaler i siste scan.")
@@ -96,14 +87,13 @@ def render_region_tab(region: Region, state: dict) -> None:
                 "rs_aggregate_score": "{:.0f}",
                 "final_score": "{:.0f}",
             }).background_gradient(subset=["final_score"], cmap="Greens"),
-            use_container_width=True,
-            hide_index=True,
+            use_container_width=True, hide_index=True,
             key=f"signals_df_{region}",
         )
 
     st.markdown("---")
 
-    # === 3. Drill-down ===
+    # === Drill-down ===
     st.subheader("🔬 Drill-down")
     universe = get_universe(region)
     options = [f"{t.symbol} — {t.name}" for t in universe]
@@ -119,7 +109,7 @@ def render_region_tab(region: Region, state: dict) -> None:
 
 
 def _render_drilldown(ticker, region: Region) -> None:
-    """Detaljert analyse for én aksje. region brukes for unike keys."""
+    """Detaljert analyse for én aksje."""
     with st.spinner(f"Henter data for {ticker.symbol}..."):
         df = fetch_one(ticker.symbol, period="1y")
 
@@ -142,17 +132,66 @@ def _render_drilldown(ticker, region: Region) -> None:
     with c4:
         st.metric("Spring/Markup", f"{'🌱' if w.spring_detected else ''}{'🚀' if w.markup_detected else ''}" or "—")
 
-    # Pris + støtte/motstand
+    # === TOGGLE for langsiktig base ===
+    has_base = w.base_support is not None and w.base_resistance is not None
+    if has_base:
+        show_base = st.toggle(
+            f"📐 Vis langsiktig base (S={w.base_support:.2f}, R={w.base_resistance:.2f})",
+            value=False,
+            key=f"toggle_base_{region}_{ticker.symbol}",
+            help="Viser den lange konsolideringen som hovedbreakouten kom fra. "
+                 "Stiplet/prikkete linje skiller den fra kortsiktig nivå.",
+        )
+    else:
+        show_base = False
+
+    # === Pris-chart med støtte/motstand ===
     fig = go.Figure()
     fig.add_trace(go.Candlestick(
         x=df.index, open=df["Open"], high=df["High"], low=df["Low"], close=df["Close"],
         name="Pris",
     ))
-    fig.add_hline(y=w.support, line_dash="dash", line_color="green",
-                  annotation_text=f"Støtte {w.support:.2f}")
-    fig.add_hline(y=w.resistance, line_dash="dash", line_color="red",
-                  annotation_text=f"Motstand {w.resistance:.2f}")
 
+    # Kortsiktig støtte/motstand (alltid synlig)
+    fig.add_hline(
+        y=w.support, line_dash="dash", line_color="green", line_width=2,
+        annotation_text=f"Støtte {w.support:.2f}",
+        annotation_position="right",
+    )
+    fig.add_hline(
+        y=w.resistance, line_dash="dash", line_color="red", line_width=2,
+        annotation_text=f"Motstand {w.resistance:.2f}",
+        annotation_position="right",
+    )
+
+    # Langsiktig base (kun hvis toggle er på)
+    if show_base and has_base:
+        fig.add_hline(
+            y=w.base_support, line_dash="dot", line_color="rgba(0,150,0,0.6)", line_width=1,
+            annotation_text=f"Base-støtte {w.base_support:.2f}",
+            annotation_position="left",
+            annotation_font_color="rgba(0,150,0,0.8)",
+        )
+        fig.add_hline(
+            y=w.base_resistance, line_dash="dot", line_color="rgba(200,0,0,0.6)", line_width=1,
+            annotation_text=f"Base-motstand {w.base_resistance:.2f}",
+            annotation_position="left",
+            annotation_font_color="rgba(200,0,0,0.8)",
+        )
+        # Marker base-perioden med svak skygge
+        if w.base_start_idx is not None and w.base_end_idx is not None:
+            base_x0 = df.index[w.base_start_idx]
+            base_x1 = df.index[w.base_end_idx]
+            fig.add_vrect(
+                x0=base_x0, x1=base_x1,
+                fillcolor="lightblue", opacity=0.10,
+                layer="below", line_width=0,
+                annotation_text="Langsiktig base",
+                annotation_position="top left",
+                annotation_font_size=10,
+            )
+
+    # VSA-signaler
     for sig in v["signals"][:10]:
         color = {"absorption": "blue", "shakeout": "orange",
                  "climactic_buy": "purple", "no_supply": "green"}.get(sig.signal_type, "gray")
@@ -164,8 +203,7 @@ def _render_drilldown(ticker, region: Region) -> None:
 
     fig.update_layout(
         title=f"{ticker.symbol} — {ticker.name}",
-        xaxis_rangeslider_visible=False,
-        height=500,
+        xaxis_rangeslider_visible=False, height=500,
     )
     st.plotly_chart(fig, use_container_width=True, key=f"price_chart_{region}_{ticker.symbol}")
 
@@ -202,13 +240,17 @@ def _render_drilldown(ticker, region: Region) -> None:
 
     # Wyckoff-detaljer
     with st.expander("Wyckoff-analyse-detaljer"):
-        st.json({
+        details = {
             "phase": w.phase,
-            "support": round(w.support, 2),
-            "resistance": round(w.resistance, 2),
+            "support_kortsiktig": round(w.support, 2),
+            "resistance_kortsiktig": round(w.resistance, 2),
             "range_width_pct": round(w.range_pct, 2),
-            "days_in_range": w.days_in_range,
+            "days_since_tr": w.days_in_range,
             "in_range": w.in_range,
             "spring_detected": w.spring_detected,
             "markup_detected": w.markup_detected,
-        })
+        }
+        if has_base:
+            details["base_support"] = round(w.base_support, 2)
+            details["base_resistance"] = round(w.base_resistance, 2)
+        st.json(details)
