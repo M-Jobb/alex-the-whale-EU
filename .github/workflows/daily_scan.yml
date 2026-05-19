@@ -26,19 +26,42 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run scanner
+      - name: Run scanner + paper trading
         run: python scanner_job.py
+
+      - name: Debug — vis filer før commit
+        run: |
+          echo "=== Working directory ==="
+          pwd
+          echo "=== Filer i data/ ==="
+          ls -la data/
+          echo "=== Innhold portfolio.json (første 30 linjer) ==="
+          head -30 data/portfolio.json
+          echo "=== Git status ==="
+          git status
+          echo "=== Git diff data/portfolio.json ==="
+          git diff --stat data/portfolio.json || echo "(ingen diff)"
 
       - name: Commit updated state
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/signals_state.json
+
+          # Force-add begge filer, selv om Git tror de er uendret
+          git add -A data/signals_state.json data/portfolio.json
+
+          echo "=== Staged endringer ==="
+          git diff --staged --stat
+
           if git diff --staged --quiet; then
-            echo "Ingen endringer å commite"
+            echo "Ingen endringer å commite — dette er rart!"
+            echo "Dumping filinnhold for debugging:"
+            cat data/portfolio.json | head -50
             exit 0
           fi
-          git commit -m "chore: oppdater signal-state $(date -u +'%Y-%m-%d %H:%M UTC')"
+
+          git commit -m "chore: oppdater state $(date -u +'%Y-%m-%d %H:%M UTC')"
+
           MAX_RETRIES=5
           for attempt in $(seq 1 $MAX_RETRIES); do
             echo "=== Push-forsøk $attempt av $MAX_RETRIES ==="
