@@ -50,7 +50,7 @@ MIN_SHARE_KAPITAL_PCT   = 0.25           # Tillat 1 aksje hvis innenfor 25% av e
 
 PYRAMID_TRIGGERE_ATR    = [1.0, 2.0]     # add-on triggere
 BUY_ZONE_MAX_PCT        = 0.05           # M = S × 1.05
-ORDRE_GYLDIGHET_DAGER   = 5              # limit-ordre utløper etter 5 dager
+ORDRE_GYLDIGHET_DAGER   = 10             # limit-ordre utløper etter 10 dager
 TRAILING_ATR_AKTIVERING = 1.0            # switch til trailing når pris > avg_entry + 1×ATR
 TRAILING_ATR_AVSTAND    = 2.0            # trailing stop = high_water − 2×ATR
 

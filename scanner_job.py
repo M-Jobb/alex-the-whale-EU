@@ -3,24 +3,23 @@ scanner_job.py
 ==============
 Entrypoint for GitHub Actions cron-jobb.
 
-Workflow:
-1. Tøm caches (ferskt Yahoo-data)
-2. Kjør signal-scan på alle 3 regioner
-3. Lagre signaler til data/signals_state.json
-4. Kjør paper trading daglig tick
-5. Lagre portefølje til data/portfolio.json
+Bruker ABSOLUTTE stier for å unngå working-directory-problemer.
+Logger eksplisitt hver fil-operasjon for å forenkle debugging.
 """
 
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-ROOT = Path(__file__).parent
+# Bruk absolutt sti basert på hvor scanner_job.py ligger
+ROOT = Path(__file__).parent.resolve()
 sys.path.insert(0, str(ROOT))
 
 from core.data import clear_cache as clear_data_cache, fetch_history
 from core.benchmarks import clear_benchmark_cache
 from scanner_core import scan_all_regions, save_signals_state
+import paper_trading
 from paper_trading import (
     load_portfolio,
     save_portfolio,
@@ -29,18 +28,28 @@ from paper_trading import (
 )
 
 
+# Tving absolutte stier — fungerer uansett hvor scriptet kjøres fra
+SIGNALS_PATH = str(ROOT / "data" / "signals_state.json")
+PORTFOLIO_PATH = str(ROOT / "data" / "portfolio.json")
+
+
 def main() -> None:
     print("=== Smart Money EU — daglig scan + paper trading ===", flush=True)
+    print(f"  Working dir: {os.getcwd()}", flush=True)
+    print(f"  Script root: {ROOT}", flush=True)
+    print(f"  Signals path: {SIGNALS_PATH}", flush=True)
+    print(f"  Portfolio path: {PORTFOLIO_PATH}", flush=True)
+
     i_dag_iso = datetime.now(timezone.utc).isoformat()
 
-    # 1. Tøm caches
     clear_data_cache()
     clear_benchmark_cache()
 
-    # 2. Signal-scan
+    # ============================================================
+    # 1. Signal-scan
+    # ============================================================
     print("\n--- Signal-scan ---", flush=True)
     signals = scan_all_regions(period="1y", min_final_score=60.0)
-
     total = 0
     for region, sigs in signals.items():
         n = len(sigs)
@@ -48,14 +57,23 @@ def main() -> None:
         print(f"  {region}: {n} signaler", flush=True)
         for s in sigs[:5]:
             print(f"    {s.symbol:14s} {s.name:25s} score={s.final_score:.0f}", flush=True)
-
     print(f"\nTotalt {total} signaler funnet", flush=True)
-    save_signals_state(signals)
-    print("✓ Skrevet til data/signals_state.json", flush=True)
 
-    # 3. Bygg kursdata for paper trading
+    save_signals_state(signals, path=SIGNALS_PATH)
+    print(f"✓ Skrevet til {SIGNALS_PATH}", flush=True)
+    print(f"  Filstørrelse: {os.path.getsize(SIGNALS_PATH)} bytes", flush=True)
+
+    # ============================================================
+    # 2. Paper trading
+    # ============================================================
     print("\n--- Paper trading ---", flush=True)
-    portfolio = load_portfolio()
+    print(f"  Leser portfolio fra: {PORTFOLIO_PATH}", flush=True)
+    print(f"  Eksisterer fra før?: {os.path.exists(PORTFOLIO_PATH)}", flush=True)
+
+    portfolio = load_portfolio(path=PORTFOLIO_PATH)
+    print(f"  Kontanter ved start:    {portfolio['kontanter_nok']:,.0f} NOK".replace(",", " "), flush=True)
+    print(f"  Pending ordre ved start: {len(portfolio.get('pending_orders', []))}", flush=True)
+    print(f"  Åpne posisjoner:         {len(portfolio.get('open_positions', []))}", flush=True)
 
     relevante_symboler = set()
     for pos in portfolio.get("open_positions", []):
@@ -73,10 +91,10 @@ def main() -> None:
         print(f"  Henter siste-dags OHLC for {len(relevante_symboler)} aksjer...", flush=True)
         kursdata_raw = fetch_history(list(relevante_symboler), period="5d", use_cache=True)
         kursdata = {sym: df.tail(1) for sym, df in kursdata_raw.items() if not df.empty}
+        print(f"  Fikk kursdata for {len(kursdata)} aksjer", flush=True)
     else:
         kursdata = {}
 
-    # 4. Daglig tick
     log = daglig_tick(
         portfolio=portfolio,
         signaler=alle_signaler,
@@ -87,8 +105,16 @@ def main() -> None:
     for line in log:
         print(f"  {line}", flush=True)
 
-    # 5. Lagre
-    save_portfolio(portfolio)
+    # Eksplisitt lagring til absolutt sti
+    save_portfolio(portfolio, path=PORTFOLIO_PATH)
+    print(f"\n✓ Lagret portefølje til {PORTFOLIO_PATH}", flush=True)
+    print(f"  Filstørrelse: {os.path.getsize(PORTFOLIO_PATH)} bytes", flush=True)
+
+    # Verifiser at filen ble skrevet riktig
+    import json
+    with open(PORTFOLIO_PATH, "r", encoding="utf-8") as f:
+        saved = json.load(f)
+    print(f"  Verifisert lest tilbake: {len(saved.get('pending_orders', []))} pending ordre", flush=True)
 
     # Sammendrag
     stats = beregn_statistikk(portfolio)
