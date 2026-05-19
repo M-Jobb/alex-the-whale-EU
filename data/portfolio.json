@@ -1,11 +1,42 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-05-12T00:00:00+00:00",
+  "last_updated": "2026-05-19T08:31:56.317346+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 100000.0,
-  "pending_orders": [],
+  "pending_orders": [
+    {
+      "symbol": "BMW.DE",
+      "name": "BMW",
+      "sector": "Automobiles",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Spring",
+      "signal_pris_local": 74.36000061035156,
+      "stop_local": 70.44479736328125,
+      "target_local": 82.19040710449218,
+      "atr_local": 1.9576016235351545,
+      "opprettet_dato": "2026-05-19T08:30:38.354208+00:00",
+      "utloper_dato": "2026-05-29T08:30:38.354208+00:00",
+      "signal_snapshot": {
+        "score": 73.09013430560023,
+        "rs_score": 44.12780424669677,
+        "vsa_score": 72.83931010530402,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-05-19"
+      }
+    }
+  ],
   "open_positions": [],
   "closed_trades": [],
   "missed_extended": [],
-  "equity_curve": []
+  "equity_curve": [
+    {
+      "date": "2026-05-19",
+      "equity_nok": 100000.0,
+      "n_open": 0,
+      "n_pending": 1
+    }
+  ]
 }
