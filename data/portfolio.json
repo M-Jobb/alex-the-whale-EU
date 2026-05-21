@@ -1,9 +1,33 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-05-20T08:46:16.955318+00:00",
+  "last_updated": "2026-05-21T08:51:07.525635+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 80213.11161840058,
-  "pending_orders": [],
+  "pending_orders": [
+    {
+      "symbol": "ORK.OL",
+      "name": "Orkla",
+      "sector": "Food Beverage",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Spring",
+      "signal_pris_local": 108.0,
+      "stop_local": 102.14400146484374,
+      "target_local": 119.71199707031252,
+      "atr_local": 2.92799926757813,
+      "opprettet_dato": "2026-05-21T08:49:17.581153+00:00",
+      "utloper_dato": "2026-05-31T08:49:17.581153+00:00",
+      "signal_snapshot": {
+        "score": 73.27241025564754,
+        "rs_score": 39.515257716236896,
+        "vsa_score": 78.05944313592161,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-05-21"
+      }
+    }
+  ],
   "open_positions": [
     {
       "symbol": "BMW.DE",
@@ -35,7 +59,7 @@
       "target_local": 82.19040710449218,
       "atr_local": 1.9576016235351545,
       "stop_type": "wyckoff",
-      "high_water_local": 74.68000030517578,
+      "high_water_local": 75.27999877929688,
       "low_water_local": 74.4343606109619,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -49,11 +73,11 @@
         "dato": "2026-05-19"
       },
       "mae_local": 73.44000244140625,
-      "mfe_local": 74.68000030517578,
+      "mfe_local": 75.27999877929688,
       "mae_pct": -1.3358859556176772,
-      "mfe_pct": 0.33000846947250917,
+      "mfe_pct": 1.1360857558174953,
       "mae_dato": "2026-05-20T08:44:23.336223+00:00",
-      "mfe_dato": "2026-05-19T08:49:11.905051+00:00",
+      "mfe_dato": "2026-05-21T08:49:17.581153+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -89,6 +113,12 @@
       "equity_nok": 99764.95113408662,
       "n_open": 1,
       "n_pending": 0
+    },
+    {
+      "date": "2026-05-21",
+      "equity_nok": 100071.77210271455,
+      "n_open": 1,
+      "n_pending": 1
     }
   ]
 }
