@@ -1,33 +1,9 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-05-25T22:16:55.192029+00:00",
+  "last_updated": "2026-05-26T22:38:26.249614+00:00",
   "start_kapital_nok": 100000.0,
-  "kontanter_nok": 27911.754503589873,
-  "pending_orders": [
-    {
-      "symbol": "ELK.OL",
-      "name": "Elkem",
-      "sector": "Chemicals",
-      "region": "OSLO",
-      "currency": "NOK",
-      "signal_type": "Markup",
-      "signal_pris_local": 30.451499233245848,
-      "stop_local": 25.891600074768068,
-      "target_local": 39.57129755020141,
-      "atr_local": 2.27994957923889,
-      "opprettet_dato": "2026-05-25T22:15:47.176840+00:00",
-      "utloper_dato": "2026-06-04T22:15:47.176840+00:00",
-      "signal_snapshot": {
-        "score": 89.28911506118678,
-        "rs_score": 93.2061948248732,
-        "vsa_score": 91.09085537908273,
-        "wyckoff_phase": "markup",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-05-22"
-      }
-    }
-  ],
+  "kontanter_nok": 11291.537206586207,
+  "pending_orders": [],
   "open_positions": [
     {
       "symbol": "BMW.DE",
@@ -59,7 +35,7 @@
       "target_local": 82.19040710449218,
       "atr_local": 1.9576016235351545,
       "stop_type": "wyckoff",
-      "high_water_local": 75.62000274658203,
+      "high_water_local": 75.9800033569336,
       "low_water_local": 74.4343606109619,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -73,11 +49,11 @@
         "dato": "2026-05-19"
       },
       "mae_local": 73.44000244140625,
-      "mfe_local": 75.62000274658203,
+      "mfe_local": 75.9800033569336,
       "mae_pct": -1.3358859556176772,
-      "mfe_pct": 1.5928693763045843,
+      "mfe_pct": 2.0765177980773375,
       "mae_dato": "2026-05-20T08:44:23.336223+00:00",
-      "mfe_dato": "2026-05-22T22:15:17.269992+00:00",
+      "mfe_dato": "2026-05-26T22:37:20.913461+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -188,11 +164,11 @@
       ],
       "opened_at": "2026-05-25T22:15:47.176840+00:00",
       "initial_stop_local": 5.9443199157714846,
-      "current_stop_local": 5.9443199157714846,
+      "current_stop_local": 6.35731954574585,
       "target_local": 7.032360649108886,
       "atr_local": 0.1813401222229003,
-      "stop_type": "wyckoff",
-      "high_water_local": 6.656000137329102,
+      "stop_type": "trailing_atr",
+      "high_water_local": 6.71999979019165,
       "low_water_local": 6.44143494272232,
       "pyramid_count": 1,
       "skipped_pyramids": [],
@@ -206,11 +182,11 @@
         "dato": "2026-05-21"
       },
       "mae_local": 6.394999980926514,
-      "mfe_local": 6.656000137329102,
+      "mfe_local": 6.71999979019165,
       "mae_pct": -0.7208791551682081,
-      "mfe_pct": 3.331015472712373,
+      "mfe_pct": 4.3245775195488,
       "mae_dato": "2026-05-25T22:15:47.176840+00:00",
-      "mfe_dato": "2026-05-25T22:15:47.176840+00:00",
+      "mfe_dato": "2026-05-26T22:37:20.913461+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -221,6 +197,74 @@
         {
           "date": "2026-05-25T22:15:47.176840+00:00",
           "stop_local": 5.9443199157714846,
+          "type": "initial_wyckoff"
+        },
+        {
+          "date": "2026-05-26T22:37:20.913461+00:00",
+          "stop_local": 6.35731954574585,
+          "type": "trailing_atr_initial"
+        }
+      ]
+    },
+    {
+      "symbol": "ELK.OL",
+      "name": "Elkem",
+      "sector": "Chemicals",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Markup",
+      "fill_type": "limit",
+      "signal_pris_local": 30.451499233245848,
+      "initial_entry_local": 30.48195073247909,
+      "avg_entry_local": 30.48195073247909,
+      "shares": 542,
+      "kostnad_nok": 16620.217297003666,
+      "sizing_method": "risk_based",
+      "fills": [
+        {
+          "date": "2026-05-26T22:37:20.913461+00:00",
+          "price_local": 30.48195073247909,
+          "shares": 542,
+          "cost_nok": 16620.217297003666,
+          "type": "initial",
+          "fill_type": "limit"
+        }
+      ],
+      "opened_at": "2026-05-26T22:37:20.913461+00:00",
+      "initial_stop_local": 25.891600074768068,
+      "current_stop_local": 25.891600074768068,
+      "target_local": 39.57129755020141,
+      "atr_local": 2.27994957923889,
+      "stop_type": "wyckoff",
+      "high_water_local": 32.02000045776367,
+      "low_water_local": 30.48195073247909,
+      "pyramid_count": 0,
+      "skipped_pyramids": [],
+      "signal_snapshot": {
+        "score": 89.28911506118678,
+        "rs_score": 93.2061948248732,
+        "vsa_score": 91.09085537908273,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-05-22"
+      },
+      "mae_local": 30.059999465942383,
+      "mfe_local": 32.02000045776367,
+      "mae_pct": -1.3842659554170522,
+      "mfe_pct": 5.045771967755863,
+      "mae_dato": "2026-05-26T22:37:20.913461+00:00",
+      "mfe_dato": "2026-05-26T22:37:20.913461+00:00",
+      "orig_stop_truffet": false,
+      "orig_stop_dato": null,
+      "orig_stop_pnl_pct": null,
+      "orig_target_truffet": false,
+      "orig_target_dato": null,
+      "orig_target_pnl_pct": null,
+      "stop_historie": [
+        {
+          "date": "2026-05-26T22:37:20.913461+00:00",
+          "stop_local": 25.891600074768068,
           "type": "initial_wyckoff"
         }
       ]
@@ -270,6 +314,12 @@
       "equity_nok": 99075.73232184054,
       "n_open": 3,
       "n_pending": 1
+    },
+    {
+      "date": "2026-05-26",
+      "equity_nok": 100860.72018903097,
+      "n_open": 4,
+      "n_pending": 0
     }
   ]
 }
