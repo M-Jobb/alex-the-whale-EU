@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-05-26T22:38:26.249614+00:00",
+  "last_updated": "2026-05-27T22:49:53.133229+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 11291.537206586207,
   "pending_orders": [],
@@ -35,7 +35,7 @@
       "target_local": 82.19040710449218,
       "atr_local": 1.9576016235351545,
       "stop_type": "wyckoff",
-      "high_water_local": 75.9800033569336,
+      "high_water_local": 76.0199966430664,
       "low_water_local": 74.4343606109619,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -49,11 +49,11 @@
         "dato": "2026-05-19"
       },
       "mae_local": 73.44000244140625,
-      "mfe_local": 75.9800033569336,
+      "mfe_local": 76.0199966430664,
       "mae_pct": -1.3358859556176772,
-      "mfe_pct": 2.0765177980773375,
+      "mfe_pct": 2.1302474006487104,
       "mae_dato": "2026-05-20T08:44:23.336223+00:00",
-      "mfe_dato": "2026-05-26T22:37:20.913461+00:00",
+      "mfe_dato": "2026-05-27T22:48:25.080491+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -111,11 +111,11 @@
         "obv_rising": "False",
         "dato": "2026-05-21"
       },
-      "mae_local": 104.4000015258789,
+      "mae_local": 104.19999694824219,
       "mfe_local": 108.30000305175781,
-      "mae_pct": -3.429902018464026,
+      "mae_pct": -3.614906437782406,
       "mfe_pct": 0.17760300047897637,
-      "mae_dato": "2026-05-25T22:15:47.176840+00:00",
+      "mae_dato": "2026-05-27T22:48:25.080491+00:00",
       "mfe_dato": "2026-05-22T22:15:17.269992+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -164,11 +164,11 @@
       ],
       "opened_at": "2026-05-25T22:15:47.176840+00:00",
       "initial_stop_local": 5.9443199157714846,
-      "current_stop_local": 6.35731954574585,
+      "current_stop_local": 6.422319602966309,
       "target_local": 7.032360649108886,
       "atr_local": 0.1813401222229003,
       "stop_type": "trailing_atr",
-      "high_water_local": 6.71999979019165,
+      "high_water_local": 6.784999847412109,
       "low_water_local": 6.44143494272232,
       "pyramid_count": 1,
       "skipped_pyramids": [],
@@ -182,11 +182,11 @@
         "dato": "2026-05-21"
       },
       "mae_local": 6.394999980926514,
-      "mfe_local": 6.71999979019165,
+      "mfe_local": 6.784999847412109,
       "mae_pct": -0.7208791551682081,
-      "mfe_pct": 4.3245775195488,
+      "mfe_pct": 5.333670335023055,
       "mae_dato": "2026-05-25T22:15:47.176840+00:00",
-      "mfe_dato": "2026-05-26T22:37:20.913461+00:00",
+      "mfe_dato": "2026-05-27T22:48:25.080491+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -203,6 +203,11 @@
           "date": "2026-05-26T22:37:20.913461+00:00",
           "stop_local": 6.35731954574585,
           "type": "trailing_atr_initial"
+        },
+        {
+          "date": "2026-05-27T22:48:25.080491+00:00",
+          "stop_local": 6.422319602966309,
+          "type": "trailing_atr_update"
         }
       ]
     },
@@ -236,7 +241,7 @@
       "target_local": 39.57129755020141,
       "atr_local": 2.27994957923889,
       "stop_type": "wyckoff",
-      "high_water_local": 32.02000045776367,
+      "high_water_local": 32.279998779296875,
       "low_water_local": 30.48195073247909,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -250,11 +255,11 @@
         "dato": "2026-05-22"
       },
       "mae_local": 30.059999465942383,
-      "mfe_local": 32.02000045776367,
+      "mfe_local": 32.279998779296875,
       "mae_pct": -1.3842659554170522,
-      "mfe_pct": 5.045771967755863,
+      "mfe_pct": 5.8987302439995615,
       "mae_dato": "2026-05-26T22:37:20.913461+00:00",
-      "mfe_dato": "2026-05-26T22:37:20.913461+00:00",
+      "mfe_dato": "2026-05-27T22:48:25.080491+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -318,6 +323,12 @@
     {
       "date": "2026-05-26",
       "equity_nok": 100860.72018903097,
+      "n_open": 4,
+      "n_pending": 0
+    },
+    {
+      "date": "2026-05-27",
+      "equity_nok": 101079.86776655515,
       "n_open": 4,
       "n_pending": 0
     }
