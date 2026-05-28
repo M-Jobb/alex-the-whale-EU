@@ -1,9 +1,33 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-05-27T22:49:53.133229+00:00",
+  "last_updated": "2026-05-28T22:49:02.906226+00:00",
   "start_kapital_nok": 100000.0,
-  "kontanter_nok": 11291.537206586207,
-  "pending_orders": [],
+  "kontanter_nok": 37726.32874133161,
+  "pending_orders": [
+    {
+      "symbol": "STLAM.MI",
+      "name": "Stellantis",
+      "sector": "Automobiles",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Spring",
+      "signal_pris_local": 7.019999980926514,
+      "stop_local": 5.9443199157714846,
+      "target_local": 9.171360111236572,
+      "atr_local": 0.5378400325775146,
+      "opprettet_dato": "2026-05-28T22:47:47.787160+00:00",
+      "utloper_dato": "2026-06-07T22:47:47.787160+00:00",
+      "signal_snapshot": {
+        "score": 79.06564803446733,
+        "rs_score": 78.75425810067952,
+        "vsa_score": 58.131235347544894,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-05-27"
+      }
+    }
+  ],
   "open_positions": [
     {
       "symbol": "BMW.DE",
@@ -31,14 +55,20 @@
       ],
       "opened_at": "2026-05-19T08:49:11.905051+00:00",
       "initial_stop_local": 70.44479736328125,
-      "current_stop_local": 70.44479736328125,
+      "current_stop_local": 73.78479370117188,
       "target_local": 82.19040710449218,
       "atr_local": 1.9576016235351545,
-      "stop_type": "wyckoff",
-      "high_water_local": 76.0199966430664,
+      "stop_type": "trailing_atr",
+      "high_water_local": 77.69999694824219,
       "low_water_local": 74.4343606109619,
       "pyramid_count": 0,
-      "skipped_pyramids": [],
+      "skipped_pyramids": [
+        {
+          "trigger_dato": "2026-05-28T22:47:47.787160+00:00",
+          "trigger_pris": 76.39196223449706,
+          "grunn": "for lite kontanter"
+        }
+      ],
       "signal_snapshot": {
         "score": 73.09013430560023,
         "rs_score": 44.12780424669677,
@@ -49,11 +79,11 @@
         "dato": "2026-05-19"
       },
       "mae_local": 73.44000244140625,
-      "mfe_local": 76.0199966430664,
+      "mfe_local": 77.69999694824219,
       "mae_pct": -1.3358859556176772,
-      "mfe_pct": 2.1302474006487104,
+      "mfe_pct": 4.387269952312001,
       "mae_dato": "2026-05-20T08:44:23.336223+00:00",
-      "mfe_dato": "2026-05-27T22:48:25.080491+00:00",
+      "mfe_dato": "2026-05-28T22:47:47.787160+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -65,6 +95,11 @@
           "date": "2026-05-19T08:49:11.905051+00:00",
           "stop_local": 70.44479736328125,
           "type": "initial_wyckoff"
+        },
+        {
+          "date": "2026-05-28T22:47:47.787160+00:00",
+          "stop_local": 73.78479370117188,
+          "type": "trailing_atr_initial"
         }
       ]
     },
@@ -132,6 +167,78 @@
       ]
     },
     {
+      "symbol": "ELK.OL",
+      "name": "Elkem",
+      "sector": "Chemicals",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Markup",
+      "fill_type": "limit",
+      "signal_pris_local": 30.451499233245848,
+      "initial_entry_local": 30.48195073247909,
+      "avg_entry_local": 31.20191809269497,
+      "shares": 787,
+      "kostnad_nok": 24745.882873374572,
+      "sizing_method": "risk_based",
+      "fills": [
+        {
+          "date": "2026-05-26T22:37:20.913461+00:00",
+          "price_local": 30.48195073247909,
+          "shares": 542,
+          "cost_nok": 16620.217297003666,
+          "type": "initial",
+          "fill_type": "limit"
+        },
+        {
+          "date": "2026-05-28T22:47:47.787160+00:00",
+          "price_local": 32.79466221202969,
+          "shares": 245,
+          "cost_nok": 8125.665576370905,
+          "type": "pyramid_1"
+        }
+      ],
+      "opened_at": "2026-05-26T22:37:20.913461+00:00",
+      "initial_stop_local": 25.891600074768068,
+      "current_stop_local": 25.891600074768068,
+      "target_local": 39.57129755020141,
+      "atr_local": 2.27994957923889,
+      "stop_type": "wyckoff",
+      "high_water_local": 32.79999923706055,
+      "low_water_local": 30.48195073247909,
+      "pyramid_count": 1,
+      "skipped_pyramids": [],
+      "signal_snapshot": {
+        "score": 89.28911506118678,
+        "rs_score": 93.2061948248732,
+        "vsa_score": 91.09085537908273,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-05-22"
+      },
+      "mae_local": 30.059999465942383,
+      "mfe_local": 32.79999923706055,
+      "mae_pct": -1.3842659554170522,
+      "mfe_pct": 7.604659311096951,
+      "mae_dato": "2026-05-26T22:37:20.913461+00:00",
+      "mfe_dato": "2026-05-28T22:47:47.787160+00:00",
+      "orig_stop_truffet": false,
+      "orig_stop_dato": null,
+      "orig_stop_pnl_pct": null,
+      "orig_target_truffet": false,
+      "orig_target_dato": null,
+      "orig_target_pnl_pct": null,
+      "stop_historie": [
+        {
+          "date": "2026-05-26T22:37:20.913461+00:00",
+          "stop_local": 25.891600074768068,
+          "type": "initial_wyckoff"
+        }
+      ]
+    }
+  ],
+  "closed_trades": [
+    {
       "symbol": "STLAM.MI",
       "name": "Stellantis",
       "sector": "Automobiles",
@@ -164,14 +271,20 @@
       ],
       "opened_at": "2026-05-25T22:15:47.176840+00:00",
       "initial_stop_local": 5.9443199157714846,
-      "current_stop_local": 6.422319602966309,
+      "current_stop_local": 6.72731990814209,
       "target_local": 7.032360649108886,
       "atr_local": 0.1813401222229003,
       "stop_type": "trailing_atr",
-      "high_water_local": 6.784999847412109,
+      "high_water_local": 7.090000152587891,
       "low_water_local": 6.44143494272232,
       "pyramid_count": 1,
-      "skipped_pyramids": [],
+      "skipped_pyramids": [
+        {
+          "trigger_dato": "2026-05-28T22:47:47.787160+00:00",
+          "trigger_pris": 6.8041151871681205,
+          "grunn": "for lite kontanter"
+        }
+      ],
       "signal_snapshot": {
         "score": 67.1347345056935,
         "rs_score": 38.98454633810013,
@@ -182,17 +295,17 @@
         "dato": "2026-05-21"
       },
       "mae_local": 6.394999980926514,
-      "mfe_local": 6.784999847412109,
+      "mfe_local": 7.090000152587891,
       "mae_pct": -0.7208791551682081,
-      "mfe_pct": 5.333670335023055,
+      "mfe_pct": 10.06864488476027,
       "mae_dato": "2026-05-25T22:15:47.176840+00:00",
-      "mfe_dato": "2026-05-27T22:48:25.080491+00:00",
+      "mfe_dato": "2026-05-28T22:47:47.787160+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
-      "orig_target_truffet": false,
-      "orig_target_dato": null,
-      "orig_target_pnl_pct": null,
+      "orig_target_truffet": true,
+      "orig_target_dato": "2026-05-28T22:47:47.787160+00:00",
+      "orig_target_pnl_pct": 9.173820920976738,
       "stop_historie": [
         {
           "date": "2026-05-25T22:15:47.176840+00:00",
@@ -208,74 +321,22 @@
           "date": "2026-05-27T22:48:25.080491+00:00",
           "stop_local": 6.422319602966309,
           "type": "trailing_atr_update"
-        }
-      ]
-    },
-    {
-      "symbol": "ELK.OL",
-      "name": "Elkem",
-      "sector": "Chemicals",
-      "region": "OSLO",
-      "currency": "NOK",
-      "signal_type": "Markup",
-      "fill_type": "limit",
-      "signal_pris_local": 30.451499233245848,
-      "initial_entry_local": 30.48195073247909,
-      "avg_entry_local": 30.48195073247909,
-      "shares": 542,
-      "kostnad_nok": 16620.217297003666,
-      "sizing_method": "risk_based",
-      "fills": [
+        },
         {
-          "date": "2026-05-26T22:37:20.913461+00:00",
-          "price_local": 30.48195073247909,
-          "shares": 542,
-          "cost_nok": 16620.217297003666,
-          "type": "initial",
-          "fill_type": "limit"
+          "date": "2026-05-28T22:47:47.787160+00:00",
+          "stop_local": 6.72731990814209,
+          "type": "trailing_atr_update"
         }
       ],
-      "opened_at": "2026-05-26T22:37:20.913461+00:00",
-      "initial_stop_local": 25.891600074768068,
-      "current_stop_local": 25.891600074768068,
-      "target_local": 39.57129755020141,
-      "atr_local": 2.27994957923889,
-      "stop_type": "wyckoff",
-      "high_water_local": 32.279998779296875,
-      "low_water_local": 30.48195073247909,
-      "pyramid_count": 0,
-      "skipped_pyramids": [],
-      "signal_snapshot": {
-        "score": 89.28911506118678,
-        "rs_score": 93.2061948248732,
-        "vsa_score": 91.09085537908273,
-        "wyckoff_phase": "markup",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-05-22"
-      },
-      "mae_local": 30.059999465942383,
-      "mfe_local": 32.279998779296875,
-      "mae_pct": -1.3842659554170522,
-      "mfe_pct": 5.8987302439995615,
-      "mae_dato": "2026-05-26T22:37:20.913461+00:00",
-      "mfe_dato": "2026-05-27T22:48:25.080491+00:00",
-      "orig_stop_truffet": false,
-      "orig_stop_dato": null,
-      "orig_stop_pnl_pct": null,
-      "orig_target_truffet": false,
-      "orig_target_dato": null,
-      "orig_target_pnl_pct": null,
-      "stop_historie": [
-        {
-          "date": "2026-05-26T22:37:20.913461+00:00",
-          "stop_local": 25.891600074768068,
-          "type": "initial_wyckoff"
-        }
-      ]
+      "exit_pris_local": 7.025328288459778,
+      "exit_proceeds_nok": 34560.45711111631,
+      "pnl_nok": 2249.971996305605,
+      "pnl_pct": 6.963597074790583,
+      "pnl_pct_local": 7.890465519583456,
+      "reason": "target",
+      "closed_at": "2026-05-28T22:47:47.787160+00:00"
     }
   ],
-  "closed_trades": [],
   "missed_extended": [],
   "equity_curve": [
     {
@@ -331,6 +392,12 @@
       "equity_nok": 101079.86776655515,
       "n_open": 4,
       "n_pending": 0
+    },
+    {
+      "date": "2026-05-28",
+      "equity_nok": 102329.21901537947,
+      "n_open": 3,
+      "n_pending": 1
     }
   ]
 }
