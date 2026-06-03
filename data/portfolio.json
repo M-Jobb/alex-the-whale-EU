@@ -1,55 +1,9 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-06-02T23:08:15.385848+00:00",
+  "last_updated": "2026-06-03T23:11:09.601047+00:00",
   "start_kapital_nok": 100000.0,
-  "kontanter_nok": 43275.99310583864,
+  "kontanter_nok": 4288.286643740263,
   "pending_orders": [
-    {
-      "symbol": "SALM.OL",
-      "name": "SalMar",
-      "sector": "Food Beverage",
-      "region": "OSLO",
-      "currency": "NOK",
-      "signal_type": "Markup",
-      "signal_pris_local": 574.3575,
-      "stop_local": 512.05,
-      "target_local": 698.9725,
-      "atr_local": 31.153750000000002,
-      "opprettet_dato": "2026-06-02T23:06:55.420918+00:00",
-      "utloper_dato": "2026-06-12T23:06:55.420918+00:00",
-      "signal_snapshot": {
-        "score": 85.53566763673211,
-        "rs_score": 82.89851081744364,
-        "vsa_score": 82.22038130499674,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-06-01"
-      }
-    },
-    {
-      "symbol": "NHY.OL",
-      "name": "Norsk Hydro",
-      "sector": "Basic Resources",
-      "region": "OSLO",
-      "currency": "NOK",
-      "signal_type": "Markup",
-      "signal_pris_local": 111.0525,
-      "stop_local": 101.03799850463867,
-      "target_local": 131.08150299072264,
-      "atr_local": 5.007250747680665,
-      "opprettet_dato": "2026-06-02T23:06:55.420918+00:00",
-      "utloper_dato": "2026-06-12T23:06:55.420918+00:00",
-      "signal_snapshot": {
-        "score": 73.17977228032191,
-        "rs_score": 80.59924093440637,
-        "vsa_score": 50.0,
-        "wyckoff_phase": "markup",
-        "triple_rs": true,
-        "obv_rising": "False",
-        "dato": "2026-06-01"
-      }
-    },
     {
       "symbol": "DNO.OL",
       "name": "DNO",
@@ -57,20 +11,20 @@
       "region": "OSLO",
       "currency": "NOK",
       "signal_type": "Spring",
-      "signal_pris_local": 18.200000762939453,
+      "signal_pris_local": 18.350000381469727,
       "stop_local": 17.270399780273436,
-      "target_local": 20.059202728271487,
-      "atr_local": 0.4648004913330084,
-      "opprettet_dato": "2026-06-02T23:06:55.420918+00:00",
-      "utloper_dato": "2026-06-12T23:06:55.420918+00:00",
+      "target_local": 20.509201583862307,
+      "atr_local": 0.5398003005981451,
+      "opprettet_dato": "2026-06-03T23:09:31.113899+00:00",
+      "utloper_dato": "2026-06-13T23:09:31.113899+00:00",
       "signal_snapshot": {
-        "score": 62.60760620119167,
-        "rs_score": 42.461450977337705,
+        "score": 62.88196136995455,
+        "rs_score": 43.375968206547334,
         "vsa_score": 86.23056969330119,
         "wyckoff_phase": "distribution",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-06-01"
+        "dato": "2026-06-02"
       }
     },
     {
@@ -84,39 +38,16 @@
       "stop_local": 80.57560119628906,
       "target_local": 108.45009208679198,
       "atr_local": 4.645748481750488,
-      "opprettet_dato": "2026-06-02T23:06:55.420918+00:00",
-      "utloper_dato": "2026-06-12T23:06:55.420918+00:00",
+      "opprettet_dato": "2026-06-03T23:09:31.113899+00:00",
+      "utloper_dato": "2026-06-13T23:09:31.113899+00:00",
       "signal_snapshot": {
-        "score": 78.35370485241563,
-        "rs_score": 82.84568284138544,
+        "score": 76.78657434060779,
+        "rs_score": 77.62191446869264,
         "vsa_score": 65.0,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-06-01"
-      }
-    },
-    {
-      "symbol": "NDA-SE.ST",
-      "name": "Nordea Bank",
-      "sector": "Banks",
-      "region": "NORDIC",
-      "currency": "SEK",
-      "signal_type": "Markup",
-      "signal_pris_local": 176.82974693298337,
-      "stop_local": 164.15,
-      "target_local": 202.1892407989501,
-      "atr_local": 6.339873466491682,
-      "opprettet_dato": "2026-06-02T23:06:55.420918+00:00",
-      "utloper_dato": "2026-06-12T23:06:55.420918+00:00",
-      "signal_snapshot": {
-        "score": 76.60766799804611,
-        "rs_score": 70.3588933268204,
-        "vsa_score": 65.0,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-06-01"
+        "dato": "2026-06-02"
       }
     },
     {
@@ -130,62 +61,85 @@
       "stop_local": 344.42101196289065,
       "target_local": 459.26993927001945,
       "atr_local": 19.141487884521467,
-      "opprettet_dato": "2026-06-02T23:06:55.420918+00:00",
-      "utloper_dato": "2026-06-12T23:06:55.420918+00:00",
+      "opprettet_dato": "2026-06-03T23:09:31.113899+00:00",
+      "utloper_dato": "2026-06-13T23:09:31.113899+00:00",
       "signal_snapshot": {
-        "score": 88.38108481553257,
-        "rs_score": 84.06979037823903,
+        "score": 85.4174156150998,
+        "rs_score": 74.1908930434631,
         "vsa_score": 90.53382567353621,
         "wyckoff_phase": "accumulation",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-06-01"
+        "dato": "2026-06-02"
       }
     },
     {
-      "symbol": "BLND.L",
-      "name": "British Land",
-      "sector": "Real Estate",
+      "symbol": "RIO.L",
+      "name": "Rio Tinto",
+      "sector": "Basic Resources",
       "region": "EUROPE",
       "currency": "GBP",
       "signal_type": "Markup",
-      "signal_pris_local": 3.9938699386596674,
-      "stop_local": 3.562780310058594,
-      "target_local": 4.856049195861814,
-      "atr_local": 0.21554481430053674,
-      "opprettet_dato": "2026-06-02T23:06:55.420918+00:00",
-      "utloper_dato": "2026-06-12T23:06:55.420918+00:00",
+      "signal_pris_local": 76.12875,
+      "stop_local": 73.01,
+      "target_local": 82.36624999999998,
+      "atr_local": 1.5593749999999957,
+      "opprettet_dato": "2026-06-03T23:09:31.113899+00:00",
+      "utloper_dato": "2026-06-13T23:09:31.113899+00:00",
       "signal_snapshot": {
-        "score": 80.67362247372057,
-        "rs_score": 77.68889817903529,
-        "vsa_score": 71.22317673336663,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": true,
+        "score": 80.0566089657506,
+        "rs_score": 74.01606755604485,
+        "vsa_score": 79.50596232979048,
+        "wyckoff_phase": "markup",
+        "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-06-01"
+        "dato": "2026-06-02"
       }
     },
     {
-      "symbol": "HOLN.SW",
-      "name": "Holcim",
-      "sector": "Construction",
+      "symbol": "AAL.L",
+      "name": "Anglo American",
+      "sector": "Basic Resources",
       "region": "EUROPE",
-      "currency": "CHF",
+      "currency": "GBP",
       "signal_type": "Markup",
-      "signal_pris_local": 76.84229907989501,
-      "stop_local": 68.11,
-      "target_local": 94.30689723968504,
-      "atr_local": 4.366149539947507,
-      "opprettet_dato": "2026-06-02T23:06:55.420918+00:00",
-      "utloper_dato": "2026-06-12T23:06:55.420918+00:00",
+      "signal_pris_local": 38.96385,
+      "stop_local": 35.6524,
+      "target_local": 45.58675,
+      "atr_local": 1.6557250000000003,
+      "opprettet_dato": "2026-06-03T23:09:31.113899+00:00",
+      "utloper_dato": "2026-06-13T23:09:31.113899+00:00",
       "signal_snapshot": {
-        "score": 67.90446694682363,
-        "rs_score": 88.01488982274543,
-        "vsa_score": 65.0,
-        "wyckoff_phase": "distribution",
-        "triple_rs": true,
+        "score": 78.9138036890663,
+        "rs_score": 78.37918411829979,
+        "vsa_score": 71.33349484525456,
+        "wyckoff_phase": "markup",
+        "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-06-01"
+        "dato": "2026-06-02"
+      }
+    },
+    {
+      "symbol": "ASML.AS",
+      "name": "ASML",
+      "sector": "Technology",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Markup",
+      "signal_pris_local": 1319.3640490722655,
+      "stop_local": 1218.3359521484374,
+      "target_local": 1521.4202429199217,
+      "atr_local": 50.51404846191406,
+      "opprettet_dato": "2026-06-03T23:09:31.113899+00:00",
+      "utloper_dato": "2026-06-13T23:09:31.113899+00:00",
+      "signal_snapshot": {
+        "score": 68.51193138926712,
+        "rs_score": 65.03977129755708,
+        "vsa_score": 50.0,
+        "wyckoff_phase": "markup",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-06-02"
       }
     }
   ],
@@ -223,11 +177,11 @@
       ],
       "opened_at": "2026-05-26T22:37:20.913461+00:00",
       "initial_stop_local": 25.891600074768068,
-      "current_stop_local": 29.400099925994876,
+      "current_stop_local": 29.76010053634644,
       "target_local": 39.57129755020141,
       "atr_local": 2.27994957923889,
       "stop_type": "trailing_atr",
-      "high_water_local": 33.959999084472656,
+      "high_water_local": 34.31999969482422,
       "low_water_local": 30.48195073247909,
       "pyramid_count": 1,
       "skipped_pyramids": [],
@@ -241,11 +195,11 @@
         "dato": "2026-05-22"
       },
       "mae_local": 30.059999465942383,
-      "mfe_local": 33.959999084472656,
+      "mfe_local": 34.31999969482422,
       "mae_pct": -1.3842659554170522,
-      "mfe_pct": 11.410189533203475,
+      "mfe_pct": 12.591218311548612,
       "mae_dato": "2026-05-26T22:37:20.913461+00:00",
-      "mfe_dato": "2026-06-02T23:06:55.420918+00:00",
+      "mfe_dato": "2026-06-03T23:09:31.113899+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -262,6 +216,11 @@
           "date": "2026-06-02T23:06:55.420918+00:00",
           "stop_local": 29.400099925994876,
           "type": "trailing_atr_initial"
+        },
+        {
+          "date": "2026-06-03T23:09:31.113899+00:00",
+          "stop_local": 29.76010053634644,
+          "type": "trailing_atr_update"
         }
       ]
     },
@@ -308,11 +267,11 @@
         "obv_rising": "False",
         "dato": "2026-05-27"
       },
-      "mae_local": 6.651000022888184,
+      "mae_local": 6.547999858856201,
       "mfe_local": 7.1620001792907715,
-      "mae_pct": -5.351058614333104,
+      "mae_pct": -6.8168316491591945,
       "mfe_pct": 1.920873980009663,
-      "mae_dato": "2026-06-02T23:06:55.420918+00:00",
+      "mae_dato": "2026-06-03T23:09:31.113899+00:00",
       "mfe_dato": "2026-06-01T23:07:28.503365+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -358,7 +317,7 @@
       "target_local": 73.86689567565917,
       "atr_local": 4.0399493789672825,
       "stop_type": "wyckoff",
-      "high_water_local": 60.119998931884766,
+      "high_water_local": 61.81999969482422,
       "low_water_local": 59.41936061096191,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -372,11 +331,11 @@
         "dato": "2026-05-29"
       },
       "mae_local": 58.41999816894531,
-      "mfe_local": 60.119998931884766,
+      "mfe_local": 61.81999969482422,
       "mae_pct": -1.6818801679131967,
-      "mfe_pct": 1.1791414678965717,
+      "mfe_pct": 4.040163103706362,
       "mae_dato": "2026-06-02T23:06:55.420918+00:00",
-      "mfe_dato": "2026-06-02T23:06:55.420918+00:00",
+      "mfe_dato": "2026-06-03T23:09:31.113899+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -387,6 +346,132 @@
         {
           "date": "2026-06-02T23:06:55.420918+00:00",
           "stop_local": 49.62719940185547,
+          "type": "initial_wyckoff"
+        }
+      ]
+    },
+    {
+      "symbol": "SALM.OL",
+      "name": "SalMar",
+      "sector": "Food Beverage",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Markup",
+      "fill_type": "limit",
+      "signal_pris_local": 574.3575,
+      "initial_entry_local": 574.9318574999999,
+      "avg_entry_local": 574.9318574999999,
+      "shares": 34,
+      "kostnad_nok": 19646.683154999995,
+      "sizing_method": "capital_capped",
+      "fills": [
+        {
+          "date": "2026-06-03T23:09:31.113899+00:00",
+          "price_local": 574.9318574999999,
+          "shares": 34,
+          "cost_nok": 19646.683154999995,
+          "type": "initial",
+          "fill_type": "limit"
+        }
+      ],
+      "opened_at": "2026-06-03T23:09:31.113899+00:00",
+      "initial_stop_local": 512.05,
+      "current_stop_local": 512.05,
+      "target_local": 698.9725,
+      "atr_local": 31.153750000000002,
+      "stop_type": "wyckoff",
+      "high_water_local": 574.9318574999999,
+      "low_water_local": 574.9318574999999,
+      "pyramid_count": 0,
+      "skipped_pyramids": [],
+      "signal_snapshot": {
+        "score": 85.53566763673211,
+        "rs_score": 82.89851081744364,
+        "vsa_score": 82.22038130499674,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-01"
+      },
+      "mae_local": 554.5,
+      "mfe_local": 574.9318574999999,
+      "mae_pct": -3.553787676481268,
+      "mfe_pct": 0.0,
+      "mae_dato": "2026-06-03T23:09:31.113899+00:00",
+      "mfe_dato": "2026-06-03T23:09:31.113899+00:00",
+      "orig_stop_truffet": false,
+      "orig_stop_dato": null,
+      "orig_stop_pnl_pct": null,
+      "orig_target_truffet": false,
+      "orig_target_dato": null,
+      "orig_target_pnl_pct": null,
+      "stop_historie": [
+        {
+          "date": "2026-06-03T23:09:31.113899+00:00",
+          "stop_local": 512.05,
+          "type": "initial_wyckoff"
+        }
+      ]
+    },
+    {
+      "symbol": "NHY.OL",
+      "name": "Norsk Hydro",
+      "sector": "Basic Resources",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Markup",
+      "fill_type": "market_zone",
+      "signal_pris_local": 111.0525,
+      "initial_entry_local": 115.91580305480956,
+      "avg_entry_local": 115.91580305480956,
+      "shares": 166,
+      "kostnad_nok": 19341.023307098385,
+      "sizing_method": "risk_based",
+      "fills": [
+        {
+          "date": "2026-06-03T23:09:31.113899+00:00",
+          "price_local": 115.91580305480956,
+          "shares": 166,
+          "cost_nok": 19341.023307098385,
+          "type": "initial",
+          "fill_type": "market_zone"
+        }
+      ],
+      "opened_at": "2026-06-03T23:09:31.113899+00:00",
+      "initial_stop_local": 101.03799850463867,
+      "current_stop_local": 101.03799850463867,
+      "target_local": 131.08150299072264,
+      "atr_local": 5.007250747680665,
+      "stop_type": "wyckoff",
+      "high_water_local": 119.8499984741211,
+      "low_water_local": 115.91580305480956,
+      "pyramid_count": 0,
+      "skipped_pyramids": [],
+      "signal_snapshot": {
+        "score": 73.17977228032191,
+        "rs_score": 80.59924093440637,
+        "vsa_score": 50.0,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "False",
+        "dato": "2026-06-01"
+      },
+      "mae_local": 115.80000305175781,
+      "mfe_local": 119.8499984741211,
+      "mae_pct": -0.09990009990008542,
+      "mfe_pct": 3.394011269931241,
+      "mae_dato": "2026-06-03T23:09:31.113899+00:00",
+      "mfe_dato": "2026-06-03T23:09:31.113899+00:00",
+      "orig_stop_truffet": false,
+      "orig_stop_dato": null,
+      "orig_stop_pnl_pct": null,
+      "orig_target_truffet": false,
+      "orig_target_dato": null,
+      "orig_target_pnl_pct": null,
+      "stop_historie": [
+        {
+          "date": "2026-06-03T23:09:31.113899+00:00",
+          "stop_local": 101.03799850463867,
           "type": "initial_wyckoff"
         }
       ]
@@ -698,6 +783,22 @@
         "obv_rising": "False",
         "dato": "2026-05-29"
       }
+    },
+    {
+      "symbol": "SSAB-A.ST",
+      "signal_pris": 89.86709815979003,
+      "open_pris": 95.5,
+      "gap_pct": 6.268035750074263,
+      "dato": "2026-06-03T23:09:31.113899+00:00",
+      "signal_snapshot": {
+        "score": 78.35370485241563,
+        "rs_score": 82.84568284138544,
+        "vsa_score": 65.0,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-01"
+      }
     }
   ],
   "equity_curve": [
@@ -778,6 +879,12 @@
       "equity_nok": 100562.87700171267,
       "n_open": 3,
       "n_pending": 8
+    },
+    {
+      "date": "2026-06-03",
+      "equity_nok": 100904.40097880038,
+      "n_open": 5,
+      "n_pending": 6
     }
   ]
 }
