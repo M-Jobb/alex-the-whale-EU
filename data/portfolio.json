@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-06-05T22:26:27.830526+00:00",
+  "last_updated": "2026-06-08T22:45:54.365027+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 4288.286643740263,
   "pending_orders": [
@@ -11,20 +11,20 @@
       "region": "OSLO",
       "currency": "NOK",
       "signal_type": "Spring",
-      "signal_pris_local": 143.39999389648438,
+      "signal_pris_local": 144.60000610351562,
       "stop_local": 135.936005859375,
-      "target_local": 158.32796997070312,
-      "atr_local": 3.731994018554687,
-      "opprettet_dato": "2026-06-05T22:25:26.450074+00:00",
-      "utloper_dato": "2026-06-15T22:25:26.450074+00:00",
+      "target_local": 161.92800659179687,
+      "atr_local": 4.332000122070312,
+      "opprettet_dato": "2026-06-08T22:44:50.345050+00:00",
+      "utloper_dato": "2026-06-18T22:44:50.345050+00:00",
       "signal_snapshot": {
-        "score": 74.20249734752922,
-        "rs_score": 45.02739210779944,
+        "score": 78.77926675348608,
+        "rs_score": 60.28329012765566,
         "vsa_score": 75.64759905063126,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-06-04"
+        "dato": "2026-06-05"
       }
     },
     {
@@ -34,66 +34,20 @@
       "region": "OSLO",
       "currency": "NOK",
       "signal_type": "Spring",
-      "signal_pris_local": 19.079999923706055,
+      "signal_pris_local": 19.1299991607666,
       "stop_local": 17.270399780273436,
-      "target_local": 22.69920021057129,
-      "atr_local": 0.9048000717163092,
-      "opprettet_dato": "2026-06-05T22:25:26.450074+00:00",
-      "utloper_dato": "2026-06-15T22:25:26.450074+00:00",
+      "target_local": 22.849197921752932,
+      "atr_local": 0.9297996902465826,
+      "opprettet_dato": "2026-06-08T22:44:50.345050+00:00",
+      "utloper_dato": "2026-06-18T22:44:50.345050+00:00",
       "signal_snapshot": {
-        "score": 66.34727001687104,
-        "rs_score": 62.7387270340368,
+        "score": 67.65062909920789,
+        "rs_score": 67.08325730849295,
         "vsa_score": 78.41883968886668,
         "wyckoff_phase": "distribution",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-06-04"
-      }
-    },
-    {
-      "symbol": "SSAB-A.ST",
-      "name": "SSAB A",
-      "sector": "Basic Resources",
-      "region": "NORDIC",
-      "currency": "SEK",
-      "signal_type": "Markup",
-      "signal_pris_local": 89.86709815979003,
-      "stop_local": 80.57560119628906,
-      "target_local": 108.45009208679198,
-      "atr_local": 4.645748481750488,
-      "opprettet_dato": "2026-06-05T22:25:26.450074+00:00",
-      "utloper_dato": "2026-06-15T22:25:26.450074+00:00",
-      "signal_snapshot": {
-        "score": 81.25977495972897,
-        "rs_score": 92.53258319909659,
-        "vsa_score": 65.0,
-        "wyckoff_phase": "markup",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-06-04"
-      }
-    },
-    {
-      "symbol": "AZN.ST",
-      "name": "AstraZeneca",
-      "sector": "Health Care",
-      "region": "NORDIC",
-      "currency": "SEK",
-      "signal_type": "Spring",
-      "signal_pris_local": 1706.0,
-      "stop_local": 1590.72,
-      "target_local": 1936.56,
-      "atr_local": 57.639999999999986,
-      "opprettet_dato": "2026-06-05T22:25:26.450074+00:00",
-      "utloper_dato": "2026-06-15T22:25:26.450074+00:00",
-      "signal_snapshot": {
-        "score": 79.30371358770421,
-        "rs_score": 72.90577296123088,
-        "vsa_score": 64.77327233111644,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": false,
-        "obv_rising": "False",
-        "dato": "2026-06-04"
+        "dato": "2026-06-05"
       }
     },
     {
@@ -107,11 +61,11 @@
       "stop_local": 311.9339880371094,
       "target_local": 371.986487121582,
       "atr_local": 10.008749847412105,
-      "opprettet_dato": "2026-06-05T22:25:26.450074+00:00",
-      "utloper_dato": "2026-06-15T22:25:26.450074+00:00",
+      "opprettet_dato": "2026-06-08T22:44:50.345050+00:00",
+      "utloper_dato": "2026-06-18T22:44:50.345050+00:00",
       "signal_snapshot": {
-        "score": 78.72510386582817,
-        "rs_score": 67.41701288609393,
+        "score": 78.72469664679755,
+        "rs_score": 67.41565548932516,
         "vsa_score": 75.0,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
@@ -120,164 +74,26 @@
       }
     },
     {
-      "symbol": "OR.PA",
-      "name": "L'Oréal",
-      "sector": "Personal Household",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "signal_pris_local": 379.18648773193354,
-      "stop_local": 344.42101196289065,
-      "target_local": 448.7174392700193,
-      "atr_local": 17.382737884521447,
-      "opprettet_dato": "2026-06-05T22:25:26.450074+00:00",
-      "utloper_dato": "2026-06-15T22:25:26.450074+00:00",
+      "symbol": "AZN.ST",
+      "name": "AstraZeneca",
+      "sector": "Health Care",
+      "region": "NORDIC",
+      "currency": "SEK",
+      "signal_type": "Spring",
+      "signal_pris_local": 1742.0,
+      "stop_local": 1590.72,
+      "target_local": 2044.56,
+      "atr_local": 75.63999999999999,
+      "opprettet_dato": "2026-06-08T22:44:50.345050+00:00",
+      "utloper_dato": "2026-06-18T22:44:50.345050+00:00",
       "signal_snapshot": {
-        "score": 84.37536918290397,
-        "rs_score": 70.71740493614367,
-        "vsa_score": 90.53382567353621,
+        "score": 73.58015870216292,
+        "rs_score": 47.582103667102565,
+        "vsa_score": 71.01842534010717,
         "wyckoff_phase": "accumulation",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-06-04"
-      }
-    },
-    {
-      "symbol": "CFR.SW",
-      "name": "Richemont",
-      "sector": "Personal Household",
-      "region": "EUROPE",
-      "currency": "CHF",
-      "signal_type": "Markup",
-      "signal_pris_local": 166.9807438659668,
-      "stop_local": 148.17599700927735,
-      "target_local": 204.59023757934565,
-      "atr_local": 9.402373428344717,
-      "opprettet_dato": "2026-06-05T22:25:26.450074+00:00",
-      "utloper_dato": "2026-06-15T22:25:26.450074+00:00",
-      "signal_snapshot": {
-        "score": 78.89687303534345,
-        "rs_score": 76.95806307868797,
-        "vsa_score": 66.0315137057902,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": true,
-        "obv_rising": "False",
-        "dato": "2026-06-04"
-      }
-    },
-    {
-      "symbol": "AKZA.AS",
-      "name": "Akzo Nobel",
-      "sector": "Chemicals",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "signal_pris_local": 62.189401073455805,
-      "stop_local": 47.0596004486084,
-      "target_local": 92.44900232315061,
-      "atr_local": 7.564900312423703,
-      "opprettet_dato": "2026-06-05T22:25:26.450074+00:00",
-      "utloper_dato": "2026-06-15T22:25:26.450074+00:00",
-      "signal_snapshot": {
-        "score": 75.59894059127525,
-        "rs_score": 78.66313530425083,
-        "vsa_score": 100.0,
-        "wyckoff_phase": "distribution",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-06-04"
-      }
-    },
-    {
-      "symbol": "ASML.AS",
-      "name": "ASML",
-      "sector": "Technology",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "signal_pris_local": 1319.3640490722655,
-      "stop_local": 1218.3359521484374,
-      "target_local": 1521.4202429199217,
-      "atr_local": 50.51404846191406,
-      "opprettet_dato": "2026-06-05T22:25:26.450074+00:00",
-      "utloper_dato": "2026-06-15T22:25:26.450074+00:00",
-      "signal_snapshot": {
-        "score": 75.57748334876543,
-        "rs_score": 73.59161116255142,
-        "vsa_score": 65.0,
-        "wyckoff_phase": "markup",
         "triple_rs": false,
-        "obv_rising": "True",
-        "dato": "2026-06-04"
-      }
-    },
-    {
-      "symbol": "VOW3.DE",
-      "name": "Volkswagen",
-      "sector": "Automobiles",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "signal_pris_local": 90.47009662628173,
-      "stop_local": 83.92719940185546,
-      "target_local": 103.55589107513427,
-      "atr_local": 3.2714486122131348,
-      "opprettet_dato": "2026-06-05T22:25:26.450074+00:00",
-      "utloper_dato": "2026-06-15T22:25:26.450074+00:00",
-      "signal_snapshot": {
-        "score": 73.03046556748578,
-        "rs_score": 73.4348852249526,
-        "vsa_score": 50.0,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": true,
         "obv_rising": "False",
-        "dato": "2026-06-04"
-      }
-    },
-    {
-      "symbol": "EDEN.PA",
-      "name": "Edenred",
-      "sector": "Financial Services",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "signal_pris_local": 23.02454984664917,
-      "stop_local": 20.374200897216795,
-      "target_local": 28.325247745513916,
-      "atr_local": 1.3251744747161869,
-      "opprettet_dato": "2026-06-05T22:25:26.450074+00:00",
-      "utloper_dato": "2026-06-15T22:25:26.450074+00:00",
-      "signal_snapshot": {
-        "score": 64.75728995481232,
-        "rs_score": 76.63220643189729,
-        "vsa_score": 65.89209341747714,
-        "wyckoff_phase": "distribution",
-        "triple_rs": true,
-        "obv_rising": "False",
-        "dato": "2026-06-04"
-      }
-    },
-    {
-      "symbol": "HOLN.SW",
-      "name": "Holcim",
-      "sector": "Construction",
-      "region": "EUROPE",
-      "currency": "CHF",
-      "signal_type": "Markup",
-      "signal_pris_local": 76.84229907989501,
-      "stop_local": 68.11,
-      "target_local": 94.30689723968504,
-      "atr_local": 4.366149539947507,
-      "opprettet_dato": "2026-06-05T22:25:26.450074+00:00",
-      "utloper_dato": "2026-06-15T22:25:26.450074+00:00",
-      "signal_snapshot": {
-        "score": 64.66515315891205,
-        "rs_score": 77.21717719637348,
-        "vsa_score": 65.0,
-        "wyckoff_phase": "distribution",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-06-04"
+        "dato": "2026-06-05"
       }
     }
   ],
@@ -410,11 +226,11 @@
         "obv_rising": "False",
         "dato": "2026-05-27"
       },
-      "mae_local": 6.308000087738037,
+      "mae_local": 6.21999979019165,
       "mfe_local": 7.1620001792907715,
-      "mae_pct": -10.23221643204366,
+      "mae_pct": -11.484529614381067,
       "mfe_pct": 1.920873980009663,
-      "mae_dato": "2026-06-04T22:41:41.120654+00:00",
+      "mae_dato": "2026-06-08T22:44:50.345050+00:00",
       "mfe_dato": "2026-06-01T23:07:28.503365+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -536,11 +352,11 @@
         "obv_rising": "True",
         "dato": "2026-06-01"
       },
-      "mae_local": 549.0,
+      "mae_local": 534.0,
       "mfe_local": 574.9318574999999,
-      "mae_pct": -4.510422785190659,
+      "mae_pct": -7.119427627125341,
       "mfe_pct": 0.0,
-      "mae_dato": "2026-06-05T22:25:26.450074+00:00",
+      "mae_dato": "2026-06-08T22:44:50.345050+00:00",
       "mfe_dato": "2026-06-03T23:09:31.113899+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -599,11 +415,11 @@
         "obv_rising": "False",
         "dato": "2026-06-01"
       },
-      "mae_local": 115.80000305175781,
+      "mae_local": 115.69999694824219,
       "mfe_local": 120.4000015258789,
-      "mae_pct": -0.09990009990008542,
+      "mae_pct": -0.18617487942116373,
       "mfe_pct": 3.868496229930818,
-      "mae_dato": "2026-06-03T23:09:31.113899+00:00",
+      "mae_dato": "2026-06-08T22:44:50.345050+00:00",
       "mfe_dato": "2026-06-04T22:41:41.120654+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -1022,6 +838,38 @@
         "obv_rising": "True",
         "dato": "2026-06-03"
       }
+    },
+    {
+      "symbol": "SSAB-A.ST",
+      "signal_pris": 89.86709815979003,
+      "open_pris": 98.0,
+      "gap_pct": 9.049921502694014,
+      "dato": "2026-06-08T22:44:50.345050+00:00",
+      "signal_snapshot": {
+        "score": 81.25977495972897,
+        "rs_score": 92.53258319909659,
+        "vsa_score": 65.0,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-04"
+      }
+    },
+    {
+      "symbol": "ASML.AS",
+      "signal_pris": 1319.3640490722655,
+      "open_pris": 1468.0,
+      "gap_pct": 11.265726925957287,
+      "dato": "2026-06-08T22:44:50.345050+00:00",
+      "signal_snapshot": {
+        "score": 75.57748334876543,
+        "rs_score": 73.59161116255142,
+        "vsa_score": 65.0,
+        "wyckoff_phase": "markup",
+        "triple_rs": false,
+        "obv_rising": "True",
+        "dato": "2026-06-04"
+      }
     }
   ],
   "equity_curve": [
@@ -1120,6 +968,12 @@
       "equity_nok": 100360.0554826227,
       "n_open": 5,
       "n_pending": 12
+    },
+    {
+      "date": "2026-06-08",
+      "equity_nok": 97490.4663665262,
+      "n_open": 5,
+      "n_pending": 4
     }
   ]
 }
