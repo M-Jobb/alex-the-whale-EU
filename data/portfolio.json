@@ -1,30 +1,30 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-06-09T22:46:26.981377+00:00",
+  "last_updated": "2026-06-10T22:56:36.369500+00:00",
   "start_kapital_nok": 100000.0,
-  "kontanter_nok": 21581.576943740263,
+  "kontanter_nok": 2114.428568358795,
   "pending_orders": [
     {
-      "symbol": "BRG.OL",
-      "name": "Borregaard",
-      "sector": "Chemicals",
+      "symbol": "SCATC.OL",
+      "name": "Scatec",
+      "sector": "Utilities",
       "region": "OSLO",
       "currency": "NOK",
       "signal_type": "Spring",
-      "signal_pris_local": 139.1999969482422,
-      "stop_local": 136.12800292968748,
-      "target_local": 145.3439849853516,
-      "atr_local": 1.5359970092773523,
-      "opprettet_dato": "2026-06-09T22:44:52.251939+00:00",
-      "utloper_dato": "2026-06-19T22:44:52.251939+00:00",
+      "signal_pris_local": 100.5,
+      "stop_local": 96.38400146484375,
+      "target_local": 108.7319970703125,
+      "atr_local": 2.0579992675781256,
+      "opprettet_dato": "2026-06-10T22:55:18.786348+00:00",
+      "utloper_dato": "2026-06-20T22:55:18.786348+00:00",
       "signal_snapshot": {
-        "score": 70.91334476620925,
-        "rs_score": 60.730216836732886,
-        "vsa_score": 75.64759905063126,
-        "wyckoff_phase": "unclear",
+        "score": 64.11914239079695,
+        "rs_score": 47.49991343869069,
+        "vsa_score": 86.23056119729914,
+        "wyckoff_phase": "distribution",
         "triple_rs": false,
-        "obv_rising": "False",
-        "dato": "2026-06-08"
+        "obv_rising": "True",
+        "dato": "2026-06-09"
       }
     },
     {
@@ -34,20 +34,20 @@
       "region": "NORDIC",
       "currency": "SEK",
       "signal_type": "Spring",
-      "signal_pris_local": 1739.0,
+      "signal_pris_local": 1725.0,
       "stop_local": 1590.72,
-      "target_local": 2035.56,
-      "atr_local": 74.13999999999999,
-      "opprettet_dato": "2026-06-09T22:44:52.251939+00:00",
-      "utloper_dato": "2026-06-19T22:44:52.251939+00:00",
+      "target_local": 1993.56,
+      "atr_local": 67.13999999999999,
+      "opprettet_dato": "2026-06-10T22:55:18.786348+00:00",
+      "utloper_dato": "2026-06-20T22:55:18.786348+00:00",
       "signal_snapshot": {
-        "score": 79.5693258711384,
-        "rs_score": 67.54599423035421,
+        "score": 83.06090071430665,
+        "rs_score": 79.18457704091502,
         "vsa_score": 71.01842534010717,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-06-08"
+        "dato": "2026-06-09"
       }
     }
   ],
@@ -243,11 +243,11 @@
         "obv_rising": "True",
         "dato": "2026-05-29"
       },
-      "mae_local": 57.5,
+      "mae_local": 56.400001525878906,
       "mfe_local": 62.599998474121094,
-      "mae_pct": -3.2301939826121617,
+      "mae_pct": -5.081439877570782,
       "mfe_pct": 5.352864504860411,
-      "mae_dato": "2026-06-09T22:44:52.251939+00:00",
+      "mae_dato": "2026-06-10T22:55:18.786348+00:00",
       "mfe_dato": "2026-06-05T22:25:26.450074+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -306,11 +306,11 @@
         "obv_rising": "False",
         "dato": "2026-06-01"
       },
-      "mae_local": 113.69999694824219,
+      "mae_local": 112.6500015258789,
       "mfe_local": 120.4000015258789,
-      "mae_pct": -1.9115651603773598,
+      "mae_pct": -2.817391108774403,
       "mfe_pct": 3.868496229930818,
-      "mae_dato": "2026-06-09T22:44:52.251939+00:00",
+      "mae_dato": "2026-06-10T22:55:18.786348+00:00",
       "mfe_dato": "2026-06-04T22:41:41.120654+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -322,6 +322,75 @@
         {
           "date": "2026-06-03T23:09:31.113899+00:00",
           "stop_local": 101.03799850463867,
+          "type": "initial_wyckoff"
+        }
+      ]
+    },
+    {
+      "symbol": "BRG.OL",
+      "name": "Borregaard",
+      "sector": "Chemicals",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Spring",
+      "fill_type": "limit",
+      "signal_pris_local": 139.1999969482422,
+      "initial_entry_local": 139.33919694519042,
+      "avg_entry_local": 139.33919694519042,
+      "shares": 139,
+      "kostnad_nok": 19467.14837538147,
+      "sizing_method": "capital_capped",
+      "fills": [
+        {
+          "date": "2026-06-10T22:55:18.786348+00:00",
+          "price_local": 139.33919694519042,
+          "shares": 139,
+          "cost_nok": 19467.14837538147,
+          "type": "initial",
+          "fill_type": "limit"
+        }
+      ],
+      "opened_at": "2026-06-10T22:55:18.786348+00:00",
+      "initial_stop_local": 136.12800292968748,
+      "current_stop_local": 136.12800292968748,
+      "target_local": 145.3439849853516,
+      "atr_local": 1.5359970092773523,
+      "stop_type": "wyckoff",
+      "high_water_local": 141.0,
+      "low_water_local": 139.33919694519042,
+      "pyramid_count": 0,
+      "skipped_pyramids": [
+        {
+          "trigger_dato": "2026-06-10T22:55:18.786348+00:00",
+          "trigger_pris": 140.87519395446776,
+          "grunn": "for lite kontanter"
+        }
+      ],
+      "signal_snapshot": {
+        "score": 70.91334476620925,
+        "rs_score": 60.730216836732886,
+        "vsa_score": 75.64759905063126,
+        "wyckoff_phase": "unclear",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-06-08"
+      },
+      "mae_local": 139.1999969482422,
+      "mfe_local": 141.0,
+      "mae_pct": -0.09990009990009652,
+      "mfe_pct": 1.1919137552248493,
+      "mae_dato": "2026-06-10T22:55:18.786348+00:00",
+      "mfe_dato": "2026-06-10T22:55:18.786348+00:00",
+      "orig_stop_truffet": false,
+      "orig_stop_dato": null,
+      "orig_stop_pnl_pct": null,
+      "orig_target_truffet": false,
+      "orig_target_dato": null,
+      "orig_target_pnl_pct": null,
+      "stop_historie": [
+        {
+          "date": "2026-06-10T22:55:18.786348+00:00",
+          "stop_local": 136.12800292968748,
           "type": "initial_wyckoff"
         }
       ]
@@ -940,6 +1009,12 @@
       "date": "2026-06-09",
       "equity_nok": 95156.13675151767,
       "n_open": 4,
+      "n_pending": 2
+    },
+    {
+      "date": "2026-06-10",
+      "equity_nok": 94919.46578645267,
+      "n_open": 5,
       "n_pending": 2
     }
   ]
