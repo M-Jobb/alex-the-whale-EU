@@ -1,53 +1,30 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-06-10T22:56:36.369500+00:00",
+  "last_updated": "2026-06-11T22:55:31.192158+00:00",
   "start_kapital_nok": 100000.0,
-  "kontanter_nok": 2114.428568358795,
+  "kontanter_nok": 15946.857716236298,
   "pending_orders": [
     {
-      "symbol": "SCATC.OL",
-      "name": "Scatec",
-      "sector": "Utilities",
-      "region": "OSLO",
-      "currency": "NOK",
-      "signal_type": "Spring",
-      "signal_pris_local": 100.5,
-      "stop_local": 96.38400146484375,
-      "target_local": 108.7319970703125,
-      "atr_local": 2.0579992675781256,
-      "opprettet_dato": "2026-06-10T22:55:18.786348+00:00",
-      "utloper_dato": "2026-06-20T22:55:18.786348+00:00",
+      "symbol": "FLTR.L",
+      "name": "Flutter Entertainment",
+      "sector": "Travel Leisure",
+      "region": "EUROPE",
+      "currency": "GBP",
+      "signal_type": "Markup",
+      "signal_pris_local": 84.1185,
+      "stop_local": 68.11,
+      "target_local": 116.1355,
+      "atr_local": 8.004249999999999,
+      "opprettet_dato": "2026-06-11T22:54:33.823014+00:00",
+      "utloper_dato": "2026-06-21T22:54:33.823014+00:00",
       "signal_snapshot": {
-        "score": 64.11914239079695,
-        "rs_score": 47.49991343869069,
-        "vsa_score": 86.23056119729914,
-        "wyckoff_phase": "distribution",
-        "triple_rs": false,
-        "obv_rising": "True",
-        "dato": "2026-06-09"
-      }
-    },
-    {
-      "symbol": "AZN.ST",
-      "name": "AstraZeneca",
-      "sector": "Health Care",
-      "region": "NORDIC",
-      "currency": "SEK",
-      "signal_type": "Spring",
-      "signal_pris_local": 1725.0,
-      "stop_local": 1590.72,
-      "target_local": 1993.56,
-      "atr_local": 67.13999999999999,
-      "opprettet_dato": "2026-06-10T22:55:18.786348+00:00",
-      "utloper_dato": "2026-06-20T22:55:18.786348+00:00",
-      "signal_snapshot": {
-        "score": 83.06090071430665,
-        "rs_score": 79.18457704091502,
-        "vsa_score": 71.01842534010717,
+        "score": 93.90348975950332,
+        "rs_score": 100.0,
+        "vsa_score": 93.01163253167772,
         "wyckoff_phase": "accumulation",
-        "triple_rs": false,
-        "obv_rising": "False",
-        "dato": "2026-06-09"
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-11"
       }
     }
   ],
@@ -138,69 +115,6 @@
       ]
     },
     {
-      "symbol": "STLAM.MI",
-      "name": "Stellantis",
-      "sector": "Automobiles",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Spring",
-      "fill_type": "limit",
-      "signal_pris_local": 7.019999980926514,
-      "initial_entry_local": 7.02701998090744,
-      "avg_entry_local": 7.02701998090744,
-      "shares": 204,
-      "kostnad_nok": 16584.388875208857,
-      "sizing_method": "risk_based",
-      "fills": [
-        {
-          "date": "2026-05-29T22:41:02.502908+00:00",
-          "price_local": 7.02701998090744,
-          "shares": 204,
-          "cost_nok": 16584.388875208857,
-          "type": "initial",
-          "fill_type": "limit"
-        }
-      ],
-      "opened_at": "2026-05-29T22:41:02.502908+00:00",
-      "initial_stop_local": 5.9443199157714846,
-      "current_stop_local": 5.9443199157714846,
-      "target_local": 9.171360111236572,
-      "atr_local": 0.5378400325775146,
-      "stop_type": "wyckoff",
-      "high_water_local": 7.1620001792907715,
-      "low_water_local": 7.02701998090744,
-      "pyramid_count": 0,
-      "skipped_pyramids": [],
-      "signal_snapshot": {
-        "score": 79.06564803446733,
-        "rs_score": 78.75425810067952,
-        "vsa_score": 58.131235347544894,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": false,
-        "obv_rising": "False",
-        "dato": "2026-05-27"
-      },
-      "mae_local": 6.011000156402588,
-      "mfe_local": 7.1620001792907715,
-      "mae_pct": -14.458758154458062,
-      "mfe_pct": 1.920873980009663,
-      "mae_dato": "2026-06-09T22:44:52.251939+00:00",
-      "mfe_dato": "2026-06-01T23:07:28.503365+00:00",
-      "orig_stop_truffet": false,
-      "orig_stop_dato": null,
-      "orig_stop_pnl_pct": null,
-      "orig_target_truffet": false,
-      "orig_target_dato": null,
-      "orig_target_pnl_pct": null,
-      "stop_historie": [
-        {
-          "date": "2026-05-29T22:41:02.502908+00:00",
-          "stop_local": 5.9443199157714846,
-          "type": "initial_wyckoff"
-        }
-      ]
-    },
-    {
       "symbol": "MT.AS",
       "name": "ArcelorMittal",
       "sector": "Basic Resources",
@@ -243,11 +157,11 @@
         "obv_rising": "True",
         "dato": "2026-05-29"
       },
-      "mae_local": 56.400001525878906,
+      "mae_local": 55.15999984741211,
       "mfe_local": 62.599998474121094,
-      "mae_pct": -5.081439877570782,
+      "mae_pct": -7.168304606031084,
       "mfe_pct": 5.352864504860411,
-      "mae_dato": "2026-06-10T22:55:18.786348+00:00",
+      "mae_dato": "2026-06-11T22:54:33.823014+00:00",
       "mfe_dato": "2026-06-05T22:25:26.450074+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -306,11 +220,11 @@
         "obv_rising": "False",
         "dato": "2026-06-01"
       },
-      "mae_local": 112.6500015258789,
+      "mae_local": 108.0999984741211,
       "mfe_local": 120.4000015258789,
-      "mae_pct": -2.817391108774403,
+      "mae_pct": -6.742656630686361,
       "mfe_pct": 3.868496229930818,
-      "mae_dato": "2026-06-10T22:55:18.786348+00:00",
+      "mae_dato": "2026-06-11T22:54:33.823014+00:00",
       "mfe_dato": "2026-06-04T22:41:41.120654+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -375,11 +289,11 @@
         "obv_rising": "False",
         "dato": "2026-06-08"
       },
-      "mae_local": 139.1999969482422,
+      "mae_local": 138.60000610351562,
       "mfe_local": 141.0,
-      "mae_pct": -0.09990009990009652,
+      "mae_pct": -0.5304974177262944,
       "mfe_pct": 1.1919137552248493,
-      "mae_dato": "2026-06-10T22:55:18.786348+00:00",
+      "mae_dato": "2026-06-11T22:54:33.823014+00:00",
       "mfe_dato": "2026-06-10T22:55:18.786348+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -722,6 +636,76 @@
       "pnl_pct_local": -11.02633410777727,
       "reason": "stop_loss",
       "closed_at": "2026-06-09T22:44:52.251939+00:00"
+    },
+    {
+      "symbol": "STLAM.MI",
+      "name": "Stellantis",
+      "sector": "Automobiles",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Spring",
+      "fill_type": "limit",
+      "signal_pris_local": 7.019999980926514,
+      "initial_entry_local": 7.02701998090744,
+      "avg_entry_local": 7.02701998090744,
+      "shares": 204,
+      "kostnad_nok": 16584.388875208857,
+      "sizing_method": "risk_based",
+      "fills": [
+        {
+          "date": "2026-05-29T22:41:02.502908+00:00",
+          "price_local": 7.02701998090744,
+          "shares": 204,
+          "cost_nok": 16584.388875208857,
+          "type": "initial",
+          "fill_type": "limit"
+        }
+      ],
+      "opened_at": "2026-05-29T22:41:02.502908+00:00",
+      "initial_stop_local": 5.9443199157714846,
+      "current_stop_local": 5.9443199157714846,
+      "target_local": 9.171360111236572,
+      "atr_local": 0.5378400325775146,
+      "stop_type": "wyckoff",
+      "high_water_local": 7.1620001792907715,
+      "low_water_local": 7.02701998090744,
+      "pyramid_count": 0,
+      "skipped_pyramids": [],
+      "signal_snapshot": {
+        "score": 79.06564803446733,
+        "rs_score": 78.75425810067952,
+        "vsa_score": 58.131235347544894,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-05-27"
+      },
+      "mae_local": 5.770999908447266,
+      "mfe_local": 7.1620001792907715,
+      "mae_pct": -17.8741497231089,
+      "mfe_pct": 1.920873980009663,
+      "mae_dato": "2026-06-11T22:54:33.823014+00:00",
+      "mfe_dato": "2026-06-01T23:07:28.503365+00:00",
+      "orig_stop_truffet": true,
+      "orig_stop_dato": "2026-06-11T22:54:33.823014+00:00",
+      "orig_stop_pnl_pct": -15.40767022262174,
+      "orig_target_truffet": false,
+      "orig_target_dato": null,
+      "orig_target_pnl_pct": null,
+      "stop_historie": [
+        {
+          "date": "2026-05-29T22:41:02.502908+00:00",
+          "stop_local": 5.9443199157714846,
+          "type": "initial_wyckoff"
+        }
+      ],
+      "exit_pris_local": 5.938375595855713,
+      "exit_proceeds_nok": 13832.429147877503,
+      "pnl_nok": -2751.959727331354,
+      "pnl_pct": -16.59367582392569,
+      "pnl_pct_local": -15.492262552399117,
+      "reason": "stop_loss",
+      "closed_at": "2026-06-11T22:54:33.823014+00:00"
     }
   ],
   "missed_extended": [
@@ -1016,6 +1000,12 @@
       "equity_nok": 94919.46578645267,
       "n_open": 5,
       "n_pending": 2
+    },
+    {
+      "date": "2026-06-11",
+      "equity_nok": 92722.59736886996,
+      "n_open": 4,
+      "n_pending": 1
     }
   ]
 }
