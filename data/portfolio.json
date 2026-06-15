@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-06-12T22:44:17.454908+00:00",
+  "last_updated": "2026-06-15T23:08:46.778475+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 4480.5042187363,
   "pending_orders": [
@@ -15,39 +15,62 @@
       "stop_local": 115.34599700927734,
       "target_local": 158.54452438354485,
       "atr_local": 7.199754562377919,
-      "opprettet_dato": "2026-06-12T22:43:12.561460+00:00",
-      "utloper_dato": "2026-06-22T22:43:12.561460+00:00",
+      "opprettet_dato": "2026-06-15T23:07:33.793107+00:00",
+      "utloper_dato": "2026-06-25T23:07:33.793107+00:00",
       "signal_snapshot": {
-        "score": 88.63075366471145,
-        "rs_score": 94.78469024237651,
+        "score": 88.39806794382113,
+        "rs_score": 94.00907117274213,
         "vsa_score": 87.31782197332836,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-06-11"
+        "dato": "2026-06-12"
       }
     },
     {
-      "symbol": "CAP.PA",
-      "name": "Capgemini",
-      "sector": "Technology",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Spring",
-      "signal_pris_local": 95.45999908447266,
-      "stop_local": 91.08479736328124,
-      "target_local": 104.21040252685549,
-      "atr_local": 2.1876008605957082,
-      "opprettet_dato": "2026-06-12T22:43:12.561460+00:00",
-      "utloper_dato": "2026-06-22T22:43:12.561460+00:00",
+      "symbol": "TELIA.ST",
+      "name": "Telia Company",
+      "sector": "Telecom",
+      "region": "NORDIC",
+      "currency": "SEK",
+      "signal_type": "Markup",
+      "signal_pris_local": 49.767600460052485,
+      "stop_local": 47.06939880371094,
+      "target_local": 55.164003772735576,
+      "atr_local": 1.3491008281707728,
+      "opprettet_dato": "2026-06-15T23:07:33.793107+00:00",
+      "utloper_dato": "2026-06-25T23:07:33.793107+00:00",
       "signal_snapshot": {
-        "score": 73.63658675053533,
-        "rs_score": 40.705795752078075,
-        "vsa_score": 78.08282674970636,
-        "wyckoff_phase": "accumulation",
+        "score": 81.64509103470215,
+        "rs_score": 80.42263738136053,
+        "vsa_score": 78.39433273431332,
+        "wyckoff_phase": "markup",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-06-11"
+        "dato": "2026-06-12"
+      }
+    },
+    {
+      "symbol": "REP.MC",
+      "name": "Repsol",
+      "sector": "Energy",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Markup",
+      "signal_pris_local": 23.65770092010498,
+      "stop_local": 21.079800224304197,
+      "target_local": 28.813502311706543,
+      "atr_local": 1.288950347900391,
+      "opprettet_dato": "2026-06-15T23:07:33.793107+00:00",
+      "utloper_dato": "2026-06-25T23:07:33.793107+00:00",
+      "signal_snapshot": {
+        "score": 64.63601652138435,
+        "rs_score": 70.43780516237906,
+        "vsa_score": 71.68224990890208,
+        "wyckoff_phase": "distribution",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-12"
       }
     }
   ],
@@ -243,11 +266,11 @@
         "obv_rising": "False",
         "dato": "2026-06-01"
       },
-      "mae_local": 107.5,
+      "mae_local": 106.25,
       "mfe_local": 120.4000015258789,
-      "mae_pct": -7.260272398604906,
+      "mae_pct": -8.338641324202523,
       "mfe_pct": 3.868496229930818,
-      "mae_dato": "2026-06-12T22:43:12.561460+00:00",
+      "mae_dato": "2026-06-15T23:07:33.793107+00:00",
       "mfe_dato": "2026-06-04T22:41:41.120654+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -970,6 +993,22 @@
         "obv_rising": "True",
         "dato": "2026-06-04"
       }
+    },
+    {
+      "symbol": "WAWI.OL",
+      "signal_pris": 129.74550613403318,
+      "open_pris": 138.6999969482422,
+      "gap_pct": 6.901580702886623,
+      "dato": "2026-06-15T23:07:33.793107+00:00",
+      "signal_snapshot": {
+        "score": 88.63075366471145,
+        "rs_score": 94.78469024237651,
+        "vsa_score": 87.31782197332836,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-11"
+      }
     }
   ],
   "equity_curve": [
@@ -1098,6 +1137,12 @@
       "equity_nok": 92252.92328840792,
       "n_open": 5,
       "n_pending": 2
+    },
+    {
+      "date": "2026-06-15",
+      "equity_nok": 94423.14392286837,
+      "n_open": 5,
+      "n_pending": 3
     }
   ]
 }
