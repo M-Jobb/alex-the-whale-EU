@@ -1,53 +1,53 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-06-15T23:08:46.778475+00:00",
+  "last_updated": "2026-06-16T22:57:03.425548+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 4480.5042187363,
   "pending_orders": [
     {
-      "symbol": "WAWI.OL",
-      "name": "Wallenius Wilhelmsen",
-      "sector": "Industrial Goods",
-      "region": "OSLO",
-      "currency": "NOK",
+      "symbol": "BNP.PA",
+      "name": "BNP Paribas",
+      "sector": "Banks",
+      "region": "EUROPE",
+      "currency": "EUR",
       "signal_type": "Markup",
-      "signal_pris_local": 129.74550613403318,
-      "stop_local": 115.34599700927734,
-      "target_local": 158.54452438354485,
-      "atr_local": 7.199754562377919,
-      "opprettet_dato": "2026-06-15T23:07:33.793107+00:00",
-      "utloper_dato": "2026-06-25T23:07:33.793107+00:00",
+      "signal_pris_local": 95.97749999999999,
+      "stop_local": 83.8684017944336,
+      "target_local": 120.19569641113279,
+      "atr_local": 6.054549102783199,
+      "opprettet_dato": "2026-06-16T22:55:59.679471+00:00",
+      "utloper_dato": "2026-06-26T22:55:59.679471+00:00",
       "signal_snapshot": {
-        "score": 88.39806794382113,
-        "rs_score": 94.00907117274213,
-        "vsa_score": 87.31782197332836,
+        "score": 79.61351413541131,
+        "rs_score": 80.04534841168368,
+        "vsa_score": 71.99969870635404,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-06-12"
+        "dato": "2026-06-15"
       }
     },
     {
-      "symbol": "TELIA.ST",
-      "name": "Telia Company",
-      "sector": "Telecom",
-      "region": "NORDIC",
-      "currency": "SEK",
+      "symbol": "SAN.MC",
+      "name": "Banco Santander",
+      "sector": "Banks",
+      "region": "EUROPE",
+      "currency": "EUR",
       "signal_type": "Markup",
-      "signal_pris_local": 49.767600460052485,
-      "stop_local": 47.06939880371094,
-      "target_local": 55.164003772735576,
-      "atr_local": 1.3491008281707728,
-      "opprettet_dato": "2026-06-15T23:07:33.793107+00:00",
-      "utloper_dato": "2026-06-25T23:07:33.793107+00:00",
+      "signal_pris_local": 11.316300230026243,
+      "stop_local": 9.805879573822022,
+      "target_local": 14.337141542434686,
+      "atr_local": 0.7552103281021108,
+      "opprettet_dato": "2026-06-16T22:55:59.679471+00:00",
+      "utloper_dato": "2026-06-26T22:55:59.679471+00:00",
       "signal_snapshot": {
-        "score": 81.64509103470215,
-        "rs_score": 80.42263738136053,
-        "vsa_score": 78.39433273431332,
-        "wyckoff_phase": "markup",
-        "triple_rs": false,
-        "obv_rising": "True",
-        "dato": "2026-06-12"
+        "score": 72.40153487891719,
+        "rs_score": 90.3199968103678,
+        "vsa_score": 57.685119452689506,
+        "wyckoff_phase": "unclear",
+        "triple_rs": true,
+        "obv_rising": "False",
+        "dato": "2026-06-15"
       }
     },
     {
@@ -61,16 +61,16 @@
       "stop_local": 21.079800224304197,
       "target_local": 28.813502311706543,
       "atr_local": 1.288950347900391,
-      "opprettet_dato": "2026-06-15T23:07:33.793107+00:00",
-      "utloper_dato": "2026-06-25T23:07:33.793107+00:00",
+      "opprettet_dato": "2026-06-16T22:55:59.679471+00:00",
+      "utloper_dato": "2026-06-26T22:55:59.679471+00:00",
       "signal_snapshot": {
-        "score": 64.63601652138435,
-        "rs_score": 70.43780516237906,
-        "vsa_score": 71.68224990890208,
+        "score": 63.61457401038955,
+        "rs_score": 59.75905185085882,
+        "vsa_score": 78.95619485043969,
         "wyckoff_phase": "distribution",
-        "triple_rs": true,
+        "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-06-12"
+        "dato": "2026-06-15"
       }
     }
   ],
@@ -266,11 +266,11 @@
         "obv_rising": "False",
         "dato": "2026-06-01"
       },
-      "mae_local": 106.25,
+      "mae_local": 101.9000015258789,
       "mfe_local": 120.4000015258789,
-      "mae_pct": -8.338641324202523,
+      "mae_pct": -12.091363868913907,
       "mfe_pct": 3.868496229930818,
-      "mae_dato": "2026-06-15T23:07:33.793107+00:00",
+      "mae_dato": "2026-06-16T22:55:59.679471+00:00",
       "mfe_dato": "2026-06-04T22:41:41.120654+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -312,17 +312,27 @@
       ],
       "opened_at": "2026-06-10T22:55:18.786348+00:00",
       "initial_stop_local": 136.12800292968748,
-      "current_stop_local": 136.12800292968748,
+      "current_stop_local": 140.12800292968748,
       "target_local": 145.3439849853516,
       "atr_local": 1.5359970092773523,
-      "stop_type": "wyckoff",
-      "high_water_local": 141.0,
+      "stop_type": "trailing_atr",
+      "high_water_local": 143.1999969482422,
       "low_water_local": 139.33919694519042,
       "pyramid_count": 0,
       "skipped_pyramids": [
         {
           "trigger_dato": "2026-06-10T22:55:18.786348+00:00",
           "trigger_pris": 140.87519395446776,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-06-16T22:55:59.679471+00:00",
+          "trigger_pris": 140.87519395446776,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-06-16T22:55:59.679471+00:00",
+          "trigger_pris": 142.41119096374513,
           "grunn": "for lite kontanter"
         }
       ],
@@ -336,11 +346,11 @@
         "dato": "2026-06-08"
       },
       "mae_local": 137.60000610351562,
-      "mfe_local": 141.0,
+      "mfe_local": 143.1999969482422,
       "mae_pct": -1.2481705649264763,
-      "mfe_pct": 1.1919137552248493,
+      "mfe_pct": 2.7707924889006197,
       "mae_dato": "2026-06-12T22:43:12.561460+00:00",
-      "mfe_dato": "2026-06-10T22:55:18.786348+00:00",
+      "mfe_dato": "2026-06-16T22:55:59.679471+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -352,6 +362,11 @@
           "date": "2026-06-10T22:55:18.786348+00:00",
           "stop_local": 136.12800292968748,
           "type": "initial_wyckoff"
+        },
+        {
+          "date": "2026-06-16T22:55:59.679471+00:00",
+          "stop_local": 140.12800292968748,
+          "type": "trailing_atr_initial"
         }
       ]
     },
@@ -385,7 +400,7 @@
       "target_local": 116.1355,
       "atr_local": 8.004249999999999,
       "stop_type": "wyckoff",
-      "high_water_local": 84.20261849999999,
+      "high_water_local": 84.5,
       "low_water_local": 84.20261849999999,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -399,11 +414,11 @@
         "dato": "2026-06-11"
       },
       "mae_local": 80.12,
-      "mfe_local": 84.20261849999999,
+      "mfe_local": 84.5,
       "mae_pct": -4.848564774740327,
-      "mfe_pct": 0.0,
+      "mfe_pct": 0.3531736961363219,
       "mae_dato": "2026-06-12T22:43:12.561460+00:00",
-      "mfe_dato": "2026-06-12T22:43:12.561460+00:00",
+      "mfe_dato": "2026-06-16T22:55:59.679471+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -1009,6 +1024,22 @@
         "obv_rising": "True",
         "dato": "2026-06-11"
       }
+    },
+    {
+      "symbol": "WAWI.OL",
+      "signal_pris": 129.74550613403318,
+      "open_pris": 137.60000610351562,
+      "gap_pct": 6.053774194975503,
+      "dato": "2026-06-16T22:55:59.679471+00:00",
+      "signal_snapshot": {
+        "score": 88.39806794382113,
+        "rs_score": 94.00907117274213,
+        "vsa_score": 87.31782197332836,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-12"
+      }
     }
   ],
   "equity_curve": [
@@ -1141,6 +1172,12 @@
     {
       "date": "2026-06-15",
       "equity_nok": 94423.14392286837,
+      "n_open": 5,
+      "n_pending": 3
+    },
+    {
+      "date": "2026-06-16",
+      "equity_nok": 93354.60282103122,
       "n_open": 5,
       "n_pending": 3
     }
