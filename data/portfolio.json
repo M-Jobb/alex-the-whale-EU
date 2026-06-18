@@ -1,32 +1,9 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-06-17T22:52:14.436528+00:00",
+  "last_updated": "2026-06-18T23:02:29.490258+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 4480.5042187363,
   "pending_orders": [
-    {
-      "symbol": "SECU-B.ST",
-      "name": "Securitas B",
-      "sector": "Industrial Goods",
-      "region": "NORDIC",
-      "currency": "SEK",
-      "signal_type": "Spring",
-      "signal_pris_local": 152.5,
-      "stop_local": 145.44,
-      "target_local": 166.62,
-      "atr_local": 3.530000000000001,
-      "opprettet_dato": "2026-06-17T22:51:00.120522+00:00",
-      "utloper_dato": "2026-06-27T22:51:00.120522+00:00",
-      "signal_snapshot": {
-        "score": 71.27978239418033,
-        "rs_score": 45.1386020361249,
-        "vsa_score": 65.7940059444762,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": false,
-        "obv_rising": "False",
-        "dato": "2026-06-16"
-      }
-    },
     {
       "symbol": "SAN.MC",
       "name": "Banco Santander",
@@ -35,19 +12,19 @@
       "currency": "EUR",
       "signal_type": "Markup",
       "signal_pris_local": 11.316300230026243,
-      "stop_local": 9.805879573822022,
-      "target_local": 14.337141542434686,
-      "atr_local": 0.7552103281021108,
-      "opprettet_dato": "2026-06-17T22:51:00.120522+00:00",
-      "utloper_dato": "2026-06-27T22:51:00.120522+00:00",
+      "stop_local": 10.129280433654785,
+      "target_local": 13.690339822769161,
+      "atr_local": 0.5935098981857294,
+      "opprettet_dato": "2026-06-18T23:00:51.339341+00:00",
+      "utloper_dato": "2026-06-28T23:00:51.339341+00:00",
       "signal_snapshot": {
-        "score": 82.95045627611793,
-        "rs_score": 90.48306813437026,
-        "vsa_score": 72.6851194526895,
+        "score": 85.03810043769354,
+        "rs_score": 90.7060175109512,
+        "vsa_score": 79.42098394802726,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-06-16"
+        "dato": "2026-06-17"
       }
     },
     {
@@ -61,16 +38,16 @@
       "stop_local": 83.8684017944336,
       "target_local": 120.19569641113279,
       "atr_local": 6.054549102783199,
-      "opprettet_dato": "2026-06-17T22:51:00.120522+00:00",
-      "utloper_dato": "2026-06-27T22:51:00.120522+00:00",
+      "opprettet_dato": "2026-06-18T23:00:51.339341+00:00",
+      "utloper_dato": "2026-06-28T23:00:51.339341+00:00",
       "signal_snapshot": {
-        "score": 79.90039567047435,
-        "rs_score": 81.00162019522713,
+        "score": 80.13207637508654,
+        "rs_score": 81.7738892106011,
         "vsa_score": 71.99969870635404,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-06-16"
+        "dato": "2026-06-17"
       }
     },
     {
@@ -84,16 +61,16 @@
       "stop_local": 21.079800224304197,
       "target_local": 28.813502311706543,
       "atr_local": 1.288950347900391,
-      "opprettet_dato": "2026-06-17T22:51:00.120522+00:00",
-      "utloper_dato": "2026-06-27T22:51:00.120522+00:00",
+      "opprettet_dato": "2026-06-18T23:00:51.339341+00:00",
+      "utloper_dato": "2026-06-28T23:00:51.339341+00:00",
       "signal_snapshot": {
-        "score": 63.64515879524632,
-        "rs_score": 59.861001133714716,
+        "score": 64.24476117774074,
+        "rs_score": 61.85967574202946,
         "vsa_score": 78.95619485043969,
         "wyckoff_phase": "distribution",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-06-16"
+        "dato": "2026-06-17"
       }
     }
   ],
@@ -289,11 +266,11 @@
         "obv_rising": "False",
         "dato": "2026-06-01"
       },
-      "mae_local": 101.4000015258789,
+      "mae_local": 101.3499984741211,
       "mfe_local": 120.4000015258789,
-      "mae_pct": -12.522711439152957,
+      "mae_pct": -12.565848828913495,
       "mfe_pct": 3.868496229930818,
-      "mae_dato": "2026-06-17T22:51:00.120522+00:00",
+      "mae_dato": "2026-06-18T23:00:51.339341+00:00",
       "mfe_dato": "2026-06-04T22:41:41.120654+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -366,6 +343,11 @@
         {
           "trigger_dato": "2026-06-17T22:51:00.120522+00:00",
           "trigger_pris": 142.41119096374513,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-06-18T23:00:51.339341+00:00",
+          "trigger_pris": 140.87519395446776,
           "grunn": "for lite kontanter"
         }
       ],
@@ -1219,6 +1201,12 @@
       "equity_nok": 93582.46555220187,
       "n_open": 5,
       "n_pending": 4
+    },
+    {
+      "date": "2026-06-18",
+      "equity_nok": 92429.36559568942,
+      "n_open": 5,
+      "n_pending": 3
     }
   ]
 }
