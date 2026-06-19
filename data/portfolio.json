@@ -1,9 +1,55 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-06-18T23:02:29.490258+00:00",
+  "last_updated": "2026-06-19T22:13:40.648379+00:00",
   "start_kapital_nok": 100000.0,
-  "kontanter_nok": 4480.5042187363,
+  "kontanter_nok": 21137.03966275455,
   "pending_orders": [
+    {
+      "symbol": "UPM.HE",
+      "name": "UPM-Kymmene",
+      "sector": "Basic Resources",
+      "region": "NORDIC",
+      "currency": "EUR",
+      "signal_type": "Spring",
+      "signal_pris_local": 24.260000228881836,
+      "stop_local": 23.193599853515625,
+      "target_local": 26.392800979614258,
+      "atr_local": 0.5332001876831054,
+      "opprettet_dato": "2026-06-19T22:12:10.198742+00:00",
+      "utloper_dato": "2026-06-29T22:12:10.198742+00:00",
+      "signal_snapshot": {
+        "score": 74.60368294770917,
+        "rs_score": 44.08805559130078,
+        "vsa_score": 77.92422090106314,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-06-18"
+      }
+    },
+    {
+      "symbol": "SECU-B.ST",
+      "name": "Securitas B",
+      "sector": "Industrial Goods",
+      "region": "NORDIC",
+      "currency": "SEK",
+      "signal_type": "Spring",
+      "signal_pris_local": 151.8000030517578,
+      "stop_local": 145.44,
+      "target_local": 164.52000915527344,
+      "atr_local": 3.1800015258789074,
+      "opprettet_dato": "2026-06-19T22:12:10.198742+00:00",
+      "utloper_dato": "2026-06-29T22:12:10.198742+00:00",
+      "signal_snapshot": {
+        "score": 71.26171487455855,
+        "rs_score": 45.07837697071899,
+        "vsa_score": 65.7940059444762,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-06-18"
+      }
+    },
     {
       "symbol": "SAN.MC",
       "name": "Banco Santander",
@@ -15,16 +61,39 @@
       "stop_local": 10.129280433654785,
       "target_local": 13.690339822769161,
       "atr_local": 0.5935098981857294,
-      "opprettet_dato": "2026-06-18T23:00:51.339341+00:00",
-      "utloper_dato": "2026-06-28T23:00:51.339341+00:00",
+      "opprettet_dato": "2026-06-19T22:12:10.198742+00:00",
+      "utloper_dato": "2026-06-29T22:12:10.198742+00:00",
       "signal_snapshot": {
-        "score": 85.03810043769354,
-        "rs_score": 90.7060175109512,
+        "score": 85.1722601445549,
+        "rs_score": 91.15321653382239,
         "vsa_score": 79.42098394802726,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-06-17"
+        "dato": "2026-06-18"
+      }
+    },
+    {
+      "symbol": "LAND.L",
+      "name": "Land Securities",
+      "sector": "Real Estate",
+      "region": "EUROPE",
+      "currency": "GBP",
+      "signal_type": "Markup",
+      "signal_pris_local": 6.492299999999999,
+      "stop_local": 6.0466,
+      "target_local": 7.383699999999998,
+      "atr_local": 0.22284999999999977,
+      "opprettet_dato": "2026-06-19T22:12:10.198742+00:00",
+      "utloper_dato": "2026-06-29T22:12:10.198742+00:00",
+      "signal_snapshot": {
+        "score": 81.64928841977948,
+        "rs_score": 70.4786034683563,
+        "vsa_score": 81.685691264242,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-19"
       }
     },
     {
@@ -35,42 +104,111 @@
       "currency": "EUR",
       "signal_type": "Markup",
       "signal_pris_local": 95.97749999999999,
-      "stop_local": 83.8684017944336,
-      "target_local": 120.19569641113279,
-      "atr_local": 6.054549102783199,
-      "opprettet_dato": "2026-06-18T23:00:51.339341+00:00",
-      "utloper_dato": "2026-06-28T23:00:51.339341+00:00",
+      "stop_local": 89.67980209350586,
+      "target_local": 108.57289581298826,
+      "atr_local": 3.148848953247068,
+      "opprettet_dato": "2026-06-19T22:12:10.198742+00:00",
+      "utloper_dato": "2026-06-29T22:12:10.198742+00:00",
       "signal_snapshot": {
-        "score": 80.13207637508654,
-        "rs_score": 81.7738892106011,
+        "score": 79.98880201445006,
+        "rs_score": 81.29630800847951,
         "vsa_score": 71.99969870635404,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-06-17"
+        "dato": "2026-06-18"
       }
     },
     {
-      "symbol": "REP.MC",
-      "name": "Repsol",
-      "sector": "Energy",
+      "symbol": "MC.PA",
+      "name": "LVMH",
+      "sector": "Personal Household",
       "region": "EUROPE",
       "currency": "EUR",
       "signal_type": "Markup",
-      "signal_pris_local": 23.65770092010498,
-      "stop_local": 21.079800224304197,
-      "target_local": 28.813502311706543,
-      "atr_local": 1.288950347900391,
-      "opprettet_dato": "2026-06-18T23:00:51.339341+00:00",
-      "utloper_dato": "2026-06-28T23:00:51.339341+00:00",
+      "signal_pris_local": 508.0274999999999,
+      "stop_local": 451.6330059814453,
+      "target_local": 620.8164880371091,
+      "atr_local": 28.197247009277305,
+      "opprettet_dato": "2026-06-19T22:12:10.198742+00:00",
+      "utloper_dato": "2026-06-29T22:12:10.198742+00:00",
       "signal_snapshot": {
-        "score": 64.24476117774074,
-        "rs_score": 61.85967574202946,
-        "vsa_score": 78.95619485043969,
-        "wyckoff_phase": "distribution",
+        "score": 76.51552796452552,
+        "rs_score": 57.03130823150371,
+        "vsa_score": 78.02045165024803,
+        "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-06-17"
+        "dato": "2026-06-18"
+      }
+    },
+    {
+      "symbol": "UCG.MI",
+      "name": "UniCredit",
+      "sector": "Banks",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Markup",
+      "signal_pris_local": 75.80715030670166,
+      "stop_local": 68.41379760742187,
+      "target_local": 90.59385570526123,
+      "atr_local": 3.696676349639894,
+      "opprettet_dato": "2026-06-19T22:12:10.198742+00:00",
+      "utloper_dato": "2026-06-29T22:12:10.198742+00:00",
+      "signal_snapshot": {
+        "score": 76.50583387751686,
+        "rs_score": 77.14089127245998,
+        "vsa_score": 64.54522165259625,
+        "wyckoff_phase": "markup",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-06-18"
+      }
+    },
+    {
+      "symbol": "SU.PA",
+      "name": "Schneider Electric",
+      "sector": "Industrial Goods",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Markup",
+      "signal_pris_local": 289.4902377319336,
+      "stop_local": 252.25199401855468,
+      "target_local": 363.96672515869136,
+      "atr_local": 18.619121856689446,
+      "opprettet_dato": "2026-06-19T22:12:10.198742+00:00",
+      "utloper_dato": "2026-06-29T22:12:10.198742+00:00",
+      "signal_snapshot": {
+        "score": 68.0533199946656,
+        "rs_score": 68.51106664888533,
+        "vsa_score": 65.0,
+        "wyckoff_phase": "unclear",
+        "triple_rs": false,
+        "obv_rising": "True",
+        "dato": "2026-06-18"
+      }
+    },
+    {
+      "symbol": "HSBA.L",
+      "name": "HSBC",
+      "sector": "Banks",
+      "region": "EUROPE",
+      "currency": "GBP",
+      "signal_type": "Markup",
+      "signal_pris_local": 14.238840490722653,
+      "stop_local": 12.418559521484376,
+      "target_local": 17.87940242919921,
+      "atr_local": 0.9101404846191388,
+      "opprettet_dato": "2026-06-19T22:12:10.198742+00:00",
+      "utloper_dato": "2026-06-29T22:12:10.198742+00:00",
+      "signal_snapshot": {
+        "score": 63.36734542293651,
+        "rs_score": 52.89115140978838,
+        "vsa_score": 65.0,
+        "wyckoff_phase": "unclear",
+        "triple_rs": false,
+        "obv_rising": "True",
+        "dato": "2026-06-19"
       }
     }
   ],
@@ -224,69 +362,6 @@
       ]
     },
     {
-      "symbol": "NHY.OL",
-      "name": "Norsk Hydro",
-      "sector": "Basic Resources",
-      "region": "OSLO",
-      "currency": "NOK",
-      "signal_type": "Markup",
-      "fill_type": "market_zone",
-      "signal_pris_local": 111.0525,
-      "initial_entry_local": 115.91580305480956,
-      "avg_entry_local": 115.91580305480956,
-      "shares": 166,
-      "kostnad_nok": 19341.023307098385,
-      "sizing_method": "risk_based",
-      "fills": [
-        {
-          "date": "2026-06-03T23:09:31.113899+00:00",
-          "price_local": 115.91580305480956,
-          "shares": 166,
-          "cost_nok": 19341.023307098385,
-          "type": "initial",
-          "fill_type": "market_zone"
-        }
-      ],
-      "opened_at": "2026-06-03T23:09:31.113899+00:00",
-      "initial_stop_local": 101.03799850463867,
-      "current_stop_local": 101.03799850463867,
-      "target_local": 131.08150299072264,
-      "atr_local": 5.007250747680665,
-      "stop_type": "wyckoff",
-      "high_water_local": 120.4000015258789,
-      "low_water_local": 115.91580305480956,
-      "pyramid_count": 0,
-      "skipped_pyramids": [],
-      "signal_snapshot": {
-        "score": 73.17977228032191,
-        "rs_score": 80.59924093440637,
-        "vsa_score": 50.0,
-        "wyckoff_phase": "markup",
-        "triple_rs": true,
-        "obv_rising": "False",
-        "dato": "2026-06-01"
-      },
-      "mae_local": 101.3499984741211,
-      "mfe_local": 120.4000015258789,
-      "mae_pct": -12.565848828913495,
-      "mfe_pct": 3.868496229930818,
-      "mae_dato": "2026-06-18T23:00:51.339341+00:00",
-      "mfe_dato": "2026-06-04T22:41:41.120654+00:00",
-      "orig_stop_truffet": false,
-      "orig_stop_dato": null,
-      "orig_stop_pnl_pct": null,
-      "orig_target_truffet": false,
-      "orig_target_dato": null,
-      "orig_target_pnl_pct": null,
-      "stop_historie": [
-        {
-          "date": "2026-06-03T23:09:31.113899+00:00",
-          "stop_local": 101.03799850463867,
-          "type": "initial_wyckoff"
-        }
-      ]
-    },
-    {
       "symbol": "BRG.OL",
       "name": "Borregaard",
       "sector": "Chemicals",
@@ -348,6 +423,16 @@
         {
           "trigger_dato": "2026-06-18T23:00:51.339341+00:00",
           "trigger_pris": 140.87519395446776,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-06-19T22:12:10.198742+00:00",
+          "trigger_pris": 140.87519395446776,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-06-19T22:12:10.198742+00:00",
+          "trigger_pris": 142.41119096374513,
           "grunn": "for lite kontanter"
         }
       ],
@@ -428,11 +513,11 @@
         "obv_rising": "True",
         "dato": "2026-06-11"
       },
-      "mae_local": 79.02,
+      "mae_local": 74.04,
       "mfe_local": 84.5,
-      "mae_pct": -6.1549374500746605,
+      "mae_pct": -12.06924283477001,
       "mfe_pct": 0.3531736961363219,
-      "mae_dato": "2026-06-17T22:51:00.120522+00:00",
+      "mae_dato": "2026-06-19T22:12:10.198742+00:00",
       "mfe_dato": "2026-06-16T22:55:59.679471+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -845,6 +930,76 @@
       "pnl_pct_local": -15.492262552399117,
       "reason": "stop_loss",
       "closed_at": "2026-06-11T22:54:33.823014+00:00"
+    },
+    {
+      "symbol": "NHY.OL",
+      "name": "Norsk Hydro",
+      "sector": "Basic Resources",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Markup",
+      "fill_type": "market_zone",
+      "signal_pris_local": 111.0525,
+      "initial_entry_local": 115.91580305480956,
+      "avg_entry_local": 115.91580305480956,
+      "shares": 166,
+      "kostnad_nok": 19341.023307098385,
+      "sizing_method": "risk_based",
+      "fills": [
+        {
+          "date": "2026-06-03T23:09:31.113899+00:00",
+          "price_local": 115.91580305480956,
+          "shares": 166,
+          "cost_nok": 19341.023307098385,
+          "type": "initial",
+          "fill_type": "market_zone"
+        }
+      ],
+      "opened_at": "2026-06-03T23:09:31.113899+00:00",
+      "initial_stop_local": 101.03799850463867,
+      "current_stop_local": 101.03799850463867,
+      "target_local": 131.08150299072264,
+      "atr_local": 5.007250747680665,
+      "stop_type": "wyckoff",
+      "high_water_local": 120.4000015258789,
+      "low_water_local": 115.91580305480956,
+      "pyramid_count": 0,
+      "skipped_pyramids": [],
+      "signal_snapshot": {
+        "score": 73.17977228032191,
+        "rs_score": 80.59924093440637,
+        "vsa_score": 50.0,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "False",
+        "dato": "2026-06-01"
+      },
+      "mae_local": 100.8499984741211,
+      "mfe_local": 120.4000015258789,
+      "mae_pct": -12.997196399152545,
+      "mfe_pct": 3.868496229930818,
+      "mae_dato": "2026-06-19T22:12:10.198742+00:00",
+      "mfe_dato": "2026-06-04T22:41:41.120654+00:00",
+      "orig_stop_truffet": true,
+      "orig_stop_dato": "2026-06-19T22:12:10.198742+00:00",
+      "orig_stop_pnl_pct": -12.8350096864153,
+      "orig_target_truffet": false,
+      "orig_target_dato": null,
+      "orig_target_pnl_pct": null,
+      "stop_historie": [
+        {
+          "date": "2026-06-03T23:09:31.113899+00:00",
+          "stop_local": 101.03799850463867,
+          "type": "initial_wyckoff"
+        }
+      ],
+      "exit_pris_local": 100.93696050613403,
+      "exit_proceeds_nok": 16656.53544401825,
+      "pnl_nok": -2684.487863080136,
+      "pnl_pct": -13.879761274548988,
+      "pnl_pct_local": -12.922174676728881,
+      "reason": "stop_loss",
+      "closed_at": "2026-06-19T22:12:10.198742+00:00"
     }
   ],
   "missed_extended": [
@@ -1055,6 +1210,22 @@
         "obv_rising": "True",
         "dato": "2026-06-12"
       }
+    },
+    {
+      "symbol": "BNP.PA",
+      "signal_pris": 95.97749999999999,
+      "open_pris": 100.86000061035156,
+      "gap_pct": 5.087130431977882,
+      "dato": "2026-06-19T22:12:10.198742+00:00",
+      "signal_snapshot": {
+        "score": 80.13207637508654,
+        "rs_score": 81.7738892106011,
+        "vsa_score": 71.99969870635404,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-17"
+      }
     }
   ],
   "equity_curve": [
@@ -1207,6 +1378,12 @@
       "equity_nok": 92429.36559568942,
       "n_open": 5,
       "n_pending": 3
+    },
+    {
+      "date": "2026-06-19",
+      "equity_nok": 90375.90113812685,
+      "n_open": 4,
+      "n_pending": 9
     }
   ]
 }
