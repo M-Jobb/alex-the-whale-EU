@@ -1,30 +1,53 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-06-24T22:37:55.788082+00:00",
+  "last_updated": "2026-06-25T22:43:06.769633+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 4455.970727697299,
   "pending_orders": [
     {
-      "symbol": "DANSKE.CO",
-      "name": "Danske Bank",
+      "symbol": "SEB-A.ST",
+      "name": "SEB A",
       "sector": "Banks",
       "region": "NORDIC",
-      "currency": "DKK",
+      "currency": "SEK",
       "signal_type": "Markup",
-      "signal_pris_local": 339.18749999999994,
-      "stop_local": 317.6180059814453,
-      "target_local": 382.3264880371092,
-      "atr_local": 10.78474700927731,
-      "opprettet_dato": "2026-06-24T22:36:20.480030+00:00",
-      "utloper_dato": "2026-07-04T22:36:20.480030+00:00",
+      "signal_pris_local": 191.8544938659668,
+      "stop_local": 176.74300598144532,
+      "target_local": 222.07746963500972,
+      "atr_local": 7.555743942260733,
+      "opprettet_dato": "2026-06-25T22:41:42.220742+00:00",
+      "utloper_dato": "2026-07-05T22:41:42.220742+00:00",
       "signal_snapshot": {
-        "score": 79.91157046632878,
-        "rs_score": 78.8034134106449,
-        "vsa_score": 74.23515481045104,
-        "wyckoff_phase": "markup",
+        "score": 81.46129837773141,
+        "rs_score": 70.10985371507236,
+        "vsa_score": 81.42780754403233,
+        "wyckoff_phase": "accumulation",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-06-23"
+        "dato": "2026-06-24"
+      }
+    },
+    {
+      "symbol": "SAND.ST",
+      "name": "Sandvik",
+      "sector": "Industrial Goods",
+      "region": "NORDIC",
+      "currency": "SEK",
+      "signal_type": "Markup",
+      "signal_pris_local": 393.8594938659668,
+      "stop_local": 356.0339880371094,
+      "target_local": 469.51050552368156,
+      "atr_local": 18.912752914428694,
+      "opprettet_dato": "2026-06-25T22:41:42.220742+00:00",
+      "utloper_dato": "2026-07-05T22:41:42.220742+00:00",
+      "signal_snapshot": {
+        "score": 79.21927968484978,
+        "rs_score": 70.45968580470917,
+        "vsa_score": 73.60457981145677,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-24"
       }
     },
     {
@@ -38,16 +61,85 @@
       "stop_local": 168.11900299072266,
       "target_local": 240.83297561645503,
       "atr_local": 12.118995437622061,
-      "opprettet_dato": "2026-06-24T22:36:20.480030+00:00",
-      "utloper_dato": "2026-07-04T22:36:20.480030+00:00",
+      "opprettet_dato": "2026-06-25T22:41:42.220742+00:00",
+      "utloper_dato": "2026-07-05T22:41:42.220742+00:00",
       "signal_snapshot": {
-        "score": 78.18118554366364,
-        "rs_score": 75.60395181221213,
+        "score": 78.12847218449598,
+        "rs_score": 75.4282406149866,
         "vsa_score": 65.0,
         "wyckoff_phase": "accumulation",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-06-23"
+        "dato": "2026-06-24"
+      }
+    },
+    {
+      "symbol": "SECU-B.ST",
+      "name": "Securitas B",
+      "sector": "Industrial Goods",
+      "region": "NORDIC",
+      "currency": "SEK",
+      "signal_type": "Spring",
+      "signal_pris_local": 155.10000610351562,
+      "stop_local": 145.44,
+      "target_local": 174.42001831054688,
+      "atr_local": 4.830003051757814,
+      "opprettet_dato": "2026-06-25T22:41:42.220742+00:00",
+      "utloper_dato": "2026-07-05T22:41:42.220742+00:00",
+      "signal_snapshot": {
+        "score": 76.6094937931723,
+        "rs_score": 62.90430669943147,
+        "vsa_score": 65.7940059444762,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-06-24"
+      }
+    },
+    {
+      "symbol": "DANSKE.CO",
+      "name": "Danske Bank",
+      "sector": "Banks",
+      "region": "NORDIC",
+      "currency": "DKK",
+      "signal_type": "Markup",
+      "signal_pris_local": 349.23749999999995,
+      "stop_local": 317.6180059814453,
+      "target_local": 412.4764880371092,
+      "atr_local": 15.809747009277316,
+      "opprettet_dato": "2026-06-25T22:41:42.220742+00:00",
+      "utloper_dato": "2026-07-05T22:41:42.220742+00:00",
+      "signal_snapshot": {
+        "score": 67.74042717805136,
+        "rs_score": 78.23293578305353,
+        "vsa_score": 74.23515481045104,
+        "wyckoff_phase": "distribution",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-24"
+      }
+    },
+    {
+      "symbol": "LHA.DE",
+      "name": "Lufthansa",
+      "sector": "Travel Leisure",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Markup",
+      "signal_pris_local": 8.803800230026244,
+      "stop_local": 7.75572003364563,
+      "target_local": 10.899960622787473,
+      "atr_local": 0.5240400981903073,
+      "opprettet_dato": "2026-06-25T22:41:42.220742+00:00",
+      "utloper_dato": "2026-07-05T22:41:42.220742+00:00",
+      "signal_snapshot": {
+        "score": 88.07704683541343,
+        "rs_score": 93.61329033581775,
+        "vsa_score": 86.6435324488937,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-24"
       }
     },
     {
@@ -61,16 +153,85 @@
       "stop_local": 18.899299850463866,
       "target_local": 24.31040144920349,
       "atr_local": 0.9018502664566039,
-      "opprettet_dato": "2026-06-24T22:36:20.480030+00:00",
-      "utloper_dato": "2026-07-04T22:36:20.480030+00:00",
+      "opprettet_dato": "2026-06-25T22:41:42.220742+00:00",
+      "utloper_dato": "2026-07-05T22:41:42.220742+00:00",
       "signal_snapshot": {
-        "score": 85.70678293126545,
-        "rs_score": 90.76745343103252,
+        "score": 85.81702803572247,
+        "rs_score": 91.1349371125559,
         "vsa_score": 81.58848967318566,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-06-23"
+        "dato": "2026-06-24"
+      }
+    },
+    {
+      "symbol": "LIN.DE",
+      "name": "Linde",
+      "sector": "Chemicals",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Markup",
+      "signal_pris_local": 451.64699386596675,
+      "stop_local": 432.7680059814453,
+      "target_local": 489.40496963500965,
+      "atr_local": 9.439493942260725,
+      "opprettet_dato": "2026-06-25T22:41:42.220742+00:00",
+      "utloper_dato": "2026-07-05T22:41:42.220742+00:00",
+      "signal_snapshot": {
+        "score": 82.84328329406645,
+        "rs_score": 81.11280123525567,
+        "vsa_score": 81.6981430782992,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-24"
+      }
+    },
+    {
+      "symbol": "CFR.SW",
+      "name": "Richemont",
+      "sector": "Personal Household",
+      "region": "EUROPE",
+      "currency": "CHF",
+      "signal_type": "Markup",
+      "signal_pris_local": 176.4780061340332,
+      "stop_local": 157.045,
+      "target_local": 215.3440184020996,
+      "atr_local": 9.716503067016603,
+      "opprettet_dato": "2026-06-25T22:41:42.220742+00:00",
+      "utloper_dato": "2026-07-05T22:41:42.220742+00:00",
+      "signal_snapshot": {
+        "score": 81.81915330982137,
+        "rs_score": 87.89376155308749,
+        "vsa_score": 71.5034161463171,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-24"
+      }
+    },
+    {
+      "symbol": "SAN.PA",
+      "name": "Sanofi",
+      "sector": "Health Care",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Spring",
+      "signal_pris_local": 73.55000305175781,
+      "stop_local": 69.80159912109374,
+      "target_local": 81.04681091308595,
+      "atr_local": 1.874201965332034,
+      "opprettet_dato": "2026-06-25T22:41:42.220742+00:00",
+      "utloper_dato": "2026-07-05T22:41:42.220742+00:00",
+      "signal_snapshot": {
+        "score": 81.56461511306397,
+        "rs_score": 49.669632182745445,
+        "vsa_score": 95.5457515274678,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "True",
+        "dato": "2026-06-24"
       }
     },
     {
@@ -84,62 +245,16 @@
       "stop_local": 10.129280433654785,
       "target_local": 13.690339822769161,
       "atr_local": 0.5935098981857294,
-      "opprettet_dato": "2026-06-24T22:36:20.480030+00:00",
-      "utloper_dato": "2026-07-04T22:36:20.480030+00:00",
+      "opprettet_dato": "2026-06-25T22:41:42.220742+00:00",
+      "utloper_dato": "2026-07-05T22:41:42.220742+00:00",
       "signal_snapshot": {
-        "score": 82.3175678946416,
-        "rs_score": 81.63757570077806,
+        "score": 80.24811992793103,
+        "rs_score": 74.73941581174283,
         "vsa_score": 79.42098394802726,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-06-23"
-      }
-    },
-    {
-      "symbol": "INGA.AS",
-      "name": "ING Groep",
-      "sector": "Banks",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "signal_pris_local": 27.346049079895018,
-      "stop_local": 24.318700523376464,
-      "target_local": 33.400746192932125,
-      "atr_local": 1.513674278259277,
-      "opprettet_dato": "2026-06-24T22:36:20.480030+00:00",
-      "utloper_dato": "2026-07-04T22:36:20.480030+00:00",
-      "signal_snapshot": {
-        "score": 79.36703538682993,
-        "rs_score": 71.33476435600099,
-        "vsa_score": 79.88868693343213,
-        "wyckoff_phase": "markup",
-        "triple_rs": false,
-        "obv_rising": "True",
-        "dato": "2026-06-23"
-      }
-    },
-    {
-      "symbol": "LIN.DE",
-      "name": "Linde",
-      "sector": "Chemicals",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "signal_pris_local": 451.64699386596675,
-      "stop_local": 412.7760119628906,
-      "target_local": 529.388957672119,
-      "atr_local": 19.43549095153807,
-      "opprettet_dato": "2026-06-24T22:36:20.480030+00:00",
-      "utloper_dato": "2026-07-04T22:36:20.480030+00:00",
-      "signal_snapshot": {
-        "score": 78.6452916224076,
-        "rs_score": 87.11949566305947,
-        "vsa_score": 81.6981430782992,
-        "wyckoff_phase": "unclear",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-06-23"
+        "dato": "2026-06-24"
       }
     },
     {
@@ -153,85 +268,39 @@
       "stop_local": 89.67980209350586,
       "target_local": 108.57289581298826,
       "atr_local": 3.148848953247068,
-      "opprettet_dato": "2026-06-24T22:36:20.480030+00:00",
-      "utloper_dato": "2026-07-04T22:36:20.480030+00:00",
+      "opprettet_dato": "2026-06-25T22:41:42.220742+00:00",
+      "utloper_dato": "2026-07-05T22:41:42.220742+00:00",
       "signal_snapshot": {
-        "score": 77.91880710934491,
-        "rs_score": 74.39632499146235,
+        "score": 78.21077871801386,
+        "rs_score": 75.3695636870255,
         "vsa_score": 71.99969870635404,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-06-23"
+        "dato": "2026-06-24"
       }
     },
     {
-      "symbol": "SAN.PA",
-      "name": "Sanofi",
-      "sector": "Health Care",
+      "symbol": "INGA.AS",
+      "name": "ING Groep",
+      "sector": "Banks",
       "region": "EUROPE",
       "currency": "EUR",
-      "signal_type": "Spring",
-      "signal_pris_local": 73.47000122070312,
-      "stop_local": 69.80159912109374,
-      "target_local": 80.80680541992189,
-      "atr_local": 1.8342010498046903,
-      "opprettet_dato": "2026-06-24T22:36:20.480030+00:00",
-      "utloper_dato": "2026-07-04T22:36:20.480030+00:00",
-      "signal_snapshot": {
-        "score": 75.72523523271218,
-        "rs_score": 45.205032581572816,
-        "vsa_score": 80.5457515274678,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": false,
-        "obv_rising": "False",
-        "dato": "2026-06-23"
-      }
-    },
-    {
-      "symbol": "CFR.SW",
-      "name": "Richemont",
-      "sector": "Personal Household",
-      "region": "EUROPE",
-      "currency": "CHF",
       "signal_type": "Markup",
-      "signal_pris_local": 180.89999999999998,
-      "stop_local": 157.045,
-      "target_local": 228.60999999999996,
-      "atr_local": 11.927499999999995,
-      "opprettet_dato": "2026-06-24T22:36:20.480030+00:00",
-      "utloper_dato": "2026-07-04T22:36:20.480030+00:00",
+      "signal_pris_local": 27.346049079895018,
+      "stop_local": 24.318700523376464,
+      "target_local": 33.400746192932125,
+      "atr_local": 1.513674278259277,
+      "opprettet_dato": "2026-06-25T22:41:42.220742+00:00",
+      "utloper_dato": "2026-07-05T22:41:42.220742+00:00",
       "signal_snapshot": {
-        "score": 66.99436221271552,
-        "rs_score": 78.48486069878706,
-        "vsa_score": 71.49634667693135,
-        "wyckoff_phase": "distribution",
-        "triple_rs": true,
+        "score": 73.26985171339471,
+        "rs_score": 71.0108187778836,
+        "vsa_score": 79.88868693343213,
+        "wyckoff_phase": "unclear",
+        "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-06-23"
-      }
-    },
-    {
-      "symbol": "EDEN.PA",
-      "name": "Edenred",
-      "sector": "Financial Services",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "signal_pris_local": 24.089849309921263,
-      "stop_local": 19.49219940185547,
-      "target_local": 33.28514912605285,
-      "atr_local": 2.298824954032897,
-      "opprettet_dato": "2026-06-24T22:36:20.480030+00:00",
-      "utloper_dato": "2026-07-04T22:36:20.480030+00:00",
-      "signal_snapshot": {
-        "score": 64.4311670328058,
-        "rs_score": 63.84403931161927,
-        "vsa_score": 77.59318413106676,
-        "wyckoff_phase": "distribution",
-        "triple_rs": false,
-        "obv_rising": "False",
-        "dato": "2026-06-23"
+        "dato": "2026-06-24"
       }
     },
     {
@@ -245,39 +314,39 @@
       "stop_local": 12.418559521484376,
       "target_local": 17.87940242919921,
       "atr_local": 0.9101404846191388,
-      "opprettet_dato": "2026-06-24T22:36:20.480030+00:00",
-      "utloper_dato": "2026-07-04T22:36:20.480030+00:00",
+      "opprettet_dato": "2026-06-25T22:41:42.220742+00:00",
+      "utloper_dato": "2026-07-05T22:41:42.220742+00:00",
       "signal_snapshot": {
-        "score": 60.74712767473191,
-        "rs_score": 59.157092249106356,
+        "score": 64.8628766552599,
+        "rs_score": 52.87625551753299,
         "vsa_score": 50.0,
-        "wyckoff_phase": "unclear",
+        "wyckoff_phase": "markup",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-06-24"
+        "dato": "2026-06-25"
       }
     },
     {
-      "symbol": "SU.PA",
-      "name": "Schneider Electric",
-      "sector": "Industrial Goods",
+      "symbol": "EDEN.PA",
+      "name": "Edenred",
+      "sector": "Financial Services",
       "region": "EUROPE",
       "currency": "EUR",
       "signal_type": "Markup",
-      "signal_pris_local": 289.4902377319336,
-      "stop_local": 252.25199401855468,
-      "target_local": 363.96672515869136,
-      "atr_local": 18.619121856689446,
-      "opprettet_dato": "2026-06-24T22:36:20.480030+00:00",
-      "utloper_dato": "2026-07-04T22:36:20.480030+00:00",
+      "signal_pris_local": 24.089849309921263,
+      "stop_local": 19.49219940185547,
+      "target_local": 33.28514912605285,
+      "atr_local": 2.298824954032897,
+      "opprettet_dato": "2026-06-25T22:41:42.220742+00:00",
+      "utloper_dato": "2026-07-05T22:41:42.220742+00:00",
       "signal_snapshot": {
-        "score": 60.36647902297399,
-        "rs_score": 62.88826340991329,
-        "vsa_score": 65.0,
+        "score": 64.79715190691326,
+        "rs_score": 65.06398889197746,
+        "vsa_score": 77.59318413106676,
         "wyckoff_phase": "distribution",
         "triple_rs": false,
-        "obv_rising": "True",
-        "dato": "2026-06-23"
+        "obv_rising": "False",
+        "dato": "2026-06-24"
       }
     }
   ],
@@ -410,11 +479,11 @@
         "obv_rising": "True",
         "dato": "2026-05-29"
       },
-      "mae_local": 53.880001068115234,
+      "mae_local": 53.099998474121094,
       "mfe_local": 62.599998474121094,
-      "mae_pct": -9.32248258124937,
+      "mae_pct": -10.635190402360195,
       "mfe_pct": 5.352864504860411,
-      "mae_dato": "2026-06-24T22:36:20.480030+00:00",
+      "mae_dato": "2026-06-25T22:41:42.220742+00:00",
       "mfe_dato": "2026-06-05T22:25:26.450074+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -536,11 +605,11 @@
         "obv_rising": "False",
         "dato": "2026-06-18"
       },
-      "mae_local": 23.709999084472656,
+      "mae_local": 23.59000015258789,
       "mfe_local": 24.649999618530273,
-      "mae_pct": -2.3647462974789923,
+      "mae_pct": -2.8588891321901566,
       "mfe_pct": 1.5060758942993413,
-      "mae_dato": "2026-06-22T22:53:23.495071+00:00",
+      "mae_dato": "2026-06-25T22:41:42.220742+00:00",
       "mfe_dato": "2026-06-22T22:53:23.495071+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -599,11 +668,11 @@
         "obv_rising": "False",
         "dato": "2026-06-19"
       },
-      "mae_local": 95.69999694824219,
+      "mae_local": 94.5999984741211,
       "mfe_local": 98.75,
-      "mae_pct": -2.294947320850993,
+      "mae_pct": -3.417992381334234,
       "mfe_pct": 0.8189577820376881,
-      "mae_dato": "2026-06-24T22:36:20.480030+00:00",
+      "mae_dato": "2026-06-25T22:41:42.220742+00:00",
       "mfe_dato": "2026-06-23T22:20:41.885742+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -1507,6 +1576,38 @@
         "obv_rising": "True",
         "dato": "2026-06-22"
       }
+    },
+    {
+      "symbol": "SAN.MC",
+      "signal_pris": 11.316300230026243,
+      "open_pris": 11.965999603271484,
+      "gap_pct": 5.741270203501259,
+      "dato": "2026-06-25T22:41:42.220742+00:00",
+      "signal_snapshot": {
+        "score": 82.3175678946416,
+        "rs_score": 81.63757570077806,
+        "vsa_score": 79.42098394802726,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-23"
+      }
+    },
+    {
+      "symbol": "BNP.PA",
+      "signal_pris": 95.97749999999999,
+      "open_pris": 102.13999938964844,
+      "gap_pct": 6.42077506670673,
+      "dato": "2026-06-25T22:41:42.220742+00:00",
+      "signal_snapshot": {
+        "score": 77.91880710934491,
+        "rs_score": 74.39632499146235,
+        "vsa_score": 71.99969870635404,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-23"
+      }
     }
   ],
   "equity_curve": [
@@ -1683,6 +1784,12 @@
       "equity_nok": 89571.72645107834,
       "n_open": 5,
       "n_pending": 12
+    },
+    {
+      "date": "2026-06-25",
+      "equity_nok": 88160.49592377275,
+      "n_open": 5,
+      "n_pending": 15
     }
   ]
 }
