@@ -1,8 +1,8 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-06-29T22:19:09.120557+00:00",
+  "last_updated": "2026-06-30T22:23:39.357028+00:00",
   "start_kapital_nok": 100000.0,
-  "kontanter_nok": 21676.849402309723,
+  "kontanter_nok": 5980.446292645496,
   "pending_orders": [
     {
       "symbol": "CFR.SW",
@@ -15,39 +15,62 @@
       "stop_local": 157.045,
       "target_local": 215.3440184020996,
       "atr_local": 9.716503067016603,
-      "opprettet_dato": "2026-06-29T22:17:38.242272+00:00",
-      "utloper_dato": "2026-07-09T22:17:38.242272+00:00",
+      "opprettet_dato": "2026-06-30T22:22:13.612864+00:00",
+      "utloper_dato": "2026-07-10T22:22:13.612864+00:00",
       "signal_snapshot": {
-        "score": 81.31496768858847,
-        "rs_score": 86.21314281564445,
+        "score": 83.64632651377858,
+        "rs_score": 93.98433889961149,
         "vsa_score": 71.5034161463171,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-06-26"
+        "dato": "2026-06-29"
       }
     },
     {
-      "symbol": "LIN.DE",
-      "name": "Linde",
-      "sector": "Chemicals",
+      "symbol": "FER.MC",
+      "name": "Ferrovial",
+      "sector": "Construction",
       "region": "EUROPE",
       "currency": "EUR",
       "signal_type": "Markup",
-      "signal_pris_local": 451.64699386596675,
-      "stop_local": 432.7680059814453,
-      "target_local": 489.40496963500965,
-      "atr_local": 9.439493942260725,
-      "opprettet_dato": "2026-06-29T22:17:38.242272+00:00",
-      "utloper_dato": "2026-07-09T22:17:38.242272+00:00",
+      "signal_pris_local": 60.380401840209956,
+      "stop_local": 54.429200897216795,
+      "target_local": 72.28280372619628,
+      "atr_local": 2.9756004714965805,
+      "opprettet_dato": "2026-06-30T22:22:13.612864+00:00",
+      "utloper_dato": "2026-07-10T22:22:13.612864+00:00",
       "signal_snapshot": {
-        "score": 75.76956927642686,
-        "rs_score": 84.23189758808955,
-        "vsa_score": 75.0,
-        "wyckoff_phase": "unclear",
+        "score": 82.57907441022552,
+        "rs_score": 83.58734243898752,
+        "vsa_score": 71.67623892843086,
+        "wyckoff_phase": "accumulation",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-06-26"
+        "dato": "2026-06-29"
+      }
+    },
+    {
+      "symbol": "DGE.L",
+      "name": "Diageo",
+      "sector": "Food Beverage",
+      "region": "EUROPE",
+      "currency": "GBP",
+      "signal_type": "Markup",
+      "signal_pris_local": 15.522224999999999,
+      "stop_local": 14.3521,
+      "target_local": 17.862474999999996,
+      "atr_local": 0.5850624999999994,
+      "opprettet_dato": "2026-06-30T22:22:13.612864+00:00",
+      "utloper_dato": "2026-07-10T22:22:13.612864+00:00",
+      "signal_snapshot": {
+        "score": 69.37484101635728,
+        "rs_score": 92.91613672119095,
+        "vsa_score": 65.0,
+        "wyckoff_phase": "distribution",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-30"
       }
     }
   ],
@@ -180,11 +203,11 @@
         "obv_rising": "True",
         "dato": "2026-05-29"
       },
-      "mae_local": 52.08000183105469,
+      "mae_local": 51.2400016784668,
       "mfe_local": 62.599998474121094,
-      "mae_pct": -12.351796963889294,
+      "mae_pct": -13.765477865115482,
       "mfe_pct": 5.352864504860411,
-      "mae_dato": "2026-06-29T22:17:38.242272+00:00",
+      "mae_dato": "2026-06-30T22:22:13.612864+00:00",
       "mfe_dato": "2026-06-05T22:25:26.450074+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -322,6 +345,69 @@
         {
           "date": "2026-06-23T22:20:41.885742+00:00",
           "stop_local": 92.88,
+          "type": "initial_wyckoff"
+        }
+      ]
+    },
+    {
+      "symbol": "LIN.DE",
+      "name": "Linde",
+      "sector": "Chemicals",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Markup",
+      "fill_type": "limit",
+      "signal_pris_local": 451.64699386596675,
+      "initial_entry_local": 452.09864085983264,
+      "avg_entry_local": 452.09864085983264,
+      "shares": 3,
+      "kostnad_nok": 15696.403109664227,
+      "sizing_method": "capital_capped",
+      "fills": [
+        {
+          "date": "2026-06-30T22:22:13.612864+00:00",
+          "price_local": 452.09864085983264,
+          "shares": 3,
+          "cost_nok": 15696.403109664227,
+          "type": "initial",
+          "fill_type": "limit"
+        }
+      ],
+      "opened_at": "2026-06-30T22:22:13.612864+00:00",
+      "initial_stop_local": 432.7680059814453,
+      "current_stop_local": 432.7680059814453,
+      "target_local": 489.40496963500965,
+      "atr_local": 9.439493942260725,
+      "stop_type": "wyckoff",
+      "high_water_local": 457.6000061035156,
+      "low_water_local": 452.09864085983264,
+      "pyramid_count": 0,
+      "skipped_pyramids": [],
+      "signal_snapshot": {
+        "score": 75.76956927642686,
+        "rs_score": 84.23189758808955,
+        "vsa_score": 75.0,
+        "wyckoff_phase": "unclear",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-26"
+      },
+      "mae_local": 446.0,
+      "mfe_local": 457.6000061035156,
+      "mae_pct": -1.348962440637691,
+      "mfe_pct": 1.2168506486151198,
+      "mae_dato": "2026-06-30T22:22:13.612864+00:00",
+      "mfe_dato": "2026-06-30T22:22:13.612864+00:00",
+      "orig_stop_truffet": false,
+      "orig_stop_dato": null,
+      "orig_stop_pnl_pct": null,
+      "orig_target_truffet": false,
+      "orig_target_dato": null,
+      "orig_target_pnl_pct": null,
+      "stop_historie": [
+        {
+          "date": "2026-06-30T22:22:13.612864+00:00",
+          "stop_local": 432.7680059814453,
           "type": "initial_wyckoff"
         }
       ]
@@ -1396,6 +1482,22 @@
         "obv_rising": "True",
         "dato": "2026-06-25"
       }
+    },
+    {
+      "symbol": "CFR.SW",
+      "signal_pris": 176.4780061340332,
+      "open_pris": 187.1999969482422,
+      "gap_pct": 6.075539410880326,
+      "dato": "2026-06-30T22:22:13.612864+00:00",
+      "signal_snapshot": {
+        "score": 81.31496768858847,
+        "rs_score": 86.21314281564445,
+        "vsa_score": 71.5034161463171,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-26"
+      }
     }
   ],
   "equity_curve": [
@@ -1590,6 +1692,12 @@
       "equity_nok": 87664.62912452346,
       "n_open": 4,
       "n_pending": 2
+    },
+    {
+      "date": "2026-06-30",
+      "equity_nok": 86817.60604873375,
+      "n_open": 5,
+      "n_pending": 3
     }
   ]
 }
