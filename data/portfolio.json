@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-06-30T22:23:39.357028+00:00",
+  "last_updated": "2026-07-01T22:26:09.388705+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 5980.446292645496,
   "pending_orders": [
@@ -12,19 +12,42 @@
       "currency": "CHF",
       "signal_type": "Markup",
       "signal_pris_local": 176.4780061340332,
-      "stop_local": 157.045,
-      "target_local": 215.3440184020996,
-      "atr_local": 9.716503067016603,
-      "opprettet_dato": "2026-06-30T22:22:13.612864+00:00",
-      "utloper_dato": "2026-07-10T22:22:13.612864+00:00",
+      "stop_local": 174.39099700927733,
+      "target_local": 180.65202438354493,
+      "atr_local": 1.764780061340332,
+      "opprettet_dato": "2026-07-01T22:24:49.722077+00:00",
+      "utloper_dato": "2026-07-11T22:24:49.722077+00:00",
       "signal_snapshot": {
-        "score": 83.64632651377858,
-        "rs_score": 93.98433889961149,
+        "score": 83.58068627531935,
+        "rs_score": 93.76553810474742,
         "vsa_score": 71.5034161463171,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-06-29"
+        "dato": "2026-06-30"
+      }
+    },
+    {
+      "symbol": "CS.PA",
+      "name": "AXA",
+      "sector": "Insurance",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Markup",
+      "signal_pris_local": 41.59694938659668,
+      "stop_local": 38.20530059814453,
+      "target_local": 48.380246963500966,
+      "atr_local": 1.6958243942260722,
+      "opprettet_dato": "2026-07-01T22:24:49.722077+00:00",
+      "utloper_dato": "2026-07-11T22:24:49.722077+00:00",
+      "signal_snapshot": {
+        "score": 83.47638854260867,
+        "rs_score": 84.7451294627248,
+        "vsa_score": 80.1761656793041,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-30"
       }
     },
     {
@@ -38,16 +61,39 @@
       "stop_local": 54.429200897216795,
       "target_local": 72.28280372619628,
       "atr_local": 2.9756004714965805,
-      "opprettet_dato": "2026-06-30T22:22:13.612864+00:00",
-      "utloper_dato": "2026-07-10T22:22:13.612864+00:00",
+      "opprettet_dato": "2026-07-01T22:24:49.722077+00:00",
+      "utloper_dato": "2026-07-11T22:24:49.722077+00:00",
       "signal_snapshot": {
-        "score": 82.57907441022552,
-        "rs_score": 83.58734243898752,
+        "score": 79.32560690540217,
+        "rs_score": 72.74245075624303,
         "vsa_score": 71.67623892843086,
         "wyckoff_phase": "accumulation",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-06-29"
+        "dato": "2026-06-30"
+      }
+    },
+    {
+      "symbol": "IBE.MC",
+      "name": "Iberdrola",
+      "sector": "Utilities",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Markup",
+      "signal_pris_local": 20.703000383377073,
+      "stop_local": 18.899299850463866,
+      "target_local": 24.31040144920349,
+      "atr_local": 0.9018502664566039,
+      "opprettet_dato": "2026-07-01T22:24:49.722077+00:00",
+      "utloper_dato": "2026-07-11T22:24:49.722077+00:00",
+      "signal_snapshot": {
+        "score": 76.60713879091918,
+        "rs_score": 77.0237959697306,
+        "vsa_score": 65.0,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-30"
       }
     },
     {
@@ -61,16 +107,16 @@
       "stop_local": 14.3521,
       "target_local": 17.862474999999996,
       "atr_local": 0.5850624999999994,
-      "opprettet_dato": "2026-06-30T22:22:13.612864+00:00",
-      "utloper_dato": "2026-07-10T22:22:13.612864+00:00",
+      "opprettet_dato": "2026-07-01T22:24:49.722077+00:00",
+      "utloper_dato": "2026-07-11T22:24:49.722077+00:00",
       "signal_snapshot": {
-        "score": 69.37484101635728,
-        "rs_score": 92.91613672119095,
+        "score": 67.13521880430176,
+        "rs_score": 85.45072934767252,
         "vsa_score": 65.0,
         "wyckoff_phase": "distribution",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-06-30"
+        "dato": "2026-07-01"
       }
     }
   ],
@@ -1498,6 +1544,22 @@
         "obv_rising": "True",
         "dato": "2026-06-26"
       }
+    },
+    {
+      "symbol": "CFR.SW",
+      "signal_pris": 176.4780061340332,
+      "open_pris": 189.8000030517578,
+      "gap_pct": 7.548814274117932,
+      "dato": "2026-07-01T22:24:49.722077+00:00",
+      "signal_snapshot": {
+        "score": 83.64632651377858,
+        "rs_score": 93.98433889961149,
+        "vsa_score": 71.5034161463171,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-29"
+      }
     }
   ],
   "equity_curve": [
@@ -1698,6 +1760,12 @@
       "equity_nok": 86817.60604873375,
       "n_open": 5,
       "n_pending": 3
+    },
+    {
+      "date": "2026-07-01",
+      "equity_nok": 89255.30576224999,
+      "n_open": 5,
+      "n_pending": 5
     }
   ]
 }
