@@ -1,9 +1,55 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-07-02T22:17:43.792361+00:00",
+  "last_updated": "2026-07-03T22:14:24.060699+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 5980.446292645496,
   "pending_orders": [
+    {
+      "symbol": "BOL.ST",
+      "name": "Boliden",
+      "sector": "Basic Resources",
+      "region": "NORDIC",
+      "currency": "SEK",
+      "signal_type": "Spring",
+      "signal_pris_local": 525.2000122070312,
+      "stop_local": 503.03999999999996,
+      "target_local": 569.5200366210938,
+      "atr_local": 11.080006103515643,
+      "opprettet_dato": "2026-07-03T22:13:15.714001+00:00",
+      "utloper_dato": "2026-07-13T22:13:15.714001+00:00",
+      "signal_snapshot": {
+        "score": 73.00631796883417,
+        "rs_score": 66.68772656278058,
+        "vsa_score": 50.0,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-07-02"
+      }
+    },
+    {
+      "symbol": "CS.PA",
+      "name": "AXA",
+      "sector": "Insurance",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Markup",
+      "signal_pris_local": 41.59694938659668,
+      "stop_local": 38.20530059814453,
+      "target_local": 48.380246963500966,
+      "atr_local": 1.6958243942260722,
+      "opprettet_dato": "2026-07-03T22:13:15.714001+00:00",
+      "utloper_dato": "2026-07-13T22:13:15.714001+00:00",
+      "signal_snapshot": {
+        "score": 84.40658654301927,
+        "rs_score": 87.84578946409351,
+        "vsa_score": 80.1761656793041,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-07-02"
+      }
+    },
     {
       "symbol": "CFR.SW",
       "name": "Richemont",
@@ -15,16 +61,16 @@
       "stop_local": 174.39099700927733,
       "target_local": 180.65202438354493,
       "atr_local": 1.764780061340332,
-      "opprettet_dato": "2026-07-02T22:16:03.052012+00:00",
-      "utloper_dato": "2026-07-12T22:16:03.052012+00:00",
+      "opprettet_dato": "2026-07-03T22:13:15.714001+00:00",
+      "utloper_dato": "2026-07-13T22:13:15.714001+00:00",
       "signal_snapshot": {
-        "score": 81.2985242620827,
-        "rs_score": 86.15833139395858,
+        "score": 78.28256791846295,
+        "rs_score": 76.10514358189273,
         "vsa_score": 71.5034161463171,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-07-01"
+        "dato": "2026-07-02"
       }
     },
     {
@@ -38,36 +84,13 @@
       "stop_local": 18.899299850463866,
       "target_local": 24.31040144920349,
       "atr_local": 0.9018502664566039,
-      "opprettet_dato": "2026-07-02T22:16:03.052012+00:00",
-      "utloper_dato": "2026-07-12T22:16:03.052012+00:00",
+      "opprettet_dato": "2026-07-03T22:13:15.714001+00:00",
+      "utloper_dato": "2026-07-13T22:13:15.714001+00:00",
       "signal_snapshot": {
-        "score": 75.43281541819303,
-        "rs_score": 73.1093847273101,
+        "score": 74.97330198557154,
+        "rs_score": 71.57767328523845,
         "vsa_score": 65.0,
         "wyckoff_phase": "markup",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-07-01"
-      }
-    },
-    {
-      "symbol": "DGE.L",
-      "name": "Diageo",
-      "sector": "Food Beverage",
-      "region": "EUROPE",
-      "currency": "GBP",
-      "signal_type": "Markup",
-      "signal_pris_local": 15.522224999999999,
-      "stop_local": 14.3521,
-      "target_local": 17.862474999999996,
-      "atr_local": 0.5850624999999994,
-      "opprettet_dato": "2026-07-02T22:16:03.052012+00:00",
-      "utloper_dato": "2026-07-12T22:16:03.052012+00:00",
-      "signal_snapshot": {
-        "score": 67.00421393592535,
-        "rs_score": 85.01404645308448,
-        "vsa_score": 65.0,
-        "wyckoff_phase": "distribution",
         "triple_rs": true,
         "obv_rising": "True",
         "dato": "2026-07-02"
@@ -375,14 +398,20 @@
       ],
       "opened_at": "2026-06-30T22:22:13.612864+00:00",
       "initial_stop_local": 432.7680059814453,
-      "current_stop_local": 432.7680059814453,
+      "current_stop_local": 449.12101211547855,
       "target_local": 489.40496963500965,
       "atr_local": 9.439493942260725,
-      "stop_type": "wyckoff",
-      "high_water_local": 457.6000061035156,
+      "stop_type": "trailing_atr",
+      "high_water_local": 468.0,
       "low_water_local": 452.09864085983264,
       "pyramid_count": 0,
-      "skipped_pyramids": [],
+      "skipped_pyramids": [
+        {
+          "trigger_dato": "2026-07-03T22:13:15.714001+00:00",
+          "trigger_pris": 461.5381348020934,
+          "grunn": "for lite kontanter"
+        }
+      ],
       "signal_snapshot": {
         "score": 75.76956927642686,
         "rs_score": 84.23189758808955,
@@ -393,11 +422,11 @@
         "dato": "2026-06-26"
       },
       "mae_local": 446.0,
-      "mfe_local": 457.6000061035156,
+      "mfe_local": 468.0,
       "mae_pct": -1.348962440637691,
-      "mfe_pct": 1.2168506486151198,
+      "mfe_pct": 3.5172322371783915,
       "mae_dato": "2026-06-30T22:22:13.612864+00:00",
-      "mfe_dato": "2026-06-30T22:22:13.612864+00:00",
+      "mfe_dato": "2026-07-03T22:13:15.714001+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -409,6 +438,11 @@
           "date": "2026-06-30T22:22:13.612864+00:00",
           "stop_local": 432.7680059814453,
           "type": "initial_wyckoff"
+        },
+        {
+          "date": "2026-07-03T22:13:15.714001+00:00",
+          "stop_local": 449.12101211547855,
+          "type": "trailing_atr_initial"
         }
       ]
     }
@@ -1758,6 +1792,12 @@
       "equity_nok": 88182.50590758995,
       "n_open": 5,
       "n_pending": 3
+    },
+    {
+      "date": "2026-07-03",
+      "equity_nok": 89658.76750541406,
+      "n_open": 5,
+      "n_pending": 4
     }
   ]
 }
