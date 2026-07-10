@@ -1,32 +1,9 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-07-09T22:42:15.672949+00:00",
+  "last_updated": "2026-07-10T22:14:33.864057+00:00",
   "start_kapital_nok": 100000.0,
-  "kontanter_nok": 5980.446292645496,
+  "kontanter_nok": 45105.47773797813,
   "pending_orders": [
-    {
-      "symbol": "SKF-B.ST",
-      "name": "SKF B",
-      "sector": "Industrial Goods",
-      "region": "NORDIC",
-      "currency": "SEK",
-      "signal_type": "Markup",
-      "signal_pris_local": 253.66199386596676,
-      "stop_local": 230.10400299072265,
-      "target_local": 300.777975616455,
-      "atr_local": 11.778995437622058,
-      "opprettet_dato": "2026-07-09T22:40:59.617449+00:00",
-      "utloper_dato": "2026-07-19T22:40:59.617449+00:00",
-      "signal_snapshot": {
-        "score": 73.25242633579055,
-        "rs_score": 87.88231342125262,
-        "vsa_score": 82.95910769804918,
-        "wyckoff_phase": "distribution",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-07-08"
-      }
-    },
     {
       "symbol": "RACE.MI",
       "name": "Ferrari",
@@ -38,16 +15,16 @@
       "stop_local": 291.50101196289063,
       "target_local": 412.55101287841785,
       "atr_local": 20.17500015258787,
-      "opprettet_dato": "2026-07-09T22:40:59.617449+00:00",
-      "utloper_dato": "2026-07-19T22:40:59.617449+00:00",
+      "opprettet_dato": "2026-07-10T22:13:00.868364+00:00",
+      "utloper_dato": "2026-07-20T22:13:00.868364+00:00",
       "signal_snapshot": {
-        "score": 81.89209382960595,
-        "rs_score": 81.17176087427119,
+        "score": 81.61658113564144,
+        "rs_score": 80.25338522772284,
         "vsa_score": 71.80188522441532,
         "wyckoff_phase": "accumulation",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-07-08"
+        "dato": "2026-07-09"
       }
     },
     {
@@ -57,20 +34,20 @@
       "region": "EUROPE",
       "currency": "GBP",
       "signal_type": "Spring",
-      "signal_pris_local": 133.54,
+      "signal_pris_local": 128.34,
       "stop_local": 121.344,
-      "target_local": 157.932,
-      "atr_local": 6.097999999999999,
-      "opprettet_dato": "2026-07-09T22:40:59.617449+00:00",
-      "utloper_dato": "2026-07-19T22:40:59.617449+00:00",
+      "target_local": 142.33200000000002,
+      "atr_local": 3.4980000000000047,
+      "opprettet_dato": "2026-07-10T22:13:00.868364+00:00",
+      "utloper_dato": "2026-07-20T22:13:00.868364+00:00",
       "signal_snapshot": {
-        "score": 78.35384200515217,
-        "rs_score": 54.804886649073,
+        "score": 75.83038363920193,
+        "rs_score": 46.393358762572134,
         "vsa_score": 79.7079200347676,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-07-09"
+        "dato": "2026-07-10"
       }
     },
     {
@@ -80,109 +57,24 @@
       "region": "EUROPE",
       "currency": "EUR",
       "signal_type": "Spring",
-      "signal_pris_local": 1.9420000314712524,
+      "signal_pris_local": 1.940999984741211,
       "stop_local": 1.852799949645996,
-      "target_local": 2.1204001951217655,
-      "atr_local": 0.04460004091262826,
-      "opprettet_dato": "2026-07-09T22:40:59.617449+00:00",
-      "utloper_dato": "2026-07-19T22:40:59.617449+00:00",
+      "target_local": 2.117400054931641,
+      "atr_local": 0.044100017547607506,
+      "opprettet_dato": "2026-07-10T22:13:00.868364+00:00",
+      "utloper_dato": "2026-07-20T22:13:00.868364+00:00",
       "signal_snapshot": {
-        "score": 68.48412505027068,
-        "rs_score": 41.67193441719421,
+        "score": 67.94351525683152,
+        "rs_score": 39.869901772397014,
         "vsa_score": 59.94181575037471,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-07-08"
+        "dato": "2026-07-09"
       }
     }
   ],
   "open_positions": [
-    {
-      "symbol": "ELK.OL",
-      "name": "Elkem",
-      "sector": "Chemicals",
-      "region": "OSLO",
-      "currency": "NOK",
-      "signal_type": "Markup",
-      "fill_type": "limit",
-      "signal_pris_local": 30.451499233245848,
-      "initial_entry_local": 30.48195073247909,
-      "avg_entry_local": 31.20191809269497,
-      "shares": 787,
-      "kostnad_nok": 24745.882873374572,
-      "sizing_method": "risk_based",
-      "fills": [
-        {
-          "date": "2026-05-26T22:37:20.913461+00:00",
-          "price_local": 30.48195073247909,
-          "shares": 542,
-          "cost_nok": 16620.217297003666,
-          "type": "initial",
-          "fill_type": "limit"
-        },
-        {
-          "date": "2026-05-28T22:47:47.787160+00:00",
-          "price_local": 32.79466221202969,
-          "shares": 245,
-          "cost_nok": 8125.665576370905,
-          "type": "pyramid_1"
-        }
-      ],
-      "opened_at": "2026-05-26T22:37:20.913461+00:00",
-      "initial_stop_local": 25.891600074768068,
-      "current_stop_local": 30.040099315643314,
-      "target_local": 39.57129755020141,
-      "atr_local": 2.27994957923889,
-      "stop_type": "trailing_atr",
-      "high_water_local": 34.599998474121094,
-      "low_water_local": 30.48195073247909,
-      "pyramid_count": 1,
-      "skipped_pyramids": [],
-      "signal_snapshot": {
-        "score": 89.28911506118678,
-        "rs_score": 93.2061948248732,
-        "vsa_score": 91.09085537908273,
-        "wyckoff_phase": "markup",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-05-22"
-      },
-      "mae_local": 30.059999465942383,
-      "mfe_local": 34.599998474121094,
-      "mae_pct": -1.3842659554170522,
-      "mfe_pct": 13.509790688212586,
-      "mae_dato": "2026-05-26T22:37:20.913461+00:00",
-      "mfe_dato": "2026-06-04T22:41:41.120654+00:00",
-      "orig_stop_truffet": false,
-      "orig_stop_dato": null,
-      "orig_stop_pnl_pct": null,
-      "orig_target_truffet": false,
-      "orig_target_dato": null,
-      "orig_target_pnl_pct": null,
-      "stop_historie": [
-        {
-          "date": "2026-05-26T22:37:20.913461+00:00",
-          "stop_local": 25.891600074768068,
-          "type": "initial_wyckoff"
-        },
-        {
-          "date": "2026-06-02T23:06:55.420918+00:00",
-          "stop_local": 29.400099925994876,
-          "type": "trailing_atr_initial"
-        },
-        {
-          "date": "2026-06-03T23:09:31.113899+00:00",
-          "stop_local": 29.76010053634644,
-          "type": "trailing_atr_update"
-        },
-        {
-          "date": "2026-06-04T22:41:41.120654+00:00",
-          "stop_local": 30.040099315643314,
-          "type": "trailing_atr_update"
-        }
-      ]
-    },
     {
       "symbol": "MT.AS",
       "name": "ArcelorMittal",
@@ -276,7 +168,7 @@
       "target_local": 116.1355,
       "atr_local": 8.004249999999999,
       "stop_type": "wyckoff",
-      "high_water_local": 84.5,
+      "high_water_local": 85.94,
       "low_water_local": 84.20261849999999,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -290,11 +182,11 @@
         "dato": "2026-06-11"
       },
       "mae_local": 71.72,
-      "mfe_local": 84.5,
+      "mfe_local": 85.94,
       "mae_pct": -14.824501568202407,
-      "mfe_pct": 0.3531736961363219,
+      "mfe_pct": 2.063334289301233,
       "mae_dato": "2026-06-26T22:21:26.415103+00:00",
-      "mfe_dato": "2026-06-16T22:55:59.679471+00:00",
+      "mfe_dato": "2026-07-10T22:13:00.868364+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -375,135 +267,6 @@
           "date": "2026-06-23T22:20:41.885742+00:00",
           "stop_local": 92.88,
           "type": "initial_wyckoff"
-        }
-      ]
-    },
-    {
-      "symbol": "LIN.DE",
-      "name": "Linde",
-      "sector": "Chemicals",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "fill_type": "limit",
-      "signal_pris_local": 451.64699386596675,
-      "initial_entry_local": 452.09864085983264,
-      "avg_entry_local": 452.09864085983264,
-      "shares": 3,
-      "kostnad_nok": 15696.403109664227,
-      "sizing_method": "capital_capped",
-      "fills": [
-        {
-          "date": "2026-06-30T22:22:13.612864+00:00",
-          "price_local": 452.09864085983264,
-          "shares": 3,
-          "cost_nok": 15696.403109664227,
-          "type": "initial",
-          "fill_type": "limit"
-        }
-      ],
-      "opened_at": "2026-06-30T22:22:13.612864+00:00",
-      "initial_stop_local": 432.7680059814453,
-      "current_stop_local": 460.5210060119629,
-      "target_local": 489.40496963500965,
-      "atr_local": 9.439493942260725,
-      "stop_type": "trailing_atr",
-      "high_water_local": 479.3999938964844,
-      "low_water_local": 452.09864085983264,
-      "pyramid_count": 0,
-      "skipped_pyramids": [
-        {
-          "trigger_dato": "2026-07-03T22:13:15.714001+00:00",
-          "trigger_pris": 461.5381348020934,
-          "grunn": "for lite kontanter"
-        },
-        {
-          "trigger_dato": "2026-07-06T22:22:58.810840+00:00",
-          "trigger_pris": 461.5381348020934,
-          "grunn": "for lite kontanter"
-        },
-        {
-          "trigger_dato": "2026-07-06T22:22:58.810840+00:00",
-          "trigger_pris": 470.9776287443541,
-          "grunn": "for lite kontanter"
-        },
-        {
-          "trigger_dato": "2026-07-07T22:19:33.796431+00:00",
-          "trigger_pris": 461.5381348020934,
-          "grunn": "for lite kontanter"
-        },
-        {
-          "trigger_dato": "2026-07-07T22:19:33.796431+00:00",
-          "trigger_pris": 470.9776287443541,
-          "grunn": "for lite kontanter"
-        },
-        {
-          "trigger_dato": "2026-07-08T22:14:43.449702+00:00",
-          "trigger_pris": 461.5381348020934,
-          "grunn": "for lite kontanter"
-        },
-        {
-          "trigger_dato": "2026-07-08T22:14:43.449702+00:00",
-          "trigger_pris": 470.9776287443541,
-          "grunn": "for lite kontanter"
-        },
-        {
-          "trigger_dato": "2026-07-09T22:40:59.617449+00:00",
-          "trigger_pris": 461.5381348020934,
-          "grunn": "for lite kontanter"
-        },
-        {
-          "trigger_dato": "2026-07-09T22:40:59.617449+00:00",
-          "trigger_pris": 470.9776287443541,
-          "grunn": "for lite kontanter"
-        }
-      ],
-      "signal_snapshot": {
-        "score": 75.76956927642686,
-        "rs_score": 84.23189758808955,
-        "vsa_score": 75.0,
-        "wyckoff_phase": "unclear",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-06-26"
-      },
-      "mae_local": 446.0,
-      "mfe_local": 479.3999938964844,
-      "mae_pct": -1.348962440637691,
-      "mfe_pct": 6.0388044929151175,
-      "mae_dato": "2026-06-30T22:22:13.612864+00:00",
-      "mfe_dato": "2026-07-08T22:14:43.449702+00:00",
-      "orig_stop_truffet": false,
-      "orig_stop_dato": null,
-      "orig_stop_pnl_pct": null,
-      "orig_target_truffet": false,
-      "orig_target_dato": null,
-      "orig_target_pnl_pct": null,
-      "stop_historie": [
-        {
-          "date": "2026-06-30T22:22:13.612864+00:00",
-          "stop_local": 432.7680059814453,
-          "type": "initial_wyckoff"
-        },
-        {
-          "date": "2026-07-03T22:13:15.714001+00:00",
-          "stop_local": 449.12101211547855,
-          "type": "trailing_atr_initial"
-        },
-        {
-          "date": "2026-07-06T22:22:58.810840+00:00",
-          "stop_local": 456.5210060119629,
-          "type": "trailing_atr_update"
-        },
-        {
-          "date": "2026-07-07T22:19:33.796431+00:00",
-          "stop_local": 459.3210243225098,
-          "type": "trailing_atr_update"
-        },
-        {
-          "date": "2026-07-08T22:14:43.449702+00:00",
-          "stop_local": 460.5210060119629,
-          "type": "trailing_atr_update"
         }
       ]
     }
@@ -1175,6 +938,241 @@
       "pnl_pct_local": -4.586732167008223,
       "reason": "stop_loss",
       "closed_at": "2026-06-29T22:17:38.242272+00:00"
+    },
+    {
+      "symbol": "ELK.OL",
+      "name": "Elkem",
+      "sector": "Chemicals",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Markup",
+      "fill_type": "limit",
+      "signal_pris_local": 30.451499233245848,
+      "initial_entry_local": 30.48195073247909,
+      "avg_entry_local": 31.20191809269497,
+      "shares": 787,
+      "kostnad_nok": 24745.882873374572,
+      "sizing_method": "risk_based",
+      "fills": [
+        {
+          "date": "2026-05-26T22:37:20.913461+00:00",
+          "price_local": 30.48195073247909,
+          "shares": 542,
+          "cost_nok": 16620.217297003666,
+          "type": "initial",
+          "fill_type": "limit"
+        },
+        {
+          "date": "2026-05-28T22:47:47.787160+00:00",
+          "price_local": 32.79466221202969,
+          "shares": 245,
+          "cost_nok": 8125.665576370905,
+          "type": "pyramid_1"
+        }
+      ],
+      "opened_at": "2026-05-26T22:37:20.913461+00:00",
+      "initial_stop_local": 25.891600074768068,
+      "current_stop_local": 30.040099315643314,
+      "target_local": 39.57129755020141,
+      "atr_local": 2.27994957923889,
+      "stop_type": "trailing_atr",
+      "high_water_local": 34.599998474121094,
+      "low_water_local": 30.48195073247909,
+      "pyramid_count": 1,
+      "skipped_pyramids": [],
+      "signal_snapshot": {
+        "score": 89.28911506118678,
+        "rs_score": 93.2061948248732,
+        "vsa_score": 91.09085537908273,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-05-22"
+      },
+      "mae_local": 29.940000534057617,
+      "mfe_local": 34.599998474121094,
+      "mae_pct": -1.7779380433287417,
+      "mfe_pct": 13.509790688212586,
+      "mae_dato": "2026-07-10T22:13:00.868364+00:00",
+      "mfe_dato": "2026-06-04T22:41:41.120654+00:00",
+      "orig_stop_truffet": false,
+      "orig_stop_dato": null,
+      "orig_stop_pnl_pct": null,
+      "orig_target_truffet": false,
+      "orig_target_dato": null,
+      "orig_target_pnl_pct": null,
+      "stop_historie": [
+        {
+          "date": "2026-05-26T22:37:20.913461+00:00",
+          "stop_local": 25.891600074768068,
+          "type": "initial_wyckoff"
+        },
+        {
+          "date": "2026-06-02T23:06:55.420918+00:00",
+          "stop_local": 29.400099925994876,
+          "type": "trailing_atr_initial"
+        },
+        {
+          "date": "2026-06-03T23:09:31.113899+00:00",
+          "stop_local": 29.76010053634644,
+          "type": "trailing_atr_update"
+        },
+        {
+          "date": "2026-06-04T22:41:41.120654+00:00",
+          "stop_local": 30.040099315643314,
+          "type": "trailing_atr_update"
+        }
+      ],
+      "exit_pris_local": 30.01005921632767,
+      "exit_proceeds_nok": 23518.916603249876,
+      "pnl_nok": -1226.9662701246962,
+      "pnl_pct": -4.958264275326605,
+      "pnl_pct_local": -3.8198256684942145,
+      "reason": "stop_loss",
+      "closed_at": "2026-07-10T22:13:00.868364+00:00"
+    },
+    {
+      "symbol": "LIN.DE",
+      "name": "Linde",
+      "sector": "Chemicals",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Markup",
+      "fill_type": "limit",
+      "signal_pris_local": 451.64699386596675,
+      "initial_entry_local": 452.09864085983264,
+      "avg_entry_local": 457.7563734752971,
+      "shares": 7,
+      "kostnad_nok": 37026.15731056052,
+      "sizing_method": "capital_capped",
+      "fills": [
+        {
+          "date": "2026-06-30T22:22:13.612864+00:00",
+          "price_local": 452.09864085983264,
+          "shares": 3,
+          "cost_nok": 15696.403109664227,
+          "type": "initial",
+          "fill_type": "limit"
+        },
+        {
+          "date": "2026-07-10T22:13:00.868364+00:00",
+          "price_local": 461.9996729368954,
+          "shares": 4,
+          "cost_nok": 21329.754200896296,
+          "type": "pyramid_1"
+        }
+      ],
+      "opened_at": "2026-06-30T22:22:13.612864+00:00",
+      "initial_stop_local": 432.7680059814453,
+      "current_stop_local": 460.5210060119629,
+      "target_local": 489.40496963500965,
+      "atr_local": 9.439493942260725,
+      "stop_type": "trailing_atr",
+      "high_water_local": 479.3999938964844,
+      "low_water_local": 452.09864085983264,
+      "pyramid_count": 1,
+      "skipped_pyramids": [
+        {
+          "trigger_dato": "2026-07-03T22:13:15.714001+00:00",
+          "trigger_pris": 461.5381348020934,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-07-06T22:22:58.810840+00:00",
+          "trigger_pris": 461.5381348020934,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-07-06T22:22:58.810840+00:00",
+          "trigger_pris": 470.9776287443541,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-07-07T22:19:33.796431+00:00",
+          "trigger_pris": 461.5381348020934,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-07-07T22:19:33.796431+00:00",
+          "trigger_pris": 470.9776287443541,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-07-08T22:14:43.449702+00:00",
+          "trigger_pris": 461.5381348020934,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-07-08T22:14:43.449702+00:00",
+          "trigger_pris": 470.9776287443541,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-07-09T22:40:59.617449+00:00",
+          "trigger_pris": 461.5381348020934,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-07-09T22:40:59.617449+00:00",
+          "trigger_pris": 470.9776287443541,
+          "grunn": "for lite kontanter"
+        }
+      ],
+      "signal_snapshot": {
+        "score": 75.76956927642686,
+        "rs_score": 84.23189758808955,
+        "vsa_score": 75.0,
+        "wyckoff_phase": "unclear",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-06-26"
+      },
+      "mae_local": 446.0,
+      "mfe_local": 479.3999938964844,
+      "mae_pct": -1.348962440637691,
+      "mfe_pct": 6.0388044929151175,
+      "mae_dato": "2026-06-30T22:22:13.612864+00:00",
+      "mfe_dato": "2026-07-08T22:14:43.449702+00:00",
+      "orig_stop_truffet": false,
+      "orig_stop_dato": null,
+      "orig_stop_pnl_pct": null,
+      "orig_target_truffet": false,
+      "orig_target_dato": null,
+      "orig_target_pnl_pct": null,
+      "stop_historie": [
+        {
+          "date": "2026-06-30T22:22:13.612864+00:00",
+          "stop_local": 432.7680059814453,
+          "type": "initial_wyckoff"
+        },
+        {
+          "date": "2026-07-03T22:13:15.714001+00:00",
+          "stop_local": 449.12101211547855,
+          "type": "trailing_atr_initial"
+        },
+        {
+          "date": "2026-07-06T22:22:58.810840+00:00",
+          "stop_local": 456.5210060119629,
+          "type": "trailing_atr_update"
+        },
+        {
+          "date": "2026-07-07T22:19:33.796431+00:00",
+          "stop_local": 459.3210243225098,
+          "type": "trailing_atr_update"
+        },
+        {
+          "date": "2026-07-08T22:14:43.449702+00:00",
+          "stop_local": 460.5210060119629,
+          "type": "trailing_atr_update"
+        }
+      ],
+      "exit_pris_local": 460.06048500595097,
+      "exit_proceeds_nok": 36935.86904297905,
+      "pnl_nok": -90.28826758146897,
+      "pnl_pct": -0.24384995403159798,
+      "pnl_pct_local": 0.5033488694348387,
+      "reason": "stop_loss",
+      "closed_at": "2026-07-10T22:13:00.868364+00:00"
     }
   ],
   "missed_extended": [
@@ -1931,6 +1929,12 @@
       "equity_nok": 88529.90598083215,
       "n_open": 5,
       "n_pending": 4
+    },
+    {
+      "date": "2026-07-10",
+      "equity_nok": 88445.63728006187,
+      "n_open": 3,
+      "n_pending": 3
     }
   ]
 }
