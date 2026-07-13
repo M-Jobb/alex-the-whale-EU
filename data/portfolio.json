@@ -1,79 +1,9 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-07-10T22:14:33.864057+00:00",
+  "last_updated": "2026-07-13T22:05:50.010427+00:00",
   "start_kapital_nok": 100000.0,
-  "kontanter_nok": 45105.47773797813,
-  "pending_orders": [
-    {
-      "symbol": "RACE.MI",
-      "name": "Ferrari",
-      "sector": "Automobiles",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "signal_pris_local": 331.85101226806637,
-      "stop_local": 291.50101196289063,
-      "target_local": 412.55101287841785,
-      "atr_local": 20.17500015258787,
-      "opprettet_dato": "2026-07-10T22:13:00.868364+00:00",
-      "utloper_dato": "2026-07-20T22:13:00.868364+00:00",
-      "signal_snapshot": {
-        "score": 81.61658113564144,
-        "rs_score": 80.25338522772284,
-        "vsa_score": 71.80188522441532,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-07-09"
-      }
-    },
-    {
-      "symbol": "AZN.L",
-      "name": "AstraZeneca",
-      "sector": "Health Care",
-      "region": "EUROPE",
-      "currency": "GBP",
-      "signal_type": "Spring",
-      "signal_pris_local": 128.34,
-      "stop_local": 121.344,
-      "target_local": 142.33200000000002,
-      "atr_local": 3.4980000000000047,
-      "opprettet_dato": "2026-07-10T22:13:00.868364+00:00",
-      "utloper_dato": "2026-07-20T22:13:00.868364+00:00",
-      "signal_snapshot": {
-        "score": 75.83038363920193,
-        "rs_score": 46.393358762572134,
-        "vsa_score": 79.7079200347676,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": false,
-        "obv_rising": "True",
-        "dato": "2026-07-10"
-      }
-    },
-    {
-      "symbol": "VIV.PA",
-      "name": "Vivendi",
-      "sector": "Media",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Spring",
-      "signal_pris_local": 1.940999984741211,
-      "stop_local": 1.852799949645996,
-      "target_local": 2.117400054931641,
-      "atr_local": 0.044100017547607506,
-      "opprettet_dato": "2026-07-10T22:13:00.868364+00:00",
-      "utloper_dato": "2026-07-20T22:13:00.868364+00:00",
-      "signal_snapshot": {
-        "score": 67.94351525683152,
-        "rs_score": 39.869901772397014,
-        "vsa_score": 59.94181575037471,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": false,
-        "obv_rising": "False",
-        "dato": "2026-07-09"
-      }
-    }
-  ],
+  "kontanter_nok": 12283.840127082749,
+  "pending_orders": [],
   "open_positions": [
     {
       "symbol": "MT.AS",
@@ -168,7 +98,7 @@
       "target_local": 116.1355,
       "atr_local": 8.004249999999999,
       "stop_type": "wyckoff",
-      "high_water_local": 85.94,
+      "high_water_local": 87.2,
       "low_water_local": 84.20261849999999,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -182,11 +112,11 @@
         "dato": "2026-06-11"
       },
       "mae_local": 71.72,
-      "mfe_local": 85.94,
+      "mfe_local": 87.2,
       "mae_pct": -14.824501568202407,
-      "mfe_pct": 2.063334289301233,
+      "mfe_pct": 3.5597248083205635,
       "mae_dato": "2026-06-26T22:21:26.415103+00:00",
-      "mfe_dato": "2026-07-10T22:13:00.868364+00:00",
+      "mfe_dato": "2026-07-13T22:04:41.559315+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -266,6 +196,132 @@
         {
           "date": "2026-06-23T22:20:41.885742+00:00",
           "stop_local": 92.88,
+          "type": "initial_wyckoff"
+        }
+      ]
+    },
+    {
+      "symbol": "RACE.MI",
+      "name": "Ferrari",
+      "sector": "Automobiles",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Markup",
+      "fill_type": "limit",
+      "signal_pris_local": 331.85101226806637,
+      "initial_entry_local": 332.1828632803344,
+      "avg_entry_local": 332.1828632803344,
+      "shares": 4,
+      "kostnad_nok": 15379.411710895383,
+      "sizing_method": "risk_based",
+      "fills": [
+        {
+          "date": "2026-07-13T22:04:41.559315+00:00",
+          "price_local": 332.1828632803344,
+          "shares": 4,
+          "cost_nok": 15379.411710895383,
+          "type": "initial",
+          "fill_type": "limit"
+        }
+      ],
+      "opened_at": "2026-07-13T22:04:41.559315+00:00",
+      "initial_stop_local": 291.50101196289063,
+      "current_stop_local": 291.50101196289063,
+      "target_local": 412.55101287841785,
+      "atr_local": 20.17500015258787,
+      "stop_type": "wyckoff",
+      "high_water_local": 333.3999938964844,
+      "low_water_local": 332.1828632803344,
+      "pyramid_count": 0,
+      "skipped_pyramids": [],
+      "signal_snapshot": {
+        "score": 81.61658113564144,
+        "rs_score": 80.25338522772284,
+        "vsa_score": 71.80188522441532,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-07-09"
+      },
+      "mae_local": 329.20001220703125,
+      "mfe_local": 333.3999938964844,
+      "mae_pct": -0.897954531382883,
+      "mfe_pct": 0.3664037946240484,
+      "mae_dato": "2026-07-13T22:04:41.559315+00:00",
+      "mfe_dato": "2026-07-13T22:04:41.559315+00:00",
+      "orig_stop_truffet": false,
+      "orig_stop_dato": null,
+      "orig_stop_pnl_pct": null,
+      "orig_target_truffet": false,
+      "orig_target_dato": null,
+      "orig_target_pnl_pct": null,
+      "stop_historie": [
+        {
+          "date": "2026-07-13T22:04:41.559315+00:00",
+          "stop_local": 291.50101196289063,
+          "type": "initial_wyckoff"
+        }
+      ]
+    },
+    {
+      "symbol": "AZN.L",
+      "name": "AstraZeneca",
+      "sector": "Health Care",
+      "region": "EUROPE",
+      "currency": "GBP",
+      "signal_type": "Spring",
+      "fill_type": "limit",
+      "signal_pris_local": 128.34,
+      "initial_entry_local": 128.46833999999998,
+      "avg_entry_local": 128.46833999999998,
+      "shares": 10,
+      "kostnad_nok": 17442.225899999998,
+      "sizing_method": "capital_capped",
+      "fills": [
+        {
+          "date": "2026-07-13T22:04:41.559315+00:00",
+          "price_local": 128.46833999999998,
+          "shares": 10,
+          "cost_nok": 17442.225899999998,
+          "type": "initial",
+          "fill_type": "limit"
+        }
+      ],
+      "opened_at": "2026-07-13T22:04:41.559315+00:00",
+      "initial_stop_local": 121.344,
+      "current_stop_local": 121.344,
+      "target_local": 142.33200000000002,
+      "atr_local": 3.4980000000000047,
+      "stop_type": "wyckoff",
+      "high_water_local": 128.46833999999998,
+      "low_water_local": 128.46833999999998,
+      "pyramid_count": 0,
+      "skipped_pyramids": [],
+      "signal_snapshot": {
+        "score": 75.83038363920193,
+        "rs_score": 46.393358762572134,
+        "vsa_score": 79.7079200347676,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "True",
+        "dato": "2026-07-10"
+      },
+      "mae_local": 125.46,
+      "mfe_local": 128.46833999999998,
+      "mae_pct": -2.34169757311411,
+      "mfe_pct": 0.0,
+      "mae_dato": "2026-07-13T22:04:41.559315+00:00",
+      "mfe_dato": "2026-07-13T22:04:41.559315+00:00",
+      "orig_stop_truffet": false,
+      "orig_stop_dato": null,
+      "orig_stop_pnl_pct": null,
+      "orig_target_truffet": false,
+      "orig_target_dato": null,
+      "orig_target_pnl_pct": null,
+      "stop_historie": [
+        {
+          "date": "2026-07-13T22:04:41.559315+00:00",
+          "stop_local": 121.344,
           "type": "initial_wyckoff"
         }
       ]
@@ -1935,6 +1991,12 @@
       "equity_nok": 88445.63728006187,
       "n_open": 3,
       "n_pending": 3
+    },
+    {
+      "date": "2026-07-13",
+      "equity_nok": 88833.49995603172,
+      "n_open": 5,
+      "n_pending": 0
     }
   ]
 }
