@@ -1,9 +1,125 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-07-13T22:05:50.010427+00:00",
+  "last_updated": "2026-07-14T22:09:39.456469+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 12283.840127082749,
-  "pending_orders": [],
+  "pending_orders": [
+    {
+      "symbol": "KOG.OL",
+      "name": "Kongsberg Gruppen",
+      "sector": "Industrial Goods",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Spring",
+      "signal_pris_local": 279.0,
+      "stop_local": 264.96,
+      "target_local": 307.08000000000004,
+      "atr_local": 7.02000000000001,
+      "opprettet_dato": "2026-07-14T22:08:36.306916+00:00",
+      "utloper_dato": "2026-07-24T22:08:36.306916+00:00",
+      "signal_snapshot": {
+        "score": 80.17742467446453,
+        "rs_score": 66.24823241349611,
+        "vsa_score": 74.34318316805233,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-07-13"
+      }
+    },
+    {
+      "symbol": "ELK.OL",
+      "name": "Elkem",
+      "sector": "Chemicals",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Spring",
+      "signal_pris_local": 32.70000076293945,
+      "stop_local": 29.702400512695313,
+      "target_local": 38.695201263427734,
+      "atr_local": 1.4988001251220702,
+      "opprettet_dato": "2026-07-14T22:08:36.306916+00:00",
+      "utloper_dato": "2026-07-24T22:08:36.306916+00:00",
+      "signal_snapshot": {
+        "score": 65.49206184092012,
+        "rs_score": 56.67816820096404,
+        "vsa_score": 81.62870460210299,
+        "wyckoff_phase": "distribution",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-07-13"
+      }
+    },
+    {
+      "symbol": "SHEL.L",
+      "name": "Shell",
+      "sector": "Energy",
+      "region": "EUROPE",
+      "currency": "GBP",
+      "signal_type": "Spring",
+      "signal_pris_local": 31.47,
+      "stop_local": 29.663999999999998,
+      "target_local": 35.082,
+      "atr_local": 0.9030000000000005,
+      "opprettet_dato": "2026-07-14T22:08:36.306916+00:00",
+      "utloper_dato": "2026-07-24T22:08:36.306916+00:00",
+      "signal_snapshot": {
+        "score": 91.4037247792601,
+        "rs_score": 85.77211048687698,
+        "vsa_score": 92.24030544399005,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "True",
+        "dato": "2026-07-14"
+      }
+    },
+    {
+      "symbol": "PSON.L",
+      "name": "Pearson",
+      "sector": "Media",
+      "region": "EUROPE",
+      "currency": "GBP",
+      "signal_type": "Markup",
+      "signal_pris_local": 11.808749999999998,
+      "stop_local": 10.951500000000001,
+      "target_local": 13.523249999999992,
+      "atr_local": 0.4286249999999985,
+      "opprettet_dato": "2026-07-14T22:08:36.306916+00:00",
+      "utloper_dato": "2026-07-24T22:08:36.306916+00:00",
+      "signal_snapshot": {
+        "score": 78.6679585758931,
+        "rs_score": 77.8794224712403,
+        "vsa_score": 71.01377278173669,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-07-14"
+      }
+    },
+    {
+      "symbol": "VIV.PA",
+      "name": "Vivendi",
+      "sector": "Media",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Spring",
+      "signal_pris_local": 1.965000033378601,
+      "stop_local": 1.852799949645996,
+      "target_local": 2.1894002008438114,
+      "atr_local": 0.056100041866302575,
+      "opprettet_dato": "2026-07-14T22:08:36.306916+00:00",
+      "utloper_dato": "2026-07-24T22:08:36.306916+00:00",
+      "signal_snapshot": {
+        "score": 67.87139221388108,
+        "rs_score": 39.62949162922891,
+        "vsa_score": 59.94181575037471,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-07-13"
+      }
+    }
+  ],
   "open_positions": [
     {
       "symbol": "MT.AS",
@@ -243,11 +359,11 @@
         "obv_rising": "True",
         "dato": "2026-07-09"
       },
-      "mae_local": 329.20001220703125,
+      "mae_local": 327.29998779296875,
       "mfe_local": 333.3999938964844,
-      "mae_pct": -0.897954531382883,
+      "mae_pct": -1.4699359982471183,
       "mfe_pct": 0.3664037946240484,
-      "mae_dato": "2026-07-13T22:04:41.559315+00:00",
+      "mae_dato": "2026-07-14T22:08:36.306916+00:00",
       "mfe_dato": "2026-07-13T22:04:41.559315+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -306,11 +422,11 @@
         "obv_rising": "True",
         "dato": "2026-07-10"
       },
-      "mae_local": 125.46,
+      "mae_local": 123.28,
       "mfe_local": 128.46833999999998,
-      "mae_pct": -2.34169757311411,
+      "mae_pct": -4.038613716033057,
       "mfe_pct": 0.0,
-      "mae_dato": "2026-07-13T22:04:41.559315+00:00",
+      "mae_dato": "2026-07-14T22:08:36.306916+00:00",
       "mfe_dato": "2026-07-13T22:04:41.559315+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -1997,6 +2113,12 @@
       "equity_nok": 88833.49995603172,
       "n_open": 5,
       "n_pending": 0
+    },
+    {
+      "date": "2026-07-14",
+      "equity_nok": 87476.46120709984,
+      "n_open": 5,
+      "n_pending": 5
     }
   ]
 }
