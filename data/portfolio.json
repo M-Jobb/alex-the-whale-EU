@@ -1,30 +1,30 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-07-15T22:11:40.487205+00:00",
+  "last_updated": "2026-07-16T22:14:15.861715+00:00",
   "start_kapital_nok": 100000.0,
-  "kontanter_nok": 28549.89868708275,
+  "kontanter_nok": 10837.403556894766,
   "pending_orders": [
     {
-      "symbol": "KOG.OL",
-      "name": "Kongsberg Gruppen",
-      "sector": "Industrial Goods",
+      "symbol": "STB.OL",
+      "name": "Storebrand",
+      "sector": "Insurance",
       "region": "OSLO",
       "currency": "NOK",
-      "signal_type": "Spring",
-      "signal_pris_local": 279.29998779296875,
-      "stop_local": 264.96,
-      "target_local": 307.9799633789063,
-      "atr_local": 7.169993896484385,
-      "opprettet_dato": "2026-07-15T22:10:20.308642+00:00",
-      "utloper_dato": "2026-07-25T22:10:20.308642+00:00",
+      "signal_type": "Markup",
+      "signal_pris_local": 189.64349693298337,
+      "stop_local": 179.73199401855467,
+      "target_local": 209.46650276184076,
+      "atr_local": 4.9557514572143475,
+      "opprettet_dato": "2026-07-16T22:12:15.700346+00:00",
+      "utloper_dato": "2026-07-26T22:12:15.700346+00:00",
       "signal_snapshot": {
-        "score": 79.53942937086653,
-        "rs_score": 64.12158140150277,
-        "vsa_score": 74.34318316805233,
-        "wyckoff_phase": "accumulation",
+        "score": 87.861586451942,
+        "rs_score": 94.9957903235434,
+        "vsa_score": 84.54283118292996,
+        "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-07-14"
+        "dato": "2026-07-15"
       }
     },
     {
@@ -34,20 +34,43 @@
       "region": "OSLO",
       "currency": "NOK",
       "signal_type": "Spring",
-      "signal_pris_local": 33.0,
+      "signal_pris_local": 32.68000030517578,
       "stop_local": 29.702400512695313,
-      "target_local": 39.595198974609374,
-      "atr_local": 1.6487997436523436,
-      "opprettet_dato": "2026-07-15T22:10:20.308642+00:00",
-      "utloper_dato": "2026-07-25T22:10:20.308642+00:00",
+      "target_local": 38.63519989013672,
+      "atr_local": 1.4887998962402342,
+      "opprettet_dato": "2026-07-16T22:12:15.700346+00:00",
+      "utloper_dato": "2026-07-26T22:12:15.700346+00:00",
       "signal_snapshot": {
-        "score": 67.0826627888539,
-        "rs_score": 61.98017136074334,
+        "score": 67.45213065344754,
+        "rs_score": 63.211730909388805,
         "vsa_score": 81.62870460210299,
         "wyckoff_phase": "distribution",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-07-14"
+        "dato": "2026-07-15"
+      }
+    },
+    {
+      "symbol": "SEB-A.ST",
+      "name": "SEB A",
+      "sector": "Banks",
+      "region": "NORDIC",
+      "currency": "SEK",
+      "signal_type": "Markup",
+      "signal_pris_local": 202.6080061340332,
+      "stop_local": 185.41599700927733,
+      "target_local": 236.9920243835449,
+      "atr_local": 8.596004562377928,
+      "opprettet_dato": "2026-07-16T22:12:15.700346+00:00",
+      "utloper_dato": "2026-07-26T22:12:15.700346+00:00",
+      "signal_snapshot": {
+        "score": 83.06453226935344,
+        "rs_score": 91.62214260539504,
+        "vsa_score": 71.92629829244976,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-07-15"
       }
     },
     {
@@ -61,16 +84,16 @@
       "stop_local": 10.951500000000001,
       "target_local": 13.523249999999992,
       "atr_local": 0.4286249999999985,
-      "opprettet_dato": "2026-07-15T22:10:20.308642+00:00",
-      "utloper_dato": "2026-07-25T22:10:20.308642+00:00",
+      "opprettet_dato": "2026-07-16T22:12:15.700346+00:00",
+      "utloper_dato": "2026-07-26T22:12:15.700346+00:00",
       "signal_snapshot": {
-        "score": 77.81819958634173,
-        "rs_score": 68.65309711869976,
-        "vsa_score": 77.407568169106,
+        "score": 77.68356356858017,
+        "rs_score": 68.20430895301247,
+        "vsa_score": 77.40756960892142,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-07-15"
+        "dato": "2026-07-16"
       }
     }
   ],
@@ -313,11 +336,11 @@
         "obv_rising": "True",
         "dato": "2026-07-09"
       },
-      "mae_local": 322.45001220703125,
+      "mae_local": 320.54998779296875,
       "mfe_local": 333.3999938964844,
-      "mae_pct": -2.92996784276901,
+      "mae_pct": -3.5019493096332566,
       "mfe_pct": 0.3664037946240484,
-      "mae_dato": "2026-07-15T22:10:20.308642+00:00",
+      "mae_dato": "2026-07-16T22:12:15.700346+00:00",
       "mfe_dato": "2026-07-13T22:04:41.559315+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -329,6 +352,69 @@
         {
           "date": "2026-07-13T22:04:41.559315+00:00",
           "stop_local": 291.50101196289063,
+          "type": "initial_wyckoff"
+        }
+      ]
+    },
+    {
+      "symbol": "KOG.OL",
+      "name": "Kongsberg Gruppen",
+      "sector": "Industrial Goods",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Spring",
+      "fill_type": "limit",
+      "signal_pris_local": 279.29998779296875,
+      "initial_entry_local": 279.57928778076166,
+      "avg_entry_local": 279.57928778076166,
+      "shares": 63,
+      "kostnad_nok": 17712.495130187985,
+      "sizing_method": "capital_capped",
+      "fills": [
+        {
+          "date": "2026-07-16T22:12:15.700346+00:00",
+          "price_local": 279.57928778076166,
+          "shares": 63,
+          "cost_nok": 17712.495130187985,
+          "type": "initial",
+          "fill_type": "limit"
+        }
+      ],
+      "opened_at": "2026-07-16T22:12:15.700346+00:00",
+      "initial_stop_local": 264.96,
+      "current_stop_local": 264.96,
+      "target_local": 307.9799633789063,
+      "atr_local": 7.169993896484385,
+      "stop_type": "wyckoff",
+      "high_water_local": 279.57928778076166,
+      "low_water_local": 279.57928778076166,
+      "pyramid_count": 0,
+      "skipped_pyramids": [],
+      "signal_snapshot": {
+        "score": 79.53942937086653,
+        "rs_score": 64.12158140150277,
+        "vsa_score": 74.34318316805233,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-07-14"
+      },
+      "mae_local": 272.79998779296875,
+      "mfe_local": 279.57928778076166,
+      "mae_pct": -2.4248219678952188,
+      "mfe_pct": 0.0,
+      "mae_dato": "2026-07-16T22:12:15.700346+00:00",
+      "mfe_dato": "2026-07-16T22:12:15.700346+00:00",
+      "orig_stop_truffet": false,
+      "orig_stop_dato": null,
+      "orig_stop_pnl_pct": null,
+      "orig_target_truffet": false,
+      "orig_target_dato": null,
+      "orig_target_pnl_pct": null,
+      "stop_historie": [
+        {
+          "date": "2026-07-16T22:12:15.700346+00:00",
+          "stop_local": 264.96,
           "type": "initial_wyckoff"
         }
       ]
@@ -2086,6 +2172,12 @@
       "equity_nok": 87926.65842219017,
       "n_open": 4,
       "n_pending": 3
+    },
+    {
+      "date": "2026-07-16",
+      "equity_nok": 87449.28429496239,
+      "n_open": 5,
+      "n_pending": 4
     }
   ]
 }
