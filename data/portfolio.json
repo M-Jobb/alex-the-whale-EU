@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-07-16T22:14:15.861715+00:00",
+  "last_updated": "2026-07-17T22:04:32.744411+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 10837.403556894766,
   "pending_orders": [
@@ -15,16 +15,16 @@
       "stop_local": 179.73199401855467,
       "target_local": 209.46650276184076,
       "atr_local": 4.9557514572143475,
-      "opprettet_dato": "2026-07-16T22:12:15.700346+00:00",
-      "utloper_dato": "2026-07-26T22:12:15.700346+00:00",
+      "opprettet_dato": "2026-07-17T22:02:50.122155+00:00",
+      "utloper_dato": "2026-07-27T22:02:50.122155+00:00",
       "signal_snapshot": {
-        "score": 87.861586451942,
-        "rs_score": 94.9957903235434,
+        "score": 87.40724225217484,
+        "rs_score": 93.48130965765284,
         "vsa_score": 84.54283118292996,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-07-15"
+        "dato": "2026-07-16"
       }
     },
     {
@@ -34,20 +34,20 @@
       "region": "OSLO",
       "currency": "NOK",
       "signal_type": "Spring",
-      "signal_pris_local": 32.68000030517578,
+      "signal_pris_local": 32.060001373291016,
       "stop_local": 29.702400512695313,
-      "target_local": 38.63519989013672,
-      "atr_local": 1.4887998962402342,
-      "opprettet_dato": "2026-07-16T22:12:15.700346+00:00",
-      "utloper_dato": "2026-07-26T22:12:15.700346+00:00",
+      "target_local": 36.77520309448242,
+      "atr_local": 1.1788004302978514,
+      "opprettet_dato": "2026-07-17T22:02:50.122155+00:00",
+      "utloper_dato": "2026-07-27T22:02:50.122155+00:00",
       "signal_snapshot": {
-        "score": 67.45213065344754,
-        "rs_score": 63.211730909388805,
-        "vsa_score": 81.62870460210299,
+        "score": 71.65098842930173,
+        "rs_score": 62.20792349556947,
+        "vsa_score": 96.62870460210299,
         "wyckoff_phase": "distribution",
         "triple_rs": false,
-        "obv_rising": "False",
-        "dato": "2026-07-15"
+        "obv_rising": "True",
+        "dato": "2026-07-16"
       }
     },
     {
@@ -61,16 +61,108 @@
       "stop_local": 185.41599700927733,
       "target_local": 236.9920243835449,
       "atr_local": 8.596004562377928,
-      "opprettet_dato": "2026-07-16T22:12:15.700346+00:00",
-      "utloper_dato": "2026-07-26T22:12:15.700346+00:00",
+      "opprettet_dato": "2026-07-17T22:02:50.122155+00:00",
+      "utloper_dato": "2026-07-27T22:02:50.122155+00:00",
       "signal_snapshot": {
-        "score": 83.06453226935344,
-        "rs_score": 91.62214260539504,
-        "vsa_score": 71.92629829244976,
+        "score": 85.5300419552849,
+        "rs_score": 93.45650201667159,
+        "vsa_score": 78.31030450094474,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-07-15"
+        "dato": "2026-07-16"
+      }
+    },
+    {
+      "symbol": "DANSKE.CO",
+      "name": "Danske Bank",
+      "sector": "Banks",
+      "region": "NORDIC",
+      "currency": "DKK",
+      "signal_type": "Markup",
+      "signal_pris_local": 357.47851226806637,
+      "stop_local": 335.94398803710936,
+      "target_local": 400.5475607299804,
+      "atr_local": 10.767262115478502,
+      "opprettet_dato": "2026-07-17T22:02:50.122155+00:00",
+      "utloper_dato": "2026-07-27T22:02:50.122155+00:00",
+      "signal_snapshot": {
+        "score": 78.3838857949136,
+        "rs_score": 73.65138790092148,
+        "vsa_score": 74.29489808212384,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-07-16"
+      }
+    },
+    {
+      "symbol": "SWED-A.ST",
+      "name": "Swedbank A",
+      "sector": "Banks",
+      "region": "NORDIC",
+      "currency": "SEK",
+      "signal_type": "Markup",
+      "signal_pris_local": 365.71949386596674,
+      "stop_local": 324.9680059814453,
+      "target_local": 447.22246963500965,
+      "atr_local": 20.375743942260726,
+      "opprettet_dato": "2026-07-17T22:02:50.122155+00:00",
+      "utloper_dato": "2026-07-27T22:02:50.122155+00:00",
+      "signal_snapshot": {
+        "score": 71.60000574142275,
+        "rs_score": 65.4156169873437,
+        "vsa_score": 79.91773548406547,
+        "wyckoff_phase": "unclear",
+        "triple_rs": false,
+        "obv_rising": "True",
+        "dato": "2026-07-16"
+      }
+    },
+    {
+      "symbol": "ATCO-A.ST",
+      "name": "Atlas Copco A",
+      "sector": "Industrial Goods",
+      "region": "NORDIC",
+      "currency": "SEK",
+      "signal_type": "Spring",
+      "signal_pris_local": 195.14999389648438,
+      "stop_local": 177.45600585937498,
+      "target_local": 230.53796997070316,
+      "atr_local": 8.846994018554696,
+      "opprettet_dato": "2026-07-17T22:02:50.122155+00:00",
+      "utloper_dato": "2026-07-27T22:02:50.122155+00:00",
+      "signal_snapshot": {
+        "score": 67.52532532465354,
+        "rs_score": 65.21158069654037,
+        "vsa_score": 79.87283705230479,
+        "wyckoff_phase": "distribution",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-07-16"
+      }
+    },
+    {
+      "symbol": "EVO.ST",
+      "name": "Evolution",
+      "sector": "Travel Leisure",
+      "region": "NORDIC",
+      "currency": "SEK",
+      "signal_type": "Markup",
+      "signal_pris_local": 693.4499999999999,
+      "stop_local": 618.9679760742188,
+      "target_local": 842.4140478515623,
+      "atr_local": 37.24101196289058,
+      "opprettet_dato": "2026-07-17T22:02:50.122155+00:00",
+      "utloper_dato": "2026-07-27T22:02:50.122155+00:00",
+      "signal_snapshot": {
+        "score": 64.50967840431075,
+        "rs_score": 84.25565619752305,
+        "vsa_score": 57.4432718168461,
+        "wyckoff_phase": "distribution",
+        "triple_rs": true,
+        "obv_rising": "False",
+        "dato": "2026-07-16"
       }
     },
     {
@@ -84,16 +176,39 @@
       "stop_local": 10.951500000000001,
       "target_local": 13.523249999999992,
       "atr_local": 0.4286249999999985,
-      "opprettet_dato": "2026-07-16T22:12:15.700346+00:00",
-      "utloper_dato": "2026-07-26T22:12:15.700346+00:00",
+      "opprettet_dato": "2026-07-17T22:02:50.122155+00:00",
+      "utloper_dato": "2026-07-27T22:02:50.122155+00:00",
       "signal_snapshot": {
-        "score": 77.68356356858017,
-        "rs_score": 68.20430895301247,
+        "score": 78.38356707370555,
+        "rs_score": 70.53765397009708,
         "vsa_score": 77.40756960892142,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-07-16"
+        "dato": "2026-07-17"
+      }
+    },
+    {
+      "symbol": "GSK.L",
+      "name": "GSK",
+      "sector": "Health Care",
+      "region": "EUROPE",
+      "currency": "GBP",
+      "signal_type": "Spring",
+      "signal_pris_local": 19.165,
+      "stop_local": 18.2976,
+      "target_local": 20.8998,
+      "atr_local": 0.4337,
+      "opprettet_dato": "2026-07-17T22:02:50.122155+00:00",
+      "utloper_dato": "2026-07-27T22:02:50.122155+00:00",
+      "signal_snapshot": {
+        "score": 70.21857335755912,
+        "rs_score": 42.816199203567265,
+        "vsa_score": 64.57904532162979,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-07-17"
       }
     }
   ],
@@ -323,7 +438,7 @@
       "target_local": 412.55101287841785,
       "atr_local": 20.17500015258787,
       "stop_type": "wyckoff",
-      "high_water_local": 333.3999938964844,
+      "high_water_local": 334.04998779296875,
       "low_water_local": 332.1828632803344,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -337,11 +452,11 @@
         "dato": "2026-07-09"
       },
       "mae_local": 320.54998779296875,
-      "mfe_local": 333.3999938964844,
+      "mfe_local": 334.04998779296875,
       "mae_pct": -3.5019493096332566,
-      "mfe_pct": 0.3664037946240484,
+      "mfe_pct": 0.56207731313902,
       "mae_dato": "2026-07-16T22:12:15.700346+00:00",
-      "mfe_dato": "2026-07-13T22:04:41.559315+00:00",
+      "mfe_dato": "2026-07-17T22:02:50.122155+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -399,11 +514,11 @@
         "obv_rising": "True",
         "dato": "2026-07-14"
       },
-      "mae_local": 272.79998779296875,
+      "mae_local": 269.5,
       "mfe_local": 279.57928778076166,
-      "mae_pct": -2.4248219678952188,
+      "mae_pct": -3.605162550047536,
       "mfe_pct": 0.0,
-      "mae_dato": "2026-07-16T22:12:15.700346+00:00",
+      "mae_dato": "2026-07-17T22:02:50.122155+00:00",
       "mfe_dato": "2026-07-16T22:12:15.700346+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -1906,6 +2021,38 @@
         "obv_rising": "True",
         "dato": "2026-07-06"
       }
+    },
+    {
+      "symbol": "SEB-A.ST",
+      "signal_pris": 202.6080061340332,
+      "open_pris": 214.60000610351562,
+      "gap_pct": 5.918818411128957,
+      "dato": "2026-07-17T22:02:50.122155+00:00",
+      "signal_snapshot": {
+        "score": 83.06453226935344,
+        "rs_score": 91.62214260539504,
+        "vsa_score": 71.92629829244976,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-07-15"
+      }
+    },
+    {
+      "symbol": "PSON.L",
+      "signal_pris": 11.808749999999998,
+      "open_pris": 12.505,
+      "gap_pct": 5.896051656610579,
+      "dato": "2026-07-17T22:02:50.122155+00:00",
+      "signal_snapshot": {
+        "score": 77.68356356858017,
+        "rs_score": 68.20430895301247,
+        "vsa_score": 77.40756960892142,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-07-16"
+      }
     }
   ],
   "equity_curve": [
@@ -2178,6 +2325,12 @@
       "equity_nok": 87449.28429496239,
       "n_open": 5,
       "n_pending": 4
+    },
+    {
+      "date": "2026-07-17",
+      "equity_nok": 86620.32187888573,
+      "n_open": 5,
+      "n_pending": 9
     }
   ]
 }
