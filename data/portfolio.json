@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-07-22T22:15:23.352473+00:00",
+  "last_updated": "2026-07-23T22:13:29.638767+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 10837.403556894766,
   "pending_orders": [
@@ -15,16 +15,16 @@
       "stop_local": 179.73199401855467,
       "target_local": 209.46650276184076,
       "atr_local": 4.9557514572143475,
-      "opprettet_dato": "2026-07-22T22:13:35.346377+00:00",
-      "utloper_dato": "2026-08-01T22:13:35.346377+00:00",
+      "opprettet_dato": "2026-07-23T22:11:31.276164+00:00",
+      "utloper_dato": "2026-08-02T22:11:31.276164+00:00",
       "signal_snapshot": {
-        "score": 87.08444726747483,
-        "rs_score": 92.40532637531948,
+        "score": 82.56354748145581,
+        "rs_score": 77.33566042192277,
         "vsa_score": 84.54283118292996,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-07-21"
+        "dato": "2026-07-22"
       }
     },
     {
@@ -38,39 +38,39 @@
       "stop_local": 195.11800598144532,
       "target_local": 224.8239880371093,
       "atr_local": 4.95099700927733,
-      "opprettet_dato": "2026-07-22T22:13:35.346377+00:00",
-      "utloper_dato": "2026-08-01T22:13:35.346377+00:00",
+      "opprettet_dato": "2026-07-23T22:11:31.276164+00:00",
+      "utloper_dato": "2026-08-02T22:11:31.276164+00:00",
       "signal_snapshot": {
-        "score": 92.926138434784,
-        "rs_score": 98.92098554750272,
+        "score": 92.71786916152688,
+        "rs_score": 98.22675463664568,
         "vsa_score": 97.49947590177726,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-07-21"
+        "dato": "2026-07-22"
       }
     },
     {
-      "symbol": "SEB-A.ST",
-      "name": "SEB A",
-      "sector": "Banks",
+      "symbol": "ATCO-A.ST",
+      "name": "Atlas Copco A",
+      "sector": "Industrial Goods",
       "region": "NORDIC",
       "currency": "SEK",
-      "signal_type": "Markup",
-      "signal_pris_local": 202.6080061340332,
-      "stop_local": 185.41599700927733,
-      "target_local": 236.9920243835449,
-      "atr_local": 8.596004562377928,
-      "opprettet_dato": "2026-07-22T22:13:35.346377+00:00",
-      "utloper_dato": "2026-08-01T22:13:35.346377+00:00",
+      "signal_type": "Spring",
+      "signal_pris_local": 200.89999389648438,
+      "stop_local": 177.45600585937498,
+      "target_local": 247.78796997070316,
+      "atr_local": 11.721994018554696,
+      "opprettet_dato": "2026-07-23T22:11:31.276164+00:00",
+      "utloper_dato": "2026-08-02T22:11:31.276164+00:00",
       "signal_snapshot": {
-        "score": 87.41236046386602,
-        "rs_score": 93.70612146234119,
-        "vsa_score": 84.3350800838789,
-        "wyckoff_phase": "markup",
+        "score": 85.32619264011237,
+        "rs_score": 89.54780508140314,
+        "vsa_score": 94.87283705230479,
+        "wyckoff_phase": "unclear",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-07-21"
+        "dato": "2026-07-22"
       }
     },
     {
@@ -84,16 +84,16 @@
       "stop_local": 362.30601196289064,
       "target_local": 524.8039576721189,
       "atr_local": 27.08299095153805,
-      "opprettet_dato": "2026-07-22T22:13:35.346377+00:00",
-      "utloper_dato": "2026-08-01T22:13:35.346377+00:00",
+      "opprettet_dato": "2026-07-23T22:11:31.276164+00:00",
+      "utloper_dato": "2026-08-02T22:11:31.276164+00:00",
       "signal_snapshot": {
-        "score": 85.27306438220819,
-        "rs_score": 91.00390378814939,
+        "score": 80.27032957211927,
+        "rs_score": 74.32812108785295,
         "vsa_score": 73.2396441525446,
         "wyckoff_phase": "accumulation",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-07-21"
+        "dato": "2026-07-22"
       }
     },
     {
@@ -107,85 +107,62 @@
       "stop_local": 174.63599700927733,
       "target_local": 208.3522467803955,
       "atr_local": 5.619374961853026,
-      "opprettet_dato": "2026-07-22T22:13:35.346377+00:00",
-      "utloper_dato": "2026-08-01T22:13:35.346377+00:00",
+      "opprettet_dato": "2026-07-23T22:11:31.276164+00:00",
+      "utloper_dato": "2026-08-02T22:11:31.276164+00:00",
       "signal_snapshot": {
-        "score": 78.0628797303804,
-        "rs_score": 74.39792302903636,
+        "score": 78.29039615314669,
+        "rs_score": 75.156311104924,
         "vsa_score": 72.4783427388983,
         "wyckoff_phase": "markup",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-07-21"
+        "dato": "2026-07-22"
       }
     },
     {
-      "symbol": "ATCO-A.ST",
-      "name": "Atlas Copco A",
+      "symbol": "WRT1V.HE",
+      "name": "Wärtsilä",
       "sector": "Industrial Goods",
       "region": "NORDIC",
-      "currency": "SEK",
+      "currency": "EUR",
       "signal_type": "Spring",
-      "signal_pris_local": 197.60000610351562,
-      "stop_local": 177.45600585937498,
-      "target_local": 237.8880065917969,
-      "atr_local": 10.072000122070321,
-      "opprettet_dato": "2026-07-22T22:13:35.346377+00:00",
-      "utloper_dato": "2026-08-01T22:13:35.346377+00:00",
+      "signal_pris_local": 30.729999542236328,
+      "stop_local": 28.97280029296875,
+      "target_local": 34.244398040771486,
+      "atr_local": 0.8785996246337895,
+      "opprettet_dato": "2026-07-23T22:11:31.276164+00:00",
+      "utloper_dato": "2026-08-02T22:11:31.276164+00:00",
       "signal_snapshot": {
-        "score": 74.345293361232,
-        "rs_score": 87.94480748513523,
-        "vsa_score": 79.87283705230479,
+        "score": 65.19663669922375,
+        "rs_score": 59.348188529142085,
+        "vsa_score": 77.97393380160374,
         "wyckoff_phase": "distribution",
-        "triple_rs": true,
-        "obv_rising": "False",
-        "dato": "2026-07-21"
-      }
-    },
-    {
-      "symbol": "EVO.ST",
-      "name": "Evolution",
-      "sector": "Travel Leisure",
-      "region": "NORDIC",
-      "currency": "SEK",
-      "signal_type": "Markup",
-      "signal_pris_local": 693.4499999999999,
-      "stop_local": 618.9679760742188,
-      "target_local": 842.4140478515623,
-      "atr_local": 37.24101196289058,
-      "opprettet_dato": "2026-07-22T22:13:35.346377+00:00",
-      "utloper_dato": "2026-08-01T22:13:35.346377+00:00",
-      "signal_snapshot": {
-        "score": 72.02325275236963,
-        "rs_score": 86.83061286854027,
-        "vsa_score": 79.91356297269184,
-        "wyckoff_phase": "distribution",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-07-21"
-      }
-    },
-    {
-      "symbol": "BOL.ST",
-      "name": "Boliden",
-      "sector": "Basic Resources",
-      "region": "NORDIC",
-      "currency": "SEK",
-      "signal_type": "Spring",
-      "signal_pris_local": 476.79998779296875,
-      "stop_local": 454.463994140625,
-      "target_local": 521.4719750976562,
-      "atr_local": 11.167996826171873,
-      "opprettet_dato": "2026-07-22T22:13:35.346377+00:00",
-      "utloper_dato": "2026-08-01T22:13:35.346377+00:00",
-      "signal_snapshot": {
-        "score": 68.74212348134662,
-        "rs_score": 38.44108909131292,
-        "vsa_score": 64.03265584650916,
-        "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-07-21"
+        "dato": "2026-07-22"
+      }
+    },
+    {
+      "symbol": "BNP.PA",
+      "name": "BNP Paribas",
+      "sector": "Banks",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Markup",
+      "signal_pris_local": 104.11799846649168,
+      "stop_local": 95.36379760742187,
+      "target_local": 121.62640018463131,
+      "atr_local": 4.377100429534906,
+      "opprettet_dato": "2026-07-23T22:11:31.276164+00:00",
+      "utloper_dato": "2026-08-02T22:11:31.276164+00:00",
+      "signal_snapshot": {
+        "score": 79.59141175361937,
+        "rs_score": 73.54177423247368,
+        "vsa_score": 78.42959827959086,
+        "wyckoff_phase": "markup",
+        "triple_rs": false,
+        "obv_rising": "True",
+        "dato": "2026-07-22"
       }
     },
     {
@@ -199,16 +176,16 @@
       "stop_local": 534.6879760742188,
       "target_local": 690.1779742431639,
       "atr_local": 25.91499969482419,
-      "opprettet_dato": "2026-07-22T22:13:35.346377+00:00",
-      "utloper_dato": "2026-08-01T22:13:35.346377+00:00",
+      "opprettet_dato": "2026-07-23T22:11:31.276164+00:00",
+      "utloper_dato": "2026-08-02T22:11:31.276164+00:00",
       "signal_snapshot": {
-        "score": 77.35685940820167,
-        "rs_score": 72.38579394982938,
+        "score": 78.85548638323802,
+        "rs_score": 77.38121719995053,
         "vsa_score": 72.13707074417621,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-07-21"
+        "dato": "2026-07-22"
       }
     },
     {
@@ -222,39 +199,16 @@
       "stop_local": 6.00495,
       "target_local": 8.130299999999998,
       "atr_local": 0.35422499999999957,
-      "opprettet_dato": "2026-07-22T22:13:35.346377+00:00",
-      "utloper_dato": "2026-08-01T22:13:35.346377+00:00",
+      "opprettet_dato": "2026-07-23T22:11:31.276164+00:00",
+      "utloper_dato": "2026-08-02T22:11:31.276164+00:00",
       "signal_snapshot": {
-        "score": 76.30327182586238,
-        "rs_score": 76.01090608620795,
-        "vsa_score": 65.0,
+        "score": 77.67488388485039,
+        "rs_score": 74.13907470831363,
+        "vsa_score": 71.44387157452103,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-07-22"
-      }
-    },
-    {
-      "symbol": "GSK.L",
-      "name": "GSK",
-      "sector": "Health Care",
-      "region": "EUROPE",
-      "currency": "GBP",
-      "signal_type": "Spring",
-      "signal_pris_local": 19.105,
-      "stop_local": 18.2976,
-      "target_local": 20.719800000000003,
-      "atr_local": 0.4037000000000006,
-      "opprettet_dato": "2026-07-22T22:13:35.346377+00:00",
-      "utloper_dato": "2026-08-01T22:13:35.346377+00:00",
-      "signal_snapshot": {
-        "score": 72.91254819905768,
-        "rs_score": 41.26981053473863,
-        "vsa_score": 75.10535012878701,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": false,
-        "obv_rising": "False",
-        "dato": "2026-07-22"
+        "dato": "2026-07-23"
       }
     },
     {
@@ -268,16 +222,16 @@
       "stop_local": 3.9855129760742187,
       "target_local": 5.053774047851562,
       "atr_local": 0.17804351196289048,
-      "opprettet_dato": "2026-07-22T22:13:35.346377+00:00",
-      "utloper_dato": "2026-08-01T22:13:35.346377+00:00",
+      "opprettet_dato": "2026-07-23T22:11:31.276164+00:00",
+      "utloper_dato": "2026-08-02T22:11:31.276164+00:00",
       "signal_snapshot": {
-        "score": 72.59014857425625,
-        "rs_score": 73.63382858085417,
-        "vsa_score": 75.0,
-        "wyckoff_phase": "unclear",
+        "score": 68.27982454352527,
+        "rs_score": 72.17238645133288,
+        "vsa_score": 82.09369536041802,
+        "wyckoff_phase": "distribution",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-07-22"
+        "dato": "2026-07-23"
       }
     }
   ],
@@ -570,7 +524,7 @@
       "target_local": 307.9799633789063,
       "atr_local": 7.169993896484385,
       "stop_type": "wyckoff",
-      "high_water_local": 282.79998779296875,
+      "high_water_local": 284.79998779296875,
       "low_water_local": 279.57928778076166,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -584,11 +538,11 @@
         "dato": "2026-07-14"
       },
       "mae_local": 269.5,
-      "mfe_local": 282.79998779296875,
+      "mfe_local": 284.79998779296875,
       "mae_pct": -3.605162550047536,
-      "mfe_pct": 1.1519809059434616,
+      "mfe_pct": 1.8673414807111932,
       "mae_dato": "2026-07-17T22:02:50.122155+00:00",
-      "mfe_dato": "2026-07-22T22:13:35.346377+00:00",
+      "mfe_dato": "2026-07-23T22:11:31.276164+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -2250,6 +2204,38 @@
         "obv_rising": "True",
         "dato": "2026-07-20"
       }
+    },
+    {
+      "symbol": "GETI-B.ST",
+      "signal_pris": 205.01999999999998,
+      "open_pris": 232.60000610351562,
+      "gap_pct": 13.452349089608639,
+      "dato": "2026-07-23T22:11:31.276164+00:00",
+      "signal_snapshot": {
+        "score": 92.926138434784,
+        "rs_score": 98.92098554750272,
+        "vsa_score": 97.49947590177726,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-07-21"
+      }
+    },
+    {
+      "symbol": "SEB-A.ST",
+      "signal_pris": 202.6080061340332,
+      "open_pris": 215.8000030517578,
+      "gap_pct": 6.511093598639728,
+      "dato": "2026-07-23T22:11:31.276164+00:00",
+      "signal_snapshot": {
+        "score": 87.41236046386602,
+        "rs_score": 93.70612146234119,
+        "vsa_score": 84.3350800838789,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-07-21"
+      }
     }
   ],
   "equity_curve": [
@@ -2546,6 +2532,12 @@
       "equity_nok": 86186.18351600121,
       "n_open": 5,
       "n_pending": 12
+    },
+    {
+      "date": "2026-07-23",
+      "equity_nok": 86683.32559897851,
+      "n_open": 5,
+      "n_pending": 10
     }
   ]
 }
