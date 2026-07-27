@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-07-24T22:16:15.889113+00:00",
+  "last_updated": "2026-07-27T22:15:43.126374+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 10837.403556894766,
   "pending_orders": [
@@ -15,16 +15,16 @@
       "stop_local": 179.73199401855467,
       "target_local": 209.46650276184076,
       "atr_local": 4.9557514572143475,
-      "opprettet_dato": "2026-07-24T22:14:38.480175+00:00",
-      "utloper_dato": "2026-08-03T22:14:38.480175+00:00",
+      "opprettet_dato": "2026-07-27T22:14:34.945738+00:00",
+      "utloper_dato": "2026-08-06T22:14:34.945738+00:00",
       "signal_snapshot": {
-        "score": 81.858466316595,
-        "rs_score": 74.98538987238672,
+        "score": 81.95236807670298,
+        "rs_score": 75.29839573941334,
         "vsa_score": 84.54283118292996,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-07-23"
+        "dato": "2026-07-24"
       }
     },
     {
@@ -34,43 +34,66 @@
       "region": "NORDIC",
       "currency": "EUR",
       "signal_type": "Spring",
-      "signal_pris_local": 9.17199993133545,
+      "signal_pris_local": 9.380000114440918,
       "stop_local": 8.759039611816405,
-      "target_local": 9.997920570373537,
-      "atr_local": 0.20648015975952205,
-      "opprettet_dato": "2026-07-24T22:14:38.480175+00:00",
-      "utloper_dato": "2026-08-03T22:14:38.480175+00:00",
+      "target_local": 10.621921119689944,
+      "atr_local": 0.31048025131225643,
+      "opprettet_dato": "2026-07-27T22:14:34.945738+00:00",
+      "utloper_dato": "2026-08-06T22:14:34.945738+00:00",
       "signal_snapshot": {
-        "score": 86.15533525107621,
-        "rs_score": 79.47971919059401,
+        "score": 83.42188204537668,
+        "rs_score": 70.36820850492892,
         "vsa_score": 81.03806497966002,
         "wyckoff_phase": "accumulation",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-07-23"
+        "dato": "2026-07-24"
       }
     },
     {
-      "symbol": "COLO-B.CO",
-      "name": "Coloplast B",
-      "sector": "Health Care",
+      "symbol": "NESTE.HE",
+      "name": "Neste",
+      "sector": "Energy",
       "region": "NORDIC",
-      "currency": "DKK",
+      "currency": "EUR",
       "signal_type": "Markup",
-      "signal_pris_local": 416.47199386596674,
-      "stop_local": 362.30601196289064,
-      "target_local": 524.8039576721189,
-      "atr_local": 27.08299095153805,
-      "opprettet_dato": "2026-07-24T22:14:38.480175+00:00",
-      "utloper_dato": "2026-08-03T22:14:38.480175+00:00",
+      "signal_pris_local": 29.627399539947508,
+      "stop_local": 25.401600074768066,
+      "target_local": 38.07899847030639,
+      "atr_local": 2.112899732589721,
+      "opprettet_dato": "2026-07-27T22:14:34.945738+00:00",
+      "utloper_dato": "2026-08-06T22:14:34.945738+00:00",
       "signal_snapshot": {
-        "score": 79.67512009726997,
-        "rs_score": 72.34408950502194,
-        "vsa_score": 73.2396441525446,
+        "score": 80.97899756987954,
+        "rs_score": 74.70273899295053,
+        "vsa_score": 81.89391957331459,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-07-24"
+      }
+    },
+    {
+      "symbol": "SECU-B.ST",
+      "name": "Securitas B",
+      "sector": "Industrial Goods",
+      "region": "NORDIC",
+      "currency": "SEK",
+      "signal_type": "Markup",
+      "signal_pris_local": 165.825,
+      "stop_local": 145.53,
+      "target_local": 206.41499999999996,
+      "atr_local": 10.147499999999994,
+      "opprettet_dato": "2026-07-27T22:14:34.945738+00:00",
+      "utloper_dato": "2026-08-06T22:14:34.945738+00:00",
+      "signal_snapshot": {
+        "score": 78.46632046233881,
+        "rs_score": 76.55440154112937,
+        "vsa_score": 65.0,
         "wyckoff_phase": "accumulation",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-07-23"
+        "dato": "2026-07-24"
       }
     },
     {
@@ -80,43 +103,20 @@
       "region": "NORDIC",
       "currency": "SEK",
       "signal_type": "Spring",
-      "signal_pris_local": 475.3999938964844,
+      "signal_pris_local": 481.3999938964844,
       "stop_local": 454.463994140625,
-      "target_local": 517.2719934082031,
-      "atr_local": 10.467999877929685,
-      "opprettet_dato": "2026-07-24T22:14:38.480175+00:00",
-      "utloper_dato": "2026-08-03T22:14:38.480175+00:00",
+      "target_local": 535.2719934082031,
+      "atr_local": 13.467999877929685,
+      "opprettet_dato": "2026-07-27T22:14:34.945738+00:00",
+      "utloper_dato": "2026-08-06T22:14:34.945738+00:00",
       "signal_snapshot": {
-        "score": 67.63008058417418,
-        "rs_score": 40.76207663095943,
+        "score": 70.07665731908287,
+        "rs_score": 48.91733241398845,
         "vsa_score": 58.004858649621156,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-07-23"
-      }
-    },
-    {
-      "symbol": "WRT1V.HE",
-      "name": "Wärtsilä",
-      "sector": "Industrial Goods",
-      "region": "NORDIC",
-      "currency": "EUR",
-      "signal_type": "Spring",
-      "signal_pris_local": 30.579999923706055,
-      "stop_local": 28.97280029296875,
-      "target_local": 33.794399185180666,
-      "atr_local": 0.8035998153686528,
-      "opprettet_dato": "2026-07-24T22:14:38.480175+00:00",
-      "utloper_dato": "2026-08-03T22:14:38.480175+00:00",
-      "signal_snapshot": {
-        "score": 65.42047216668843,
-        "rs_score": 60.09430675402439,
-        "vsa_score": 77.97393380160374,
-        "wyckoff_phase": "distribution",
-        "triple_rs": false,
-        "obv_rising": "False",
-        "dato": "2026-07-23"
+        "dato": "2026-07-24"
       }
     },
     {
@@ -130,35 +130,12 @@
       "stop_local": 95.36379760742187,
       "target_local": 121.62640018463131,
       "atr_local": 4.377100429534906,
-      "opprettet_dato": "2026-07-24T22:14:38.480175+00:00",
-      "utloper_dato": "2026-08-03T22:14:38.480175+00:00",
+      "opprettet_dato": "2026-07-27T22:14:34.945738+00:00",
+      "utloper_dato": "2026-08-06T22:14:34.945738+00:00",
       "signal_snapshot": {
-        "score": 76.95938817082656,
-        "rs_score": 84.76836228983099,
+        "score": 83.07264899615414,
+        "rs_score": 85.14589837425626,
         "vsa_score": 78.42959827959086,
-        "wyckoff_phase": "unclear",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-07-23"
-      }
-    },
-    {
-      "symbol": "LAND.L",
-      "name": "Land Securities",
-      "sector": "Real Estate",
-      "region": "EUROPE",
-      "currency": "GBP",
-      "signal_type": "Markup",
-      "signal_pris_local": 6.713399999999999,
-      "stop_local": 6.00495,
-      "target_local": 8.130299999999998,
-      "atr_local": 0.35422499999999957,
-      "opprettet_dato": "2026-07-24T22:14:38.480175+00:00",
-      "utloper_dato": "2026-08-03T22:14:38.480175+00:00",
-      "signal_snapshot": {
-        "score": 75.98884984155697,
-        "rs_score": 68.51892894765022,
-        "vsa_score": 71.44390385753967,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
@@ -176,16 +153,39 @@
       "stop_local": 3.9855129760742187,
       "target_local": 5.053774047851562,
       "atr_local": 0.17804351196289048,
-      "opprettet_dato": "2026-07-24T22:14:38.480175+00:00",
-      "utloper_dato": "2026-08-03T22:14:38.480175+00:00",
+      "opprettet_dato": "2026-07-27T22:14:34.945738+00:00",
+      "utloper_dato": "2026-08-06T22:14:34.945738+00:00",
       "signal_snapshot": {
-        "score": 72.85343389156584,
-        "rs_score": 67.41765264216266,
+        "score": 78.84212760996793,
+        "rs_score": 67.3799650368363,
         "vsa_score": 82.09379366305684,
-        "wyckoff_phase": "unclear",
+        "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-07-24"
+        "dato": "2026-07-27"
+      }
+    },
+    {
+      "symbol": "LAND.L",
+      "name": "Land Securities",
+      "sector": "Real Estate",
+      "region": "EUROPE",
+      "currency": "GBP",
+      "signal_type": "Markup",
+      "signal_pris_local": 6.713399999999999,
+      "stop_local": 6.00495,
+      "target_local": 8.130299999999998,
+      "atr_local": 0.35422499999999957,
+      "opprettet_dato": "2026-07-27T22:14:34.945738+00:00",
+      "utloper_dato": "2026-08-06T22:14:34.945738+00:00",
+      "signal_snapshot": {
+        "score": 75.99941578395058,
+        "rs_score": 68.55414875562896,
+        "vsa_score": 71.44390385753967,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-07-27"
       }
     }
   ],
@@ -428,11 +428,11 @@
         "obv_rising": "True",
         "dato": "2026-07-09"
       },
-      "mae_local": 315.45001220703125,
+      "mae_local": 312.8500061035156,
       "mfe_local": 336.3999938964844,
-      "mae_pct": -5.037240906428709,
+      "mae_pct": -5.819944167470037,
       "mfe_pct": 1.2695208219067888,
-      "mae_dato": "2026-07-24T22:14:38.480175+00:00",
+      "mae_dato": "2026-07-27T22:14:34.945738+00:00",
       "mfe_dato": "2026-07-20T22:09:39.127598+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -484,6 +484,11 @@
       "skipped_pyramids": [
         {
           "trigger_dato": "2026-07-24T22:14:38.480175+00:00",
+          "trigger_pris": 286.749281677246,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-07-27T22:14:34.945738+00:00",
           "trigger_pris": 286.749281677246,
           "grunn": "for lite kontanter"
         }
@@ -2555,6 +2560,12 @@
     {
       "date": "2026-07-24",
       "equity_nok": 86839.5236748452,
+      "n_open": 5,
+      "n_pending": 8
+    },
+    {
+      "date": "2026-07-27",
+      "equity_nok": 87608.32215964745,
       "n_open": 5,
       "n_pending": 8
     }
