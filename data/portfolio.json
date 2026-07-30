@@ -1,32 +1,9 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-07-29T22:09:48.000029+00:00",
+  "last_updated": "2026-07-30T22:16:56.360104+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 6863.935272778559,
   "pending_orders": [
-    {
-      "symbol": "STB.OL",
-      "name": "Storebrand",
-      "sector": "Insurance",
-      "region": "OSLO",
-      "currency": "NOK",
-      "signal_type": "Markup",
-      "signal_pris_local": 189.64349693298337,
-      "stop_local": 179.73199401855467,
-      "target_local": 209.46650276184076,
-      "atr_local": 4.9557514572143475,
-      "opprettet_dato": "2026-07-29T22:08:21.464788+00:00",
-      "utloper_dato": "2026-08-08T22:08:21.464788+00:00",
-      "signal_snapshot": {
-        "score": 84.20265441870133,
-        "rs_score": 82.79935021274112,
-        "vsa_score": 84.54283118292996,
-        "wyckoff_phase": "markup",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-07-28"
-      }
-    },
     {
       "symbol": "STERV.HE",
       "name": "Stora Enso R",
@@ -34,43 +11,20 @@
       "region": "NORDIC",
       "currency": "EUR",
       "signal_type": "Spring",
-      "signal_pris_local": 9.739999771118164,
+      "signal_pris_local": 9.904000282287598,
       "stop_local": 8.759039611816405,
-      "target_local": 11.701920089721682,
-      "atr_local": 0.4904800796508795,
-      "opprettet_dato": "2026-07-29T22:08:21.464788+00:00",
-      "utloper_dato": "2026-08-08T22:08:21.464788+00:00",
+      "target_local": 12.193921623229983,
+      "atr_local": 0.5724803352355963,
+      "opprettet_dato": "2026-07-30T22:15:46.229975+00:00",
+      "utloper_dato": "2026-08-09T22:15:46.229975+00:00",
       "signal_snapshot": {
-        "score": 84.62931481050741,
-        "rs_score": 74.39298438869801,
+        "score": 85.68501974470006,
+        "rs_score": 77.91200083600687,
         "vsa_score": 81.03806497966002,
         "wyckoff_phase": "accumulation",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-07-28"
-      }
-    },
-    {
-      "symbol": "SECU-B.ST",
-      "name": "Securitas B",
-      "sector": "Industrial Goods",
-      "region": "NORDIC",
-      "currency": "SEK",
-      "signal_type": "Markup",
-      "signal_pris_local": 165.825,
-      "stop_local": 145.53,
-      "target_local": 206.41499999999996,
-      "atr_local": 10.147499999999994,
-      "opprettet_dato": "2026-07-29T22:08:21.464788+00:00",
-      "utloper_dato": "2026-08-08T22:08:21.464788+00:00",
-      "signal_snapshot": {
-        "score": 77.76170507050372,
-        "rs_score": 70.83708439746773,
-        "vsa_score": 68.36859917087801,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": true,
-        "obv_rising": "False",
-        "dato": "2026-07-28"
+        "dato": "2026-07-29"
       }
     },
     {
@@ -80,89 +34,66 @@
       "region": "NORDIC",
       "currency": "EUR",
       "signal_type": "Markup",
-      "signal_pris_local": 30.652499999999996,
+      "signal_pris_local": 31.165050230026242,
       "stop_local": 25.401600074768066,
-      "target_local": 41.15429985046386,
-      "atr_local": 2.6254499626159653,
-      "opprettet_dato": "2026-07-29T22:08:21.464788+00:00",
-      "utloper_dato": "2026-08-08T22:08:21.464788+00:00",
+      "target_local": 42.69195054054259,
+      "atr_local": 2.8817250776290884,
+      "opprettet_dato": "2026-07-30T22:15:46.229975+00:00",
+      "utloper_dato": "2026-08-09T22:15:46.229975+00:00",
       "signal_snapshot": {
-        "score": 62.40457156240328,
-        "rs_score": 52.78798563469633,
+        "score": 63.62015712617938,
+        "rs_score": 56.839937513950005,
         "vsa_score": 81.89391957331459,
         "wyckoff_phase": "distribution",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-07-28"
+        "dato": "2026-07-29"
       }
     },
     {
-      "symbol": "BNP.PA",
-      "name": "BNP Paribas",
-      "sector": "Banks",
+      "symbol": "REP.MC",
+      "name": "Repsol",
+      "sector": "Energy",
       "region": "EUROPE",
       "currency": "EUR",
       "signal_type": "Markup",
-      "signal_pris_local": 104.11799846649168,
-      "stop_local": 95.36379760742187,
-      "target_local": 121.62640018463131,
-      "atr_local": 4.377100429534906,
-      "opprettet_dato": "2026-07-29T22:08:21.464788+00:00",
-      "utloper_dato": "2026-08-08T22:08:21.464788+00:00",
+      "signal_pris_local": 25.024499616622922,
+      "stop_local": 20.423200149536132,
+      "target_local": 34.2270985507965,
+      "atr_local": 2.300649733543395,
+      "opprettet_dato": "2026-07-30T22:15:46.229975+00:00",
+      "utloper_dato": "2026-08-09T22:15:46.229975+00:00",
       "signal_snapshot": {
-        "score": 83.86193389030063,
-        "rs_score": 87.77684802141124,
-        "vsa_score": 78.42959827959086,
+        "score": 81.50447285722493,
+        "rs_score": 85.08825781040261,
+        "vsa_score": 73.2599850470138,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-07-28"
+        "dato": "2026-07-29"
       }
     },
     {
-      "symbol": "CS.PA",
-      "name": "AXA",
-      "sector": "Insurance",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "signal_pris_local": 44.762700920104976,
-      "stop_local": 38.20530059814453,
-      "target_local": 57.87750156402586,
-      "atr_local": 3.2787001609802218,
-      "opprettet_dato": "2026-07-29T22:08:21.464788+00:00",
-      "utloper_dato": "2026-08-08T22:08:21.464788+00:00",
-      "signal_snapshot": {
-        "score": 76.44796882999927,
-        "rs_score": 76.49322943333091,
-        "vsa_score": 65.0,
-        "wyckoff_phase": "markup",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-07-28"
-      }
-    },
-    {
-      "symbol": "MC.PA",
-      "name": "LVMH",
-      "sector": "Personal Household",
+      "symbol": "FER.MC",
+      "name": "Ferrovial",
+      "sector": "Construction",
       "region": "EUROPE",
       "currency": "EUR",
       "signal_type": "Spring",
-      "signal_pris_local": 470.29998779296875,
-      "stop_local": 442.416005859375,
-      "target_local": 526.0679516601563,
-      "atr_local": 13.94199096679688,
-      "opprettet_dato": "2026-07-29T22:08:21.464788+00:00",
-      "utloper_dato": "2026-08-08T22:08:21.464788+00:00",
+      "signal_pris_local": 55.29999923706055,
+      "stop_local": 52.97280029296875,
+      "target_local": 59.95439712524414,
+      "atr_local": 1.1635994720458989,
+      "opprettet_dato": "2026-07-30T22:15:46.229975+00:00",
+      "utloper_dato": "2026-08-09T22:15:46.229975+00:00",
       "signal_snapshot": {
-        "score": 74.37164247807964,
-        "rs_score": 45.98402636892528,
-        "vsa_score": 75.25478189134019,
+        "score": 76.8919876899844,
+        "rs_score": 62.65375704201796,
+        "vsa_score": 66.98620192459674,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-07-28"
+        "dato": "2026-07-29"
       }
     },
     {
@@ -176,16 +107,16 @@
       "stop_local": 3.9855129760742187,
       "target_local": 5.053774047851562,
       "atr_local": 0.17804351196289048,
-      "opprettet_dato": "2026-07-29T22:08:21.464788+00:00",
-      "utloper_dato": "2026-08-08T22:08:21.464788+00:00",
+      "opprettet_dato": "2026-07-30T22:15:46.229975+00:00",
+      "utloper_dato": "2026-08-09T22:15:46.229975+00:00",
       "signal_snapshot": {
-        "score": 72.89607439205948,
-        "rs_score": 67.55978764380808,
+        "score": 75.01734665113084,
+        "rs_score": 54.63069517404595,
         "vsa_score": 82.09379366305684,
-        "wyckoff_phase": "unclear",
-        "triple_rs": true,
+        "wyckoff_phase": "markup",
+        "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-07-29"
+        "dato": "2026-07-30"
       }
     },
     {
@@ -195,20 +126,66 @@
       "region": "EUROPE",
       "currency": "EUR",
       "signal_type": "Spring",
-      "signal_pris_local": 22.40999984741211,
+      "signal_pris_local": 22.799999237060547,
       "stop_local": 20.851199340820312,
-      "target_local": 25.527600860595705,
-      "atr_local": 0.7794002532958988,
-      "opprettet_dato": "2026-07-29T22:08:21.464788+00:00",
-      "utloper_dato": "2026-08-08T22:08:21.464788+00:00",
+      "target_local": 26.697599029541017,
+      "atr_local": 0.9743999481201175,
+      "opprettet_dato": "2026-07-30T22:15:46.229975+00:00",
+      "utloper_dato": "2026-08-09T22:15:46.229975+00:00",
       "signal_snapshot": {
-        "score": 69.60502897935768,
-        "rs_score": 45.35009659785898,
+        "score": 74.26349343944555,
+        "rs_score": 60.87831146481852,
         "vsa_score": 60.0,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-07-28"
+        "dato": "2026-07-29"
+      }
+    },
+    {
+      "symbol": "MC.PA",
+      "name": "LVMH",
+      "sector": "Personal Household",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Spring",
+      "signal_pris_local": 467.95001220703125,
+      "stop_local": 442.416005859375,
+      "target_local": 519.0180249023438,
+      "atr_local": 12.76700317382813,
+      "opprettet_dato": "2026-07-30T22:15:46.229975+00:00",
+      "utloper_dato": "2026-08-09T22:15:46.229975+00:00",
+      "signal_snapshot": {
+        "score": 74.03510653515332,
+        "rs_score": 44.65651265368302,
+        "vsa_score": 75.46050913016134,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-07-29"
+      }
+    },
+    {
+      "symbol": "CS.PA",
+      "name": "AXA",
+      "sector": "Insurance",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Markup",
+      "signal_pris_local": 44.762700920104976,
+      "stop_local": 38.20530059814453,
+      "target_local": 57.87750156402586,
+      "atr_local": 3.2787001609802218,
+      "opprettet_dato": "2026-07-30T22:15:46.229975+00:00",
+      "utloper_dato": "2026-08-09T22:15:46.229975+00:00",
+      "signal_snapshot": {
+        "score": 64.99565025673415,
+        "rs_score": 58.31883418911383,
+        "vsa_score": 65.0,
+        "wyckoff_phase": "unclear",
+        "triple_rs": false,
+        "obv_rising": "True",
+        "dato": "2026-07-29"
       }
     }
   ],
@@ -369,7 +346,7 @@
       "target_local": 412.55101287841785,
       "atr_local": 20.17500015258787,
       "stop_type": "wyckoff",
-      "high_water_local": 341.3500061035156,
+      "high_water_local": 344.45001220703125,
       "low_water_local": 332.1828632803344,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -383,11 +360,11 @@
         "dato": "2026-07-09"
       },
       "mae_local": 312.8500061035156,
-      "mfe_local": 341.3500061035156,
+      "mfe_local": 344.45001220703125,
       "mae_pct": -5.819944167470037,
-      "mfe_pct": 2.759667591715864,
+      "mfe_pct": 3.6928903573043126,
       "mae_dato": "2026-07-27T22:14:34.945738+00:00",
-      "mfe_dato": "2026-07-29T22:08:21.464788+00:00",
+      "mfe_dato": "2026-07-30T22:15:46.229975+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -465,6 +442,11 @@
         },
         {
           "trigger_dato": "2026-07-29T22:08:21.464788+00:00",
+          "trigger_pris": 293.91927557373043,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-07-30T22:15:46.229975+00:00",
           "trigger_pris": 293.91927557373043,
           "grunn": "for lite kontanter"
         }
@@ -2380,6 +2362,22 @@
         "obv_rising": "True",
         "dato": "2026-07-27"
       }
+    },
+    {
+      "symbol": "STB.OL",
+      "signal_pris": 189.64349693298337,
+      "open_pris": 202.1999969482422,
+      "gap_pct": 6.621107614196786,
+      "dato": "2026-07-30T22:15:46.229975+00:00",
+      "signal_snapshot": {
+        "score": 84.20265441870133,
+        "rs_score": 82.79935021274112,
+        "vsa_score": 84.54283118292996,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-07-28"
+      }
     }
   ],
   "equity_curve": [
@@ -2706,6 +2704,12 @@
       "equity_nok": 89214.9159009829,
       "n_open": 4,
       "n_pending": 9
+    },
+    {
+      "date": "2026-07-30",
+      "equity_nok": 87566.37440241723,
+      "n_open": 4,
+      "n_pending": 8
     }
   ]
 }
