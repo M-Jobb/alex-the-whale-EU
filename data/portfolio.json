@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-08-11T21:59:34.185749+00:00",
+  "last_updated": "2026-08-12T21:58:00.622790+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 6598.2273639699015,
   "pending_orders": [
@@ -15,39 +15,16 @@
       "stop_local": 124.26400299072266,
       "target_local": 178.09449401855463,
       "atr_local": 8.971748504638661,
-      "opprettet_dato": "2026-08-11T21:58:22.837006+00:00",
-      "utloper_dato": "2026-08-21T21:58:22.837006+00:00",
+      "opprettet_dato": "2026-08-12T21:56:56.792224+00:00",
+      "utloper_dato": "2026-08-22T21:56:56.792224+00:00",
       "signal_snapshot": {
-        "score": 90.25212172087845,
-        "rs_score": 89.45020244245384,
-        "vsa_score": 98.0568699604743,
+        "score": 91.24961263976826,
+        "rs_score": 92.66850108303161,
+        "vsa_score": 98.16354104952929,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-08-11"
-      }
-    },
-    {
-      "symbol": "LAND.L",
-      "name": "Land Securities",
-      "sector": "Real Estate",
-      "region": "EUROPE",
-      "currency": "GBP",
-      "signal_type": "Markup",
-      "signal_pris_local": 6.713399999999999,
-      "stop_local": 6.6934,
-      "target_local": 6.753399999999998,
-      "atr_local": 0.067134,
-      "opprettet_dato": "2026-08-11T21:58:22.837006+00:00",
-      "utloper_dato": "2026-08-21T21:58:22.837006+00:00",
-      "signal_snapshot": {
-        "score": 77.49754158065954,
-        "rs_score": 71.89349969770193,
-        "vsa_score": 73.09830557116325,
-        "wyckoff_phase": "markup",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-08-11"
+        "dato": "2026-08-12"
       }
     }
   ],
@@ -108,6 +85,11 @@
         },
         {
           "trigger_dato": "2026-08-11T21:58:22.837006+00:00",
+          "trigger_pris": 63.459309989929196,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-08-12T21:56:56.792224+00:00",
           "trigger_pris": 63.459309989929196,
           "grunn": "for lite kontanter"
         }
@@ -390,11 +372,11 @@
         "obv_rising": "True",
         "dato": "2026-08-04"
       },
-      "mae_local": 273.6499938964844,
+      "mae_local": 270.79998779296875,
       "mfe_local": 292.79998779296875,
-      "mae_pct": -3.093508095201769,
+      "mae_pct": -4.102768462674811,
       "mfe_pct": 3.6879966367464156,
-      "mae_dato": "2026-08-07T01:02:01.507439+00:00",
+      "mae_dato": "2026-08-12T21:56:56.792224+00:00",
       "mfe_dato": "2026-08-07T21:52:07.273575+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -2696,6 +2678,22 @@
         "obv_rising": "True",
         "dato": "2026-08-10"
       }
+    },
+    {
+      "symbol": "WAWI.OL",
+      "signal_pris": 142.20749999999998,
+      "open_pris": 150.0,
+      "gap_pct": 5.479668793840009,
+      "dato": "2026-08-12T21:56:56.792224+00:00",
+      "signal_snapshot": {
+        "score": 90.25212172087845,
+        "rs_score": 89.45020244245384,
+        "vsa_score": 98.0568699604743,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-08-11"
+      }
     }
   ],
   "equity_curve": [
@@ -3076,6 +3074,12 @@
       "equity_nok": 91984.44650020282,
       "n_open": 6,
       "n_pending": 2
+    },
+    {
+      "date": "2026-08-12",
+      "equity_nok": 91134.67679500263,
+      "n_open": 6,
+      "n_pending": 1
     }
   ]
 }
