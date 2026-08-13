@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-08-12T21:58:00.622790+00:00",
+  "last_updated": "2026-08-13T21:58:01.162404+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 6598.2273639699015,
   "pending_orders": [
@@ -12,19 +12,19 @@
       "currency": "NOK",
       "signal_type": "Markup",
       "signal_pris_local": 142.20749999999998,
-      "stop_local": 124.26400299072266,
-      "target_local": 178.09449401855463,
-      "atr_local": 8.971748504638661,
-      "opprettet_dato": "2026-08-12T21:56:56.792224+00:00",
-      "utloper_dato": "2026-08-22T21:56:56.792224+00:00",
+      "stop_local": 136.80800598144532,
+      "target_local": 153.0064880371093,
+      "atr_local": 2.6997470092773312,
+      "opprettet_dato": "2026-08-13T21:56:45.206839+00:00",
+      "utloper_dato": "2026-08-23T21:56:45.206839+00:00",
       "signal_snapshot": {
-        "score": 91.24961263976826,
-        "rs_score": 92.66850108303161,
-        "vsa_score": 98.16354104952929,
+        "score": 92.04862990913797,
+        "rs_score": 95.41267890527473,
+        "vsa_score": 98.08275412518518,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-08-12"
+        "dato": "2026-08-13"
       }
     }
   ],
@@ -90,6 +90,11 @@
         },
         {
           "trigger_dato": "2026-08-12T21:56:56.792224+00:00",
+          "trigger_pris": 63.459309989929196,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-08-13T21:56:45.206839+00:00",
           "trigger_pris": 63.459309989929196,
           "grunn": "for lite kontanter"
         }
@@ -233,7 +238,7 @@
       "target_local": 412.55101287841785,
       "atr_local": 20.17500015258787,
       "stop_type": "wyckoff",
-      "high_water_local": 357.75,
+      "high_water_local": 358.6499938964844,
       "low_water_local": 332.1828632803344,
       "pyramid_count": 1,
       "skipped_pyramids": [],
@@ -247,11 +252,11 @@
         "dato": "2026-07-09"
       },
       "mae_local": 312.8500061035156,
-      "mfe_local": 357.75,
+      "mfe_local": 358.6499938964844,
       "mae_pct": -5.819944167470037,
-      "mfe_pct": 7.696705503465151,
+      "mfe_pct": 7.96763877425366,
       "mae_dato": "2026-07-27T22:14:34.945738+00:00",
-      "mfe_dato": "2026-08-10T21:52:58.239862+00:00",
+      "mfe_dato": "2026-08-13T21:56:45.206839+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -372,11 +377,11 @@
         "obv_rising": "True",
         "dato": "2026-08-04"
       },
-      "mae_local": 270.79998779296875,
+      "mae_local": 270.6000061035156,
       "mfe_local": 292.79998779296875,
-      "mae_pct": -4.102768462674811,
+      "mae_pct": -4.1735871157073,
       "mfe_pct": 3.6879966367464156,
-      "mae_dato": "2026-08-12T21:56:56.792224+00:00",
+      "mae_dato": "2026-08-13T21:56:45.206839+00:00",
       "mfe_dato": "2026-08-07T21:52:07.273575+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -2694,6 +2699,22 @@
         "obv_rising": "True",
         "dato": "2026-08-11"
       }
+    },
+    {
+      "symbol": "WAWI.OL",
+      "signal_pris": 142.20749999999998,
+      "open_pris": 155.1999969482422,
+      "gap_pct": 9.13629516603709,
+      "dato": "2026-08-13T21:56:45.206839+00:00",
+      "signal_snapshot": {
+        "score": 91.24961263976826,
+        "rs_score": 92.66850108303161,
+        "vsa_score": 98.16354104952929,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-08-12"
+      }
     }
   ],
   "equity_curve": [
@@ -3078,6 +3099,12 @@
     {
       "date": "2026-08-12",
       "equity_nok": 91134.67679500263,
+      "n_open": 6,
+      "n_pending": 1
+    },
+    {
+      "date": "2026-08-13",
+      "equity_nok": 91119.4209913222,
       "n_open": 6,
       "n_pending": 1
     }
