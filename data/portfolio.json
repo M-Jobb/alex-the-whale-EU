@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-08-18T21:34:44.229792+00:00",
+  "last_updated": "2026-08-19T21:36:40.604693+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 6598.2273639699015,
   "pending_orders": [
@@ -15,16 +15,16 @@
       "stop_local": 298.5080059814453,
       "target_local": 348.48800643920896,
       "atr_local": 8.330000076293942,
-      "opprettet_dato": "2026-08-18T21:33:33.257554+00:00",
-      "utloper_dato": "2026-08-28T21:33:33.257554+00:00",
+      "opprettet_dato": "2026-08-19T21:35:12.113085+00:00",
+      "utloper_dato": "2026-08-29T21:35:12.113085+00:00",
       "signal_snapshot": {
-        "score": 70.5271397141308,
-        "rs_score": 78.06995047411999,
-        "vsa_score": 83.68718190631601,
+        "score": 70.23008690586738,
+        "rs_score": 77.28884363148288,
+        "vsa_score": 83.47811272140838,
         "wyckoff_phase": "distribution",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-08-18"
+        "dato": "2026-08-19"
       }
     },
     {
@@ -34,20 +34,20 @@
       "region": "EUROPE",
       "currency": "EUR",
       "signal_type": "Spring",
-      "signal_pris_local": 17.559999465942383,
+      "signal_pris_local": 17.3700008392334,
       "stop_local": 16.62240051269531,
-      "target_local": 19.435197372436527,
-      "atr_local": 0.46879947662353594,
-      "opprettet_dato": "2026-08-18T21:33:33.257554+00:00",
-      "utloper_dato": "2026-08-28T21:33:33.257554+00:00",
+      "target_local": 18.865201492309573,
+      "atr_local": 0.37380016326904375,
+      "opprettet_dato": "2026-08-19T21:35:12.113085+00:00",
+      "utloper_dato": "2026-08-29T21:35:12.113085+00:00",
       "signal_snapshot": {
-        "score": 66.19096062519178,
-        "rs_score": 43.96986875063927,
+        "score": 66.29269152054354,
+        "rs_score": 44.30897173514515,
         "vsa_score": 50.0,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-08-18"
+        "dato": "2026-08-19"
       }
     }
   ],
@@ -3219,6 +3219,12 @@
     {
       "date": "2026-08-18",
       "equity_nok": 90779.44129314105,
+      "n_open": 6,
+      "n_pending": 2
+    },
+    {
+      "date": "2026-08-19",
+      "equity_nok": 91226.98624400774,
       "n_open": 6,
       "n_pending": 2
     }
