@@ -1,9 +1,55 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-08-20T21:38:13.815769+00:00",
+  "last_updated": "2026-08-21T21:35:57.209147+00:00",
   "start_kapital_nok": 100000.0,
-  "kontanter_nok": 6598.2273639699015,
+  "kontanter_nok": 2215.099432736535,
   "pending_orders": [
+    {
+      "symbol": "LSG.OL",
+      "name": "Lerøy Seafood",
+      "sector": "Food Beverage",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Spring",
+      "signal_pris_local": 43.29999923706055,
+      "stop_local": 39.24480102539062,
+      "target_local": 51.4103956604004,
+      "atr_local": 2.0275991058349625,
+      "opprettet_dato": "2026-08-21T21:34:10.158810+00:00",
+      "utloper_dato": "2026-08-31T21:34:10.158810+00:00",
+      "signal_snapshot": {
+        "score": 84.79829026542004,
+        "rs_score": 77.33655090835124,
+        "vsa_score": 78.65774997638223,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-08-21"
+      }
+    },
+    {
+      "symbol": "ORK.OL",
+      "name": "Orkla",
+      "sector": "Food Beverage",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Spring",
+      "signal_pris_local": 97.55000305175781,
+      "stop_local": 92.30400146484375,
+      "target_local": 108.04200622558594,
+      "atr_local": 2.623000793457031,
+      "opprettet_dato": "2026-08-21T21:34:10.158810+00:00",
+      "utloper_dato": "2026-08-31T21:34:10.158810+00:00",
+      "signal_snapshot": {
+        "score": 71.252243221886,
+        "rs_score": 42.53751361468914,
+        "vsa_score": 68.30329712493085,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-08-21"
+      }
+    },
     {
       "symbol": "VAR.OL",
       "name": "Vår Energi",
@@ -11,43 +57,20 @@
       "region": "OSLO",
       "currency": "NOK",
       "signal_type": "Markup",
-      "signal_pris_local": 50.953500766754146,
+      "signal_pris_local": 50.169598159790034,
       "stop_local": 44.63899925231934,
-      "target_local": 63.582503795623765,
-      "atr_local": 3.1572507572174047,
-      "opprettet_dato": "2026-08-20T21:37:08.683772+00:00",
-      "utloper_dato": "2026-08-30T21:37:08.683772+00:00",
+      "target_local": 61.23079597473143,
+      "atr_local": 2.7652994537353486,
+      "opprettet_dato": "2026-08-21T21:34:10.158810+00:00",
+      "utloper_dato": "2026-08-31T21:34:10.158810+00:00",
       "signal_snapshot": {
-        "score": 71.2807231511509,
-        "rs_score": 72.4736718808736,
-        "vsa_score": 71.7954052896294,
-        "wyckoff_phase": "unclear",
+        "score": 65.74644289575355,
+        "rs_score": 73.79733900473845,
+        "vsa_score": 72.02413731444004,
+        "wyckoff_phase": "distribution",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-08-20"
-      }
-    },
-    {
-      "symbol": "ELK.OL",
-      "name": "Elkem",
-      "sector": "Chemicals",
-      "region": "OSLO",
-      "currency": "NOK",
-      "signal_type": "Markup",
-      "signal_pris_local": 33.6675,
-      "stop_local": 30.066400299072264,
-      "target_local": 40.86969940185546,
-      "atr_local": 1.8005498504638666,
-      "opprettet_dato": "2026-08-20T21:37:08.683772+00:00",
-      "utloper_dato": "2026-08-30T21:37:08.683772+00:00",
-      "signal_snapshot": {
-        "score": 69.08432527536726,
-        "rs_score": 70.11314256105668,
-        "vsa_score": 86.83460835683418,
-        "wyckoff_phase": "distribution",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-08-20"
+        "dato": "2026-08-21"
       }
     },
     {
@@ -61,62 +84,16 @@
       "stop_local": 298.5080059814453,
       "target_local": 348.48800643920896,
       "atr_local": 8.330000076293942,
-      "opprettet_dato": "2026-08-20T21:37:08.683772+00:00",
-      "utloper_dato": "2026-08-30T21:37:08.683772+00:00",
+      "opprettet_dato": "2026-08-21T21:34:10.158810+00:00",
+      "utloper_dato": "2026-08-31T21:34:10.158810+00:00",
       "signal_snapshot": {
-        "score": 65.35382394408488,
-        "rs_score": 60.82556457396693,
-        "vsa_score": 83.68718190631601,
+        "score": 63.38068285595276,
+        "rs_score": 54.45167202420521,
+        "vsa_score": 83.48393749563733,
         "wyckoff_phase": "distribution",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-08-20"
-      }
-    },
-    {
-      "symbol": "ORK.OL",
-      "name": "Orkla",
-      "sector": "Food Beverage",
-      "region": "OSLO",
-      "currency": "NOK",
-      "signal_type": "Spring",
-      "signal_pris_local": 96.30000305175781,
-      "stop_local": 92.30400146484375,
-      "target_local": 104.29200622558594,
-      "atr_local": 1.998000793457031,
-      "opprettet_dato": "2026-08-20T21:37:08.683772+00:00",
-      "utloper_dato": "2026-08-30T21:37:08.683772+00:00",
-      "signal_snapshot": {
-        "score": 64.93382823942466,
-        "rs_score": 39.779427464748885,
-        "vsa_score": 50.0,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": false,
-        "obv_rising": "False",
-        "dato": "2026-08-20"
-      }
-    },
-    {
-      "symbol": "EOAN.DE",
-      "name": "E.ON",
-      "sector": "Utilities",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Spring",
-      "signal_pris_local": 17.549999237060547,
-      "stop_local": 16.62240051269531,
-      "target_local": 19.40519668579102,
-      "atr_local": 0.46379936218261797,
-      "opprettet_dato": "2026-08-20T21:37:08.683772+00:00",
-      "utloper_dato": "2026-08-30T21:37:08.683772+00:00",
-      "signal_snapshot": {
-        "score": 67.7840614409959,
-        "rs_score": 49.28020480331968,
-        "vsa_score": 50.0,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": false,
-        "obv_rising": "False",
-        "dato": "2026-08-20"
+        "dato": "2026-08-21"
       }
     }
   ],
@@ -323,9 +300,9 @@
       "fill_type": "limit",
       "signal_pris_local": 331.85101226806637,
       "initial_entry_local": 332.1828632803344,
-      "avg_entry_local": 336.2883348835386,
-      "shares": 5,
-      "kostnad_nok": 19530.52714037399,
+      "avg_entry_local": 342.39117847779806,
+      "shares": 6,
+      "kostnad_nok": 23913.655071607354,
       "sizing_method": "risk_based",
       "fills": [
         {
@@ -342,17 +319,24 @@
           "shares": 1,
           "cost_nok": 4151.1154294786065,
           "type": "pyramid_1"
+        },
+        {
+          "date": "2026-08-21T21:34:10.158810+00:00",
+          "price_local": 372.90539644909563,
+          "shares": 1,
+          "cost_nok": 4383.127931233366,
+          "type": "pyramid_2"
         }
       ],
       "opened_at": "2026-07-13T22:04:41.559315+00:00",
       "initial_stop_local": 291.50101196289063,
-      "current_stop_local": 327.39999969482426,
+      "current_stop_local": 332.5000057983399,
       "target_local": 412.55101287841785,
       "atr_local": 20.17500015258787,
       "stop_type": "trailing_atr",
-      "high_water_local": 367.75,
+      "high_water_local": 372.8500061035156,
       "low_water_local": 332.1828632803344,
-      "pyramid_count": 1,
+      "pyramid_count": 2,
       "skipped_pyramids": [],
       "signal_snapshot": {
         "score": 81.61658113564144,
@@ -364,11 +348,11 @@
         "dato": "2026-07-09"
       },
       "mae_local": 312.8500061035156,
-      "mfe_local": 367.75,
+      "mfe_local": 372.8500061035156,
       "mae_pct": -5.819944167470037,
-      "mfe_pct": 10.707095594407567,
+      "mfe_pct": 12.242396378184495,
       "mae_dato": "2026-07-27T22:14:34.945738+00:00",
-      "mfe_dato": "2026-08-20T21:37:08.683772+00:00",
+      "mfe_dato": "2026-08-21T21:34:10.158810+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -394,6 +378,11 @@
         {
           "date": "2026-08-20T21:37:08.683772+00:00",
           "stop_local": 327.39999969482426,
+          "type": "trailing_atr_update"
+        },
+        {
+          "date": "2026-08-21T21:34:10.158810+00:00",
+          "stop_local": 332.5000057983399,
           "type": "trailing_atr_update"
         }
       ]
@@ -504,11 +493,11 @@
         "obv_rising": "True",
         "dato": "2026-08-04"
       },
-      "mae_local": 250.60000610351562,
+      "mae_local": 249.60000610351562,
       "mfe_local": 292.79998779296875,
-      "mae_pct": -11.256100842453865,
+      "mae_pct": -11.61022652879119,
       "mfe_pct": 3.6879966367464156,
-      "mae_dato": "2026-08-20T21:37:08.683772+00:00",
+      "mae_dato": "2026-08-21T21:34:10.158810+00:00",
       "mfe_dato": "2026-08-07T21:52:07.273575+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -3312,6 +3301,12 @@
       "equity_nok": 90551.62551402728,
       "n_open": 6,
       "n_pending": 5
+    },
+    {
+      "date": "2026-08-21",
+      "equity_nok": 91664.20408837861,
+      "n_open": 6,
+      "n_pending": 4
     }
   ]
 }
