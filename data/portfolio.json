@@ -1,9 +1,32 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-08-21T21:35:57.209147+00:00",
+  "last_updated": "2026-08-24T21:39:37.548966+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 2215.099432736535,
   "pending_orders": [
+    {
+      "symbol": "MPCC.OL",
+      "name": "MPC Container Ships",
+      "sector": "Industrial Goods",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Markup",
+      "signal_pris_local": 25.647600460052487,
+      "stop_local": 23.108399925231932,
+      "target_local": 30.726001529693598,
+      "atr_local": 1.2696002674102775,
+      "opprettet_dato": "2026-08-24T21:38:30.373353+00:00",
+      "utloper_dato": "2026-09-03T21:38:30.373353+00:00",
+      "signal_snapshot": {
+        "score": 90.10547394116628,
+        "rs_score": 91.27817282487065,
+        "vsa_score": 95.74007364568362,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-08-24"
+      }
+    },
     {
       "symbol": "LSG.OL",
       "name": "Lerøy Seafood",
@@ -11,43 +34,43 @@
       "region": "OSLO",
       "currency": "NOK",
       "signal_type": "Spring",
-      "signal_pris_local": 43.29999923706055,
+      "signal_pris_local": 43.779998779296875,
       "stop_local": 39.24480102539062,
-      "target_local": 51.4103956604004,
-      "atr_local": 2.0275991058349625,
-      "opprettet_dato": "2026-08-21T21:34:10.158810+00:00",
-      "utloper_dato": "2026-08-31T21:34:10.158810+00:00",
+      "target_local": 52.85039428710938,
+      "atr_local": 2.2675988769531266,
+      "opprettet_dato": "2026-08-24T21:38:30.373353+00:00",
+      "utloper_dato": "2026-09-03T21:38:30.373353+00:00",
       "signal_snapshot": {
-        "score": 84.79829026542004,
-        "rs_score": 77.33655090835124,
+        "score": 85.79876927021996,
+        "rs_score": 80.67148092435102,
         "vsa_score": 78.65774997638223,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-08-21"
+        "dato": "2026-08-24"
       }
     },
     {
-      "symbol": "ORK.OL",
-      "name": "Orkla",
-      "sector": "Food Beverage",
+      "symbol": "DNO.OL",
+      "name": "DNO",
+      "sector": "Energy",
       "region": "OSLO",
       "currency": "NOK",
-      "signal_type": "Spring",
-      "signal_pris_local": 97.55000305175781,
-      "stop_local": 92.30400146484375,
-      "target_local": 108.04200622558594,
-      "atr_local": 2.623000793457031,
-      "opprettet_dato": "2026-08-21T21:34:10.158810+00:00",
-      "utloper_dato": "2026-08-31T21:34:10.158810+00:00",
+      "signal_type": "Markup",
+      "signal_pris_local": 18.25079984664917,
+      "stop_local": 15.856400299072265,
+      "target_local": 23.03959894180298,
+      "atr_local": 1.1971997737884523,
+      "opprettet_dato": "2026-08-24T21:38:30.373353+00:00",
+      "utloper_dato": "2026-09-03T21:38:30.373353+00:00",
       "signal_snapshot": {
-        "score": 71.252243221886,
-        "rs_score": 42.53751361468914,
-        "vsa_score": 68.30329712493085,
+        "score": 83.63150507703197,
+        "rs_score": 69.86285136489778,
+        "vsa_score": 88.9088322252088,
         "wyckoff_phase": "accumulation",
-        "triple_rs": false,
-        "obv_rising": "False",
-        "dato": "2026-08-21"
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-08-24"
       }
     },
     {
@@ -57,43 +80,66 @@
       "region": "OSLO",
       "currency": "NOK",
       "signal_type": "Markup",
-      "signal_pris_local": 50.169598159790034,
+      "signal_pris_local": 49.54649923324585,
       "stop_local": 44.63899925231934,
-      "target_local": 61.23079597473143,
-      "atr_local": 2.7652994537353486,
-      "opprettet_dato": "2026-08-21T21:34:10.158810+00:00",
-      "utloper_dato": "2026-08-31T21:34:10.158810+00:00",
+      "target_local": 59.361499195098865,
+      "atr_local": 2.4537499904632547,
+      "opprettet_dato": "2026-08-24T21:38:30.373353+00:00",
+      "utloper_dato": "2026-09-03T21:38:30.373353+00:00",
       "signal_snapshot": {
-        "score": 65.74644289575355,
-        "rs_score": 73.79733900473845,
+        "score": 80.41489852696307,
+        "rs_score": 76.02552444210357,
         "vsa_score": 72.02413731444004,
-        "wyckoff_phase": "distribution",
+        "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-08-21"
+        "dato": "2026-08-24"
       }
     },
     {
-      "symbol": "DNB.OL",
-      "name": "DNB Bank",
-      "sector": "Banks",
+      "symbol": "ORK.OL",
+      "name": "Orkla",
+      "sector": "Food Beverage",
       "region": "OSLO",
       "currency": "NOK",
-      "signal_type": "Markup",
-      "signal_pris_local": 315.1680061340332,
-      "stop_local": 298.5080059814453,
-      "target_local": 348.48800643920896,
-      "atr_local": 8.330000076293942,
-      "opprettet_dato": "2026-08-21T21:34:10.158810+00:00",
-      "utloper_dato": "2026-08-31T21:34:10.158810+00:00",
+      "signal_type": "Spring",
+      "signal_pris_local": 97.0999984741211,
+      "stop_local": 92.30400146484375,
+      "target_local": 106.69199249267578,
+      "atr_local": 2.3979985046386716,
+      "opprettet_dato": "2026-08-24T21:38:30.373353+00:00",
+      "utloper_dato": "2026-09-03T21:38:30.373353+00:00",
       "signal_snapshot": {
-        "score": 63.38068285595276,
-        "rs_score": 54.45167202420521,
-        "vsa_score": 83.48393749563733,
-        "wyckoff_phase": "distribution",
+        "score": 70.89863581649561,
+        "rs_score": 41.290654003996636,
+        "vsa_score": 68.37146538432211,
+        "wyckoff_phase": "accumulation",
         "triple_rs": false,
-        "obv_rising": "True",
-        "dato": "2026-08-21"
+        "obv_rising": "False",
+        "dato": "2026-08-24"
+      }
+    },
+    {
+      "symbol": "WTB.L",
+      "name": "Whitbread",
+      "sector": "Travel Leisure",
+      "region": "EUROPE",
+      "currency": "GBP",
+      "signal_type": "Spring",
+      "signal_pris_local": 24.63,
+      "stop_local": 23.3664,
+      "target_local": 27.1572,
+      "atr_local": 0.6318000000000001,
+      "opprettet_dato": "2026-08-24T21:38:30.373353+00:00",
+      "utloper_dato": "2026-09-03T21:38:30.373353+00:00",
+      "signal_snapshot": {
+        "score": 84.44054465937785,
+        "rs_score": 80.57710824265374,
+        "vsa_score": 74.22470728860574,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-08-24"
       }
     }
   ],
@@ -330,11 +376,11 @@
       ],
       "opened_at": "2026-07-13T22:04:41.559315+00:00",
       "initial_stop_local": 291.50101196289063,
-      "current_stop_local": 332.5000057983399,
+      "current_stop_local": 332.64999969482426,
       "target_local": 412.55101287841785,
       "atr_local": 20.17500015258787,
       "stop_type": "trailing_atr",
-      "high_water_local": 372.8500061035156,
+      "high_water_local": 373.0,
       "low_water_local": 332.1828632803344,
       "pyramid_count": 2,
       "skipped_pyramids": [],
@@ -348,11 +394,11 @@
         "dato": "2026-07-09"
       },
       "mae_local": 312.8500061035156,
-      "mfe_local": 372.8500061035156,
+      "mfe_local": 373.0,
       "mae_pct": -5.819944167470037,
-      "mfe_pct": 12.242396378184495,
+      "mfe_pct": 12.287550392152347,
       "mae_dato": "2026-07-27T22:14:34.945738+00:00",
-      "mfe_dato": "2026-08-21T21:34:10.158810+00:00",
+      "mfe_dato": "2026-08-24T21:38:30.373353+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -383,6 +429,11 @@
         {
           "date": "2026-08-21T21:34:10.158810+00:00",
           "stop_local": 332.5000057983399,
+          "type": "trailing_atr_update"
+        },
+        {
+          "date": "2026-08-24T21:38:30.373353+00:00",
+          "stop_local": 332.64999969482426,
           "type": "trailing_atr_update"
         }
       ]
@@ -3307,6 +3358,12 @@
       "equity_nok": 91664.20408837861,
       "n_open": 6,
       "n_pending": 4
+    },
+    {
+      "date": "2026-08-24",
+      "equity_nok": 91583.45231607027,
+      "n_open": 6,
+      "n_pending": 6
     }
   ]
 }
