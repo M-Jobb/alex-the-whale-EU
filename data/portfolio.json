@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-08-25T21:39:02.454909+00:00",
+  "last_updated": "2026-08-27T00:42:09.118776+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 2215.099432736535,
   "pending_orders": [
@@ -15,11 +15,11 @@
       "stop_local": 23.108399925231932,
       "target_local": 30.726001529693598,
       "atr_local": 1.2696002674102775,
-      "opprettet_dato": "2026-08-25T21:37:53.485932+00:00",
-      "utloper_dato": "2026-09-04T21:37:53.485932+00:00",
+      "opprettet_dato": "2026-08-27T00:40:48.367746+00:00",
+      "utloper_dato": "2026-09-06T00:40:48.367746+00:00",
       "signal_snapshot": {
-        "score": 90.31574147211876,
-        "rs_score": 91.97906459471223,
+        "score": 90.29454214829909,
+        "rs_score": 91.90840018198003,
         "vsa_score": 95.74007364568362,
         "wyckoff_phase": "markup",
         "triple_rs": true,
@@ -38,11 +38,11 @@
       "stop_local": 39.24480102539062,
       "target_local": 54.95039657592774,
       "atr_local": 2.617599258422853,
-      "opprettet_dato": "2026-08-25T21:37:53.485932+00:00",
-      "utloper_dato": "2026-09-04T21:37:53.485932+00:00",
+      "opprettet_dato": "2026-08-27T00:40:48.367746+00:00",
+      "utloper_dato": "2026-09-06T00:40:48.367746+00:00",
       "signal_snapshot": {
-        "score": 86.05046252984002,
-        "rs_score": 81.51045845641782,
+        "score": 86.05159662635417,
+        "rs_score": 81.5142387781317,
         "vsa_score": 78.65774997638223,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
@@ -61,11 +61,11 @@
       "stop_local": 15.856400299072265,
       "target_local": 23.03959894180298,
       "atr_local": 1.1971997737884523,
-      "opprettet_dato": "2026-08-25T21:37:53.485932+00:00",
-      "utloper_dato": "2026-09-04T21:37:53.485932+00:00",
+      "opprettet_dato": "2026-08-27T00:40:48.367746+00:00",
+      "utloper_dato": "2026-09-06T00:40:48.367746+00:00",
       "signal_snapshot": {
-        "score": 86.01743570471565,
-        "rs_score": 77.8159534571767,
+        "score": 86.01864777951008,
+        "rs_score": 77.81999370649146,
         "vsa_score": 88.9088322252088,
         "wyckoff_phase": "accumulation",
         "triple_rs": true,
@@ -84,11 +84,11 @@
       "stop_local": 44.63899925231934,
       "target_local": 59.361499195098865,
       "atr_local": 2.4537499904632547,
-      "opprettet_dato": "2026-08-25T21:37:53.485932+00:00",
-      "utloper_dato": "2026-09-04T21:37:53.485932+00:00",
+      "opprettet_dato": "2026-08-27T00:40:48.367746+00:00",
+      "utloper_dato": "2026-09-06T00:40:48.367746+00:00",
       "signal_snapshot": {
-        "score": 77.70396859440942,
-        "rs_score": 66.98909133359138,
+        "score": 77.70517067858219,
+        "rs_score": 66.99309828083396,
         "vsa_score": 72.02413731444004,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
@@ -107,11 +107,11 @@
       "stop_local": 23.3664,
       "target_local": 27.517200000000003,
       "atr_local": 0.6918000000000006,
-      "opprettet_dato": "2026-08-25T21:37:53.485932+00:00",
-      "utloper_dato": "2026-09-04T21:37:53.485932+00:00",
+      "opprettet_dato": "2026-08-27T00:40:48.367746+00:00",
+      "utloper_dato": "2026-09-06T00:40:48.367746+00:00",
       "signal_snapshot": {
-        "score": 81.05339931168822,
-        "rs_score": 69.28657017494328,
+        "score": 81.04827209694625,
+        "rs_score": 69.26947945913668,
         "vsa_score": 74.2247608640175,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
@@ -2923,6 +2923,22 @@
         "obv_rising": "True",
         "dato": "2026-08-24"
       }
+    },
+    {
+      "symbol": "MPCC.OL",
+      "signal_pris": 25.647600460052487,
+      "open_pris": 27.360000610351562,
+      "gap_pct": 6.676648573679356,
+      "dato": "2026-08-27T00:40:48.367746+00:00",
+      "signal_snapshot": {
+        "score": 90.31574147211876,
+        "rs_score": 91.97906459471223,
+        "vsa_score": 95.74007364568362,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-08-25"
+      }
     }
   ],
   "equity_curve": [
@@ -3360,6 +3376,12 @@
     },
     {
       "date": "2026-08-25",
+      "equity_nok": 90657.98233010835,
+      "n_open": 6,
+      "n_pending": 5
+    },
+    {
+      "date": "2026-08-27",
       "equity_nok": 90657.98233010835,
       "n_open": 6,
       "n_pending": 5
