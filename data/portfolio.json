@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-09-01T00:34:38.955419+00:00",
+  "last_updated": "2026-09-01T23:17:09.052061+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 2215.099432736535,
   "pending_orders": [
@@ -15,16 +15,62 @@
       "stop_local": 194.1380059814453,
       "target_local": 255.1249696350097,
       "atr_local": 10.164493942260734,
-      "opprettet_dato": "2026-09-01T00:33:32.271236+00:00",
-      "utloper_dato": "2026-09-11T00:33:32.271236+00:00",
+      "opprettet_dato": "2026-09-01T23:15:35.997429+00:00",
+      "utloper_dato": "2026-09-11T23:15:35.997429+00:00",
       "signal_snapshot": {
-        "score": 81.17638100967423,
-        "rs_score": 69.90546660244348,
-        "vsa_score": 87.34913676313728,
+        "score": 82.73470701791507,
+        "rs_score": 70.41310975399128,
+        "vsa_score": 92.03591363905895,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-08-28"
+        "dato": "2026-08-31"
+      }
+    },
+    {
+      "symbol": "BAKKA.OL",
+      "name": "P/F Bakkafrost",
+      "sector": "Food Beverage",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Markup",
+      "signal_pris_local": 488.02800613403315,
+      "stop_local": 382.9839880371094,
+      "target_local": 698.1160423278807,
+      "atr_local": 52.52200904846188,
+      "opprettet_dato": "2026-09-01T23:15:35.997429+00:00",
+      "utloper_dato": "2026-09-11T23:15:35.997429+00:00",
+      "signal_snapshot": {
+        "score": 79.73865141011036,
+        "rs_score": 67.2837508482024,
+        "vsa_score": 78.51175385216551,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-08-31"
+      }
+    },
+    {
+      "symbol": "MOWI.OL",
+      "name": "Mowi",
+      "sector": "Food Beverage",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Markup",
+      "signal_pris_local": 208.43699386596677,
+      "stop_local": 191.59,
+      "target_local": 242.1309815979003,
+      "atr_local": 8.423496932983383,
+      "opprettet_dato": "2026-09-01T23:15:35.997429+00:00",
+      "utloper_dato": "2026-09-11T23:15:35.997429+00:00",
+      "signal_snapshot": {
+        "score": 78.26054589962071,
+        "rs_score": 70.08314628372061,
+        "vsa_score": 70.7853400483484,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-08-31"
       }
     },
     {
@@ -38,39 +84,16 @@
       "stop_local": 23.108399925231932,
       "target_local": 35.2485015296936,
       "atr_local": 2.0233502674102777,
-      "opprettet_dato": "2026-09-01T00:33:32.271236+00:00",
-      "utloper_dato": "2026-09-11T00:33:32.271236+00:00",
+      "opprettet_dato": "2026-09-01T23:15:35.997429+00:00",
+      "utloper_dato": "2026-09-11T23:15:35.997429+00:00",
       "signal_snapshot": {
-        "score": 74.24811683814218,
-        "rs_score": 82.21822708098297,
+        "score": 71.7538219860199,
+        "rs_score": 73.90391090724201,
         "vsa_score": 91.942162379491,
         "wyckoff_phase": "distribution",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-08-28"
-      }
-    },
-    {
-      "symbol": "GETI-B.ST",
-      "name": "Getinge B",
-      "sector": "Health Care",
-      "region": "NORDIC",
-      "currency": "SEK",
-      "signal_type": "Markup",
-      "signal_pris_local": 243.00900306701658,
-      "stop_local": 230.49599700927735,
-      "target_local": 268.03501518249504,
-      "atr_local": 6.256503028869616,
-      "opprettet_dato": "2026-09-01T00:33:32.271236+00:00",
-      "utloper_dato": "2026-09-11T00:33:32.271236+00:00",
-      "signal_snapshot": {
-        "score": 75.69680353269355,
-        "rs_score": 67.75149191711027,
-        "vsa_score": 71.23785319186821,
-        "wyckoff_phase": "markup",
-        "triple_rs": false,
-        "obv_rising": "True",
-        "dato": "2026-08-28"
+        "dato": "2026-08-31"
       }
     },
     {
@@ -84,39 +107,39 @@
       "stop_local": 31.35510082244873,
       "target_local": 40.58369329452513,
       "atr_local": 1.5380987453460673,
-      "opprettet_dato": "2026-09-01T00:33:32.271236+00:00",
-      "utloper_dato": "2026-09-11T00:33:32.271236+00:00",
+      "opprettet_dato": "2026-09-01T23:15:35.997429+00:00",
+      "utloper_dato": "2026-09-11T23:15:35.997429+00:00",
       "signal_snapshot": {
-        "score": 80.95517353439459,
-        "rs_score": 93.82752227732364,
+        "score": 81.23676851200285,
+        "rs_score": 94.76617220268453,
         "vsa_score": 82.68972283732501,
         "wyckoff_phase": "unclear",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-08-28"
+        "dato": "2026-08-31"
       }
     },
     {
-      "symbol": "WTB.L",
-      "name": "Whitbread",
-      "sector": "Travel Leisure",
+      "symbol": "DB1.DE",
+      "name": "Deutsche Börse",
+      "sector": "Financial Services",
       "region": "EUROPE",
-      "currency": "GBP",
-      "signal_type": "Spring",
-      "signal_pris_local": 24.59,
-      "stop_local": 23.3664,
-      "target_local": 27.037200000000002,
-      "atr_local": 0.6118000000000006,
-      "opprettet_dato": "2026-09-01T00:33:32.271236+00:00",
-      "utloper_dato": "2026-09-11T00:33:32.271236+00:00",
+      "currency": "EUR",
+      "signal_type": "Markup",
+      "signal_pris_local": 271.85249999999996,
+      "stop_local": 241.27599700927735,
+      "target_local": 333.0055059814452,
+      "atr_local": 15.288251495361308,
+      "opprettet_dato": "2026-09-01T23:15:35.997429+00:00",
+      "utloper_dato": "2026-09-11T23:15:35.997429+00:00",
       "signal_snapshot": {
-        "score": 80.45028794813116,
-        "rs_score": 67.27619896308639,
-        "vsa_score": 74.2247608640175,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": false,
-        "obv_rising": "False",
-        "dato": "2026-08-28"
+        "score": 74.34327689907239,
+        "rs_score": 69.47758966357465,
+        "vsa_score": 65.0,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-08-31"
       }
     }
   ],
@@ -147,11 +170,11 @@
       ],
       "opened_at": "2026-06-02T23:06:55.420918+00:00",
       "initial_stop_local": 49.62719940185547,
-      "current_stop_local": 57.160099105834966,
+      "current_stop_local": 57.32010276794434,
       "target_local": 73.86689567565917,
       "atr_local": 4.0399493789672825,
       "stop_type": "trailing_atr",
-      "high_water_local": 65.23999786376953,
+      "high_water_local": 65.4000015258789,
       "low_water_local": 59.41936061096191,
       "pyramid_count": 0,
       "skipped_pyramids": [
@@ -224,6 +247,11 @@
           "trigger_dato": "2026-09-01T00:33:32.271236+00:00",
           "trigger_pris": 63.459309989929196,
           "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-09-01T23:15:35.997429+00:00",
+          "trigger_pris": 63.459309989929196,
+          "grunn": "for lite kontanter"
         }
       ],
       "signal_snapshot": {
@@ -236,11 +264,11 @@
         "dato": "2026-05-29"
       },
       "mae_local": 51.2400016784668,
-      "mfe_local": 65.23999786376953,
+      "mfe_local": 65.4000015258789,
       "mae_pct": -13.765477865115482,
-      "mfe_pct": 9.795859788726524,
+      "mfe_pct": 10.065138455585586,
       "mae_dato": "2026-06-30T22:22:13.612864+00:00",
-      "mfe_dato": "2026-08-07T01:02:01.507439+00:00",
+      "mfe_dato": "2026-09-01T23:15:35.997429+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -261,6 +289,11 @@
         {
           "date": "2026-08-07T01:02:01.507439+00:00",
           "stop_local": 57.160099105834966,
+          "type": "trailing_atr_update"
+        },
+        {
+          "date": "2026-09-01T23:15:35.997429+00:00",
+          "stop_local": 57.32010276794434,
           "type": "trailing_atr_update"
         }
       ]
@@ -3450,6 +3483,12 @@
       "equity_nok": 91275.26218621797,
       "n_open": 6,
       "n_pending": 5
+    },
+    {
+      "date": "2026-09-01",
+      "equity_nok": 91049.67214410371,
+      "n_open": 6,
+      "n_pending": 6
     }
   ]
 }
