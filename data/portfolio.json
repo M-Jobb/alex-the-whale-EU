@@ -1,30 +1,76 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-08-29T03:09:44.809602+00:00",
+  "last_updated": "2026-09-01T00:34:38.955419+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 2215.099432736535,
   "pending_orders": [
     {
-      "symbol": "WTB.L",
-      "name": "Whitbread",
-      "sector": "Travel Leisure",
-      "region": "EUROPE",
-      "currency": "GBP",
-      "signal_type": "Spring",
-      "signal_pris_local": 24.72,
-      "stop_local": 23.3664,
-      "target_local": 27.4272,
-      "atr_local": 0.6768000000000001,
-      "opprettet_dato": "2026-08-29T03:08:37.129887+00:00",
-      "utloper_dato": "2026-09-08T03:08:37.129887+00:00",
+      "symbol": "BWLPG.OL",
+      "name": "BW LPG",
+      "sector": "Industrial Goods",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Markup",
+      "signal_pris_local": 214.46699386596677,
+      "stop_local": 194.1380059814453,
+      "target_local": 255.1249696350097,
+      "atr_local": 10.164493942260734,
+      "opprettet_dato": "2026-09-01T00:33:32.271236+00:00",
+      "utloper_dato": "2026-09-11T00:33:32.271236+00:00",
       "signal_snapshot": {
-        "score": 85.11461988627526,
-        "rs_score": 67.82397209023338,
-        "vsa_score": 89.2247608640175,
-        "wyckoff_phase": "accumulation",
+        "score": 81.17638100967423,
+        "rs_score": 69.90546660244348,
+        "vsa_score": 87.34913676313728,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-08-28"
+      }
+    },
+    {
+      "symbol": "MPCC.OL",
+      "name": "MPC Container Ships",
+      "sector": "Industrial Goods",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Markup",
+      "signal_pris_local": 27.155100460052488,
+      "stop_local": 23.108399925231932,
+      "target_local": 35.2485015296936,
+      "atr_local": 2.0233502674102777,
+      "opprettet_dato": "2026-09-01T00:33:32.271236+00:00",
+      "utloper_dato": "2026-09-11T00:33:32.271236+00:00",
+      "signal_snapshot": {
+        "score": 74.24811683814218,
+        "rs_score": 82.21822708098297,
+        "vsa_score": 91.942162379491,
+        "wyckoff_phase": "distribution",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-08-28"
+      }
+    },
+    {
+      "symbol": "GETI-B.ST",
+      "name": "Getinge B",
+      "sector": "Health Care",
+      "region": "NORDIC",
+      "currency": "SEK",
+      "signal_type": "Markup",
+      "signal_pris_local": 243.00900306701658,
+      "stop_local": 230.49599700927735,
+      "target_local": 268.03501518249504,
+      "atr_local": 6.256503028869616,
+      "opprettet_dato": "2026-09-01T00:33:32.271236+00:00",
+      "utloper_dato": "2026-09-11T00:33:32.271236+00:00",
+      "signal_snapshot": {
+        "score": 75.69680353269355,
+        "rs_score": 67.75149191711027,
+        "vsa_score": 71.23785319186821,
+        "wyckoff_phase": "markup",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-08-27"
+        "dato": "2026-08-28"
       }
     },
     {
@@ -35,19 +81,42 @@
       "currency": "EUR",
       "signal_type": "Markup",
       "signal_pris_local": 34.431298313140864,
-      "stop_local": 29.1451997756958,
-      "target_local": 45.00349538803099,
-      "atr_local": 2.6430492687225318,
-      "opprettet_dato": "2026-08-29T03:08:37.129887+00:00",
-      "utloper_dato": "2026-09-08T03:08:37.129887+00:00",
+      "stop_local": 31.35510082244873,
+      "target_local": 40.58369329452513,
+      "atr_local": 1.5380987453460673,
+      "opprettet_dato": "2026-09-01T00:33:32.271236+00:00",
+      "utloper_dato": "2026-09-11T00:33:32.271236+00:00",
       "signal_snapshot": {
-        "score": 80.83388306444692,
-        "rs_score": 93.42322071083142,
+        "score": 80.95517353439459,
+        "rs_score": 93.82752227732364,
         "vsa_score": 82.68972283732501,
         "wyckoff_phase": "unclear",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-08-27"
+        "dato": "2026-08-28"
+      }
+    },
+    {
+      "symbol": "WTB.L",
+      "name": "Whitbread",
+      "sector": "Travel Leisure",
+      "region": "EUROPE",
+      "currency": "GBP",
+      "signal_type": "Spring",
+      "signal_pris_local": 24.59,
+      "stop_local": 23.3664,
+      "target_local": 27.037200000000002,
+      "atr_local": 0.6118000000000006,
+      "opprettet_dato": "2026-09-01T00:33:32.271236+00:00",
+      "utloper_dato": "2026-09-11T00:33:32.271236+00:00",
+      "signal_snapshot": {
+        "score": 80.45028794813116,
+        "rs_score": 67.27619896308639,
+        "vsa_score": 74.2247608640175,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-08-28"
       }
     }
   ],
@@ -148,6 +217,11 @@
         },
         {
           "trigger_dato": "2026-08-29T03:08:37.129887+00:00",
+          "trigger_pris": 63.459309989929196,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-09-01T00:33:32.271236+00:00",
           "trigger_pris": 63.459309989929196,
           "grunn": "for lite kontanter"
         }
@@ -3370,6 +3444,12 @@
       "equity_nok": 90406.8129583127,
       "n_open": 6,
       "n_pending": 2
+    },
+    {
+      "date": "2026-09-01",
+      "equity_nok": 91275.26218621797,
+      "n_open": 6,
+      "n_pending": 5
     }
   ]
 }
