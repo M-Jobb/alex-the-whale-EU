@@ -1,32 +1,9 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-09-01T23:17:09.052061+00:00",
+  "last_updated": "2026-09-02T23:17:23.989482+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 2215.099432736535,
   "pending_orders": [
-    {
-      "symbol": "BWLPG.OL",
-      "name": "BW LPG",
-      "sector": "Industrial Goods",
-      "region": "OSLO",
-      "currency": "NOK",
-      "signal_type": "Markup",
-      "signal_pris_local": 214.46699386596677,
-      "stop_local": 194.1380059814453,
-      "target_local": 255.1249696350097,
-      "atr_local": 10.164493942260734,
-      "opprettet_dato": "2026-09-01T23:15:35.997429+00:00",
-      "utloper_dato": "2026-09-11T23:15:35.997429+00:00",
-      "signal_snapshot": {
-        "score": 82.73470701791507,
-        "rs_score": 70.41310975399128,
-        "vsa_score": 92.03591363905895,
-        "wyckoff_phase": "markup",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-08-31"
-      }
-    },
     {
       "symbol": "BAKKA.OL",
       "name": "P/F Bakkafrost",
@@ -35,19 +12,19 @@
       "currency": "NOK",
       "signal_type": "Markup",
       "signal_pris_local": 488.02800613403315,
-      "stop_local": 382.9839880371094,
-      "target_local": 698.1160423278807,
-      "atr_local": 52.52200904846188,
-      "opprettet_dato": "2026-09-01T23:15:35.997429+00:00",
-      "utloper_dato": "2026-09-11T23:15:35.997429+00:00",
+      "stop_local": 451.3880059814453,
+      "target_local": 561.3080064392088,
+      "atr_local": 18.320000076293923,
+      "opprettet_dato": "2026-09-02T23:16:18.771123+00:00",
+      "utloper_dato": "2026-09-12T23:16:18.771123+00:00",
       "signal_snapshot": {
-        "score": 79.73865141011036,
-        "rs_score": 67.2837508482024,
-        "vsa_score": 78.51175385216551,
+        "score": 82.43557700821347,
+        "rs_score": 69.73655777812635,
+        "vsa_score": 85.04869891591855,
         "wyckoff_phase": "accumulation",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-08-31"
+        "dato": "2026-09-01"
       }
     },
     {
@@ -61,16 +38,16 @@
       "stop_local": 191.59,
       "target_local": 242.1309815979003,
       "atr_local": 8.423496932983383,
-      "opprettet_dato": "2026-09-01T23:15:35.997429+00:00",
-      "utloper_dato": "2026-09-11T23:15:35.997429+00:00",
+      "opprettet_dato": "2026-09-02T23:16:18.771123+00:00",
+      "utloper_dato": "2026-09-12T23:16:18.771123+00:00",
       "signal_snapshot": {
-        "score": 78.26054589962071,
-        "rs_score": 70.08314628372061,
+        "score": 77.85025276908448,
+        "rs_score": 68.71550251526654,
         "vsa_score": 70.7853400483484,
         "wyckoff_phase": "accumulation",
-        "triple_rs": false,
+        "triple_rs": true,
         "obv_rising": "False",
-        "dato": "2026-08-31"
+        "dato": "2026-09-01"
       }
     },
     {
@@ -84,16 +61,62 @@
       "stop_local": 23.108399925231932,
       "target_local": 35.2485015296936,
       "atr_local": 2.0233502674102777,
-      "opprettet_dato": "2026-09-01T23:15:35.997429+00:00",
-      "utloper_dato": "2026-09-11T23:15:35.997429+00:00",
+      "opprettet_dato": "2026-09-02T23:16:18.771123+00:00",
+      "utloper_dato": "2026-09-12T23:16:18.771123+00:00",
       "signal_snapshot": {
-        "score": 71.7538219860199,
-        "rs_score": 73.90391090724201,
+        "score": 72.19263947821808,
+        "rs_score": 75.36663588123595,
         "vsa_score": 91.942162379491,
         "wyckoff_phase": "distribution",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-08-31"
+        "dato": "2026-09-01"
+      }
+    },
+    {
+      "symbol": "KNEBV.HE",
+      "name": "KONE",
+      "sector": "Industrial Goods",
+      "region": "NORDIC",
+      "currency": "EUR",
+      "signal_type": "Markup",
+      "signal_pris_local": 51.99870168685913,
+      "stop_local": 48.41200149536133,
+      "target_local": 59.17210206985472,
+      "atr_local": 1.7933500957488988,
+      "opprettet_dato": "2026-09-02T23:16:18.771123+00:00",
+      "utloper_dato": "2026-09-12T23:16:18.771123+00:00",
+      "signal_snapshot": {
+        "score": 80.86955048778023,
+        "rs_score": 68.13924482885115,
+        "vsa_score": 81.42592346374965,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "True",
+        "dato": "2026-09-01"
+      }
+    },
+    {
+      "symbol": "BMW.DE",
+      "name": "BMW",
+      "sector": "Automobiles",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Markup",
+      "signal_pris_local": 61.7070015335083,
+      "stop_local": 57.153599700927735,
+      "target_local": 70.81380519866943,
+      "atr_local": 2.276700916290281,
+      "opprettet_dato": "2026-09-02T23:16:18.771123+00:00",
+      "utloper_dato": "2026-09-12T23:16:18.771123+00:00",
+      "signal_snapshot": {
+        "score": 82.43632777643168,
+        "rs_score": 88.28031956711757,
+        "vsa_score": 66.50743968765472,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": true,
+        "obv_rising": "False",
+        "dato": "2026-09-01"
       }
     },
     {
@@ -107,16 +130,16 @@
       "stop_local": 31.35510082244873,
       "target_local": 40.58369329452513,
       "atr_local": 1.5380987453460673,
-      "opprettet_dato": "2026-09-01T23:15:35.997429+00:00",
-      "utloper_dato": "2026-09-11T23:15:35.997429+00:00",
+      "opprettet_dato": "2026-09-02T23:16:18.771123+00:00",
+      "utloper_dato": "2026-09-12T23:16:18.771123+00:00",
       "signal_snapshot": {
-        "score": 81.23676851200285,
-        "rs_score": 94.76617220268453,
+        "score": 80.62091330406187,
+        "rs_score": 92.71332150954791,
         "vsa_score": 82.68972283732501,
         "wyckoff_phase": "unclear",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-08-31"
+        "dato": "2026-09-01"
       }
     },
     {
@@ -130,16 +153,16 @@
       "stop_local": 241.27599700927735,
       "target_local": 333.0055059814452,
       "atr_local": 15.288251495361308,
-      "opprettet_dato": "2026-09-01T23:15:35.997429+00:00",
-      "utloper_dato": "2026-09-11T23:15:35.997429+00:00",
+      "opprettet_dato": "2026-09-02T23:16:18.771123+00:00",
+      "utloper_dato": "2026-09-12T23:16:18.771123+00:00",
       "signal_snapshot": {
-        "score": 74.34327689907239,
-        "rs_score": 69.47758966357465,
+        "score": 76.56162294311174,
+        "rs_score": 76.87207647703914,
         "vsa_score": 65.0,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-08-31"
+        "dato": "2026-09-01"
       }
     }
   ],
@@ -250,6 +273,11 @@
         },
         {
           "trigger_dato": "2026-09-01T23:15:35.997429+00:00",
+          "trigger_pris": 63.459309989929196,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-09-02T23:16:18.771123+00:00",
           "trigger_pris": 63.459309989929196,
           "grunn": "for lite kontanter"
         }
@@ -569,11 +597,11 @@
         "obv_rising": "True",
         "dato": "2026-08-04"
       },
-      "mae_local": 246.39999389648438,
+      "mae_local": 245.3000030517578,
       "mfe_local": 292.79998779296875,
-      "mae_pct": -12.743433047893959,
+      "mae_pct": -13.13296806074753,
       "mfe_pct": 3.6879966367464156,
-      "mae_dato": "2026-08-25T21:37:53.485932+00:00",
+      "mae_dato": "2026-09-02T23:16:18.771123+00:00",
       "mfe_dato": "2026-08-07T21:52:07.273575+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -3019,6 +3047,38 @@
         "obv_rising": "True",
         "dato": "2026-08-26"
       }
+    },
+    {
+      "symbol": "BWLPG.OL",
+      "signal_pris": 214.46699386596677,
+      "open_pris": 227.0,
+      "gap_pct": 5.843792514696156,
+      "dato": "2026-09-02T23:16:18.771123+00:00",
+      "signal_snapshot": {
+        "score": 82.73470701791507,
+        "rs_score": 70.41310975399128,
+        "vsa_score": 92.03591363905895,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-08-31"
+      }
+    },
+    {
+      "symbol": "DB1.DE",
+      "signal_pris": 271.85249999999996,
+      "open_pris": 287.20001220703125,
+      "gap_pct": 5.645529177414699,
+      "dato": "2026-09-02T23:16:18.771123+00:00",
+      "signal_snapshot": {
+        "score": 74.34327689907239,
+        "rs_score": 69.47758966357465,
+        "vsa_score": 65.0,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-08-31"
+      }
     }
   ],
   "equity_curve": [
@@ -3489,6 +3549,12 @@
       "equity_nok": 91049.67214410371,
       "n_open": 6,
       "n_pending": 6
+    },
+    {
+      "date": "2026-09-02",
+      "equity_nok": 89954.98808114594,
+      "n_open": 6,
+      "n_pending": 7
     }
   ]
 }
