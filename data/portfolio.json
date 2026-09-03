@@ -1,101 +1,9 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-09-02T23:17:23.989482+00:00",
+  "last_updated": "2026-09-03T23:14:58.238017+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 2215.099432736535,
   "pending_orders": [
-    {
-      "symbol": "BAKKA.OL",
-      "name": "P/F Bakkafrost",
-      "sector": "Food Beverage",
-      "region": "OSLO",
-      "currency": "NOK",
-      "signal_type": "Markup",
-      "signal_pris_local": 488.02800613403315,
-      "stop_local": 451.3880059814453,
-      "target_local": 561.3080064392088,
-      "atr_local": 18.320000076293923,
-      "opprettet_dato": "2026-09-02T23:16:18.771123+00:00",
-      "utloper_dato": "2026-09-12T23:16:18.771123+00:00",
-      "signal_snapshot": {
-        "score": 82.43557700821347,
-        "rs_score": 69.73655777812635,
-        "vsa_score": 85.04869891591855,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-09-01"
-      }
-    },
-    {
-      "symbol": "MOWI.OL",
-      "name": "Mowi",
-      "sector": "Food Beverage",
-      "region": "OSLO",
-      "currency": "NOK",
-      "signal_type": "Markup",
-      "signal_pris_local": 208.43699386596677,
-      "stop_local": 191.59,
-      "target_local": 242.1309815979003,
-      "atr_local": 8.423496932983383,
-      "opprettet_dato": "2026-09-02T23:16:18.771123+00:00",
-      "utloper_dato": "2026-09-12T23:16:18.771123+00:00",
-      "signal_snapshot": {
-        "score": 77.85025276908448,
-        "rs_score": 68.71550251526654,
-        "vsa_score": 70.7853400483484,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": true,
-        "obv_rising": "False",
-        "dato": "2026-09-01"
-      }
-    },
-    {
-      "symbol": "MPCC.OL",
-      "name": "MPC Container Ships",
-      "sector": "Industrial Goods",
-      "region": "OSLO",
-      "currency": "NOK",
-      "signal_type": "Markup",
-      "signal_pris_local": 27.155100460052488,
-      "stop_local": 23.108399925231932,
-      "target_local": 35.2485015296936,
-      "atr_local": 2.0233502674102777,
-      "opprettet_dato": "2026-09-02T23:16:18.771123+00:00",
-      "utloper_dato": "2026-09-12T23:16:18.771123+00:00",
-      "signal_snapshot": {
-        "score": 72.19263947821808,
-        "rs_score": 75.36663588123595,
-        "vsa_score": 91.942162379491,
-        "wyckoff_phase": "distribution",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-09-01"
-      }
-    },
-    {
-      "symbol": "KNEBV.HE",
-      "name": "KONE",
-      "sector": "Industrial Goods",
-      "region": "NORDIC",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "signal_pris_local": 51.99870168685913,
-      "stop_local": 48.41200149536133,
-      "target_local": 59.17210206985472,
-      "atr_local": 1.7933500957488988,
-      "opprettet_dato": "2026-09-02T23:16:18.771123+00:00",
-      "utloper_dato": "2026-09-12T23:16:18.771123+00:00",
-      "signal_snapshot": {
-        "score": 80.86955048778023,
-        "rs_score": 68.13924482885115,
-        "vsa_score": 81.42592346374965,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": false,
-        "obv_rising": "True",
-        "dato": "2026-09-01"
-      }
-    },
     {
       "symbol": "BMW.DE",
       "name": "BMW",
@@ -107,16 +15,16 @@
       "stop_local": 57.153599700927735,
       "target_local": 70.81380519866943,
       "atr_local": 2.276700916290281,
-      "opprettet_dato": "2026-09-02T23:16:18.771123+00:00",
-      "utloper_dato": "2026-09-12T23:16:18.771123+00:00",
+      "opprettet_dato": "2026-09-03T23:13:51.398061+00:00",
+      "utloper_dato": "2026-09-13T23:13:51.398061+00:00",
       "signal_snapshot": {
-        "score": 82.43632777643168,
-        "rs_score": 88.28031956711757,
+        "score": 82.77466713403388,
+        "rs_score": 89.40811742579152,
         "vsa_score": 66.50743968765472,
         "wyckoff_phase": "accumulation",
         "triple_rs": true,
         "obv_rising": "False",
-        "dato": "2026-09-01"
+        "dato": "2026-09-02"
       }
     },
     {
@@ -130,16 +38,16 @@
       "stop_local": 31.35510082244873,
       "target_local": 40.58369329452513,
       "atr_local": 1.5380987453460673,
-      "opprettet_dato": "2026-09-02T23:16:18.771123+00:00",
-      "utloper_dato": "2026-09-12T23:16:18.771123+00:00",
+      "opprettet_dato": "2026-09-03T23:13:51.398061+00:00",
+      "utloper_dato": "2026-09-13T23:13:51.398061+00:00",
       "signal_snapshot": {
-        "score": 80.62091330406187,
-        "rs_score": 92.71332150954791,
-        "vsa_score": 82.68972283732501,
+        "score": 79.63613092017441,
+        "rs_score": 83.41813094354627,
+        "vsa_score": 88.7023054570351,
         "wyckoff_phase": "unclear",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-09-01"
+        "dato": "2026-09-02"
       }
     },
     {
@@ -153,16 +61,16 @@
       "stop_local": 241.27599700927735,
       "target_local": 333.0055059814452,
       "atr_local": 15.288251495361308,
-      "opprettet_dato": "2026-09-02T23:16:18.771123+00:00",
-      "utloper_dato": "2026-09-12T23:16:18.771123+00:00",
+      "opprettet_dato": "2026-09-03T23:13:51.398061+00:00",
+      "utloper_dato": "2026-09-13T23:13:51.398061+00:00",
       "signal_snapshot": {
-        "score": 76.56162294311174,
-        "rs_score": 76.87207647703914,
-        "vsa_score": 65.0,
+        "score": 77.69941777926765,
+        "rs_score": 74.60871786409612,
+        "vsa_score": 71.05600806679604,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-09-01"
+        "dato": "2026-09-02"
       }
     }
   ],
@@ -278,6 +186,11 @@
         },
         {
           "trigger_dato": "2026-09-02T23:16:18.771123+00:00",
+          "trigger_pris": 63.459309989929196,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-09-03T23:13:51.398061+00:00",
           "trigger_pris": 63.459309989929196,
           "grunn": "for lite kontanter"
         }
@@ -534,11 +447,11 @@
         "obv_rising": "True",
         "dato": "2026-08-04"
       },
-      "mae_local": 67.23999786376953,
+      "mae_local": 66.76000213623047,
       "mfe_local": 73.86000061035156,
-      "mae_pct": -8.314635829456085,
+      "mae_pct": -8.969135896051672,
       "mfe_pct": 0.7120950139935189,
-      "mae_dato": "2026-08-25T21:37:53.485932+00:00",
+      "mae_dato": "2026-09-03T23:13:51.398061+00:00",
       "mfe_dato": "2026-08-07T01:02:01.507439+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -597,11 +510,11 @@
         "obv_rising": "True",
         "dato": "2026-08-04"
       },
-      "mae_local": 245.3000030517578,
+      "mae_local": 241.64999389648438,
       "mfe_local": 292.79998779296875,
-      "mae_pct": -13.13296806074753,
+      "mae_pct": -14.425530057996273,
       "mfe_pct": 3.6879966367464156,
-      "mae_dato": "2026-09-02T23:16:18.771123+00:00",
+      "mae_dato": "2026-09-03T23:13:51.398061+00:00",
       "mfe_dato": "2026-08-07T21:52:07.273575+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -3555,6 +3468,12 @@
       "equity_nok": 89954.98808114594,
       "n_open": 6,
       "n_pending": 7
+    },
+    {
+      "date": "2026-09-03",
+      "equity_nok": 90085.03241784639,
+      "n_open": 6,
+      "n_pending": 3
     }
   ]
 }
