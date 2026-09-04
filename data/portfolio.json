@@ -1,30 +1,30 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-09-03T23:14:58.238017+00:00",
+  "last_updated": "2026-09-04T23:01:14.670465+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 2215.099432736535,
   "pending_orders": [
     {
-      "symbol": "BMW.DE",
-      "name": "BMW",
-      "sector": "Automobiles",
-      "region": "EUROPE",
-      "currency": "EUR",
+      "symbol": "TEL.OL",
+      "name": "Telenor",
+      "sector": "Telecom",
+      "region": "OSLO",
+      "currency": "NOK",
       "signal_type": "Markup",
-      "signal_pris_local": 61.7070015335083,
-      "stop_local": 57.153599700927735,
-      "target_local": 70.81380519866943,
-      "atr_local": 2.276700916290281,
-      "opprettet_dato": "2026-09-03T23:13:51.398061+00:00",
-      "utloper_dato": "2026-09-13T23:13:51.398061+00:00",
+      "signal_pris_local": 135.97650306701658,
+      "stop_local": 129.4580059814453,
+      "target_local": 149.01349723815915,
+      "atr_local": 3.2592485427856417,
+      "opprettet_dato": "2026-09-04T23:00:05.923647+00:00",
+      "utloper_dato": "2026-09-14T23:00:05.923647+00:00",
       "signal_snapshot": {
-        "score": 82.77466713403388,
-        "rs_score": 89.40811742579152,
-        "vsa_score": 66.50743968765472,
+        "score": 76.20495971837731,
+        "rs_score": 70.76907125792636,
+        "vsa_score": 63.24746113666468,
         "wyckoff_phase": "accumulation",
-        "triple_rs": true,
+        "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-09-02"
+        "dato": "2026-09-03"
       }
     },
     {
@@ -38,16 +38,16 @@
       "stop_local": 31.35510082244873,
       "target_local": 40.58369329452513,
       "atr_local": 1.5380987453460673,
-      "opprettet_dato": "2026-09-03T23:13:51.398061+00:00",
-      "utloper_dato": "2026-09-13T23:13:51.398061+00:00",
+      "opprettet_dato": "2026-09-04T23:00:05.923647+00:00",
+      "utloper_dato": "2026-09-14T23:00:05.923647+00:00",
       "signal_snapshot": {
-        "score": 79.63613092017441,
-        "rs_score": 83.41813094354627,
+        "score": 86.0354731089131,
+        "rs_score": 84.74927157267526,
         "vsa_score": 88.7023054570351,
-        "wyckoff_phase": "unclear",
+        "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-09-02"
+        "dato": "2026-09-03"
       }
     },
     {
@@ -61,16 +61,16 @@
       "stop_local": 241.27599700927735,
       "target_local": 333.0055059814452,
       "atr_local": 15.288251495361308,
-      "opprettet_dato": "2026-09-03T23:13:51.398061+00:00",
-      "utloper_dato": "2026-09-13T23:13:51.398061+00:00",
+      "opprettet_dato": "2026-09-04T23:00:05.923647+00:00",
+      "utloper_dato": "2026-09-14T23:00:05.923647+00:00",
       "signal_snapshot": {
-        "score": 77.69941777926765,
-        "rs_score": 74.60871786409612,
+        "score": 73.9596310400344,
+        "rs_score": 62.14276206665195,
         "vsa_score": 71.05600806679604,
         "wyckoff_phase": "markup",
-        "triple_rs": true,
+        "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-09-02"
+        "dato": "2026-09-03"
       }
     }
   ],
@@ -101,11 +101,11 @@
       ],
       "opened_at": "2026-06-02T23:06:55.420918+00:00",
       "initial_stop_local": 49.62719940185547,
-      "current_stop_local": 57.32010276794434,
+      "current_stop_local": 57.96010215759278,
       "target_local": 73.86689567565917,
       "atr_local": 4.0399493789672825,
       "stop_type": "trailing_atr",
-      "high_water_local": 65.4000015258789,
+      "high_water_local": 66.04000091552734,
       "low_water_local": 59.41936061096191,
       "pyramid_count": 0,
       "skipped_pyramids": [
@@ -193,6 +193,11 @@
           "trigger_dato": "2026-09-03T23:13:51.398061+00:00",
           "trigger_pris": 63.459309989929196,
           "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-09-04T23:00:05.923647+00:00",
+          "trigger_pris": 63.459309989929196,
+          "grunn": "for lite kontanter"
         }
       ],
       "signal_snapshot": {
@@ -205,11 +210,11 @@
         "dato": "2026-05-29"
       },
       "mae_local": 51.2400016784668,
-      "mfe_local": 65.4000015258789,
+      "mfe_local": 66.04000091552734,
       "mae_pct": -13.765477865115482,
-      "mfe_pct": 10.065138455585586,
+      "mfe_pct": 11.14222744319473,
       "mae_dato": "2026-06-30T22:22:13.612864+00:00",
-      "mfe_dato": "2026-09-01T23:15:35.997429+00:00",
+      "mfe_dato": "2026-09-04T23:00:05.923647+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -235,6 +240,11 @@
         {
           "date": "2026-09-01T23:15:35.997429+00:00",
           "stop_local": 57.32010276794434,
+          "type": "trailing_atr_update"
+        },
+        {
+          "date": "2026-09-04T23:00:05.923647+00:00",
+          "stop_local": 57.96010215759278,
           "type": "trailing_atr_update"
         }
       ]
@@ -510,11 +520,11 @@
         "obv_rising": "True",
         "dato": "2026-08-04"
       },
-      "mae_local": 241.64999389648438,
+      "mae_local": 241.39999389648438,
       "mfe_local": 292.79998779296875,
-      "mae_pct": -14.425530057996273,
+      "mae_pct": -14.514061479580608,
       "mfe_pct": 3.6879966367464156,
-      "mae_dato": "2026-09-03T23:13:51.398061+00:00",
+      "mae_dato": "2026-09-04T23:00:05.923647+00:00",
       "mfe_dato": "2026-08-07T21:52:07.273575+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -3472,6 +3482,12 @@
     {
       "date": "2026-09-03",
       "equity_nok": 90085.03241784639,
+      "n_open": 6,
+      "n_pending": 3
+    },
+    {
+      "date": "2026-09-04",
+      "equity_nok": 91280.1501622922,
       "n_open": 6,
       "n_pending": 3
     }
