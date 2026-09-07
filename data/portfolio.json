@@ -1,9 +1,55 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-09-04T23:01:14.670465+00:00",
+  "last_updated": "2026-09-07T23:28:42.619868+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 2215.099432736535,
   "pending_orders": [
+    {
+      "symbol": "MING.OL",
+      "name": "SpareBank 1 SMN",
+      "sector": "Banks",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Markup",
+      "signal_pris_local": 209.8440030670166,
+      "stop_local": 187.4152053833008,
+      "target_local": 254.7015984344482,
+      "atr_local": 11.2143988418579,
+      "opprettet_dato": "2026-09-07T23:27:16.118872+00:00",
+      "utloper_dato": "2026-09-17T23:27:16.118872+00:00",
+      "signal_snapshot": {
+        "score": 83.89969508385266,
+        "rs_score": 88.20686907782573,
+        "vsa_score": 78.12544786834981,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-09-04"
+      }
+    },
+    {
+      "symbol": "ELK.OL",
+      "name": "Elkem",
+      "sector": "Chemicals",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Markup",
+      "signal_pris_local": 34.87350076675415,
+      "stop_local": 31.59520164489746,
+      "target_local": 41.43009901046752,
+      "atr_local": 1.6391495609283435,
+      "opprettet_dato": "2026-09-07T23:27:16.118872+00:00",
+      "utloper_dato": "2026-09-17T23:27:16.118872+00:00",
+      "signal_snapshot": {
+        "score": 82.65113864925002,
+        "rs_score": 75.79130107693432,
+        "vsa_score": 86.37916108723243,
+        "wyckoff_phase": "markup",
+        "triple_rs": false,
+        "obv_rising": "True",
+        "dato": "2026-09-04"
+      }
+    },
     {
       "symbol": "TEL.OL",
       "name": "Telenor",
@@ -15,16 +61,39 @@
       "stop_local": 129.4580059814453,
       "target_local": 149.01349723815915,
       "atr_local": 3.2592485427856417,
-      "opprettet_dato": "2026-09-04T23:00:05.923647+00:00",
-      "utloper_dato": "2026-09-14T23:00:05.923647+00:00",
+      "opprettet_dato": "2026-09-07T23:27:16.118872+00:00",
+      "utloper_dato": "2026-09-17T23:27:16.118872+00:00",
       "signal_snapshot": {
-        "score": 76.20495971837731,
-        "rs_score": 70.76907125792636,
-        "vsa_score": 63.24746113666468,
+        "score": 75.68029882800468,
+        "rs_score": 62.5227725442518,
+        "vsa_score": 69.74489021576379,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-09-03"
+        "dato": "2026-09-04"
+      }
+    },
+    {
+      "symbol": "COLO-B.CO",
+      "name": "Coloplast B",
+      "sector": "Health Care",
+      "region": "NORDIC",
+      "currency": "DKK",
+      "signal_type": "Markup",
+      "signal_pris_local": 463.30499999999995,
+      "stop_local": 410.2280059814453,
+      "target_local": 569.4589880371093,
+      "atr_local": 26.538497009277336,
+      "opprettet_dato": "2026-09-07T23:27:16.118872+00:00",
+      "utloper_dato": "2026-09-17T23:27:16.118872+00:00",
+      "signal_snapshot": {
+        "score": 86.63175803539006,
+        "rs_score": 72.25901827153483,
+        "vsa_score": 96.51350851309873,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-09-04"
       }
     },
     {
@@ -38,39 +107,16 @@
       "stop_local": 31.35510082244873,
       "target_local": 40.58369329452513,
       "atr_local": 1.5380987453460673,
-      "opprettet_dato": "2026-09-04T23:00:05.923647+00:00",
-      "utloper_dato": "2026-09-14T23:00:05.923647+00:00",
+      "opprettet_dato": "2026-09-07T23:27:16.118872+00:00",
+      "utloper_dato": "2026-09-17T23:27:16.118872+00:00",
       "signal_snapshot": {
-        "score": 86.0354731089131,
-        "rs_score": 84.74927157267526,
+        "score": 85.86474409832232,
+        "rs_score": 84.18017487070594,
         "vsa_score": 88.7023054570351,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-09-03"
-      }
-    },
-    {
-      "symbol": "DB1.DE",
-      "name": "Deutsche Börse",
-      "sector": "Financial Services",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "signal_pris_local": 271.85249999999996,
-      "stop_local": 241.27599700927735,
-      "target_local": 333.0055059814452,
-      "atr_local": 15.288251495361308,
-      "opprettet_dato": "2026-09-04T23:00:05.923647+00:00",
-      "utloper_dato": "2026-09-14T23:00:05.923647+00:00",
-      "signal_snapshot": {
-        "score": 73.9596310400344,
-        "rs_score": 62.14276206665195,
-        "vsa_score": 71.05600806679604,
-        "wyckoff_phase": "markup",
-        "triple_rs": false,
-        "obv_rising": "True",
-        "dato": "2026-09-03"
+        "dato": "2026-09-04"
       }
     }
   ],
@@ -101,11 +147,11 @@
       ],
       "opened_at": "2026-06-02T23:06:55.420918+00:00",
       "initial_stop_local": 49.62719940185547,
-      "current_stop_local": 57.96010215759278,
+      "current_stop_local": 60.34009941101075,
       "target_local": 73.86689567565917,
       "atr_local": 4.0399493789672825,
       "stop_type": "trailing_atr",
-      "high_water_local": 66.04000091552734,
+      "high_water_local": 68.41999816894531,
       "low_water_local": 59.41936061096191,
       "pyramid_count": 0,
       "skipped_pyramids": [
@@ -198,6 +244,16 @@
           "trigger_dato": "2026-09-04T23:00:05.923647+00:00",
           "trigger_pris": 63.459309989929196,
           "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-09-07T23:27:16.118872+00:00",
+          "trigger_pris": 63.459309989929196,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-09-07T23:27:16.118872+00:00",
+          "trigger_pris": 67.49925936889647,
+          "grunn": "for lite kontanter"
         }
       ],
       "signal_snapshot": {
@@ -210,11 +266,11 @@
         "dato": "2026-05-29"
       },
       "mae_local": 51.2400016784668,
-      "mfe_local": 66.04000091552734,
+      "mfe_local": 68.41999816894531,
       "mae_pct": -13.765477865115482,
-      "mfe_pct": 11.14222744319473,
+      "mfe_pct": 15.147651313371636,
       "mae_dato": "2026-06-30T22:22:13.612864+00:00",
-      "mfe_dato": "2026-09-04T23:00:05.923647+00:00",
+      "mfe_dato": "2026-09-07T23:27:16.118872+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -245,6 +301,11 @@
         {
           "date": "2026-09-04T23:00:05.923647+00:00",
           "stop_local": 57.96010215759278,
+          "type": "trailing_atr_update"
+        },
+        {
+          "date": "2026-09-07T23:27:16.118872+00:00",
+          "stop_local": 60.34009941101075,
           "type": "trailing_atr_update"
         }
       ]
@@ -3490,6 +3551,12 @@
       "equity_nok": 91280.1501622922,
       "n_open": 6,
       "n_pending": 3
+    },
+    {
+      "date": "2026-09-07",
+      "equity_nok": 90871.92821099825,
+      "n_open": 6,
+      "n_pending": 5
     }
   ]
 }
