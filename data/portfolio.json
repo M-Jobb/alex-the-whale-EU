@@ -1,8 +1,8 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-09-09T23:10:41.977133+00:00",
+  "last_updated": "2026-09-10T23:07:02.759495+00:00",
   "start_kapital_nok": 100000.0,
-  "kontanter_nok": 2215.099432736535,
+  "kontanter_nok": 10094.035407659783,
   "pending_orders": [
     {
       "symbol": "ELK.OL",
@@ -15,39 +15,39 @@
       "stop_local": 31.59520164489746,
       "target_local": 41.43009901046752,
       "atr_local": 1.6391495609283435,
-      "opprettet_dato": "2026-09-09T23:09:43.923298+00:00",
-      "utloper_dato": "2026-09-19T23:09:43.923298+00:00",
+      "opprettet_dato": "2026-09-10T23:05:56.622286+00:00",
+      "utloper_dato": "2026-09-20T23:05:56.622286+00:00",
       "signal_snapshot": {
-        "score": 84.87518802265173,
-        "rs_score": 83.20479898827334,
+        "score": 84.30875327880702,
+        "rs_score": 81.31668317545764,
         "vsa_score": 86.37916108723243,
         "wyckoff_phase": "markup",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-09-08"
+        "dato": "2026-09-09"
       }
     },
     {
-      "symbol": "COLO-B.CO",
-      "name": "Coloplast B",
-      "sector": "Health Care",
-      "region": "NORDIC",
-      "currency": "DKK",
-      "signal_type": "Markup",
-      "signal_pris_local": 450.74249999999995,
-      "stop_local": 410.2280059814453,
-      "target_local": 531.7714880371093,
-      "atr_local": 20.257247009277336,
-      "opprettet_dato": "2026-09-09T23:09:43.923298+00:00",
-      "utloper_dato": "2026-09-19T23:09:43.923298+00:00",
+      "symbol": "UCG.MI",
+      "name": "UniCredit",
+      "sector": "Banks",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Spring",
+      "signal_pris_local": 84.22000122070312,
+      "stop_local": 78.96,
+      "target_local": 94.74000366210939,
+      "atr_local": 2.6300006103515656,
+      "opprettet_dato": "2026-09-10T23:05:56.622286+00:00",
+      "utloper_dato": "2026-09-20T23:05:56.622286+00:00",
       "signal_snapshot": {
-        "score": 85.31794298318873,
-        "rs_score": 72.39592980999045,
-        "vsa_score": 91.99721346730533,
-        "wyckoff_phase": "accumulation",
+        "score": 77.77643759891187,
+        "rs_score": 86.13800880392596,
+        "vsa_score": 93.11678319244695,
+        "wyckoff_phase": "distribution",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-09-08"
+        "dato": "2026-09-09"
       }
     },
     {
@@ -61,16 +61,16 @@
       "stop_local": 109.25040328979492,
       "target_local": 166.39410446166988,
       "atr_local": 9.523950195312494,
-      "opprettet_dato": "2026-09-09T23:09:43.923298+00:00",
-      "utloper_dato": "2026-09-19T23:09:43.923298+00:00",
+      "opprettet_dato": "2026-09-10T23:05:56.622286+00:00",
+      "utloper_dato": "2026-09-20T23:05:56.622286+00:00",
       "signal_snapshot": {
-        "score": 73.27174582853334,
-        "rs_score": 48.56302767358394,
-        "vsa_score": 75.67612508819387,
+        "score": 76.29590095967578,
+        "rs_score": 42.0024341225745,
+        "vsa_score": 78.9839024096781,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-09-08"
+        "dato": "2026-09-09"
       }
     }
   ],
@@ -227,6 +227,11 @@
         {
           "trigger_dato": "2026-09-09T23:09:43.923298+00:00",
           "trigger_pris": 67.49925936889647,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-09-10T23:05:56.622286+00:00",
+          "trigger_pris": 63.459309989929196,
           "grunn": "for lite kontanter"
         }
       ],
@@ -497,11 +502,11 @@
         "obv_rising": "True",
         "dato": "2026-08-04"
       },
-      "mae_local": 66.76000213623047,
+      "mae_local": 66.26000213623047,
       "mfe_local": 73.86000061035156,
-      "mae_pct": -8.969135896051672,
+      "mae_pct": -9.65091286722516,
       "mfe_pct": 0.7120950139935189,
-      "mae_dato": "2026-09-03T23:13:51.398061+00:00",
+      "mae_dato": "2026-09-10T23:05:56.622286+00:00",
       "mfe_dato": "2026-08-07T01:02:01.507439+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -513,69 +518,6 @@
         {
           "date": "2026-08-07T01:02:01.507439+00:00",
           "stop_local": 57.97679985046386,
-          "type": "initial_wyckoff"
-        }
-      ]
-    },
-    {
-      "symbol": "KER.PA",
-      "name": "Kering",
-      "sector": "Personal Household",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "fill_type": "limit",
-      "signal_pris_local": 282.10351226806637,
-      "initial_entry_local": 282.3856157803344,
-      "avg_entry_local": 282.3856157803344,
-      "shares": 3,
-      "kostnad_nok": 9841.303744421537,
-      "sizing_method": "risk_based",
-      "fills": [
-        {
-          "date": "2026-08-07T01:02:01.507439+00:00",
-          "price_local": 282.3856157803344,
-          "shares": 3,
-          "cost_nok": 9841.303744421537,
-          "type": "initial",
-          "fill_type": "limit"
-        }
-      ],
-      "opened_at": "2026-08-07T01:02:01.507439+00:00",
-      "initial_stop_local": 231.47599700927734,
-      "current_stop_local": 231.47599700927734,
-      "target_local": 383.35854278564443,
-      "atr_local": 25.313757629394516,
-      "stop_type": "wyckoff",
-      "high_water_local": 292.79998779296875,
-      "low_water_local": 282.3856157803344,
-      "pyramid_count": 0,
-      "skipped_pyramids": [],
-      "signal_snapshot": {
-        "score": 91.64853077136111,
-        "rs_score": 93.77441160831029,
-        "vsa_score": 91.7206909628934,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-08-04"
-      },
-      "mae_local": 238.60000610351562,
-      "mfe_local": 292.79998779296875,
-      "mae_pct": -15.505609078501802,
-      "mfe_pct": 3.6879966367464156,
-      "mae_dato": "2026-09-09T23:09:43.923298+00:00",
-      "mfe_dato": "2026-08-07T21:52:07.273575+00:00",
-      "orig_stop_truffet": false,
-      "orig_stop_dato": null,
-      "orig_stop_pnl_pct": null,
-      "orig_target_truffet": false,
-      "orig_target_dato": null,
-      "orig_target_pnl_pct": null,
-      "stop_historie": [
-        {
-          "date": "2026-08-07T01:02:01.507439+00:00",
-          "stop_local": 231.47599700927734,
           "type": "initial_wyckoff"
         }
       ]
@@ -1856,6 +1798,76 @@
       "pnl_pct_local": 8.485320969980958,
       "reason": "target",
       "closed_at": "2026-08-05T22:17:33.092422+00:00"
+    },
+    {
+      "symbol": "KER.PA",
+      "name": "Kering",
+      "sector": "Personal Household",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Markup",
+      "fill_type": "limit",
+      "signal_pris_local": 282.10351226806637,
+      "initial_entry_local": 282.3856157803344,
+      "avg_entry_local": 282.3856157803344,
+      "shares": 3,
+      "kostnad_nok": 9841.303744421537,
+      "sizing_method": "risk_based",
+      "fills": [
+        {
+          "date": "2026-08-07T01:02:01.507439+00:00",
+          "price_local": 282.3856157803344,
+          "shares": 3,
+          "cost_nok": 9841.303744421537,
+          "type": "initial",
+          "fill_type": "limit"
+        }
+      ],
+      "opened_at": "2026-08-07T01:02:01.507439+00:00",
+      "initial_stop_local": 231.47599700927734,
+      "current_stop_local": 231.47599700927734,
+      "target_local": 383.35854278564443,
+      "atr_local": 25.313757629394516,
+      "stop_type": "wyckoff",
+      "high_water_local": 292.79998779296875,
+      "low_water_local": 282.3856157803344,
+      "pyramid_count": 0,
+      "skipped_pyramids": [],
+      "signal_snapshot": {
+        "score": 91.64853077136111,
+        "rs_score": 93.77441160831029,
+        "vsa_score": 91.7206909628934,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-08-04"
+      },
+      "mae_local": 231.0,
+      "mfe_local": 292.79998779296875,
+      "mae_pct": -18.196966456077156,
+      "mfe_pct": 3.6879966367464156,
+      "mae_dato": "2026-09-10T23:05:56.622286+00:00",
+      "mfe_dato": "2026-08-07T21:52:07.273575+00:00",
+      "orig_stop_truffet": true,
+      "orig_stop_dato": "2026-09-10T23:05:56.622286+00:00",
+      "orig_stop_pnl_pct": -18.028403688472306,
+      "orig_target_truffet": false,
+      "orig_target_dato": null,
+      "orig_target_pnl_pct": null,
+      "stop_historie": [
+        {
+          "date": "2026-08-07T01:02:01.507439+00:00",
+          "stop_local": 231.47599700927734,
+          "type": "initial_wyckoff"
+        }
+      ],
+      "exit_pris_local": 231.24452101226805,
+      "exit_proceeds_nok": 7878.935974923248,
+      "pnl_nok": -1962.367769498289,
+      "pnl_pct": -19.94011993188038,
+      "pnl_pct_local": -18.110375284783842,
+      "reason": "stop_loss",
+      "closed_at": "2026-09-10T23:05:56.622286+00:00"
     }
   ],
   "missed_extended": [
@@ -3042,6 +3054,22 @@
         "obv_rising": "True",
         "dato": "2026-08-31"
       }
+    },
+    {
+      "symbol": "ELK.OL",
+      "signal_pris": 34.87350076675415,
+      "open_pris": 36.939998626708984,
+      "gap_pct": 5.9256966307348335,
+      "dato": "2026-09-10T23:05:56.622286+00:00",
+      "signal_snapshot": {
+        "score": 84.87518802265173,
+        "rs_score": 83.20479898827334,
+        "vsa_score": 86.37916108723243,
+        "wyckoff_phase": "markup",
+        "triple_rs": false,
+        "obv_rising": "True",
+        "dato": "2026-09-08"
+      }
     }
   ],
   "equity_curve": [
@@ -3547,6 +3575,12 @@
       "date": "2026-09-09",
       "equity_nok": 90071.49647729463,
       "n_open": 6,
+      "n_pending": 3
+    },
+    {
+      "date": "2026-09-10",
+      "equity_nok": 88869.43864881212,
+      "n_open": 5,
       "n_pending": 3
     }
   ]
