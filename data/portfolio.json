@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-09-11T23:12:49.468459+00:00",
+  "last_updated": "2026-09-14T23:51:19.319908+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 10094.035407659783,
   "pending_orders": [
@@ -15,16 +15,16 @@
       "stop_local": 31.59520164489746,
       "target_local": 41.43009901046752,
       "atr_local": 1.6391495609283435,
-      "opprettet_dato": "2026-09-11T23:11:52.383259+00:00",
-      "utloper_dato": "2026-09-21T23:11:52.383259+00:00",
+      "opprettet_dato": "2026-09-14T23:50:10.029660+00:00",
+      "utloper_dato": "2026-09-24T23:50:10.029660+00:00",
       "signal_snapshot": {
-        "score": 88.82622251741951,
-        "rs_score": 91.37491397083262,
+        "score": 88.04889529680854,
+        "rs_score": 88.78382323546269,
         "vsa_score": 91.37916108723243,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-09-10"
+        "dato": "2026-09-11"
       }
     },
     {
@@ -34,20 +34,20 @@
       "region": "EUROPE",
       "currency": "CHF",
       "signal_type": "Spring",
-      "signal_pris_local": 112.13999938964844,
+      "signal_pris_local": 112.04000091552734,
       "stop_local": 107.02080322265624,
-      "target_local": 122.37839172363283,
-      "atr_local": 2.5595980834960983,
-      "opprettet_dato": "2026-09-11T23:11:52.383259+00:00",
-      "utloper_dato": "2026-09-21T23:11:52.383259+00:00",
+      "target_local": 122.07839630126955,
+      "atr_local": 2.5095988464355514,
+      "opprettet_dato": "2026-09-14T23:50:10.029660+00:00",
+      "utloper_dato": "2026-09-24T23:50:10.029660+00:00",
       "signal_snapshot": {
-        "score": 74.6951814288167,
-        "rs_score": 43.33336901971091,
+        "score": 74.86450241700027,
+        "rs_score": 43.89777231365612,
         "vsa_score": 78.9839024096781,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-09-10"
+        "dato": "2026-09-11"
       }
     },
     {
@@ -57,20 +57,20 @@
       "region": "EUROPE",
       "currency": "EUR",
       "signal_type": "Spring",
-      "signal_pris_local": 83.80000305175781,
+      "signal_pris_local": 85.16999816894531,
       "stop_local": 78.96,
-      "target_local": 93.48000915527345,
-      "atr_local": 2.4200015258789094,
-      "opprettet_dato": "2026-09-11T23:11:52.383259+00:00",
-      "utloper_dato": "2026-09-21T23:11:52.383259+00:00",
+      "target_local": 97.58999450683595,
+      "atr_local": 3.1049990844726594,
+      "opprettet_dato": "2026-09-14T23:50:10.029660+00:00",
+      "utloper_dato": "2026-09-24T23:50:10.029660+00:00",
       "signal_snapshot": {
-        "score": 74.14849427385802,
-        "rs_score": 74.0448643870798,
+        "score": 74.04516122431042,
+        "rs_score": 73.70042088858777,
         "vsa_score": 93.11678319244695,
         "wyckoff_phase": "distribution",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-09-10"
+        "dato": "2026-09-11"
       }
     }
   ],
@@ -236,6 +236,11 @@
         },
         {
           "trigger_dato": "2026-09-11T23:11:52.383259+00:00",
+          "trigger_pris": 63.459309989929196,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-09-14T23:50:10.029660+00:00",
           "trigger_pris": 63.459309989929196,
           "grunn": "for lite kontanter"
         }
@@ -507,11 +512,11 @@
         "obv_rising": "True",
         "dato": "2026-08-04"
       },
-      "mae_local": 66.19999694824219,
+      "mae_local": 64.86000061035156,
       "mfe_local": 73.86000061035156,
-      "mae_pct": -9.732733177867846,
+      "mae_pct": -11.559890467129087,
       "mfe_pct": 0.7120950139935189,
-      "mae_dato": "2026-09-11T23:11:52.383259+00:00",
+      "mae_dato": "2026-09-14T23:50:10.029660+00:00",
       "mfe_dato": "2026-08-07T01:02:01.507439+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -3091,6 +3096,22 @@
         "obv_rising": "True",
         "dato": "2026-09-09"
       }
+    },
+    {
+      "symbol": "ELK.OL",
+      "signal_pris": 34.87350076675415,
+      "open_pris": 37.099998474121094,
+      "gap_pct": 6.38449727848811,
+      "dato": "2026-09-14T23:50:10.029660+00:00",
+      "signal_snapshot": {
+        "score": 88.82622251741951,
+        "rs_score": 91.37491397083262,
+        "vsa_score": 91.37916108723243,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-09-10"
+      }
     }
   ],
   "equity_curve": [
@@ -3607,6 +3628,12 @@
     {
       "date": "2026-09-11",
       "equity_nok": 88392.82940351183,
+      "n_open": 5,
+      "n_pending": 3
+    },
+    {
+      "date": "2026-09-14",
+      "equity_nok": 88641.32939283068,
       "n_open": 5,
       "n_pending": 3
     }
