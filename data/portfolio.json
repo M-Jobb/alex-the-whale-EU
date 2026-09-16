@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-09-15T23:31:33.735641+00:00",
+  "last_updated": "2026-09-16T23:38:57.142699+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 10094.035407659783,
   "pending_orders": [
@@ -15,16 +15,16 @@
       "stop_local": 370.93,
       "target_local": 469.5669631958006,
       "atr_local": 16.439493865966767,
-      "opprettet_dato": "2026-09-15T23:30:24.233776+00:00",
-      "utloper_dato": "2026-09-25T23:30:24.233776+00:00",
+      "opprettet_dato": "2026-09-16T23:37:58.274660+00:00",
+      "utloper_dato": "2026-09-26T23:37:58.274660+00:00",
       "signal_snapshot": {
-        "score": 88.50037592464888,
-        "rs_score": 93.74046875271375,
-        "vsa_score": 87.92745099611585,
+        "score": 85.59883648254186,
+        "rs_score": 93.42593988084866,
+        "vsa_score": 78.57018172762416,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-09-14"
+        "dato": "2026-09-15"
       }
     },
     {
@@ -38,16 +38,16 @@
       "stop_local": 31.59520164489746,
       "target_local": 41.43009901046752,
       "atr_local": 1.6391495609283435,
-      "opprettet_dato": "2026-09-15T23:30:24.233776+00:00",
-      "utloper_dato": "2026-09-25T23:30:24.233776+00:00",
+      "opprettet_dato": "2026-09-16T23:37:58.274660+00:00",
+      "utloper_dato": "2026-09-26T23:37:58.274660+00:00",
       "signal_snapshot": {
-        "score": 77.12755265363036,
-        "rs_score": 72.37934775820212,
-        "vsa_score": 91.37916108723243,
-        "wyckoff_phase": "unclear",
+        "score": 83.17321727686534,
+        "rs_score": 71.62122253203464,
+        "vsa_score": 85.62283505751651,
+        "wyckoff_phase": "accumulation",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-09-14"
+        "dato": "2026-09-15"
       }
     },
     {
@@ -61,39 +61,16 @@
       "stop_local": 358.87601196289063,
       "target_local": 411.063957672119,
       "atr_local": 8.69799095153806,
-      "opprettet_dato": "2026-09-15T23:30:24.233776+00:00",
-      "utloper_dato": "2026-09-25T23:30:24.233776+00:00",
+      "opprettet_dato": "2026-09-16T23:37:58.274660+00:00",
+      "utloper_dato": "2026-09-26T23:37:58.274660+00:00",
       "signal_snapshot": {
-        "score": 81.95261737193883,
-        "rs_score": 87.4350619563327,
+        "score": 81.91184931340861,
+        "rs_score": 87.29916842789865,
         "vsa_score": 72.40699595013007,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-09-14"
-      }
-    },
-    {
-      "symbol": "NOVN.SW",
-      "name": "Novartis",
-      "sector": "Health Care",
-      "region": "EUROPE",
-      "currency": "CHF",
-      "signal_type": "Spring",
-      "signal_pris_local": 113.91999816894531,
-      "stop_local": 107.02080322265624,
-      "target_local": 127.71838806152346,
-      "atr_local": 3.449597473144536,
-      "opprettet_dato": "2026-09-15T23:30:24.233776+00:00",
-      "utloper_dato": "2026-09-25T23:30:24.233776+00:00",
-      "signal_snapshot": {
-        "score": 74.93479952569723,
-        "rs_score": 44.1320960093127,
-        "vsa_score": 78.9839024096781,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": false,
-        "obv_rising": "False",
-        "dato": "2026-09-14"
+        "dato": "2026-09-15"
       }
     },
     {
@@ -103,20 +80,20 @@
       "region": "EUROPE",
       "currency": "EUR",
       "signal_type": "Spring",
-      "signal_pris_local": 84.47000122070312,
+      "signal_pris_local": 82.58000183105469,
       "stop_local": 78.96,
-      "target_local": 95.49000366210939,
-      "atr_local": 2.7550006103515656,
-      "opprettet_dato": "2026-09-15T23:30:24.233776+00:00",
-      "utloper_dato": "2026-09-25T23:30:24.233776+00:00",
+      "target_local": 89.82000549316408,
+      "atr_local": 1.8100009155273469,
+      "opprettet_dato": "2026-09-16T23:37:58.274660+00:00",
+      "utloper_dato": "2026-09-26T23:37:58.274660+00:00",
       "signal_snapshot": {
-        "score": 69.6756936775212,
-        "rs_score": 74.13552906595704,
+        "score": 67.63644441728303,
+        "rs_score": 67.33803153182984,
         "vsa_score": 78.11678319244695,
         "wyckoff_phase": "distribution",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-09-14"
+        "dato": "2026-09-15"
       }
     }
   ],
@@ -292,6 +269,11 @@
         },
         {
           "trigger_dato": "2026-09-15T23:30:24.233776+00:00",
+          "trigger_pris": 63.459309989929196,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-09-16T23:37:58.274660+00:00",
           "trigger_pris": 63.459309989929196,
           "grunn": "for lite kontanter"
         }
@@ -3693,6 +3675,12 @@
       "equity_nok": 88509.85828382189,
       "n_open": 5,
       "n_pending": 5
+    },
+    {
+      "date": "2026-09-16",
+      "equity_nok": 88365.4399999779,
+      "n_open": 5,
+      "n_pending": 4
     }
   ]
 }
