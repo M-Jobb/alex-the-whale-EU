@@ -1,55 +1,9 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-09-16T23:38:57.142699+00:00",
+  "last_updated": "2026-09-17T23:32:20.163636+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 10094.035407659783,
   "pending_orders": [
-    {
-      "symbol": "EQNR.OL",
-      "name": "Equinor",
-      "sector": "Energy",
-      "region": "OSLO",
-      "currency": "NOK",
-      "signal_type": "Markup",
-      "signal_pris_local": 403.80898773193354,
-      "stop_local": 370.93,
-      "target_local": 469.5669631958006,
-      "atr_local": 16.439493865966767,
-      "opprettet_dato": "2026-09-16T23:37:58.274660+00:00",
-      "utloper_dato": "2026-09-26T23:37:58.274660+00:00",
-      "signal_snapshot": {
-        "score": 85.59883648254186,
-        "rs_score": 93.42593988084866,
-        "vsa_score": 78.57018172762416,
-        "wyckoff_phase": "markup",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-09-15"
-      }
-    },
-    {
-      "symbol": "ELK.OL",
-      "name": "Elkem",
-      "sector": "Chemicals",
-      "region": "OSLO",
-      "currency": "NOK",
-      "signal_type": "Markup",
-      "signal_pris_local": 34.87350076675415,
-      "stop_local": 31.59520164489746,
-      "target_local": 41.43009901046752,
-      "atr_local": 1.6391495609283435,
-      "opprettet_dato": "2026-09-16T23:37:58.274660+00:00",
-      "utloper_dato": "2026-09-26T23:37:58.274660+00:00",
-      "signal_snapshot": {
-        "score": 83.17321727686534,
-        "rs_score": 71.62122253203464,
-        "vsa_score": 85.62283505751651,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-09-15"
-      }
-    },
     {
       "symbol": "SWED-A.ST",
       "name": "Swedbank A",
@@ -61,39 +15,39 @@
       "stop_local": 358.87601196289063,
       "target_local": 411.063957672119,
       "atr_local": 8.69799095153806,
-      "opprettet_dato": "2026-09-16T23:37:58.274660+00:00",
-      "utloper_dato": "2026-09-26T23:37:58.274660+00:00",
+      "opprettet_dato": "2026-09-17T23:30:57.492319+00:00",
+      "utloper_dato": "2026-09-27T23:30:57.492319+00:00",
       "signal_snapshot": {
-        "score": 81.91184931340861,
-        "rs_score": 87.29916842789865,
+        "score": 82.04826994965462,
+        "rs_score": 87.753903882052,
         "vsa_score": 72.40699595013007,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-09-15"
+        "dato": "2026-09-16"
       }
     },
     {
-      "symbol": "UCG.MI",
-      "name": "UniCredit",
-      "sector": "Banks",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Spring",
-      "signal_pris_local": 82.58000183105469,
-      "stop_local": 78.96,
-      "target_local": 89.82000549316408,
-      "atr_local": 1.8100009155273469,
-      "opprettet_dato": "2026-09-16T23:37:58.274660+00:00",
-      "utloper_dato": "2026-09-26T23:37:58.274660+00:00",
+      "symbol": "DEMANT.CO",
+      "name": "Demant",
+      "sector": "Health Care",
+      "region": "NORDIC",
+      "currency": "DKK",
+      "signal_type": "Markup",
+      "signal_pris_local": 290.445,
+      "stop_local": 275.9680059814453,
+      "target_local": 319.3989880371094,
+      "atr_local": 7.238497009277353,
+      "opprettet_dato": "2026-09-17T23:30:57.492319+00:00",
+      "utloper_dato": "2026-09-27T23:30:57.492319+00:00",
       "signal_snapshot": {
-        "score": 67.63644441728303,
-        "rs_score": 67.33803153182984,
-        "vsa_score": 78.11678319244695,
-        "wyckoff_phase": "distribution",
-        "triple_rs": false,
-        "obv_rising": "False",
-        "dato": "2026-09-15"
+        "score": 81.12239570703684,
+        "rs_score": 85.93297511827359,
+        "vsa_score": 71.14167723851588,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-09-16"
       }
     }
   ],
@@ -274,6 +228,11 @@
         },
         {
           "trigger_dato": "2026-09-16T23:37:58.274660+00:00",
+          "trigger_pris": 63.459309989929196,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-09-17T23:30:57.492319+00:00",
           "trigger_pris": 63.459309989929196,
           "grunn": "for lite kontanter"
         }
@@ -3681,6 +3640,12 @@
       "equity_nok": 88365.4399999779,
       "n_open": 5,
       "n_pending": 4
+    },
+    {
+      "date": "2026-09-17",
+      "equity_nok": 89171.44931928332,
+      "n_open": 5,
+      "n_pending": 2
     }
   ]
 }
