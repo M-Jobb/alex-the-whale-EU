@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-09-17T23:32:20.163636+00:00",
+  "last_updated": "2026-09-18T23:15:09.969280+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 10094.035407659783,
   "pending_orders": [
@@ -15,12 +15,12 @@
       "stop_local": 358.87601196289063,
       "target_local": 411.063957672119,
       "atr_local": 8.69799095153806,
-      "opprettet_dato": "2026-09-17T23:30:57.492319+00:00",
-      "utloper_dato": "2026-09-27T23:30:57.492319+00:00",
+      "opprettet_dato": "2026-09-18T23:13:50.231177+00:00",
+      "utloper_dato": "2026-09-28T23:13:50.231177+00:00",
       "signal_snapshot": {
-        "score": 82.04826994965462,
-        "rs_score": 87.753903882052,
-        "vsa_score": 72.40699595013007,
+        "score": 82.31954599692565,
+        "rs_score": 88.58807403409993,
+        "vsa_score": 72.47707928898556,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
@@ -38,11 +38,11 @@
       "stop_local": 275.9680059814453,
       "target_local": 319.3989880371094,
       "atr_local": 7.238497009277353,
-      "opprettet_dato": "2026-09-17T23:30:57.492319+00:00",
-      "utloper_dato": "2026-09-27T23:30:57.492319+00:00",
+      "opprettet_dato": "2026-09-18T23:13:50.231177+00:00",
+      "utloper_dato": "2026-09-28T23:13:50.231177+00:00",
       "signal_snapshot": {
-        "score": 81.12239570703684,
-        "rs_score": 85.93297511827359,
+        "score": 81.74724794427561,
+        "rs_score": 88.01581590906952,
         "vsa_score": 71.14167723851588,
         "wyckoff_phase": "markup",
         "triple_rs": true,
@@ -233,6 +233,11 @@
         },
         {
           "trigger_dato": "2026-09-17T23:30:57.492319+00:00",
+          "trigger_pris": 63.459309989929196,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-09-18T23:13:50.231177+00:00",
           "trigger_pris": 63.459309989929196,
           "grunn": "for lite kontanter"
         }
@@ -3644,6 +3649,12 @@
     {
       "date": "2026-09-17",
       "equity_nok": 89171.44931928332,
+      "n_open": 5,
+      "n_pending": 2
+    },
+    {
+      "date": "2026-09-18",
+      "equity_nok": 89396.08910504992,
       "n_open": 5,
       "n_pending": 2
     }
