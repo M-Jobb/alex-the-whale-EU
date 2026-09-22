@@ -1,9 +1,32 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-09-18T23:15:09.969280+00:00",
+  "last_updated": "2026-09-22T00:03:28.414383+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 10094.035407659783,
   "pending_orders": [
+    {
+      "symbol": "TGS.OL",
+      "name": "TGS",
+      "sector": "Energy",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Markup",
+      "signal_pris_local": 145.3230061340332,
+      "stop_local": 125.63599700927735,
+      "target_local": 184.69702438354489,
+      "atr_local": 9.843504562377923,
+      "opprettet_dato": "2026-09-22T00:02:07.465797+00:00",
+      "utloper_dato": "2026-10-02T00:02:07.465797+00:00",
+      "signal_snapshot": {
+        "score": 91.16435027814669,
+        "rs_score": 88.1373045658213,
+        "vsa_score": 95.743863028001,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-09-18"
+      }
+    },
     {
       "symbol": "SWED-A.ST",
       "name": "Swedbank A",
@@ -15,39 +38,131 @@
       "stop_local": 358.87601196289063,
       "target_local": 411.063957672119,
       "atr_local": 8.69799095153806,
-      "opprettet_dato": "2026-09-18T23:13:50.231177+00:00",
-      "utloper_dato": "2026-09-28T23:13:50.231177+00:00",
+      "opprettet_dato": "2026-09-22T00:02:07.465797+00:00",
+      "utloper_dato": "2026-10-02T00:02:07.465797+00:00",
       "signal_snapshot": {
-        "score": 82.31954599692565,
-        "rs_score": 88.58807403409993,
-        "vsa_score": 72.47707928898556,
+        "score": 87.4721763510229,
+        "rs_score": 90.51906286745776,
+        "vsa_score": 87.72152496928521,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-09-16"
+        "dato": "2026-09-18"
       }
     },
     {
-      "symbol": "DEMANT.CO",
-      "name": "Demant",
-      "sector": "Health Care",
+      "symbol": "NESTE.HE",
+      "name": "Neste",
+      "sector": "Energy",
       "region": "NORDIC",
-      "currency": "DKK",
+      "currency": "EUR",
       "signal_type": "Markup",
-      "signal_pris_local": 290.445,
-      "stop_local": 275.9680059814453,
-      "target_local": 319.3989880371094,
-      "atr_local": 7.238497009277353,
-      "opprettet_dato": "2026-09-18T23:13:50.231177+00:00",
-      "utloper_dato": "2026-09-28T23:13:50.231177+00:00",
+      "signal_pris_local": 34.230301380157464,
+      "stop_local": 30.095799102783204,
+      "target_local": 42.49930593490598,
+      "atr_local": 2.06725113868713,
+      "opprettet_dato": "2026-09-22T00:02:07.465797+00:00",
+      "utloper_dato": "2026-10-02T00:02:07.465797+00:00",
       "signal_snapshot": {
-        "score": 81.74724794427561,
-        "rs_score": 88.01581590906952,
-        "vsa_score": 71.14167723851588,
+        "score": 80.29575023069985,
+        "rs_score": 89.31916743566617,
+        "vsa_score": 65.0,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-09-16"
+        "dato": "2026-09-18"
+      }
+    },
+    {
+      "symbol": "SHB-A.ST",
+      "name": "Handelsbanken A",
+      "sector": "Banks",
+      "region": "NORDIC",
+      "currency": "SEK",
+      "signal_type": "Markup",
+      "signal_pris_local": 150.44849693298337,
+      "stop_local": 140.82599700927733,
+      "target_local": 169.69349678039546,
+      "atr_local": 4.811249961853022,
+      "opprettet_dato": "2026-09-22T00:02:07.465797+00:00",
+      "utloper_dato": "2026-10-02T00:02:07.465797+00:00",
+      "signal_snapshot": {
+        "score": 80.21807973914704,
+        "rs_score": 81.47535148104683,
+        "vsa_score": 72.58491431611002,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-09-18"
+      }
+    },
+    {
+      "symbol": "NDA-SE.ST",
+      "name": "Nordea Bank",
+      "sector": "Banks",
+      "region": "NORDIC",
+      "currency": "SEK",
+      "signal_type": "Markup",
+      "signal_pris_local": 196.37699386596677,
+      "stop_local": 184.04400299072265,
+      "target_local": 221.042975616455,
+      "atr_local": 6.166495437622061,
+      "opprettet_dato": "2026-09-22T00:02:07.465797+00:00",
+      "utloper_dato": "2026-10-02T00:02:07.465797+00:00",
+      "signal_snapshot": {
+        "score": 68.30061410166662,
+        "rs_score": 59.38774089240951,
+        "vsa_score": 74.94763944647923,
+        "wyckoff_phase": "unclear",
+        "triple_rs": false,
+        "obv_rising": "True",
+        "dato": "2026-09-18"
+      }
+    },
+    {
+      "symbol": "VOD.L",
+      "name": "Vodafone",
+      "sector": "Telecom",
+      "region": "EUROPE",
+      "currency": "GBP",
+      "signal_type": "Markup",
+      "signal_pris_local": 1.2864,
+      "stop_local": 1.1323900299072267,
+      "target_local": 1.5944199401855466,
+      "atr_local": 0.07700498504638664,
+      "opprettet_dato": "2026-09-22T00:02:07.465797+00:00",
+      "utloper_dato": "2026-10-02T00:02:07.465797+00:00",
+      "signal_snapshot": {
+        "score": 80.97406033899567,
+        "rs_score": 78.76577068024056,
+        "vsa_score": 71.14776378307835,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-09-18"
+      }
+    },
+    {
+      "symbol": "BP.L",
+      "name": "BP",
+      "sector": "Energy",
+      "region": "EUROPE",
+      "currency": "GBP",
+      "signal_type": "Markup",
+      "signal_pris_local": 5.657145245361328,
+      "stop_local": 5.1161293579101565,
+      "target_local": 6.73917702026367,
+      "atr_local": 0.2705079437255855,
+      "opprettet_dato": "2026-09-22T00:02:07.465797+00:00",
+      "utloper_dato": "2026-10-02T00:02:07.465797+00:00",
+      "signal_snapshot": {
+        "score": 79.19396085626607,
+        "rs_score": 70.72451628621133,
+        "vsa_score": 73.25535323467555,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-09-18"
       }
     }
   ],
@@ -238,6 +353,11 @@
         },
         {
           "trigger_dato": "2026-09-18T23:13:50.231177+00:00",
+          "trigger_pris": 63.459309989929196,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-09-22T00:02:07.465797+00:00",
           "trigger_pris": 63.459309989929196,
           "grunn": "for lite kontanter"
         }
@@ -3109,6 +3229,22 @@
         "obv_rising": "True",
         "dato": "2026-09-10"
       }
+    },
+    {
+      "symbol": "SWED-A.ST",
+      "signal_pris": 376.27199386596675,
+      "open_pris": 407.70001220703125,
+      "gap_pct": 8.352473437674867,
+      "dato": "2026-09-22T00:02:07.465797+00:00",
+      "signal_snapshot": {
+        "score": 82.31954599692565,
+        "rs_score": 88.58807403409993,
+        "vsa_score": 72.47707928898556,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-09-16"
+      }
     }
   ],
   "equity_curve": [
@@ -3657,6 +3793,12 @@
       "equity_nok": 89396.08910504992,
       "n_open": 5,
       "n_pending": 2
+    },
+    {
+      "date": "2026-09-22",
+      "equity_nok": 88269.07914029772,
+      "n_open": 5,
+      "n_pending": 7
     }
   ]
 }
