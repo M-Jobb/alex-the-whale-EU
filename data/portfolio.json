@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-09-22T23:36:18.553990+00:00",
+  "last_updated": "2026-09-23T23:38:09.390738+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 10094.035407659783,
   "pending_orders": [
@@ -12,42 +12,65 @@
       "currency": "NOK",
       "signal_type": "Markup",
       "signal_pris_local": 146.73,
-      "stop_local": 125.63599700927735,
-      "target_local": 188.91800598144528,
-      "atr_local": 10.547001495361322,
-      "opprettet_dato": "2026-09-22T23:35:04.691251+00:00",
-      "utloper_dato": "2026-10-02T23:35:04.691251+00:00",
+      "stop_local": 132.49599700927735,
+      "target_local": 175.19800598144528,
+      "atr_local": 7.117001495361322,
+      "opprettet_dato": "2026-09-23T23:37:08.811830+00:00",
+      "utloper_dato": "2026-10-03T23:37:08.811830+00:00",
       "signal_snapshot": {
-        "score": 92.29354706066486,
-        "rs_score": 91.90129384088188,
+        "score": 92.27227813732844,
+        "rs_score": 91.83039742976044,
         "vsa_score": 95.743863028001,
         "wyckoff_phase": "accumulation",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-09-21"
+        "dato": "2026-09-22"
       }
     },
     {
-      "symbol": "UPM.HE",
-      "name": "UPM-Kymmene",
-      "sector": "Basic Resources",
-      "region": "NORDIC",
-      "currency": "EUR",
+      "symbol": "SB1NO.OL",
+      "name": "SpareBank 1 Sør-Norge",
+      "sector": "Banks",
+      "region": "OSLO",
+      "currency": "NOK",
       "signal_type": "Markup",
-      "signal_pris_local": 25.728000383377072,
-      "stop_local": 22.2753995513916,
-      "target_local": 32.633202047348014,
-      "atr_local": 1.7263004159927355,
-      "opprettet_dato": "2026-09-22T23:35:04.691251+00:00",
-      "utloper_dato": "2026-10-02T23:35:04.691251+00:00",
+      "signal_pris_local": 223.10999999999999,
+      "stop_local": 216.57999999999998,
+      "target_local": 236.17,
+      "atr_local": 3.2650000000000006,
+      "opprettet_dato": "2026-09-23T23:37:08.811830+00:00",
+      "utloper_dato": "2026-10-03T23:37:08.811830+00:00",
       "signal_snapshot": {
-        "score": 86.02341883938877,
-        "rs_score": 74.51037420188679,
-        "vsa_score": 92.23435526274247,
+        "score": 76.62222742653495,
+        "rs_score": 76.01220470024094,
+        "vsa_score": 66.06188672154224,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "False",
+        "dato": "2026-09-22"
+      }
+    },
+    {
+      "symbol": "ERIC-B.ST",
+      "name": "Ericsson B",
+      "sector": "Technology",
+      "region": "NORDIC",
+      "currency": "SEK",
+      "signal_type": "Markup",
+      "signal_pris_local": 98.97240337371825,
+      "stop_local": 93.98200149536133,
+      "target_local": 108.95320713043209,
+      "atr_local": 2.49520093917846,
+      "opprettet_dato": "2026-09-23T23:37:08.811830+00:00",
+      "utloper_dato": "2026-10-03T23:37:08.811830+00:00",
+      "signal_snapshot": {
+        "score": 84.97811170839734,
+        "rs_score": 68.68996458480483,
+        "vsa_score": 81.2370744431863,
         "wyckoff_phase": "accumulation",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-09-21"
+        "dato": "2026-09-22"
       }
     },
     {
@@ -61,16 +84,16 @@
       "stop_local": 140.82599700927733,
       "target_local": 169.69349678039546,
       "atr_local": 4.811249961853022,
-      "opprettet_dato": "2026-09-22T23:35:04.691251+00:00",
-      "utloper_dato": "2026-10-02T23:35:04.691251+00:00",
+      "opprettet_dato": "2026-09-23T23:37:08.811830+00:00",
+      "utloper_dato": "2026-10-03T23:37:08.811830+00:00",
       "signal_snapshot": {
-        "score": 77.7197027284877,
-        "rs_score": 73.14742811218235,
+        "score": 77.79317685013366,
+        "rs_score": 73.39234185100219,
         "vsa_score": 72.58491431611002,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-09-21"
+        "dato": "2026-09-22"
       }
     },
     {
@@ -81,19 +104,19 @@
       "currency": "EUR",
       "signal_type": "Markup",
       "signal_pris_local": 34.230301380157464,
-      "stop_local": 30.095799102783204,
-      "target_local": 42.49930593490598,
-      "atr_local": 2.06725113868713,
-      "opprettet_dato": "2026-09-22T23:35:04.691251+00:00",
-      "utloper_dato": "2026-10-02T23:35:04.691251+00:00",
+      "stop_local": 30.928799476623535,
+      "target_local": 40.83330518722532,
+      "atr_local": 1.6507509517669643,
+      "opprettet_dato": "2026-09-23T23:37:08.811830+00:00",
+      "utloper_dato": "2026-10-03T23:37:08.811830+00:00",
       "signal_snapshot": {
-        "score": 75.15610259473712,
-        "rs_score": 92.18700864912371,
+        "score": 74.65083670670143,
+        "rs_score": 90.5027890223381,
         "vsa_score": 65.0,
         "wyckoff_phase": "unclear",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-09-21"
+        "dato": "2026-09-22"
       }
     },
     {
@@ -107,16 +130,16 @@
       "stop_local": 184.04400299072265,
       "target_local": 221.042975616455,
       "atr_local": 6.166495437622061,
-      "opprettet_dato": "2026-09-22T23:35:04.691251+00:00",
-      "utloper_dato": "2026-10-02T23:35:04.691251+00:00",
+      "opprettet_dato": "2026-09-23T23:37:08.811830+00:00",
+      "utloper_dato": "2026-10-03T23:37:08.811830+00:00",
       "signal_snapshot": {
-        "score": 74.29440253502649,
-        "rs_score": 59.36703567027576,
+        "score": 74.2304154108353,
+        "rs_score": 59.153745256305115,
         "vsa_score": 74.94763944647923,
         "wyckoff_phase": "markup",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-09-21"
+        "dato": "2026-09-22"
       }
     },
     {
@@ -130,39 +153,16 @@
       "stop_local": 1.1323900299072267,
       "target_local": 1.5944199401855466,
       "atr_local": 0.07700498504638664,
-      "opprettet_dato": "2026-09-22T23:35:04.691251+00:00",
-      "utloper_dato": "2026-10-02T23:35:04.691251+00:00",
+      "opprettet_dato": "2026-09-23T23:37:08.811830+00:00",
+      "utloper_dato": "2026-10-03T23:37:08.811830+00:00",
       "signal_snapshot": {
-        "score": 81.38150504759548,
-        "rs_score": 80.12391970890661,
+        "score": 81.3884414679869,
+        "rs_score": 80.14704111021132,
         "vsa_score": 71.14776378307835,
         "wyckoff_phase": "accumulation",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-09-21"
-      }
-    },
-    {
-      "symbol": "BP.L",
-      "name": "BP",
-      "sector": "Energy",
-      "region": "EUROPE",
-      "currency": "GBP",
-      "signal_type": "Markup",
-      "signal_pris_local": 5.584785122680663,
-      "stop_local": 5.1161293579101565,
-      "target_local": 6.522096652221676,
-      "atr_local": 0.23432788238525326,
-      "opprettet_dato": "2026-09-22T23:35:04.691251+00:00",
-      "utloper_dato": "2026-10-02T23:35:04.691251+00:00",
-      "signal_snapshot": {
-        "score": 78.63275753841981,
-        "rs_score": 68.85383856005713,
-        "vsa_score": 73.25535323467555,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-09-21"
+        "dato": "2026-09-22"
       }
     }
   ],
@@ -363,6 +363,11 @@
         },
         {
           "trigger_dato": "2026-09-22T23:35:04.691251+00:00",
+          "trigger_pris": 63.459309989929196,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-09-23T23:37:08.811830+00:00",
           "trigger_pris": 63.459309989929196,
           "grunn": "for lite kontanter"
         }
@@ -3824,6 +3829,12 @@
     {
       "date": "2026-09-22",
       "equity_nok": 88876.89033033067,
+      "n_open": 5,
+      "n_pending": 7
+    },
+    {
+      "date": "2026-09-23",
+      "equity_nok": 88551.02879316027,
       "n_open": 5,
       "n_pending": 7
     }
