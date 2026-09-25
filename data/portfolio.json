@@ -1,30 +1,53 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-09-24T23:52:11.217539+00:00",
+  "last_updated": "2026-09-25T23:56:59.143450+00:00",
   "start_kapital_nok": 100000.0,
-  "kontanter_nok": 10094.035407659783,
+  "kontanter_nok": 26526.59310751818,
   "pending_orders": [
     {
-      "symbol": "ERIC-B.ST",
-      "name": "Ericsson B",
-      "sector": "Technology",
-      "region": "NORDIC",
-      "currency": "SEK",
+      "symbol": "MPCC.OL",
+      "name": "MPC Container Ships",
+      "sector": "Industrial Goods",
+      "region": "OSLO",
+      "currency": "NOK",
       "signal_type": "Markup",
-      "signal_pris_local": 98.97240337371825,
-      "stop_local": 93.98200149536133,
-      "target_local": 108.95320713043209,
-      "atr_local": 2.49520093917846,
-      "opprettet_dato": "2026-09-24T23:51:07.328102+00:00",
-      "utloper_dato": "2026-10-04T23:51:07.328102+00:00",
+      "signal_pris_local": 27.64755023002624,
+      "stop_local": 25.773999252319335,
+      "target_local": 31.39465218544005,
+      "atr_local": 0.9367754888534527,
+      "opprettet_dato": "2026-09-25T23:55:42.014349+00:00",
+      "utloper_dato": "2026-10-05T23:55:42.014349+00:00",
       "signal_snapshot": {
-        "score": 85.06415898530375,
-        "rs_score": 68.97678884115955,
-        "vsa_score": 81.2370744431863,
+        "score": 75.68575495141943,
+        "rs_score": 73.95251650473145,
+        "vsa_score": 65.0,
+        "wyckoff_phase": "markup",
+        "triple_rs": false,
+        "obv_rising": "True",
+        "dato": "2026-09-24"
+      }
+    },
+    {
+      "symbol": "UPM.HE",
+      "name": "UPM-Kymmene",
+      "sector": "Basic Resources",
+      "region": "NORDIC",
+      "currency": "EUR",
+      "signal_type": "Markup",
+      "signal_pris_local": 25.728000383377072,
+      "stop_local": 22.2753995513916,
+      "target_local": 32.633202047348014,
+      "atr_local": 1.7263004159927355,
+      "opprettet_dato": "2026-09-25T23:55:42.014349+00:00",
+      "utloper_dato": "2026-10-05T23:55:42.014349+00:00",
+      "signal_snapshot": {
+        "score": 81.86175420784596,
+        "rs_score": 77.87251402615323,
+        "vsa_score": 75.0,
         "wyckoff_phase": "accumulation",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-09-23"
+        "dato": "2026-09-24"
       }
     },
     {
@@ -38,16 +61,16 @@
       "stop_local": 30.928799476623535,
       "target_local": 40.83330518722532,
       "atr_local": 1.6507509517669643,
-      "opprettet_dato": "2026-09-24T23:51:07.328102+00:00",
-      "utloper_dato": "2026-10-04T23:51:07.328102+00:00",
+      "opprettet_dato": "2026-09-25T23:55:42.014349+00:00",
+      "utloper_dato": "2026-10-05T23:55:42.014349+00:00",
       "signal_snapshot": {
-        "score": 79.1704621636393,
-        "rs_score": 85.56820721213101,
+        "score": 81.22532055868066,
+        "rs_score": 92.41773519560219,
         "vsa_score": 65.0,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-09-23"
+        "dato": "2026-09-24"
       }
     },
     {
@@ -61,16 +84,16 @@
       "stop_local": 140.82599700927733,
       "target_local": 169.69349678039546,
       "atr_local": 4.811249961853022,
-      "opprettet_dato": "2026-09-24T23:51:07.328102+00:00",
-      "utloper_dato": "2026-10-04T23:51:07.328102+00:00",
+      "opprettet_dato": "2026-09-25T23:55:42.014349+00:00",
+      "utloper_dato": "2026-10-05T23:55:42.014349+00:00",
       "signal_snapshot": {
-        "score": 77.57310460371791,
-        "rs_score": 72.65876769628302,
+        "score": 77.64085200255795,
+        "rs_score": 72.88459235908316,
         "vsa_score": 72.58491431611002,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-09-23"
+        "dato": "2026-09-24"
       }
     },
     {
@@ -84,39 +107,39 @@
       "stop_local": 184.04400299072265,
       "target_local": 221.042975616455,
       "atr_local": 6.166495437622061,
-      "opprettet_dato": "2026-09-24T23:51:07.328102+00:00",
-      "utloper_dato": "2026-10-04T23:51:07.328102+00:00",
+      "opprettet_dato": "2026-09-25T23:55:42.014349+00:00",
+      "utloper_dato": "2026-10-05T23:55:42.014349+00:00",
       "signal_snapshot": {
-        "score": 74.07300698295006,
-        "rs_score": 58.62905049668766,
+        "score": 74.21865010964098,
+        "rs_score": 59.114527585657335,
         "vsa_score": 74.94763944647923,
         "wyckoff_phase": "markup",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-09-23"
+        "dato": "2026-09-24"
       }
     },
     {
-      "symbol": "VOD.L",
-      "name": "Vodafone",
-      "sector": "Telecom",
+      "symbol": "KGF.L",
+      "name": "Kingfisher",
+      "sector": "Retail",
       "region": "EUROPE",
       "currency": "GBP",
       "signal_type": "Markup",
-      "signal_pris_local": 1.2864,
-      "stop_local": 1.1323900299072267,
-      "target_local": 1.5944199401855466,
-      "atr_local": 0.07700498504638664,
-      "opprettet_dato": "2026-09-24T23:51:07.328102+00:00",
-      "utloper_dato": "2026-10-04T23:51:07.328102+00:00",
+      "signal_pris_local": 3.3196154754638667,
+      "stop_local": 2.815539880371094,
+      "target_local": 4.327766665649412,
+      "atr_local": 0.25203779754638633,
+      "opprettet_dato": "2026-09-25T23:55:42.014349+00:00",
+      "utloper_dato": "2026-10-05T23:55:42.014349+00:00",
       "signal_snapshot": {
-        "score": 84.01190149129177,
-        "rs_score": 88.8919078545609,
-        "vsa_score": 71.14776378307835,
-        "wyckoff_phase": "accumulation",
+        "score": 69.43984854096398,
+        "rs_score": 90.54061546106993,
+        "vsa_score": 67.59221300881,
+        "wyckoff_phase": "distribution",
         "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-09-23"
+        "obv_rising": "False",
+        "dato": "2026-09-24"
       }
     }
   ],
@@ -327,6 +350,11 @@
         },
         {
           "trigger_dato": "2026-09-24T23:51:07.328102+00:00",
+          "trigger_pris": 63.459309989929196,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-09-25T23:55:42.014349+00:00",
           "trigger_pris": 63.459309989929196,
           "grunn": "for lite kontanter"
         }
@@ -614,75 +642,6 @@
         {
           "date": "2026-08-07T01:02:01.507439+00:00",
           "stop_local": 57.97679985046386,
-          "type": "initial_wyckoff"
-        }
-      ]
-    },
-    {
-      "symbol": "PRU.L",
-      "name": "Prudential",
-      "sector": "Insurance",
-      "region": "EUROPE",
-      "currency": "GBP",
-      "signal_type": "Spring",
-      "fill_type": "limit",
-      "signal_pris_local": 10.25,
-      "initial_entry_local": 10.26025,
-      "avg_entry_local": 10.26025,
-      "shares": 130,
-      "kostnad_nok": 18105.73875,
-      "sizing_method": "capital_capped",
-      "fills": [
-        {
-          "date": "2026-08-07T01:02:01.507439+00:00",
-          "price_local": 10.26025,
-          "shares": 130,
-          "cost_nok": 18105.73875,
-          "type": "initial",
-          "fill_type": "limit"
-        }
-      ],
-      "opened_at": "2026-08-07T01:02:01.507439+00:00",
-      "initial_stop_local": 9.4291201171875,
-      "current_stop_local": 9.4291201171875,
-      "target_local": 11.891759765625,
-      "atr_local": 0.41043994140625006,
-      "stop_type": "wyckoff",
-      "high_water_local": 10.97,
-      "low_water_local": 10.26025,
-      "pyramid_count": 0,
-      "skipped_pyramids": [
-        {
-          "trigger_dato": "2026-08-07T01:02:01.507439+00:00",
-          "trigger_pris": 10.670689941406248,
-          "grunn": "for lite kontanter"
-        }
-      ],
-      "signal_snapshot": {
-        "score": 89.12163961363626,
-        "rs_score": 85.40546537878754,
-        "vsa_score": 85.0,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-08-05"
-      },
-      "mae_local": 9.432000122070313,
-      "mfe_local": 10.97,
-      "mae_pct": -8.072414199748412,
-      "mfe_pct": 6.917472771131328,
-      "mae_dato": "2026-09-24T23:51:07.328102+00:00",
-      "mfe_dato": "2026-08-07T01:02:01.507439+00:00",
-      "orig_stop_truffet": false,
-      "orig_stop_dato": null,
-      "orig_stop_pnl_pct": null,
-      "orig_target_truffet": false,
-      "orig_target_dato": null,
-      "orig_target_pnl_pct": null,
-      "stop_historie": [
-        {
-          "date": "2026-08-07T01:02:01.507439+00:00",
-          "stop_local": 9.4291201171875,
           "type": "initial_wyckoff"
         }
       ]
@@ -1964,6 +1923,82 @@
       "pnl_pct_local": -18.110375284783842,
       "reason": "stop_loss",
       "closed_at": "2026-09-10T23:05:56.622286+00:00"
+    },
+    {
+      "symbol": "PRU.L",
+      "name": "Prudential",
+      "sector": "Insurance",
+      "region": "EUROPE",
+      "currency": "GBP",
+      "signal_type": "Spring",
+      "fill_type": "limit",
+      "signal_pris_local": 10.25,
+      "initial_entry_local": 10.26025,
+      "avg_entry_local": 10.26025,
+      "shares": 130,
+      "kostnad_nok": 18105.73875,
+      "sizing_method": "capital_capped",
+      "fills": [
+        {
+          "date": "2026-08-07T01:02:01.507439+00:00",
+          "price_local": 10.26025,
+          "shares": 130,
+          "cost_nok": 18105.73875,
+          "type": "initial",
+          "fill_type": "limit"
+        }
+      ],
+      "opened_at": "2026-08-07T01:02:01.507439+00:00",
+      "initial_stop_local": 9.4291201171875,
+      "current_stop_local": 9.4291201171875,
+      "target_local": 11.891759765625,
+      "atr_local": 0.41043994140625006,
+      "stop_type": "wyckoff",
+      "high_water_local": 10.97,
+      "low_water_local": 10.26025,
+      "pyramid_count": 0,
+      "skipped_pyramids": [
+        {
+          "trigger_dato": "2026-08-07T01:02:01.507439+00:00",
+          "trigger_pris": 10.670689941406248,
+          "grunn": "for lite kontanter"
+        }
+      ],
+      "signal_snapshot": {
+        "score": 89.12163961363626,
+        "rs_score": 85.40546537878754,
+        "vsa_score": 85.0,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-08-05"
+      },
+      "mae_local": 9.407979736328125,
+      "mfe_local": 10.97,
+      "mae_pct": -8.306525315385827,
+      "mfe_pct": 6.917472771131328,
+      "mae_dato": "2026-09-25T23:55:42.014349+00:00",
+      "mfe_dato": "2026-08-07T01:02:01.507439+00:00",
+      "orig_stop_truffet": true,
+      "orig_stop_dato": "2026-09-25T23:55:42.014349+00:00",
+      "orig_stop_pnl_pct": -8.10048373882215,
+      "orig_target_truffet": false,
+      "orig_target_dato": null,
+      "orig_target_pnl_pct": null,
+      "stop_historie": [
+        {
+          "date": "2026-08-07T01:02:01.507439+00:00",
+          "stop_local": 9.4291201171875,
+          "type": "initial_wyckoff"
+        }
+      ],
+      "exit_pris_local": 9.419690997070312,
+      "exit_proceeds_nok": 16432.557699858397,
+      "pnl_nok": -1673.181050141604,
+      "pnl_pct": -9.241164214531725,
+      "pnl_pct_local": -8.192383255083335,
+      "reason": "stop_loss",
+      "closed_at": "2026-09-25T23:55:42.014349+00:00"
     }
   ],
   "missed_extended": [
@@ -3802,6 +3837,12 @@
       "equity_nok": 88686.57917539294,
       "n_open": 5,
       "n_pending": 5
+    },
+    {
+      "date": "2026-09-25",
+      "equity_nok": 87961.95614176134,
+      "n_open": 4,
+      "n_pending": 6
     }
   ]
 }
