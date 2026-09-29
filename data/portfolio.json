@@ -1,122 +1,30 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-09-25T23:56:59.143450+00:00",
+  "last_updated": "2026-09-29T00:58:05.172775+00:00",
   "start_kapital_nok": 100000.0,
-  "kontanter_nok": 26526.59310751818,
+  "kontanter_nok": 9101.48476650332,
   "pending_orders": [
     {
-      "symbol": "MPCC.OL",
-      "name": "MPC Container Ships",
-      "sector": "Industrial Goods",
+      "symbol": "SB1NO.OL",
+      "name": "SpareBank 1 Sør-Norge",
+      "sector": "Banks",
       "region": "OSLO",
       "currency": "NOK",
       "signal_type": "Markup",
-      "signal_pris_local": 27.64755023002624,
-      "stop_local": 25.773999252319335,
-      "target_local": 31.39465218544005,
-      "atr_local": 0.9367754888534527,
-      "opprettet_dato": "2026-09-25T23:55:42.014349+00:00",
-      "utloper_dato": "2026-10-05T23:55:42.014349+00:00",
+      "signal_pris_local": 223.10999999999999,
+      "stop_local": 216.57999999999998,
+      "target_local": 236.17,
+      "atr_local": 3.2650000000000006,
+      "opprettet_dato": "2026-09-29T00:57:03.180758+00:00",
+      "utloper_dato": "2026-10-09T00:57:03.180758+00:00",
       "signal_snapshot": {
-        "score": 75.68575495141943,
-        "rs_score": 73.95251650473145,
-        "vsa_score": 65.0,
-        "wyckoff_phase": "markup",
-        "triple_rs": false,
-        "obv_rising": "True",
-        "dato": "2026-09-24"
-      }
-    },
-    {
-      "symbol": "UPM.HE",
-      "name": "UPM-Kymmene",
-      "sector": "Basic Resources",
-      "region": "NORDIC",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "signal_pris_local": 25.728000383377072,
-      "stop_local": 22.2753995513916,
-      "target_local": 32.633202047348014,
-      "atr_local": 1.7263004159927355,
-      "opprettet_dato": "2026-09-25T23:55:42.014349+00:00",
-      "utloper_dato": "2026-10-05T23:55:42.014349+00:00",
-      "signal_snapshot": {
-        "score": 81.86175420784596,
-        "rs_score": 77.87251402615323,
-        "vsa_score": 75.0,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-09-24"
-      }
-    },
-    {
-      "symbol": "NESTE.HE",
-      "name": "Neste",
-      "sector": "Energy",
-      "region": "NORDIC",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "signal_pris_local": 34.230301380157464,
-      "stop_local": 30.928799476623535,
-      "target_local": 40.83330518722532,
-      "atr_local": 1.6507509517669643,
-      "opprettet_dato": "2026-09-25T23:55:42.014349+00:00",
-      "utloper_dato": "2026-10-05T23:55:42.014349+00:00",
-      "signal_snapshot": {
-        "score": 81.22532055868066,
-        "rs_score": 92.41773519560219,
-        "vsa_score": 65.0,
+        "score": 79.83282228597159,
+        "rs_score": 86.71418756502975,
+        "vsa_score": 66.06188672154224,
         "wyckoff_phase": "markup",
         "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-09-24"
-      }
-    },
-    {
-      "symbol": "SHB-A.ST",
-      "name": "Handelsbanken A",
-      "sector": "Banks",
-      "region": "NORDIC",
-      "currency": "SEK",
-      "signal_type": "Markup",
-      "signal_pris_local": 150.44849693298337,
-      "stop_local": 140.82599700927733,
-      "target_local": 169.69349678039546,
-      "atr_local": 4.811249961853022,
-      "opprettet_dato": "2026-09-25T23:55:42.014349+00:00",
-      "utloper_dato": "2026-10-05T23:55:42.014349+00:00",
-      "signal_snapshot": {
-        "score": 77.64085200255795,
-        "rs_score": 72.88459235908316,
-        "vsa_score": 72.58491431611002,
-        "wyckoff_phase": "markup",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-09-24"
-      }
-    },
-    {
-      "symbol": "NDA-SE.ST",
-      "name": "Nordea Bank",
-      "sector": "Banks",
-      "region": "NORDIC",
-      "currency": "SEK",
-      "signal_type": "Markup",
-      "signal_pris_local": 196.37699386596677,
-      "stop_local": 184.04400299072265,
-      "target_local": 221.042975616455,
-      "atr_local": 6.166495437622061,
-      "opprettet_dato": "2026-09-25T23:55:42.014349+00:00",
-      "utloper_dato": "2026-10-05T23:55:42.014349+00:00",
-      "signal_snapshot": {
-        "score": 74.21865010964098,
-        "rs_score": 59.114527585657335,
-        "vsa_score": 74.94763944647923,
-        "wyckoff_phase": "markup",
-        "triple_rs": false,
-        "obv_rising": "True",
-        "dato": "2026-09-24"
+        "obv_rising": "False",
+        "dato": "2026-09-25"
       }
     },
     {
@@ -130,16 +38,39 @@
       "stop_local": 2.815539880371094,
       "target_local": 4.327766665649412,
       "atr_local": 0.25203779754638633,
-      "opprettet_dato": "2026-09-25T23:55:42.014349+00:00",
-      "utloper_dato": "2026-10-05T23:55:42.014349+00:00",
+      "opprettet_dato": "2026-09-29T00:57:03.180758+00:00",
+      "utloper_dato": "2026-10-09T00:57:03.180758+00:00",
       "signal_snapshot": {
-        "score": 69.43984854096398,
-        "rs_score": 90.54061546106993,
+        "score": 69.4131365227909,
+        "rs_score": 90.45157540049297,
         "vsa_score": 67.59221300881,
         "wyckoff_phase": "distribution",
         "triple_rs": true,
         "obv_rising": "False",
-        "dato": "2026-09-24"
+        "dato": "2026-09-25"
+      }
+    },
+    {
+      "symbol": "AIR.PA",
+      "name": "Airbus",
+      "sector": "Industrial Goods",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Spring",
+      "signal_pris_local": 192.39999389648438,
+      "stop_local": 183.263994140625,
+      "target_local": 210.67199340820315,
+      "atr_local": 4.567999877929694,
+      "opprettet_dato": "2026-09-29T00:57:03.180758+00:00",
+      "utloper_dato": "2026-10-09T00:57:03.180758+00:00",
+      "signal_snapshot": {
+        "score": 63.19352397879482,
+        "rs_score": 48.41483580221448,
+        "vsa_score": 82.2302441271016,
+        "wyckoff_phase": "distribution",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-09-25"
       }
     }
   ],
@@ -355,6 +286,11 @@
         },
         {
           "trigger_dato": "2026-09-25T23:55:42.014349+00:00",
+          "trigger_pris": 63.459309989929196,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-09-29T00:57:03.180758+00:00",
           "trigger_pris": 63.459309989929196,
           "grunn": "for lite kontanter"
         }
@@ -642,6 +578,69 @@
         {
           "date": "2026-08-07T01:02:01.507439+00:00",
           "stop_local": 57.97679985046386,
+          "type": "initial_wyckoff"
+        }
+      ]
+    },
+    {
+      "symbol": "MPCC.OL",
+      "name": "MPC Container Ships",
+      "sector": "Industrial Goods",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Markup",
+      "fill_type": "market_zone",
+      "signal_pris_local": 27.64755023002624,
+      "initial_entry_local": 28.828799236297606,
+      "avg_entry_local": 28.828799236297606,
+      "shares": 601,
+      "kostnad_nok": 17425.10834101486,
+      "sizing_method": "capital_capped",
+      "fills": [
+        {
+          "date": "2026-09-29T00:57:03.180758+00:00",
+          "price_local": 28.828799236297606,
+          "shares": 601,
+          "cost_nok": 17425.10834101486,
+          "type": "initial",
+          "fill_type": "market_zone"
+        }
+      ],
+      "opened_at": "2026-09-29T00:57:03.180758+00:00",
+      "initial_stop_local": 25.773999252319335,
+      "current_stop_local": 25.773999252319335,
+      "target_local": 31.39465218544005,
+      "atr_local": 0.9367754888534527,
+      "stop_type": "wyckoff",
+      "high_water_local": 28.899999618530273,
+      "low_water_local": 28.828799236297606,
+      "pyramid_count": 0,
+      "skipped_pyramids": [],
+      "signal_snapshot": {
+        "score": 75.68575495141943,
+        "rs_score": 73.95251650473145,
+        "vsa_score": 65.0,
+        "wyckoff_phase": "markup",
+        "triple_rs": false,
+        "obv_rising": "True",
+        "dato": "2026-09-24"
+      },
+      "mae_local": 28.0,
+      "mfe_local": 28.899999618530273,
+      "mae_pct": -2.874900301966399,
+      "mfe_pct": 0.24697657938879125,
+      "mae_dato": "2026-09-29T00:57:03.180758+00:00",
+      "mfe_dato": "2026-09-29T00:57:03.180758+00:00",
+      "orig_stop_truffet": false,
+      "orig_stop_dato": null,
+      "orig_stop_pnl_pct": null,
+      "orig_target_truffet": false,
+      "orig_target_dato": null,
+      "orig_target_pnl_pct": null,
+      "stop_historie": [
+        {
+          "date": "2026-09-29T00:57:03.180758+00:00",
+          "stop_local": 25.773999252319335,
           "type": "initial_wyckoff"
         }
       ]
@@ -3843,6 +3842,12 @@
       "equity_nok": 87961.95614176134,
       "n_open": 4,
       "n_pending": 6
+    },
+    {
+      "date": "2026-09-29",
+      "equity_nok": 87255.06798507264,
+      "n_open": 5,
+      "n_pending": 3
     }
   ]
 }
