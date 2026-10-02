@@ -1,9 +1,55 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-10-01T00:31:29.355454+00:00",
+  "last_updated": "2026-10-02T00:42:58.099530+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 8629.553256249186,
   "pending_orders": [
+    {
+      "symbol": "DEMANT.CO",
+      "name": "Demant",
+      "sector": "Health Care",
+      "region": "NORDIC",
+      "currency": "DKK",
+      "signal_type": "Markup",
+      "signal_pris_local": 300.49499999999995,
+      "stop_local": 275.9680059814453,
+      "target_local": 349.54898803710927,
+      "atr_local": 12.26349700927733,
+      "opprettet_dato": "2026-10-02T00:41:57.851436+00:00",
+      "utloper_dato": "2026-10-12T00:41:57.851436+00:00",
+      "signal_snapshot": {
+        "score": 81.83364747050885,
+        "rs_score": 80.86762235487194,
+        "vsa_score": 78.57786921349089,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-09-30"
+      }
+    },
+    {
+      "symbol": "GMAB.CO",
+      "name": "Genmab",
+      "sector": "Health Care",
+      "region": "NORDIC",
+      "currency": "DKK",
+      "signal_type": "Markup",
+      "signal_pris_local": 2243.16,
+      "stop_local": 2024.68,
+      "target_local": 2680.1199999999994,
+      "atr_local": 109.2399999999999,
+      "opprettet_dato": "2026-10-02T00:41:57.851436+00:00",
+      "utloper_dato": "2026-10-12T00:41:57.851436+00:00",
+      "signal_snapshot": {
+        "score": 80.7629893266007,
+        "rs_score": 83.36469603516086,
+        "vsa_score": 72.51193505350815,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-09-30"
+      }
+    },
     {
       "symbol": "NDA-SE.ST",
       "name": "Nordea Bank",
@@ -15,16 +61,16 @@
       "stop_local": 184.04400299072265,
       "target_local": 221.042975616455,
       "atr_local": 6.166495437622061,
-      "opprettet_dato": "2026-10-01T00:30:28.757672+00:00",
-      "utloper_dato": "2026-10-11T00:30:28.757672+00:00",
+      "opprettet_dato": "2026-10-02T00:41:57.851436+00:00",
+      "utloper_dato": "2026-10-12T00:41:57.851436+00:00",
       "signal_snapshot": {
-        "score": 77.88950516720365,
-        "rs_score": 62.19732591918871,
+        "score": 71.92506259886859,
+        "rs_score": 62.31585069140516,
         "vsa_score": 84.1010246381568,
-        "wyckoff_phase": "markup",
+        "wyckoff_phase": "unclear",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-09-29"
+        "dato": "2026-09-30"
       }
     }
   ],
@@ -287,7 +333,7 @@
       "target_local": 31.39465218544005,
       "atr_local": 0.9367754888534527,
       "stop_type": "wyckoff",
-      "high_water_local": 28.899999618530273,
+      "high_water_local": 29.100000381469727,
       "low_water_local": 28.828799236297606,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -301,11 +347,11 @@
         "dato": "2026-09-24"
       },
       "mae_local": 27.899999618530273,
-      "mfe_local": 28.899999618530273,
+      "mfe_local": 29.100000381469727,
       "mae_pct": -3.2217769812552755,
-      "mfe_pct": 0.24697657938879125,
+      "mfe_pct": 0.9407299379665446,
       "mae_dato": "2026-10-01T00:30:28.757672+00:00",
-      "mfe_dato": "2026-09-29T00:57:03.180758+00:00",
+      "mfe_dato": "2026-10-02T00:41:57.851436+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -350,7 +396,7 @@
       "target_local": 212.7720300292969,
       "atr_local": 4.918005981445319,
       "stop_type": "wyckoff",
-      "high_water_local": 193.75999450683594,
+      "high_water_local": 193.8800048828125,
       "low_water_local": 193.29310610961912,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -363,12 +409,12 @@
         "obv_rising": "False",
         "dato": "2026-09-28"
       },
-      "mae_local": 189.9499969482422,
-      "mfe_local": 193.75999450683594,
-      "mae_pct": -1.7295542653657847,
-      "mfe_pct": 0.24154425712008543,
-      "mae_dato": "2026-10-01T00:30:28.757672+00:00",
-      "mfe_dato": "2026-10-01T00:30:28.757672+00:00",
+      "mae_local": 189.67999267578125,
+      "mfe_local": 193.8800048828125,
+      "mae_pct": -1.8692407124901944,
+      "mfe_pct": 0.3036315081307306,
+      "mae_dato": "2026-10-02T00:41:57.851436+00:00",
+      "mfe_dato": "2026-10-02T00:41:57.851436+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -3884,6 +3930,12 @@
       "equity_nok": 86206.61607191019,
       "n_open": 5,
       "n_pending": 1
+    },
+    {
+      "date": "2026-10-02",
+      "equity_nok": 86077.87633726053,
+      "n_open": 5,
+      "n_pending": 3
     }
   ]
 }
