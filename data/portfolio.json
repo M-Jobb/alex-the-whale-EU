@@ -1,32 +1,9 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-10-06T01:45:05.364968+00:00",
+  "last_updated": "2026-10-07T00:38:11.128775+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 8629.553256249186,
   "pending_orders": [
-    {
-      "symbol": "DEMANT.CO",
-      "name": "Demant",
-      "sector": "Health Care",
-      "region": "NORDIC",
-      "currency": "DKK",
-      "signal_type": "Markup",
-      "signal_pris_local": 300.49499999999995,
-      "stop_local": 275.9680059814453,
-      "target_local": 349.54898803710927,
-      "atr_local": 12.26349700927733,
-      "opprettet_dato": "2026-10-06T01:43:56.253772+00:00",
-      "utloper_dato": "2026-10-16T01:43:56.253772+00:00",
-      "signal_snapshot": {
-        "score": 85.5468875146901,
-        "rs_score": 93.24508916880947,
-        "vsa_score": 78.57786921349089,
-        "wyckoff_phase": "markup",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-10-02"
-      }
-    },
     {
       "symbol": "GMAB.CO",
       "name": "Genmab",
@@ -38,39 +15,16 @@
       "stop_local": 2024.68,
       "target_local": 2680.1199999999994,
       "atr_local": 109.2399999999999,
-      "opprettet_dato": "2026-10-06T01:43:56.253772+00:00",
-      "utloper_dato": "2026-10-16T01:43:56.253772+00:00",
+      "opprettet_dato": "2026-10-07T00:37:05.037021+00:00",
+      "utloper_dato": "2026-10-17T00:37:05.037021+00:00",
       "signal_snapshot": {
-        "score": 71.7841368476732,
-        "rs_score": 74.86667117375212,
-        "vsa_score": 71.08045165182519,
-        "wyckoff_phase": "unclear",
+        "score": 88.5858750776977,
+        "rs_score": 95.82412553552636,
+        "vsa_score": 86.12879139013259,
+        "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-10-02"
-      }
-    },
-    {
-      "symbol": "NDA-SE.ST",
-      "name": "Nordea Bank",
-      "sector": "Banks",
-      "region": "NORDIC",
-      "currency": "SEK",
-      "signal_type": "Markup",
-      "signal_pris_local": 195.37199386596677,
-      "stop_local": 184.04400299072265,
-      "target_local": 218.02797561645502,
-      "atr_local": 5.663995437622063,
-      "opprettet_dato": "2026-10-06T01:43:56.253772+00:00",
-      "utloper_dato": "2026-10-16T01:43:56.253772+00:00",
-      "signal_snapshot": {
-        "score": 61.43339648557209,
-        "rs_score": 47.34363031375015,
-        "vsa_score": 84.1010246381568,
-        "wyckoff_phase": "distribution",
-        "triple_rs": false,
-        "obv_rising": "True",
-        "dato": "2026-10-02"
+        "dato": "2026-10-05"
       }
     },
     {
@@ -80,43 +34,20 @@
       "region": "EUROPE",
       "currency": "GBP",
       "signal_type": "Spring",
-      "signal_pris_local": 1.268000030517578,
+      "signal_pris_local": 1.2719999694824218,
       "stop_local": 1.176,
-      "target_local": 1.4520000915527342,
-      "atr_local": 0.04600001525878905,
-      "opprettet_dato": "2026-10-06T01:43:56.253772+00:00",
-      "utloper_dato": "2026-10-16T01:43:56.253772+00:00",
+      "target_local": 1.4639999084472655,
+      "atr_local": 0.04799998474121092,
+      "opprettet_dato": "2026-10-07T00:37:05.037021+00:00",
+      "utloper_dato": "2026-10-17T00:37:05.037021+00:00",
       "signal_snapshot": {
-        "score": 70.5129345362474,
-        "rs_score": 83.08759149081169,
+        "score": 67.47778256656433,
+        "rs_score": 72.97041825853478,
         "vsa_score": 71.95552363001298,
         "wyckoff_phase": "distribution",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-10-02"
-      }
-    },
-    {
-      "symbol": "SAN.PA",
-      "name": "Sanofi",
-      "sector": "Health Care",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Spring",
-      "signal_pris_local": 70.80999755859375,
-      "stop_local": 69.53760009765625,
-      "target_local": 73.35479248046875,
-      "atr_local": 0.7080999755859375,
-      "opprettet_dato": "2026-10-06T01:43:56.253772+00:00",
-      "utloper_dato": "2026-10-16T01:43:56.253772+00:00",
-      "signal_snapshot": {
-        "score": 62.81132401574958,
-        "rs_score": 63.644286472208904,
-        "vsa_score": 79.06012691362304,
-        "wyckoff_phase": "markdown",
-        "triple_rs": false,
-        "obv_rising": "False",
-        "dato": "2026-10-02"
+        "dato": "2026-10-05"
       }
     }
   ],
@@ -379,7 +310,7 @@
       "target_local": 31.39465218544005,
       "atr_local": 0.9367754888534527,
       "stop_type": "wyckoff",
-      "high_water_local": 29.200000762939453,
+      "high_water_local": 29.559999465942383,
       "low_water_local": 28.828799236297606,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -393,11 +324,11 @@
         "dato": "2026-09-24"
       },
       "mae_local": 27.899999618530273,
-      "mfe_local": 29.200000762939453,
+      "mfe_local": 29.559999465942383,
       "mae_pct": -3.2217769812552755,
-      "mfe_pct": 1.2876066172554212,
+      "mfe_pct": 2.5363534001240806,
       "mae_dato": "2026-10-01T00:30:28.757672+00:00",
-      "mfe_dato": "2026-10-06T01:43:56.253772+00:00",
+      "mfe_dato": "2026-10-07T00:37:05.037021+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -3380,6 +3311,22 @@
         "obv_rising": "True",
         "dato": "2026-09-18"
       }
+    },
+    {
+      "symbol": "DEMANT.CO",
+      "signal_pris": 300.49499999999995,
+      "open_pris": 317.0,
+      "gap_pct": 5.492603870280721,
+      "dato": "2026-10-07T00:37:05.037021+00:00",
+      "signal_snapshot": {
+        "score": 85.5468875146901,
+        "rs_score": 93.24508916880947,
+        "vsa_score": 78.57786921349089,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-10-02"
+      }
     }
   ],
   "equity_curve": [
@@ -3994,6 +3941,12 @@
       "equity_nok": 85737.23723241739,
       "n_open": 5,
       "n_pending": 5
+    },
+    {
+      "date": "2026-10-07",
+      "equity_nok": 85665.88765546732,
+      "n_open": 5,
+      "n_pending": 2
     }
   ]
 }
