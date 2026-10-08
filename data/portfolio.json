@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-10-07T00:38:11.128775+00:00",
+  "last_updated": "2026-10-08T00:57:15.293091+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 8629.553256249186,
   "pending_orders": [
@@ -15,16 +15,39 @@
       "stop_local": 2024.68,
       "target_local": 2680.1199999999994,
       "atr_local": 109.2399999999999,
-      "opprettet_dato": "2026-10-07T00:37:05.037021+00:00",
-      "utloper_dato": "2026-10-17T00:37:05.037021+00:00",
+      "opprettet_dato": "2026-10-08T00:56:01.716274+00:00",
+      "utloper_dato": "2026-10-18T00:56:01.716274+00:00",
       "signal_snapshot": {
-        "score": 88.5858750776977,
-        "rs_score": 95.82412553552636,
-        "vsa_score": 86.12879139013259,
+        "score": 91.33764661552826,
+        "rs_score": 97.5241570771553,
+        "vsa_score": 93.60133164127222,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-10-05"
+        "dato": "2026-10-06"
+      }
+    },
+    {
+      "symbol": "DEMANT.CO",
+      "name": "Demant",
+      "sector": "Health Care",
+      "region": "NORDIC",
+      "currency": "DKK",
+      "signal_type": "Markup",
+      "signal_pris_local": 300.49499999999995,
+      "stop_local": 275.9680059814453,
+      "target_local": 349.54898803710927,
+      "atr_local": 12.26349700927733,
+      "opprettet_dato": "2026-10-08T00:56:01.716274+00:00",
+      "utloper_dato": "2026-10-18T00:56:01.716274+00:00",
+      "signal_snapshot": {
+        "score": 82.99892570465651,
+        "rs_score": 84.75188313536418,
+        "vsa_score": 78.57786921349089,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-10-06"
       }
     },
     {
@@ -34,20 +57,20 @@
       "region": "EUROPE",
       "currency": "GBP",
       "signal_type": "Spring",
-      "signal_pris_local": 1.2719999694824218,
+      "signal_pris_local": 1.250999984741211,
       "stop_local": 1.176,
-      "target_local": 1.4639999084472655,
-      "atr_local": 0.04799998474121092,
-      "opprettet_dato": "2026-10-07T00:37:05.037021+00:00",
-      "utloper_dato": "2026-10-17T00:37:05.037021+00:00",
+      "target_local": 1.400999954223633,
+      "atr_local": 0.03749999237060553,
+      "opprettet_dato": "2026-10-08T00:56:01.716274+00:00",
+      "utloper_dato": "2026-10-18T00:56:01.716274+00:00",
       "signal_snapshot": {
-        "score": 67.47778256656433,
-        "rs_score": 72.97041825853478,
+        "score": 66.62064576468285,
+        "rs_score": 70.11329558559652,
         "vsa_score": 71.95552363001298,
         "wyckoff_phase": "distribution",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-10-05"
+        "dato": "2026-10-06"
       }
     }
   ],
@@ -3327,6 +3350,22 @@
         "obv_rising": "True",
         "dato": "2026-10-02"
       }
+    },
+    {
+      "symbol": "GMAB.CO",
+      "signal_pris": 2243.16,
+      "open_pris": 2550.0,
+      "gap_pct": 13.678917241748255,
+      "dato": "2026-10-08T00:56:01.716274+00:00",
+      "signal_snapshot": {
+        "score": 88.5858750776977,
+        "rs_score": 95.82412553552636,
+        "vsa_score": 86.12879139013259,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-10-05"
+      }
     }
   ],
   "equity_curve": [
@@ -3947,6 +3986,12 @@
       "equity_nok": 85665.88765546732,
       "n_open": 5,
       "n_pending": 2
+    },
+    {
+      "date": "2026-10-08",
+      "equity_nok": 85803.5868379777,
+      "n_open": 5,
+      "n_pending": 3
     }
   ]
 }
