@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-10-09T01:11:17.343172+00:00",
+  "last_updated": "2026-10-10T00:44:56.887312+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 8629.553256249186,
   "pending_orders": [
@@ -15,16 +15,16 @@
       "stop_local": 2024.68,
       "target_local": 2680.1199999999994,
       "atr_local": 109.2399999999999,
-      "opprettet_dato": "2026-10-09T01:10:05.409935+00:00",
-      "utloper_dato": "2026-10-19T01:10:05.409935+00:00",
+      "opprettet_dato": "2026-10-10T00:43:39.425937+00:00",
+      "utloper_dato": "2026-10-20T00:43:39.425937+00:00",
       "signal_snapshot": {
-        "score": 91.22735983777139,
-        "rs_score": 97.15653448463243,
+        "score": 86.38039704602784,
+        "rs_score": 80.99999184548722,
         "vsa_score": 93.60133164127222,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-10-07"
+        "dato": "2026-10-08"
       }
     },
     {
@@ -35,19 +35,19 @@
       "currency": "EUR",
       "signal_type": "Markup",
       "signal_pris_local": 30.129899539947505,
-      "stop_local": 26.36199962615967,
-      "target_local": 37.665699367523175,
-      "atr_local": 1.8839499568939182,
-      "opprettet_dato": "2026-10-09T01:10:05.409935+00:00",
-      "utloper_dato": "2026-10-19T01:10:05.409935+00:00",
+      "stop_local": 27.204800224304197,
+      "target_local": 35.98009817123412,
+      "atr_local": 1.4625496578216541,
+      "opprettet_dato": "2026-10-10T00:43:39.425937+00:00",
+      "utloper_dato": "2026-10-20T00:43:39.425937+00:00",
       "signal_snapshot": {
-        "score": 83.47482359275075,
-        "rs_score": 87.21210907901018,
+        "score": 83.44730540004718,
+        "rs_score": 87.1203817699983,
         "vsa_score": 71.03730289682566,
         "wyckoff_phase": "accumulation",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-10-07"
+        "dato": "2026-10-08"
       }
     },
     {
@@ -57,43 +57,20 @@
       "region": "NORDIC",
       "currency": "DKK",
       "signal_type": "Spring",
-      "signal_pris_local": 426.29998779296875,
+      "signal_pris_local": 424.5,
       "stop_local": 401.856005859375,
-      "target_local": 475.1879516601563,
-      "atr_local": 12.22199096679688,
-      "opprettet_dato": "2026-10-09T01:10:05.409935+00:00",
-      "utloper_dato": "2026-10-19T01:10:05.409935+00:00",
+      "target_local": 469.78798828125,
+      "atr_local": 11.321997070312506,
+      "opprettet_dato": "2026-10-10T00:43:39.425937+00:00",
+      "utloper_dato": "2026-10-20T00:43:39.425937+00:00",
       "signal_snapshot": {
-        "score": 65.4929110092783,
-        "rs_score": 60.81868736824653,
+        "score": 67.87407655367919,
+        "rs_score": 68.75590584958282,
         "vsa_score": 77.4910159960145,
         "wyckoff_phase": "distribution",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-10-07"
-      }
-    },
-    {
-      "symbol": "VOD.L",
-      "name": "Vodafone",
-      "sector": "Telecom",
-      "region": "EUROPE",
-      "currency": "GBP",
-      "signal_type": "Spring",
-      "signal_pris_local": 1.2775,
-      "stop_local": 1.176,
-      "target_local": 1.4805000000000004,
-      "atr_local": 0.05075000000000007,
-      "opprettet_dato": "2026-10-09T01:10:05.409935+00:00",
-      "utloper_dato": "2026-10-19T01:10:05.409935+00:00",
-      "signal_snapshot": {
-        "score": 66.96819379032966,
-        "rs_score": 71.27178900441923,
-        "vsa_score": 71.95552363001298,
-        "wyckoff_phase": "distribution",
-        "triple_rs": false,
-        "obv_rising": "True",
-        "dato": "2026-10-07"
+        "dato": "2026-10-08"
       }
     }
   ],
@@ -293,7 +270,7 @@
       "target_local": 103.83990489959716,
       "atr_local": 7.643850841522216,
       "stop_type": "wyckoff",
-      "high_water_local": 73.86000061035156,
+      "high_water_local": 73.9000015258789,
       "low_water_local": 73.3377660350418,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -307,11 +284,11 @@
         "dato": "2026-08-04"
       },
       "mae_local": 64.86000061035156,
-      "mfe_local": 73.86000061035156,
+      "mfe_local": 73.9000015258789,
       "mae_pct": -11.559890467129087,
-      "mfe_pct": 0.7120950139935189,
+      "mfe_pct": 0.7666384200583298,
       "mae_dato": "2026-09-14T23:50:10.029660+00:00",
-      "mfe_dato": "2026-08-07T01:02:01.507439+00:00",
+      "mfe_dato": "2026-10-10T00:43:39.425937+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -432,11 +409,11 @@
         "obv_rising": "False",
         "dato": "2026-09-28"
       },
-      "mae_local": 185.5800018310547,
+      "mae_local": 183.83999633789062,
       "mfe_local": 193.8800048828125,
-      "mae_pct": -3.9903669788358798,
+      "mae_pct": -4.890557124353679,
       "mfe_pct": 0.3036315081307306,
-      "mae_dato": "2026-10-06T01:43:56.253772+00:00",
+      "mae_dato": "2026-10-10T00:43:39.425937+00:00",
       "mfe_dato": "2026-10-02T00:41:57.851436+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -3421,6 +3398,22 @@
         "obv_rising": "True",
         "dato": "2026-10-06"
       }
+    },
+    {
+      "symbol": "GMAB.CO",
+      "signal_pris": 2243.16,
+      "open_pris": 2441.0,
+      "gap_pct": 8.819700779257843,
+      "dato": "2026-10-10T00:43:39.425937+00:00",
+      "signal_snapshot": {
+        "score": 91.22735983777139,
+        "rs_score": 97.15653448463243,
+        "vsa_score": 93.60133164127222,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-10-07"
+      }
     }
   ],
   "equity_curve": [
@@ -4053,6 +4046,12 @@
       "equity_nok": 85729.73710653238,
       "n_open": 5,
       "n_pending": 4
+    },
+    {
+      "date": "2026-10-10",
+      "equity_nok": 85999.07507154398,
+      "n_open": 5,
+      "n_pending": 3
     }
   ]
 }
