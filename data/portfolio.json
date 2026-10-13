@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-10-10T00:44:56.887312+00:00",
+  "last_updated": "2026-10-13T02:33:56.919985+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 8629.553256249186,
   "pending_orders": [
@@ -11,20 +11,20 @@
       "region": "NORDIC",
       "currency": "DKK",
       "signal_type": "Markup",
-      "signal_pris_local": 2243.16,
-      "stop_local": 2024.68,
-      "target_local": 2680.1199999999994,
-      "atr_local": 109.2399999999999,
-      "opprettet_dato": "2026-10-10T00:43:39.425937+00:00",
-      "utloper_dato": "2026-10-20T00:43:39.425937+00:00",
+      "signal_pris_local": 2268.285,
+      "stop_local": 2190.3,
+      "target_local": 2424.254999999999,
+      "atr_local": 38.992499999999836,
+      "opprettet_dato": "2026-10-13T02:32:13.860751+00:00",
+      "utloper_dato": "2026-10-23T02:32:13.860751+00:00",
       "signal_snapshot": {
-        "score": 86.38039704602784,
-        "rs_score": 80.99999184548722,
+        "score": 90.77476083858704,
+        "rs_score": 95.64787115401795,
         "vsa_score": 93.60133164127222,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-10-08"
+        "dato": "2026-10-09"
       }
     },
     {
@@ -38,16 +38,16 @@
       "stop_local": 27.204800224304197,
       "target_local": 35.98009817123412,
       "atr_local": 1.4625496578216541,
-      "opprettet_dato": "2026-10-10T00:43:39.425937+00:00",
-      "utloper_dato": "2026-10-20T00:43:39.425937+00:00",
+      "opprettet_dato": "2026-10-13T02:32:13.860751+00:00",
+      "utloper_dato": "2026-10-23T02:32:13.860751+00:00",
       "signal_snapshot": {
-        "score": 83.44730540004718,
-        "rs_score": 87.1203817699983,
+        "score": 78.79399571110818,
+        "rs_score": 71.60934947353492,
         "vsa_score": 71.03730289682566,
         "wyckoff_phase": "accumulation",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-10-08"
+        "dato": "2026-10-09"
       }
     },
     {
@@ -57,20 +57,20 @@
       "region": "NORDIC",
       "currency": "DKK",
       "signal_type": "Spring",
-      "signal_pris_local": 424.5,
+      "signal_pris_local": 435.8999938964844,
       "stop_local": 401.856005859375,
-      "target_local": 469.78798828125,
-      "atr_local": 11.321997070312506,
-      "opprettet_dato": "2026-10-10T00:43:39.425937+00:00",
-      "utloper_dato": "2026-10-20T00:43:39.425937+00:00",
+      "target_local": 503.98796997070315,
+      "atr_local": 17.021994018554693,
+      "opprettet_dato": "2026-10-13T02:32:13.860751+00:00",
+      "utloper_dato": "2026-10-23T02:32:13.860751+00:00",
       "signal_snapshot": {
-        "score": 67.87407655367919,
-        "rs_score": 68.75590584958282,
+        "score": 68.92910759781535,
+        "rs_score": 72.27267599670331,
         "vsa_score": 77.4910159960145,
         "wyckoff_phase": "distribution",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-10-08"
+        "dato": "2026-10-09"
       }
     }
   ],
@@ -270,7 +270,7 @@
       "target_local": 103.83990489959716,
       "atr_local": 7.643850841522216,
       "stop_type": "wyckoff",
-      "high_water_local": 73.9000015258789,
+      "high_water_local": 75.13999938964844,
       "low_water_local": 73.3377660350418,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -284,11 +284,11 @@
         "dato": "2026-08-04"
       },
       "mae_local": 64.86000061035156,
-      "mfe_local": 73.9000015258789,
+      "mfe_local": 75.13999938964844,
       "mae_pct": -11.559890467129087,
-      "mfe_pct": 0.7666384200583298,
+      "mfe_pct": 2.457442395703069,
       "mae_dato": "2026-09-14T23:50:10.029660+00:00",
-      "mfe_dato": "2026-10-10T00:43:39.425937+00:00",
+      "mfe_dato": "2026-10-13T02:32:13.860751+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -3414,6 +3414,22 @@
         "obv_rising": "True",
         "dato": "2026-10-07"
       }
+    },
+    {
+      "symbol": "GMAB.CO",
+      "signal_pris": 2243.16,
+      "open_pris": 2425.0,
+      "gap_pct": 8.106421298525301,
+      "dato": "2026-10-13T02:32:13.860751+00:00",
+      "signal_snapshot": {
+        "score": 86.38039704602784,
+        "rs_score": 80.99999184548722,
+        "vsa_score": 93.60133164127222,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-10-08"
+      }
     }
   ],
   "equity_curve": [
@@ -4050,6 +4066,12 @@
     {
       "date": "2026-10-10",
       "equity_nok": 85999.07507154398,
+      "n_open": 5,
+      "n_pending": 3
+    },
+    {
+      "date": "2026-10-13",
+      "equity_nok": 86859.39774152689,
       "n_open": 5,
       "n_pending": 3
     }
