@@ -1,33 +1,9 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-10-14T00:16:36.398818+00:00",
+  "last_updated": "2026-10-14T23:54:34.172979+00:00",
   "start_kapital_nok": 100000.0,
-  "kontanter_nok": 8629.553256249186,
-  "pending_orders": [
-    {
-      "symbol": "WRT1V.HE",
-      "name": "Wärtsilä",
-      "sector": "Industrial Goods",
-      "region": "NORDIC",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "signal_pris_local": 30.129899539947505,
-      "stop_local": 27.204800224304197,
-      "target_local": 35.98009817123412,
-      "atr_local": 1.4625496578216541,
-      "opprettet_dato": "2026-10-14T00:15:17.193922+00:00",
-      "utloper_dato": "2026-10-24T00:15:17.193922+00:00",
-      "signal_snapshot": {
-        "score": 81.05877540036636,
-        "rs_score": 79.15861510439555,
-        "vsa_score": 71.03730289682566,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-10-12"
-      }
-    }
-  ],
+  "kontanter_nok": 434.31693100809935,
+  "pending_orders": [],
   "open_positions": [
     {
       "symbol": "FLTR.L",
@@ -224,7 +200,7 @@
       "target_local": 103.83990489959716,
       "atr_local": 7.643850841522216,
       "stop_type": "wyckoff",
-      "high_water_local": 77.54000091552734,
+      "high_water_local": 78.83999633789062,
       "low_water_local": 73.3377660350418,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -238,11 +214,11 @@
         "dato": "2026-08-04"
       },
       "mae_local": 64.86000061035156,
-      "mfe_local": 77.54000091552734,
+      "mfe_local": 78.83999633789062,
       "mae_pct": -11.559890467129087,
-      "mfe_pct": 5.729973937953958,
+      "mfe_pct": 7.502587821150408,
       "mae_dato": "2026-09-14T23:50:10.029660+00:00",
-      "mfe_dato": "2026-10-14T00:15:17.193922+00:00",
+      "mfe_dato": "2026-10-14T23:53:11.591602+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -267,9 +243,9 @@
       "fill_type": "market_zone",
       "signal_pris_local": 27.64755023002624,
       "initial_entry_local": 28.828799236297606,
-      "avg_entry_local": 28.828799236297606,
-      "shares": 601,
-      "kostnad_nok": 17425.10834101486,
+      "avg_entry_local": 29.129943760115907,
+      "shares": 873,
+      "kostnad_nok": 25620.344666255947,
       "sizing_method": "capital_capped",
       "fills": [
         {
@@ -279,6 +255,13 @@
           "cost_nok": 17425.10834101486,
           "type": "initial",
           "fill_type": "market_zone"
+        },
+        {
+          "date": "2026-10-14T23:53:11.591602+00:00",
+          "price_local": 29.795340299876205,
+          "shares": 272,
+          "cost_nok": 8195.236325241087,
+          "type": "pyramid_1"
         }
       ],
       "opened_at": "2026-09-29T00:57:03.180758+00:00",
@@ -287,9 +270,9 @@
       "target_local": 31.39465218544005,
       "atr_local": 0.9367754888534527,
       "stop_type": "wyckoff",
-      "high_water_local": 29.559999465942383,
+      "high_water_local": 29.899999618530273,
       "low_water_local": 28.828799236297606,
-      "pyramid_count": 0,
+      "pyramid_count": 1,
       "skipped_pyramids": [],
       "signal_snapshot": {
         "score": 75.68575495141943,
@@ -301,11 +284,11 @@
         "dato": "2026-09-24"
       },
       "mae_local": 27.899999618530273,
-      "mfe_local": 29.559999465942383,
+      "mfe_local": 29.899999618530273,
       "mae_pct": -3.2217769812552755,
-      "mfe_pct": 2.5363534001240806,
+      "mfe_pct": 3.7157301400328357,
       "mae_dato": "2026-10-01T00:30:28.757672+00:00",
-      "mfe_dato": "2026-10-07T00:37:05.037021+00:00",
+      "mfe_dato": "2026-10-14T23:53:11.591602+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -4050,6 +4033,12 @@
       "equity_nok": 87570.47679731302,
       "n_open": 5,
       "n_pending": 1
+    },
+    {
+      "date": "2026-10-14",
+      "equity_nok": 87852.29016804058,
+      "n_open": 5,
+      "n_pending": 0
     }
   ]
 }
