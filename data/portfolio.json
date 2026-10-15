@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-10-14T23:54:34.172979+00:00",
+  "last_updated": "2026-10-15T23:40:28.551977+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 434.31693100809935,
   "pending_orders": [],
@@ -200,7 +200,7 @@
       "target_local": 103.83990489959716,
       "atr_local": 7.643850841522216,
       "stop_type": "wyckoff",
-      "high_water_local": 78.83999633789062,
+      "high_water_local": 79.26000213623047,
       "low_water_local": 73.3377660350418,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -214,11 +214,11 @@
         "dato": "2026-08-04"
       },
       "mae_local": 64.86000061035156,
-      "mfe_local": 78.83999633789062,
+      "mfe_local": 79.26000213623047,
       "mae_pct": -11.559890467129087,
-      "mfe_pct": 7.502587821150408,
+      "mfe_pct": 8.075288383285283,
       "mae_dato": "2026-09-14T23:50:10.029660+00:00",
-      "mfe_dato": "2026-10-14T23:53:11.591602+00:00",
+      "mfe_dato": "2026-10-15T23:39:35.225374+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -270,7 +270,7 @@
       "target_local": 31.39465218544005,
       "atr_local": 0.9367754888534527,
       "stop_type": "wyckoff",
-      "high_water_local": 29.899999618530273,
+      "high_water_local": 30.139999389648438,
       "low_water_local": 28.828799236297606,
       "pyramid_count": 1,
       "skipped_pyramids": [],
@@ -284,11 +284,11 @@
         "dato": "2026-09-24"
       },
       "mae_local": 27.899999618530273,
-      "mfe_local": 29.899999618530273,
+      "mfe_local": 30.139999389648438,
       "mae_pct": -3.2217769812552755,
-      "mfe_pct": 3.7157301400328357,
+      "mfe_pct": 4.548230200652736,
       "mae_dato": "2026-10-01T00:30:28.757672+00:00",
-      "mfe_dato": "2026-10-14T23:53:11.591602+00:00",
+      "mfe_dato": "2026-10-15T23:39:35.225374+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -4037,6 +4037,12 @@
     {
       "date": "2026-10-14",
       "equity_nok": 87852.29016804058,
+      "n_open": 5,
+      "n_pending": 0
+    },
+    {
+      "date": "2026-10-15",
+      "equity_nok": 86913.34861492473,
       "n_open": 5,
       "n_pending": 0
     }
