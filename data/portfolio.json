@@ -1,9 +1,33 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-10-15T23:40:28.551977+00:00",
+  "last_updated": "2026-10-16T23:31:07.614935+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 434.31693100809935,
-  "pending_orders": [],
+  "pending_orders": [
+    {
+      "symbol": "INGA.AS",
+      "name": "ING Groep",
+      "sector": "Banks",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Spring",
+      "signal_pris_local": 29.6200008392334,
+      "stop_local": 28.430399780273437,
+      "target_local": 31.999202957153322,
+      "atr_local": 0.594800529479981,
+      "opprettet_dato": "2026-10-16T23:29:34.156323+00:00",
+      "utloper_dato": "2026-10-26T23:29:34.156323+00:00",
+      "signal_snapshot": {
+        "score": 63.3161575607487,
+        "rs_score": 65.96701223096713,
+        "vsa_score": 65.0868463048619,
+        "wyckoff_phase": "distribution",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-10-15"
+      }
+    }
+  ],
   "open_positions": [
     {
       "symbol": "FLTR.L",
@@ -196,14 +220,20 @@
       ],
       "opened_at": "2026-08-07T01:02:01.507439+00:00",
       "initial_stop_local": 57.97679985046386,
-      "current_stop_local": 57.97679985046386,
+      "current_stop_local": 66.27229587554932,
       "target_local": 103.83990489959716,
       "atr_local": 7.643850841522216,
-      "stop_type": "wyckoff",
-      "high_water_local": 79.26000213623047,
+      "stop_type": "trailing_atr",
+      "high_water_local": 81.55999755859375,
       "low_water_local": 73.3377660350418,
       "pyramid_count": 0,
-      "skipped_pyramids": [],
+      "skipped_pyramids": [
+        {
+          "trigger_dato": "2026-10-16T23:29:34.156323+00:00",
+          "trigger_pris": 80.981616876564,
+          "grunn": "for lite kontanter"
+        }
+      ],
       "signal_snapshot": {
         "score": 91.93893914940189,
         "rs_score": 94.375,
@@ -214,11 +244,11 @@
         "dato": "2026-08-04"
       },
       "mae_local": 64.86000061035156,
-      "mfe_local": 79.26000213623047,
+      "mfe_local": 81.55999755859375,
       "mae_pct": -11.559890467129087,
-      "mfe_pct": 8.075288383285283,
+      "mfe_pct": 11.211456208828686,
       "mae_dato": "2026-09-14T23:50:10.029660+00:00",
-      "mfe_dato": "2026-10-15T23:39:35.225374+00:00",
+      "mfe_dato": "2026-10-16T23:29:34.156323+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -230,6 +260,11 @@
           "date": "2026-08-07T01:02:01.507439+00:00",
           "stop_local": 57.97679985046386,
           "type": "initial_wyckoff"
+        },
+        {
+          "date": "2026-10-16T23:29:34.156323+00:00",
+          "stop_local": 66.27229587554932,
+          "type": "trailing_atr_initial"
         }
       ]
     },
@@ -333,7 +368,7 @@
       "target_local": 212.7720300292969,
       "atr_local": 4.918005981445319,
       "stop_type": "wyckoff",
-      "high_water_local": 193.8800048828125,
+      "high_water_local": 195.05999755859375,
       "low_water_local": 193.29310610961912,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -347,11 +382,11 @@
         "dato": "2026-09-28"
       },
       "mae_local": 183.83999633789062,
-      "mfe_local": 193.8800048828125,
+      "mfe_local": 195.05999755859375,
       "mae_pct": -4.890557124353679,
-      "mfe_pct": 0.3036315081307306,
+      "mfe_pct": 0.9140995685446685,
       "mae_dato": "2026-10-10T00:43:39.425937+00:00",
-      "mfe_dato": "2026-10-02T00:41:57.851436+00:00",
+      "mfe_dato": "2026-10-16T23:29:34.156323+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -4045,6 +4080,12 @@
       "equity_nok": 86913.34861492473,
       "n_open": 5,
       "n_pending": 0
+    },
+    {
+      "date": "2026-10-16",
+      "equity_nok": 88246.66956829387,
+      "n_open": 5,
+      "n_pending": 1
     }
   ]
 }
