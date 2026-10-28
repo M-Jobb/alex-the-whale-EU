@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-10-27T00:22:57.252419+00:00",
+  "last_updated": "2026-10-28T00:27:48.740101+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 434.31693100809935,
   "pending_orders": [
@@ -15,39 +15,39 @@
       "stop_local": 239.0219940185547,
       "target_local": 279.92699356079095,
       "atr_local": 6.817499923706038,
-      "opprettet_dato": "2026-10-27T00:21:41.394251+00:00",
-      "utloper_dato": "2026-11-06T00:21:41.394251+00:00",
+      "opprettet_dato": "2026-10-28T00:26:34.712575+00:00",
+      "utloper_dato": "2026-11-07T00:26:34.712575+00:00",
       "signal_snapshot": {
-        "score": 83.12175687095733,
-        "rs_score": 77.21273452234813,
+        "score": 78.95637499349348,
+        "rs_score": 63.32812826413532,
         "vsa_score": 86.52645504750963,
         "wyckoff_phase": "markup",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-10-23"
+        "dato": "2026-10-26"
       }
     },
     {
-      "symbol": "VOLV-B.ST",
-      "name": "Volvo B",
+      "symbol": "WRT1V.HE",
+      "name": "Wärtsilä",
       "sector": "Industrial Goods",
       "region": "NORDIC",
-      "currency": "SEK",
+      "currency": "EUR",
       "signal_type": "Spring",
-      "signal_pris_local": 307.70001220703125,
-      "stop_local": 293.08798828125,
-      "target_local": 336.9240600585938,
-      "atr_local": 7.306011962890636,
-      "opprettet_dato": "2026-10-27T00:21:41.394251+00:00",
-      "utloper_dato": "2026-11-06T00:21:41.394251+00:00",
+      "signal_pris_local": 28.760000228881836,
+      "stop_local": 26.649600219726562,
+      "target_local": 32.980800247192384,
+      "atr_local": 1.055200004577637,
+      "opprettet_dato": "2026-10-28T00:26:34.712575+00:00",
+      "utloper_dato": "2026-11-07T00:26:34.712575+00:00",
       "signal_snapshot": {
-        "score": 73.59308350827779,
-        "rs_score": 54.884431578202104,
-        "vsa_score": 63.75918011605718,
+        "score": 75.25484970332249,
+        "rs_score": 67.27787221714611,
+        "vsa_score": 56.904960127262164,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-10-23"
+        "dato": "2026-10-26"
       }
     },
     {
@@ -57,20 +57,20 @@
       "region": "NORDIC",
       "currency": "SEK",
       "signal_type": "Spring",
-      "signal_pris_local": 149.85000610351562,
+      "signal_pris_local": 152.1999969482422,
       "stop_local": 142.84800292968748,
-      "target_local": 163.8540124511719,
-      "atr_local": 3.5010015869140716,
-      "opprettet_dato": "2026-10-27T00:21:41.394251+00:00",
-      "utloper_dato": "2026-11-06T00:21:41.394251+00:00",
+      "target_local": 170.9039849853516,
+      "atr_local": 4.675997009277353,
+      "opprettet_dato": "2026-10-28T00:26:34.712575+00:00",
+      "utloper_dato": "2026-11-07T00:26:34.712575+00:00",
       "signal_snapshot": {
-        "score": 72.62535783643906,
-        "rs_score": 82.21656761165943,
+        "score": 69.89299194944873,
+        "rs_score": 73.10868132169163,
         "vsa_score": 79.86795850980414,
         "wyckoff_phase": "distribution",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-10-23"
+        "dato": "2026-10-26"
       }
     },
     {
@@ -84,16 +84,16 @@
       "stop_local": 266.6580059814453,
       "target_local": 346.4609512329102,
       "atr_local": 13.30049087524415,
-      "opprettet_dato": "2026-10-27T00:21:41.394251+00:00",
-      "utloper_dato": "2026-11-06T00:21:41.394251+00:00",
+      "opprettet_dato": "2026-10-28T00:26:34.712575+00:00",
+      "utloper_dato": "2026-11-07T00:26:34.712575+00:00",
       "signal_snapshot": {
-        "score": 90.6712783237457,
-        "rs_score": 96.64616970935195,
+        "score": 88.7683353190754,
+        "rs_score": 90.303026360451,
         "vsa_score": 92.25809136980035,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-10-23"
+        "dato": "2026-10-26"
       }
     },
     {
@@ -107,16 +107,16 @@
       "stop_local": 54.331198654174806,
       "target_local": 69.88590637207028,
       "atr_local": 2.5924512863159137,
-      "opprettet_dato": "2026-10-27T00:21:41.394251+00:00",
-      "utloper_dato": "2026-11-06T00:21:41.394251+00:00",
+      "opprettet_dato": "2026-10-28T00:26:34.712575+00:00",
+      "utloper_dato": "2026-11-07T00:26:34.712575+00:00",
       "signal_snapshot": {
-        "score": 79.99879149337254,
-        "rs_score": 57.34556082047303,
+        "score": 83.00952941905945,
+        "rs_score": 67.38135390609608,
         "vsa_score": 89.31707749076875,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-10-23"
+        "dato": "2026-10-26"
       }
     },
     {
@@ -126,20 +126,20 @@
       "region": "EUROPE",
       "currency": "EUR",
       "signal_type": "Spring",
-      "signal_pris_local": 16.565000534057617,
+      "signal_pris_local": 16.579999923706055,
       "stop_local": 15.537599487304687,
-      "target_local": 18.619802627563477,
-      "atr_local": 0.5137005233764649,
-      "opprettet_dato": "2026-10-27T00:21:41.394251+00:00",
-      "utloper_dato": "2026-11-06T00:21:41.394251+00:00",
+      "target_local": 18.66480079650879,
+      "atr_local": 0.5212002182006836,
+      "opprettet_dato": "2026-10-28T00:26:34.712575+00:00",
+      "utloper_dato": "2026-11-07T00:26:34.712575+00:00",
       "signal_snapshot": {
-        "score": 76.84536599040199,
-        "rs_score": 51.04120205091647,
+        "score": 79.72681243161702,
+        "rs_score": 60.64602352163323,
         "vsa_score": 78.44335125042348,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-10-23"
+        "dato": "2026-10-26"
       }
     },
     {
@@ -149,20 +149,43 @@
       "region": "EUROPE",
       "currency": "EUR",
       "signal_type": "Spring",
-      "signal_pris_local": 1238.5,
+      "signal_pris_local": 1278.5,
       "stop_local": 1204.8,
-      "target_local": 1305.9,
-      "atr_local": 16.850000000000023,
-      "opprettet_dato": "2026-10-27T00:21:41.394251+00:00",
-      "utloper_dato": "2026-11-06T00:21:41.394251+00:00",
+      "target_local": 1425.9,
+      "atr_local": 36.85000000000002,
+      "opprettet_dato": "2026-10-28T00:26:34.712575+00:00",
+      "utloper_dato": "2026-11-07T00:26:34.712575+00:00",
       "signal_snapshot": {
-        "score": 66.17522247200229,
-        "rs_score": 43.936659257245886,
+        "score": 74.33183789868438,
+        "rs_score": 44.458710679519534,
         "vsa_score": 76.64741564942842,
-        "wyckoff_phase": "unclear",
+        "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-10-23"
+        "dato": "2026-10-26"
+      }
+    },
+    {
+      "symbol": "SIE.DE",
+      "name": "Siemens",
+      "sector": "Industrial Goods",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Spring",
+      "signal_pris_local": 261.3999938964844,
+      "stop_local": 247.343994140625,
+      "target_local": 289.5119934082031,
+      "atr_local": 7.0279998779296875,
+      "opprettet_dato": "2026-10-28T00:26:34.712575+00:00",
+      "utloper_dato": "2026-11-07T00:26:34.712575+00:00",
+      "signal_snapshot": {
+        "score": 69.00577250826058,
+        "rs_score": 46.81000332856806,
+        "vsa_score": 56.54257169896721,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-10-26"
       }
     }
   ],
@@ -358,11 +381,11 @@
       ],
       "opened_at": "2026-08-07T01:02:01.507439+00:00",
       "initial_stop_local": 57.97679985046386,
-      "current_stop_local": 73.09229557037354,
+      "current_stop_local": 73.67229740142822,
       "target_local": 103.83990489959716,
       "atr_local": 7.643850841522216,
       "stop_type": "trailing_atr",
-      "high_water_local": 88.37999725341797,
+      "high_water_local": 88.95999908447266,
       "low_water_local": 73.3377660350418,
       "pyramid_count": 0,
       "skipped_pyramids": [
@@ -400,6 +423,16 @@
           "trigger_dato": "2026-10-27T00:21:41.394251+00:00",
           "trigger_pris": 80.981616876564,
           "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-10-28T00:26:34.712575+00:00",
+          "trigger_pris": 80.981616876564,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-10-28T00:26:34.712575+00:00",
+          "trigger_pris": 88.62546771808623,
+          "grunn": "for lite kontanter"
         }
       ],
       "signal_snapshot": {
@@ -412,11 +445,11 @@
         "dato": "2026-08-04"
       },
       "mae_local": 64.86000061035156,
-      "mfe_local": 88.37999725341797,
+      "mfe_local": 88.95999908447266,
       "mae_pct": -11.559890467129087,
-      "mfe_pct": 20.510893679511312,
+      "mfe_pct": 21.301757462814376,
       "mae_dato": "2026-09-14T23:50:10.029660+00:00",
-      "mfe_dato": "2026-10-27T00:21:41.394251+00:00",
+      "mfe_dato": "2026-10-28T00:26:34.712575+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -457,6 +490,11 @@
         {
           "date": "2026-10-27T00:21:41.394251+00:00",
           "stop_local": 73.09229557037354,
+          "type": "trailing_atr_update"
+        },
+        {
+          "date": "2026-10-28T00:26:34.712575+00:00",
+          "stop_local": 73.67229740142822,
           "type": "trailing_atr_update"
         }
       ]
@@ -3819,6 +3857,38 @@
         "obv_rising": "True",
         "dato": "2026-10-22"
       }
+    },
+    {
+      "symbol": "GETI-B.ST",
+      "signal_pris": 252.65699386596677,
+      "open_pris": 269.70001220703125,
+      "gap_pct": 6.745516156226294,
+      "dato": "2026-10-28T00:26:34.712575+00:00",
+      "signal_snapshot": {
+        "score": 83.12175687095733,
+        "rs_score": 77.21273452234813,
+        "vsa_score": 86.52645504750963,
+        "wyckoff_phase": "markup",
+        "triple_rs": false,
+        "obv_rising": "True",
+        "dato": "2026-10-23"
+      }
+    },
+    {
+      "symbol": "DB1.DE",
+      "signal_pris": 293.2589877319336,
+      "open_pris": 313.70001220703125,
+      "gap_pct": 6.970297699377825,
+      "dato": "2026-10-28T00:26:34.712575+00:00",
+      "signal_snapshot": {
+        "score": 90.6712783237457,
+        "rs_score": 96.64616970935195,
+        "vsa_score": 92.25809136980035,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-10-23"
+      }
     }
   ],
   "equity_curve": [
@@ -4523,6 +4593,12 @@
       "equity_nok": 86923.06081127483,
       "n_open": 5,
       "n_pending": 7
+    },
+    {
+      "date": "2026-10-28",
+      "equity_nok": 88258.87965702373,
+      "n_open": 5,
+      "n_pending": 8
     }
   ]
 }
