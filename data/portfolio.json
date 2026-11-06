@@ -1,30 +1,53 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-11-05T01:27:11.988291+00:00",
+  "last_updated": "2026-11-06T01:30:25.139064+00:00",
   "start_kapital_nok": 100000.0,
-  "kontanter_nok": 434.31693100809935,
+  "kontanter_nok": 2199.667475510436,
   "pending_orders": [
     {
-      "symbol": "SSAB-A.ST",
-      "name": "SSAB A",
+      "symbol": "UPM.HE",
+      "name": "UPM-Kymmene",
       "sector": "Basic Resources",
       "region": "NORDIC",
-      "currency": "SEK",
+      "currency": "EUR",
       "signal_type": "Spring",
-      "signal_pris_local": 96.0199966430664,
-      "stop_local": 89.49120117187499,
-      "target_local": 109.07758758544924,
-      "atr_local": 3.2643977355957077,
-      "opprettet_dato": "2026-11-05T01:26:04.493079+00:00",
-      "utloper_dato": "2026-11-15T01:26:04.493079+00:00",
+      "signal_pris_local": 22.655000686645508,
+      "stop_local": 21.23520080566406,
+      "target_local": 25.494600448608402,
+      "atr_local": 0.7098999404907236,
+      "opprettet_dato": "2026-11-06T01:29:22.240284+00:00",
+      "utloper_dato": "2026-11-16T01:29:22.240284+00:00",
       "signal_snapshot": {
-        "score": 61.8526691734868,
-        "rs_score": 69.30075895516025,
-        "vsa_score": 56.87480495646241,
-        "wyckoff_phase": "distribution",
+        "score": 76.33431392557861,
+        "rs_score": 50.7781122859159,
+        "vsa_score": 77.0029341326795,
+        "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-11-03"
+        "dato": "2026-11-04"
+      }
+    },
+    {
+      "symbol": "AI.PA",
+      "name": "Air Liquide",
+      "sector": "Chemicals",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Markup",
+      "signal_pris_local": 179.01059509277343,
+      "stop_local": 161.7980059814453,
+      "target_local": 213.43577331542969,
+      "atr_local": 8.606294555664064,
+      "opprettet_dato": "2026-11-06T01:29:22.240284+00:00",
+      "utloper_dato": "2026-11-16T01:29:22.240284+00:00",
+      "signal_snapshot": {
+        "score": 86.75657266449886,
+        "rs_score": 89.10472319457163,
+        "vsa_score": 86.75051902042456,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-11-04"
       }
     },
     {
@@ -34,20 +57,20 @@
       "region": "EUROPE",
       "currency": "EUR",
       "signal_type": "Spring",
-      "signal_pris_local": 16.30500030517578,
+      "signal_pris_local": 16.889999389648438,
       "stop_local": 15.316799926757811,
-      "target_local": 18.28140106201172,
-      "atr_local": 0.4941001892089849,
-      "opprettet_dato": "2026-11-05T01:26:04.493079+00:00",
-      "utloper_dato": "2026-11-15T01:26:04.493079+00:00",
+      "target_local": 20.03639831542969,
+      "atr_local": 0.786599731445313,
+      "opprettet_dato": "2026-11-06T01:29:22.240284+00:00",
+      "utloper_dato": "2026-11-16T01:29:22.240284+00:00",
       "signal_snapshot": {
-        "score": 74.20165519888627,
-        "rs_score": 42.478164500839206,
-        "vsa_score": 78.19401949544837,
+        "score": 78.58158898148125,
+        "rs_score": 59.578683751888484,
+        "vsa_score": 75.69327951971569,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-11-03"
+        "dato": "2026-11-04"
       }
     }
   ],
@@ -155,11 +178,11 @@
       ],
       "opened_at": "2026-07-13T22:04:41.559315+00:00",
       "initial_stop_local": 291.50101196289063,
-      "current_stop_local": 335.2500057983399,
+      "current_stop_local": 342.199987487793,
       "target_local": 412.55101287841785,
       "atr_local": 20.17500015258787,
       "stop_type": "trailing_atr",
-      "high_water_local": 375.6000061035156,
+      "high_water_local": 382.54998779296875,
       "low_water_local": 332.1828632803344,
       "pyramid_count": 2,
       "skipped_pyramids": [],
@@ -173,11 +196,11 @@
         "dato": "2026-07-09"
       },
       "mae_local": 312.8500061035156,
-      "mfe_local": 375.6000061035156,
+      "mfe_local": 382.54998779296875,
       "mae_pct": -5.819944167470037,
-      "mfe_pct": 13.070253653193674,
+      "mfe_pct": 15.162469254209764,
       "mae_dato": "2026-07-27T22:14:34.945738+00:00",
-      "mfe_dato": "2026-11-05T01:26:04.493079+00:00",
+      "mfe_dato": "2026-11-06T01:29:22.240284+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -219,6 +242,11 @@
           "date": "2026-11-05T01:26:04.493079+00:00",
           "stop_local": 335.2500057983399,
           "type": "trailing_atr_update"
+        },
+        {
+          "date": "2026-11-06T01:29:22.240284+00:00",
+          "stop_local": 342.199987487793,
+          "type": "trailing_atr_update"
         }
       ]
     },
@@ -248,11 +276,11 @@
       ],
       "opened_at": "2026-08-07T01:02:01.507439+00:00",
       "initial_stop_local": 57.97679985046386,
-      "current_stop_local": 73.67229740142822,
+      "current_stop_local": 76.01230136871338,
       "target_local": 103.83990489959716,
       "atr_local": 7.643850841522216,
       "stop_type": "trailing_atr",
-      "high_water_local": 88.95999908447266,
+      "high_water_local": 91.30000305175781,
       "low_water_local": 73.3377660350418,
       "pyramid_count": 0,
       "skipped_pyramids": [
@@ -330,6 +358,16 @@
           "trigger_dato": "2026-11-05T01:26:04.493079+00:00",
           "trigger_pris": 80.981616876564,
           "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-11-06T01:29:22.240284+00:00",
+          "trigger_pris": 80.981616876564,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-11-06T01:29:22.240284+00:00",
+          "trigger_pris": 88.62546771808623,
+          "grunn": "for lite kontanter"
         }
       ],
       "signal_snapshot": {
@@ -342,11 +380,11 @@
         "dato": "2026-08-04"
       },
       "mae_local": 64.86000061035156,
-      "mfe_local": 88.95999908447266,
+      "mfe_local": 91.30000305175781,
       "mae_pct": -11.559890467129087,
-      "mfe_pct": 21.301757462814376,
+      "mfe_pct": 24.492479097513574,
       "mae_dato": "2026-09-14T23:50:10.029660+00:00",
-      "mfe_dato": "2026-10-28T00:26:34.712575+00:00",
+      "mfe_dato": "2026-11-06T01:29:22.240284+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -393,76 +431,11 @@
           "date": "2026-10-28T00:26:34.712575+00:00",
           "stop_local": 73.67229740142822,
           "type": "trailing_atr_update"
-        }
-      ]
-    },
-    {
-      "symbol": "MPCC.OL",
-      "name": "MPC Container Ships",
-      "sector": "Industrial Goods",
-      "region": "OSLO",
-      "currency": "NOK",
-      "signal_type": "Markup",
-      "fill_type": "market_zone",
-      "signal_pris_local": 27.64755023002624,
-      "initial_entry_local": 28.828799236297606,
-      "avg_entry_local": 29.129943760115907,
-      "shares": 873,
-      "kostnad_nok": 25620.344666255947,
-      "sizing_method": "capital_capped",
-      "fills": [
-        {
-          "date": "2026-09-29T00:57:03.180758+00:00",
-          "price_local": 28.828799236297606,
-          "shares": 601,
-          "cost_nok": 17425.10834101486,
-          "type": "initial",
-          "fill_type": "market_zone"
         },
         {
-          "date": "2026-10-14T23:53:11.591602+00:00",
-          "price_local": 29.795340299876205,
-          "shares": 272,
-          "cost_nok": 8195.236325241087,
-          "type": "pyramid_1"
-        }
-      ],
-      "opened_at": "2026-09-29T00:57:03.180758+00:00",
-      "initial_stop_local": 25.773999252319335,
-      "current_stop_local": 25.773999252319335,
-      "target_local": 31.39465218544005,
-      "atr_local": 0.9367754888534527,
-      "stop_type": "wyckoff",
-      "high_water_local": 30.139999389648438,
-      "low_water_local": 28.828799236297606,
-      "pyramid_count": 1,
-      "skipped_pyramids": [],
-      "signal_snapshot": {
-        "score": 75.68575495141943,
-        "rs_score": 73.95251650473145,
-        "vsa_score": 65.0,
-        "wyckoff_phase": "markup",
-        "triple_rs": false,
-        "obv_rising": "True",
-        "dato": "2026-09-24"
-      },
-      "mae_local": 25.829999923706055,
-      "mfe_local": 30.139999389648438,
-      "mae_pct": -10.402095793208899,
-      "mfe_pct": 4.548230200652736,
-      "mae_dato": "2026-11-05T01:26:04.493079+00:00",
-      "mfe_dato": "2026-10-15T23:39:35.225374+00:00",
-      "orig_stop_truffet": false,
-      "orig_stop_dato": null,
-      "orig_stop_pnl_pct": null,
-      "orig_target_truffet": false,
-      "orig_target_dato": null,
-      "orig_target_pnl_pct": null,
-      "stop_historie": [
-        {
-          "date": "2026-09-29T00:57:03.180758+00:00",
-          "stop_local": 25.773999252319335,
-          "type": "initial_wyckoff"
+          "date": "2026-11-06T01:29:22.240284+00:00",
+          "stop_local": 76.01230136871338,
+          "type": "trailing_atr_update"
         }
       ]
     },
@@ -476,9 +449,9 @@
       "fill_type": "limit",
       "signal_pris_local": 193.10000610351562,
       "initial_entry_local": 193.29310610961912,
-      "avg_entry_local": 193.29310610961912,
-      "shares": 7,
-      "kostnad_nok": 15659.095041824337,
+      "avg_entry_local": 196.1709782247333,
+      "shares": 16,
+      "kostnad_nok": 36272.945143249504,
       "sizing_method": "capital_capped",
       "fills": [
         {
@@ -488,17 +461,24 @@
           "cost_nok": 15659.095041824337,
           "type": "initial",
           "fill_type": "limit"
+        },
+        {
+          "date": "2026-11-06T01:29:22.240284+00:00",
+          "price_local": 198.40932320315545,
+          "shares": 9,
+          "cost_nok": 20613.850101425167,
+          "type": "pyramid_1"
         }
       ],
       "opened_at": "2026-10-01T00:30:28.757672+00:00",
       "initial_stop_local": 183.263994140625,
-      "current_stop_local": 190.56398193359374,
+      "current_stop_local": 191.263994140625,
       "target_local": 212.7720300292969,
       "atr_local": 4.918005981445319,
       "stop_type": "trailing_atr",
-      "high_water_local": 200.39999389648438,
+      "high_water_local": 201.10000610351562,
       "low_water_local": 193.29310610961912,
-      "pyramid_count": 0,
+      "pyramid_count": 1,
       "skipped_pyramids": [
         {
           "trigger_dato": "2026-10-20T00:15:36.709560+00:00",
@@ -526,11 +506,11 @@
         "dato": "2026-09-28"
       },
       "mae_local": 183.83999633789062,
-      "mfe_local": 200.39999389648438,
+      "mfe_local": 201.10000610351562,
       "mae_pct": -4.890557124353679,
-      "mfe_pct": 3.6767414678694488,
+      "mfe_pct": 4.038892100719371,
       "mae_dato": "2026-10-10T00:43:39.425937+00:00",
-      "mfe_dato": "2026-10-20T00:15:36.709560+00:00",
+      "mfe_dato": "2026-11-06T01:29:22.240284+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -547,6 +527,11 @@
           "date": "2026-10-20T00:15:36.709560+00:00",
           "stop_local": 190.56398193359374,
           "type": "trailing_atr_initial"
+        },
+        {
+          "date": "2026-11-06T01:29:22.240284+00:00",
+          "stop_local": 191.263994140625,
+          "type": "trailing_atr_update"
         }
       ]
     }
@@ -2189,6 +2174,83 @@
       "pnl_pct_local": 1.6833875030154433,
       "reason": "stop_loss",
       "closed_at": "2026-09-30T00:20:35.783205+00:00"
+    },
+    {
+      "symbol": "MPCC.OL",
+      "name": "MPC Container Ships",
+      "sector": "Industrial Goods",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Markup",
+      "fill_type": "market_zone",
+      "signal_pris_local": 27.64755023002624,
+      "initial_entry_local": 28.828799236297606,
+      "avg_entry_local": 29.129943760115907,
+      "shares": 873,
+      "kostnad_nok": 25620.344666255947,
+      "sizing_method": "capital_capped",
+      "fills": [
+        {
+          "date": "2026-09-29T00:57:03.180758+00:00",
+          "price_local": 28.828799236297606,
+          "shares": 601,
+          "cost_nok": 17425.10834101486,
+          "type": "initial",
+          "fill_type": "market_zone"
+        },
+        {
+          "date": "2026-10-14T23:53:11.591602+00:00",
+          "price_local": 29.795340299876205,
+          "shares": 272,
+          "cost_nok": 8195.236325241087,
+          "type": "pyramid_1"
+        }
+      ],
+      "opened_at": "2026-09-29T00:57:03.180758+00:00",
+      "initial_stop_local": 25.773999252319335,
+      "current_stop_local": 25.773999252319335,
+      "target_local": 31.39465218544005,
+      "atr_local": 0.9367754888534527,
+      "stop_type": "wyckoff",
+      "high_water_local": 30.139999389648438,
+      "low_water_local": 28.828799236297606,
+      "pyramid_count": 1,
+      "skipped_pyramids": [],
+      "signal_snapshot": {
+        "score": 75.68575495141943,
+        "rs_score": 73.95251650473145,
+        "vsa_score": 65.0,
+        "wyckoff_phase": "markup",
+        "triple_rs": false,
+        "obv_rising": "True",
+        "dato": "2026-09-24"
+      },
+      "mae_local": 25.100000381469727,
+      "mfe_local": 30.139999389648438,
+      "mae_pct": -12.934284304609688,
+      "mfe_pct": 4.548230200652736,
+      "mae_dato": "2026-11-06T01:29:22.240284+00:00",
+      "mfe_dato": "2026-10-15T23:39:35.225374+00:00",
+      "orig_stop_truffet": true,
+      "orig_stop_dato": "2026-11-06T01:29:22.240284+00:00",
+      "orig_stop_pnl_pct": -10.596348321480031,
+      "orig_target_truffet": false,
+      "orig_target_dato": null,
+      "orig_target_pnl_pct": null,
+      "stop_historie": [
+        {
+          "date": "2026-09-29T00:57:03.180758+00:00",
+          "stop_local": 25.773999252319335,
+          "type": "initial_wyckoff"
+        }
+      ],
+      "exit_pris_local": 25.748225253067016,
+      "exit_proceeds_nok": 22379.200645927504,
+      "pnl_nok": -3241.1440203284437,
+      "pnl_pct": -12.650665174685532,
+      "pnl_pct_local": -11.609080109790904,
+      "reason": "stop_loss",
+      "closed_at": "2026-11-06T01:29:22.240284+00:00"
     }
   ],
   "missed_extended": [
@@ -4617,6 +4679,12 @@
       "equity_nok": 87649.08122181255,
       "n_open": 5,
       "n_pending": 2
+    },
+    {
+      "date": "2026-11-06",
+      "equity_nok": 89361.45175914324,
+      "n_open": 4,
+      "n_pending": 3
     }
   ]
 }
