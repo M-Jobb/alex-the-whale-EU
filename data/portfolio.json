@@ -1,8 +1,8 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-11-10T03:27:53.752805+00:00",
+  "last_updated": "2026-11-11T01:13:29.802866+00:00",
   "start_kapital_nok": 100000.0,
-  "kontanter_nok": 2199.667475510436,
+  "kontanter_nok": 38158.747100539724,
   "pending_orders": [
     {
       "symbol": "TGS.OL",
@@ -11,20 +11,43 @@
       "region": "OSLO",
       "currency": "NOK",
       "signal_type": "Spring",
-      "signal_pris_local": 128.89999389648438,
+      "signal_pris_local": 132.60000610351562,
       "stop_local": 123.16800292968749,
-      "target_local": 140.36397583007815,
-      "atr_local": 2.865995483398443,
-      "opprettet_dato": "2026-11-10T03:26:52.589221+00:00",
-      "utloper_dato": "2026-11-20T03:26:52.589221+00:00",
+      "target_local": 151.4640124511719,
+      "atr_local": 4.716001586914068,
+      "opprettet_dato": "2026-11-11T01:12:03.756099+00:00",
+      "utloper_dato": "2026-11-21T01:12:03.756099+00:00",
       "signal_snapshot": {
-        "score": 84.17797960830659,
-        "rs_score": 67.7011744722801,
-        "vsa_score": 86.2254242220752,
+        "score": 83.71219625975418,
+        "rs_score": 72.27461888119899,
+        "vsa_score": 80.09936865131493,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-11-06"
+        "dato": "2026-11-09"
+      }
+    },
+    {
+      "symbol": "DNB.OL",
+      "name": "DNB Bank",
+      "sector": "Banks",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Markup",
+      "signal_pris_local": 308.8364877319336,
+      "stop_local": 294.98,
+      "target_local": 336.5494631958007,
+      "atr_local": 6.9282438659667775,
+      "opprettet_dato": "2026-11-11T01:12:03.756099+00:00",
+      "utloper_dato": "2026-11-21T01:12:03.756099+00:00",
+      "signal_snapshot": {
+        "score": 76.37963481042419,
+        "rs_score": 79.98312402390738,
+        "vsa_score": 61.28232534417327,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "False",
+        "dato": "2026-11-09"
       }
     },
     {
@@ -38,16 +61,62 @@
       "stop_local": 161.7980059814453,
       "target_local": 213.43577331542969,
       "atr_local": 8.606294555664064,
-      "opprettet_dato": "2026-11-10T03:26:52.589221+00:00",
-      "utloper_dato": "2026-11-20T03:26:52.589221+00:00",
+      "opprettet_dato": "2026-11-11T01:12:03.756099+00:00",
+      "utloper_dato": "2026-11-21T01:12:03.756099+00:00",
       "signal_snapshot": {
-        "score": 88.37998671076642,
-        "rs_score": 89.3900035383848,
+        "score": 88.75201922873022,
+        "rs_score": 90.63011193159748,
         "vsa_score": 91.8766188308366,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-11-06"
+        "dato": "2026-11-09"
+      }
+    },
+    {
+      "symbol": "ALV.DE",
+      "name": "Allianz",
+      "sector": "Insurance",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Markup",
+      "signal_pris_local": 456.8730061340332,
+      "stop_local": 415.4219940185547,
+      "target_local": 539.7750303649901,
+      "atr_local": 20.72550605773924,
+      "opprettet_dato": "2026-11-11T01:12:03.756099+00:00",
+      "utloper_dato": "2026-11-21T01:12:03.756099+00:00",
+      "signal_snapshot": {
+        "score": 81.28334862475636,
+        "rs_score": 87.64211855218608,
+        "vsa_score": 89.96904353033511,
+        "wyckoff_phase": "unclear",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-11-09"
+      }
+    },
+    {
+      "symbol": "ACS.MC",
+      "name": "ACS Construcciones",
+      "sector": "Construction",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Spring",
+      "signal_pris_local": 88.3499984741211,
+      "stop_local": 81.98400146484374,
+      "target_local": 101.0819924926758,
+      "atr_local": 3.1829985046386753,
+      "opprettet_dato": "2026-11-11T01:12:03.756099+00:00",
+      "utloper_dato": "2026-11-21T01:12:03.756099+00:00",
+      "signal_snapshot": {
+        "score": 76.6795392329956,
+        "rs_score": 40.427378039254855,
+        "vsa_score": 88.50441940406378,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "True",
+        "dato": "2026-11-09"
       }
     },
     {
@@ -61,62 +130,16 @@
       "stop_local": 20.668200149536133,
       "target_local": 25.234799470901486,
       "atr_local": 0.7610998868942254,
-      "opprettet_dato": "2026-11-10T03:26:52.589221+00:00",
-      "utloper_dato": "2026-11-20T03:26:52.589221+00:00",
+      "opprettet_dato": "2026-11-11T01:12:03.756099+00:00",
+      "utloper_dato": "2026-11-21T01:12:03.756099+00:00",
       "signal_snapshot": {
-        "score": 79.44681902013303,
-        "rs_score": 72.89925429665719,
-        "vsa_score": 78.5901424371196,
+        "score": 74.38611430825856,
+        "rs_score": 62.54356173612319,
+        "vsa_score": 72.07681929140536,
         "wyckoff_phase": "markup",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-11-06"
-      }
-    },
-    {
-      "symbol": "ACS.MC",
-      "name": "ACS Construcciones",
-      "sector": "Construction",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Spring",
-      "signal_pris_local": 87.0,
-      "stop_local": 81.98400146484374,
-      "target_local": 97.03199707031251,
-      "atr_local": 2.5079992675781284,
-      "opprettet_dato": "2026-11-10T03:26:52.589221+00:00",
-      "utloper_dato": "2026-11-20T03:26:52.589221+00:00",
-      "signal_snapshot": {
-        "score": 76.86119474430696,
-        "rs_score": 41.03289641029275,
-        "vsa_score": 88.50441940406378,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": false,
-        "obv_rising": "True",
-        "dato": "2026-11-06"
-      }
-    },
-    {
-      "symbol": "ALV.DE",
-      "name": "Allianz",
-      "sector": "Insurance",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "signal_pris_local": 454.66199386596674,
-      "stop_local": 415.4219940185547,
-      "target_local": 533.1419935607908,
-      "atr_local": 19.61999992370602,
-      "opprettet_dato": "2026-11-10T03:26:52.589221+00:00",
-      "utloper_dato": "2026-11-20T03:26:52.589221+00:00",
-      "signal_snapshot": {
-        "score": 75.35098714149818,
-        "rs_score": 87.86758027465882,
-        "vsa_score": 89.96904353033511,
-        "wyckoff_phase": "distribution",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-11-06"
+        "dato": "2026-11-09"
       }
     },
     {
@@ -126,20 +149,20 @@
       "region": "EUROPE",
       "currency": "EUR",
       "signal_type": "Spring",
-      "signal_pris_local": 228.64999389648438,
+      "signal_pris_local": 234.39999389648438,
       "stop_local": 217.776005859375,
-      "target_local": 250.39796997070312,
-      "atr_local": 5.436994018554685,
-      "opprettet_dato": "2026-11-10T03:26:52.589221+00:00",
-      "utloper_dato": "2026-11-20T03:26:52.589221+00:00",
+      "target_local": 267.6479699707031,
+      "atr_local": 8.311994018554685,
+      "opprettet_dato": "2026-11-11T01:12:03.756099+00:00",
+      "utloper_dato": "2026-11-21T01:12:03.756099+00:00",
       "signal_snapshot": {
-        "score": 69.3557835810694,
-        "rs_score": 40.625,
+        "score": 69.47969951206935,
+        "rs_score": 41.03805310333312,
         "vsa_score": 63.894278603564686,
         "wyckoff_phase": "accumulation",
         "triple_rs": false,
         "obv_rising": "False",
-        "dato": "2026-11-06"
+        "dato": "2026-11-09"
       }
     },
     {
@@ -149,20 +172,43 @@
       "region": "EUROPE",
       "currency": "EUR",
       "signal_type": "Markup",
-      "signal_pris_local": 54.591599693298335,
+      "signal_pris_local": 54.511201686859124,
       "stop_local": 50.15640029907227,
-      "target_local": 63.46199848175047,
-      "atr_local": 2.217599697113034,
-      "opprettet_dato": "2026-11-10T03:26:52.589221+00:00",
-      "utloper_dato": "2026-11-20T03:26:52.589221+00:00",
+      "target_local": 63.22080446243284,
+      "atr_local": 2.1774006938934285,
+      "opprettet_dato": "2026-11-11T01:12:03.756099+00:00",
+      "utloper_dato": "2026-11-21T01:12:03.756099+00:00",
       "signal_snapshot": {
-        "score": 67.71063942447192,
-        "rs_score": 62.198507555307486,
+        "score": 65.93772240440035,
+        "rs_score": 56.288784155068875,
         "vsa_score": 90.1702905262656,
         "wyckoff_phase": "distribution",
         "triple_rs": false,
         "obv_rising": "True",
-        "dato": "2026-11-06"
+        "dato": "2026-11-09"
+      }
+    },
+    {
+      "symbol": "WTB.L",
+      "name": "Whitbread",
+      "sector": "Travel Leisure",
+      "region": "EUROPE",
+      "currency": "GBP",
+      "signal_type": "Markup",
+      "signal_pris_local": 27.84855,
+      "stop_local": 22.55078095703125,
+      "target_local": 38.444088085937494,
+      "atr_local": 2.6488845214843746,
+      "opprettet_dato": "2026-11-11T01:12:03.756099+00:00",
+      "utloper_dato": "2026-11-21T01:12:03.756099+00:00",
+      "signal_snapshot": {
+        "score": 65.83891329041876,
+        "rs_score": 71.95279998463519,
+        "vsa_score": 74.17691098342732,
+        "wyckoff_phase": "distribution",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-11-09"
       }
     }
   ],
@@ -485,6 +531,16 @@
           "trigger_dato": "2026-11-10T03:26:52.589221+00:00",
           "trigger_pris": 88.62546771808623,
           "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-11-11T01:12:03.756099+00:00",
+          "trigger_pris": 80.981616876564,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-11-11T01:12:03.756099+00:00",
+          "trigger_pris": 88.62546771808623,
+          "grunn": "for lite kontanter"
         }
       ],
       "signal_snapshot": {
@@ -557,112 +613,6 @@
         {
           "date": "2026-11-07T00:51:22.406536+00:00",
           "stop_local": 78.09229557037354,
-          "type": "trailing_atr_update"
-        }
-      ]
-    },
-    {
-      "symbol": "AIR.PA",
-      "name": "Airbus",
-      "sector": "Industrial Goods",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Spring",
-      "fill_type": "limit",
-      "signal_pris_local": 193.10000610351562,
-      "initial_entry_local": 193.29310610961912,
-      "avg_entry_local": 196.1709782247333,
-      "shares": 16,
-      "kostnad_nok": 36272.945143249504,
-      "sizing_method": "capital_capped",
-      "fills": [
-        {
-          "date": "2026-10-01T00:30:28.757672+00:00",
-          "price_local": 193.29310610961912,
-          "shares": 7,
-          "cost_nok": 15659.095041824337,
-          "type": "initial",
-          "fill_type": "limit"
-        },
-        {
-          "date": "2026-11-06T01:29:22.240284+00:00",
-          "price_local": 198.40932320315545,
-          "shares": 9,
-          "cost_nok": 20613.850101425167,
-          "type": "pyramid_1"
-        }
-      ],
-      "opened_at": "2026-10-01T00:30:28.757672+00:00",
-      "initial_stop_local": 183.263994140625,
-      "current_stop_local": 194.71399108886717,
-      "target_local": 212.7720300292969,
-      "atr_local": 4.918005981445319,
-      "stop_type": "trailing_atr",
-      "high_water_local": 204.5500030517578,
-      "low_water_local": 193.29310610961912,
-      "pyramid_count": 1,
-      "skipped_pyramids": [
-        {
-          "trigger_dato": "2026-10-20T00:15:36.709560+00:00",
-          "trigger_pris": 198.21111209106442,
-          "grunn": "for lite kontanter"
-        },
-        {
-          "trigger_dato": "2026-10-22T23:57:26.039768+00:00",
-          "trigger_pris": 198.21111209106442,
-          "grunn": "for lite kontanter"
-        },
-        {
-          "trigger_dato": "2026-10-31T00:42:03.451707+00:00",
-          "trigger_pris": 198.21111209106442,
-          "grunn": "for lite kontanter"
-        },
-        {
-          "trigger_dato": "2026-11-07T00:51:22.406536+00:00",
-          "trigger_pris": 203.12911807250975,
-          "grunn": "for lite kontanter"
-        }
-      ],
-      "signal_snapshot": {
-        "score": 63.715819264210374,
-        "rs_score": 50.155820086932984,
-        "vsa_score": 82.2302441271016,
-        "wyckoff_phase": "distribution",
-        "triple_rs": false,
-        "obv_rising": "False",
-        "dato": "2026-09-28"
-      },
-      "mae_local": 183.83999633789062,
-      "mfe_local": 204.5500030517578,
-      "mae_pct": -4.890557124353679,
-      "mfe_pct": 5.823744658412577,
-      "mae_dato": "2026-10-10T00:43:39.425937+00:00",
-      "mfe_dato": "2026-11-07T00:51:22.406536+00:00",
-      "orig_stop_truffet": false,
-      "orig_stop_dato": null,
-      "orig_stop_pnl_pct": null,
-      "orig_target_truffet": false,
-      "orig_target_dato": null,
-      "orig_target_pnl_pct": null,
-      "stop_historie": [
-        {
-          "date": "2026-10-01T00:30:28.757672+00:00",
-          "stop_local": 183.263994140625,
-          "type": "initial_wyckoff"
-        },
-        {
-          "date": "2026-10-20T00:15:36.709560+00:00",
-          "stop_local": 190.56398193359374,
-          "type": "trailing_atr_initial"
-        },
-        {
-          "date": "2026-11-06T01:29:22.240284+00:00",
-          "stop_local": 191.263994140625,
-          "type": "trailing_atr_update"
-        },
-        {
-          "date": "2026-11-07T00:51:22.406536+00:00",
-          "stop_local": 194.71399108886717,
           "type": "trailing_atr_update"
         }
       ]
@@ -2383,6 +2333,129 @@
       "pnl_pct_local": -11.609080109790904,
       "reason": "stop_loss",
       "closed_at": "2026-11-06T01:29:22.240284+00:00"
+    },
+    {
+      "symbol": "AIR.PA",
+      "name": "Airbus",
+      "sector": "Industrial Goods",
+      "region": "EUROPE",
+      "currency": "EUR",
+      "signal_type": "Spring",
+      "fill_type": "limit",
+      "signal_pris_local": 193.10000610351562,
+      "initial_entry_local": 193.29310610961912,
+      "avg_entry_local": 196.1709782247333,
+      "shares": 16,
+      "kostnad_nok": 36272.945143249504,
+      "sizing_method": "capital_capped",
+      "fills": [
+        {
+          "date": "2026-10-01T00:30:28.757672+00:00",
+          "price_local": 193.29310610961912,
+          "shares": 7,
+          "cost_nok": 15659.095041824337,
+          "type": "initial",
+          "fill_type": "limit"
+        },
+        {
+          "date": "2026-11-06T01:29:22.240284+00:00",
+          "price_local": 198.40932320315545,
+          "shares": 9,
+          "cost_nok": 20613.850101425167,
+          "type": "pyramid_1"
+        }
+      ],
+      "opened_at": "2026-10-01T00:30:28.757672+00:00",
+      "initial_stop_local": 183.263994140625,
+      "current_stop_local": 196.16398803710936,
+      "target_local": 212.7720300292969,
+      "atr_local": 4.918005981445319,
+      "stop_type": "trailing_atr",
+      "high_water_local": 206.0,
+      "low_water_local": 193.29310610961912,
+      "pyramid_count": 1,
+      "skipped_pyramids": [
+        {
+          "trigger_dato": "2026-10-20T00:15:36.709560+00:00",
+          "trigger_pris": 198.21111209106442,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-10-22T23:57:26.039768+00:00",
+          "trigger_pris": 198.21111209106442,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-10-31T00:42:03.451707+00:00",
+          "trigger_pris": 198.21111209106442,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-11-07T00:51:22.406536+00:00",
+          "trigger_pris": 203.12911807250975,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-11-11T01:12:03.756099+00:00",
+          "trigger_pris": 203.12911807250975,
+          "grunn": "for lite kontanter"
+        }
+      ],
+      "signal_snapshot": {
+        "score": 63.715819264210374,
+        "rs_score": 50.155820086932984,
+        "vsa_score": 82.2302441271016,
+        "wyckoff_phase": "distribution",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-09-28"
+      },
+      "mae_local": 183.83999633789062,
+      "mfe_local": 206.0,
+      "mae_pct": -4.890557124353679,
+      "mfe_pct": 6.573899165950925,
+      "mae_dato": "2026-10-10T00:43:39.425937+00:00",
+      "mfe_dato": "2026-11-11T01:12:03.756099+00:00",
+      "orig_stop_truffet": false,
+      "orig_stop_dato": null,
+      "orig_stop_pnl_pct": null,
+      "orig_target_truffet": false,
+      "orig_target_dato": null,
+      "orig_target_pnl_pct": null,
+      "stop_historie": [
+        {
+          "date": "2026-10-01T00:30:28.757672+00:00",
+          "stop_local": 183.263994140625,
+          "type": "initial_wyckoff"
+        },
+        {
+          "date": "2026-10-20T00:15:36.709560+00:00",
+          "stop_local": 190.56398193359374,
+          "type": "trailing_atr_initial"
+        },
+        {
+          "date": "2026-11-06T01:29:22.240284+00:00",
+          "stop_local": 191.263994140625,
+          "type": "trailing_atr_update"
+        },
+        {
+          "date": "2026-11-07T00:51:22.406536+00:00",
+          "stop_local": 194.71399108886717,
+          "type": "trailing_atr_update"
+        },
+        {
+          "date": "2026-11-11T01:12:03.756099+00:00",
+          "stop_local": 196.16398803710936,
+          "type": "trailing_atr_update"
+        }
+      ],
+      "exit_pris_local": 195.96782404907225,
+      "exit_proceeds_nok": 35959.07962502929,
+      "pnl_nok": -313.86551822021283,
+      "pnl_pct": -0.8652882113120172,
+      "pnl_pct_local": -0.10355975052961375,
+      "reason": "stop_loss",
+      "closed_at": "2026-11-11T01:12:03.756099+00:00"
     }
   ],
   "missed_extended": [
@@ -4845,6 +4918,12 @@
       "equity_nok": 87931.31052379168,
       "n_open": 4,
       "n_pending": 7
+    },
+    {
+      "date": "2026-11-11",
+      "equity_nok": 87478.86013478288,
+      "n_open": 3,
+      "n_pending": 9
     }
   ]
 }
