@@ -1,32 +1,9 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-11-13T01:47:25.795264+00:00",
+  "last_updated": "2026-11-14T01:26:12.589986+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 1293.7162325872278,
   "pending_orders": [
-    {
-      "symbol": "COLO-B.CO",
-      "name": "Coloplast B",
-      "sector": "Health Care",
-      "region": "NORDIC",
-      "currency": "DKK",
-      "signal_type": "Markup",
-      "signal_pris_local": 497.57550613403316,
-      "stop_local": 438.06,
-      "target_local": 616.6065184020995,
-      "atr_local": 29.75775306701658,
-      "opprettet_dato": "2026-11-13T01:46:22.444351+00:00",
-      "utloper_dato": "2026-11-23T01:46:22.444351+00:00",
-      "signal_snapshot": {
-        "score": 81.51107653895295,
-        "rs_score": 56.18286933935046,
-        "vsa_score": 95.52071912382605,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": false,
-        "obv_rising": "True",
-        "dato": "2026-11-11"
-      }
-    },
     {
       "symbol": "AI.PA",
       "name": "Air Liquide",
@@ -38,131 +15,16 @@
       "stop_local": 161.7980059814453,
       "target_local": 213.43577331542969,
       "atr_local": 8.606294555664064,
-      "opprettet_dato": "2026-11-13T01:46:22.444351+00:00",
-      "utloper_dato": "2026-11-23T01:46:22.444351+00:00",
+      "opprettet_dato": "2026-11-14T01:24:44.605941+00:00",
+      "utloper_dato": "2026-11-24T01:24:44.605941+00:00",
       "signal_snapshot": {
-        "score": 87.16449584878005,
-        "rs_score": 85.33836733176359,
+        "score": 86.88906732301122,
+        "rs_score": 84.4202722458675,
         "vsa_score": 91.8766188308366,
         "wyckoff_phase": "markup",
         "triple_rs": true,
         "obv_rising": "True",
-        "dato": "2026-11-11"
-      }
-    },
-    {
-      "symbol": "ACS.MC",
-      "name": "ACS Construcciones",
-      "sector": "Construction",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Spring",
-      "signal_pris_local": 92.94999694824219,
-      "stop_local": 81.98400146484374,
-      "target_local": 114.88198791503908,
-      "atr_local": 5.482997741699222,
-      "opprettet_dato": "2026-11-13T01:46:22.444351+00:00",
-      "utloper_dato": "2026-11-23T01:46:22.444351+00:00",
-      "signal_snapshot": {
-        "score": 82.66539209050245,
-        "rs_score": 60.38022089761103,
-        "vsa_score": 88.50441940406378,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": false,
-        "obv_rising": "True",
-        "dato": "2026-11-11"
-      }
-    },
-    {
-      "symbol": "IBE.MC",
-      "name": "Iberdrola",
-      "sector": "Utilities",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "signal_pris_local": 22.190399923324584,
-      "stop_local": 20.668200149536133,
-      "target_local": 25.234799470901486,
-      "atr_local": 0.7610998868942254,
-      "opprettet_dato": "2026-11-13T01:46:22.444351+00:00",
-      "utloper_dato": "2026-11-23T01:46:22.444351+00:00",
-      "signal_snapshot": {
-        "score": 77.52767390111508,
-        "rs_score": 73.0154270456449,
-        "vsa_score": 72.07681929140536,
-        "wyckoff_phase": "markup",
-        "triple_rs": false,
-        "obv_rising": "True",
-        "dato": "2026-11-11"
-      }
-    },
-    {
-      "symbol": "PHIA.AS",
-      "name": "Philips",
-      "sector": "Industrial Goods",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "signal_pris_local": 27.366149539947507,
-      "stop_local": 20.67800037384033,
-      "target_local": 40.74244787216186,
-      "atr_local": 3.3440745830535885,
-      "opprettet_dato": "2026-11-13T01:46:22.444351+00:00",
-      "utloper_dato": "2026-11-23T01:46:22.444351+00:00",
-      "signal_snapshot": {
-        "score": 75.75839697544271,
-        "rs_score": 85.0,
-        "vsa_score": 94.19465658480904,
-        "wyckoff_phase": "distribution",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-11-11"
-      }
-    },
-    {
-      "symbol": "SU.PA",
-      "name": "Schneider Electric",
-      "sector": "Industrial Goods",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Spring",
-      "signal_pris_local": 242.5,
-      "stop_local": 217.776005859375,
-      "target_local": 291.94798828125,
-      "atr_local": 12.361997070312498,
-      "opprettet_dato": "2026-11-13T01:46:22.444351+00:00",
-      "utloper_dato": "2026-11-23T01:46:22.444351+00:00",
-      "signal_snapshot": {
-        "score": 72.98294278124398,
-        "rs_score": 52.71553066724859,
-        "vsa_score": 63.894278603564686,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": false,
-        "obv_rising": "False",
-        "dato": "2026-11-11"
-      }
-    },
-    {
-      "symbol": "BAS.DE",
-      "name": "BASF",
-      "sector": "Chemicals",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "signal_pris_local": 55.20465030670165,
-      "stop_local": 50.15640029907227,
-      "target_local": 65.30115032196042,
-      "atr_local": 2.5241250038146923,
-      "opprettet_dato": "2026-11-13T01:46:22.444351+00:00",
-      "utloper_dato": "2026-11-23T01:46:22.444351+00:00",
-      "signal_snapshot": {
-        "score": 68.3779759173178,
-        "rs_score": 64.4229625314604,
-        "vsa_score": 90.1702905262656,
-        "wyckoff_phase": "distribution",
-        "triple_rs": false,
-        "obv_rising": "True",
-        "dato": "2026-11-11"
+        "dato": "2026-11-12"
       }
     }
   ],
@@ -512,6 +374,11 @@
           "trigger_dato": "2026-11-13T01:46:22.444351+00:00",
           "trigger_pris": 88.62546771808623,
           "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-11-14T01:24:44.605941+00:00",
+          "trigger_pris": 88.62546771808623,
+          "grunn": "for lite kontanter"
         }
       ],
       "signal_snapshot": {
@@ -614,16 +481,21 @@
       ],
       "opened_at": "2026-11-12T02:12:37.460540+00:00",
       "initial_stop_local": 123.16800292968749,
-      "current_stop_local": 128.96799072265622,
+      "current_stop_local": 130.66800292968747,
       "target_local": 151.4640124511719,
       "atr_local": 4.716001586914068,
       "stop_type": "trailing_atr",
-      "high_water_local": 138.39999389648438,
+      "high_water_local": 140.10000610351562,
       "low_water_local": 132.73260610961913,
       "pyramid_count": 0,
       "skipped_pyramids": [
         {
           "trigger_dato": "2026-11-13T01:46:22.444351+00:00",
+          "trigger_pris": 137.4486076965332,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-11-14T01:24:44.605941+00:00",
           "trigger_pris": 137.4486076965332,
           "grunn": "for lite kontanter"
         }
@@ -638,11 +510,11 @@
         "dato": "2026-11-09"
       },
       "mae_local": 130.0,
-      "mfe_local": 138.39999389648438,
+      "mfe_local": 140.10000610351562,
       "mae_pct": -2.058730096327921,
-      "mfe_pct": 4.269778129862645,
+      "mfe_pct": 5.550557779157916,
       "mae_dato": "2026-11-12T02:12:37.460540+00:00",
-      "mfe_dato": "2026-11-13T01:46:22.444351+00:00",
+      "mfe_dato": "2026-11-14T01:24:44.605941+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -659,6 +531,11 @@
           "date": "2026-11-13T01:46:22.444351+00:00",
           "stop_local": 128.96799072265622,
           "type": "trailing_atr_initial"
+        },
+        {
+          "date": "2026-11-14T01:24:44.605941+00:00",
+          "stop_local": 130.66800292968747,
+          "type": "trailing_atr_update"
         }
       ]
     },
@@ -692,7 +569,7 @@
       "target_local": 539.7750303649901,
       "atr_local": 20.72550605773924,
       "stop_type": "wyckoff",
-      "high_water_local": 466.3999938964844,
+      "high_water_local": 474.6000061035156,
       "low_water_local": 460.8603938903808,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -706,11 +583,11 @@
         "dato": "2026-11-09"
       },
       "mae_local": 459.8999938964844,
-      "mfe_local": 466.3999938964844,
+      "mfe_local": 474.6000061035156,
       "mae_pct": -0.20839282494838907,
-      "mfe_pct": 1.202012600679514,
+      "mfe_pct": 2.981295940219786,
       "mae_dato": "2026-11-13T01:46:22.444351+00:00",
-      "mfe_dato": "2026-11-12T02:12:37.460540+00:00",
+      "mfe_dato": "2026-11-14T01:24:44.605941+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -4326,6 +4203,22 @@
         "obv_rising": "True",
         "dato": "2026-11-10"
       }
+    },
+    {
+      "symbol": "AI.PA",
+      "signal_pris": 179.01059509277343,
+      "open_pris": 193.1999969482422,
+      "gap_pct": 7.926570965319124,
+      "dato": "2026-11-14T01:24:44.605941+00:00",
+      "signal_snapshot": {
+        "score": 87.16449584878005,
+        "rs_score": 85.33836733176359,
+        "vsa_score": 91.8766188308366,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-11-11"
+      }
     }
   ],
   "equity_curve": [
@@ -5108,6 +5001,12 @@
       "equity_nok": 88093.10120896906,
       "n_open": 5,
       "n_pending": 7
+    },
+    {
+      "date": "2026-11-14",
+      "equity_nok": 88196.06905870051,
+      "n_open": 5,
+      "n_pending": 1
     }
   ]
 }
