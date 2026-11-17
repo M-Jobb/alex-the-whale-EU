@@ -1,33 +1,9 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-11-14T01:26:12.589986+00:00",
+  "last_updated": "2026-11-17T03:44:36.792998+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 1293.7162325872278,
-  "pending_orders": [
-    {
-      "symbol": "AI.PA",
-      "name": "Air Liquide",
-      "sector": "Chemicals",
-      "region": "EUROPE",
-      "currency": "EUR",
-      "signal_type": "Markup",
-      "signal_pris_local": 179.01059509277343,
-      "stop_local": 161.7980059814453,
-      "target_local": 213.43577331542969,
-      "atr_local": 8.606294555664064,
-      "opprettet_dato": "2026-11-14T01:24:44.605941+00:00",
-      "utloper_dato": "2026-11-24T01:24:44.605941+00:00",
-      "signal_snapshot": {
-        "score": 86.88906732301122,
-        "rs_score": 84.4202722458675,
-        "vsa_score": 91.8766188308366,
-        "wyckoff_phase": "markup",
-        "triple_rs": true,
-        "obv_rising": "True",
-        "dato": "2026-11-12"
-      }
-    }
-  ],
+  "pending_orders": [],
   "open_positions": [
     {
       "symbol": "FLTR.L",
@@ -379,6 +355,11 @@
           "trigger_dato": "2026-11-14T01:24:44.605941+00:00",
           "trigger_pris": 88.62546771808623,
           "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-11-17T03:43:30.947781+00:00",
+          "trigger_pris": 88.62546771808623,
+          "grunn": "for lite kontanter"
         }
       ],
       "signal_snapshot": {
@@ -481,11 +462,11 @@
       ],
       "opened_at": "2026-11-12T02:12:37.460540+00:00",
       "initial_stop_local": 123.16800292968749,
-      "current_stop_local": 130.66800292968747,
+      "current_stop_local": 131.46799072265622,
       "target_local": 151.4640124511719,
       "atr_local": 4.716001586914068,
       "stop_type": "trailing_atr",
-      "high_water_local": 140.10000610351562,
+      "high_water_local": 140.89999389648438,
       "low_water_local": 132.73260610961913,
       "pyramid_count": 0,
       "skipped_pyramids": [
@@ -496,6 +477,11 @@
         },
         {
           "trigger_dato": "2026-11-14T01:24:44.605941+00:00",
+          "trigger_pris": 137.4486076965332,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-11-17T03:43:30.947781+00:00",
           "trigger_pris": 137.4486076965332,
           "grunn": "for lite kontanter"
         }
@@ -510,11 +496,11 @@
         "dato": "2026-11-09"
       },
       "mae_local": 130.0,
-      "mfe_local": 140.10000610351562,
+      "mfe_local": 140.89999389648438,
       "mae_pct": -2.058730096327921,
-      "mfe_pct": 5.550557779157916,
+      "mfe_pct": 6.153264089548638,
       "mae_dato": "2026-11-12T02:12:37.460540+00:00",
-      "mfe_dato": "2026-11-14T01:24:44.605941+00:00",
+      "mfe_dato": "2026-11-17T03:43:30.947781+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -535,6 +521,11 @@
         {
           "date": "2026-11-14T01:24:44.605941+00:00",
           "stop_local": 130.66800292968747,
+          "type": "trailing_atr_update"
+        },
+        {
+          "date": "2026-11-17T03:43:30.947781+00:00",
+          "stop_local": 131.46799072265622,
           "type": "trailing_atr_update"
         }
       ]
@@ -569,7 +560,7 @@
       "target_local": 539.7750303649901,
       "atr_local": 20.72550605773924,
       "stop_type": "wyckoff",
-      "high_water_local": 474.6000061035156,
+      "high_water_local": 478.20001220703125,
       "low_water_local": 460.8603938903808,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -583,11 +574,11 @@
         "dato": "2026-11-09"
       },
       "mae_local": 459.8999938964844,
-      "mfe_local": 474.6000061035156,
+      "mfe_local": 478.20001220703125,
       "mae_pct": -0.20839282494838907,
-      "mfe_pct": 2.981295940219786,
+      "mfe_pct": 3.762444884941618,
       "mae_dato": "2026-11-13T01:46:22.444351+00:00",
-      "mfe_dato": "2026-11-14T01:24:44.605941+00:00",
+      "mfe_dato": "2026-11-17T03:43:30.947781+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -4219,6 +4210,22 @@
         "obv_rising": "True",
         "dato": "2026-11-11"
       }
+    },
+    {
+      "symbol": "AI.PA",
+      "signal_pris": 179.01059509277343,
+      "open_pris": 193.5,
+      "gap_pct": 8.094160515871884,
+      "dato": "2026-11-17T03:43:30.947781+00:00",
+      "signal_snapshot": {
+        "score": 86.88906732301122,
+        "rs_score": 84.4202722458675,
+        "vsa_score": 91.8766188308366,
+        "wyckoff_phase": "markup",
+        "triple_rs": true,
+        "obv_rising": "True",
+        "dato": "2026-11-12"
+      }
     }
   ],
   "equity_curve": [
@@ -5007,6 +5014,12 @@
       "equity_nok": 88196.06905870051,
       "n_open": 5,
       "n_pending": 1
+    },
+    {
+      "date": "2026-11-17",
+      "equity_nok": 88905.72901658625,
+      "n_open": 5,
+      "n_pending": 0
     }
   ]
 }
