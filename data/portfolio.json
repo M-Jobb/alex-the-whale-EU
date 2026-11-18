@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-11-17T03:44:36.792998+00:00",
+  "last_updated": "2026-11-18T02:51:42.796895+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 1293.7162325872278,
   "pending_orders": [],
@@ -360,6 +360,11 @@
           "trigger_dato": "2026-11-17T03:43:30.947781+00:00",
           "trigger_pris": 88.62546771808623,
           "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-11-18T02:50:52.098521+00:00",
+          "trigger_pris": 88.62546771808623,
+          "grunn": "for lite kontanter"
         }
       ],
       "signal_snapshot": {
@@ -484,6 +489,11 @@
           "trigger_dato": "2026-11-17T03:43:30.947781+00:00",
           "trigger_pris": 137.4486076965332,
           "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-11-18T02:50:52.098521+00:00",
+          "trigger_pris": 137.4486076965332,
+          "grunn": "for lite kontanter"
         }
       ],
       "signal_snapshot": {
@@ -560,7 +570,7 @@
       "target_local": 539.7750303649901,
       "atr_local": 20.72550605773924,
       "stop_type": "wyckoff",
-      "high_water_local": 478.20001220703125,
+      "high_water_local": 479.1000061035156,
       "low_water_local": 460.8603938903808,
       "pyramid_count": 0,
       "skipped_pyramids": [],
@@ -574,11 +584,11 @@
         "dato": "2026-11-09"
       },
       "mae_local": 459.8999938964844,
-      "mfe_local": 478.20001220703125,
+      "mfe_local": 479.1000061035156,
       "mae_pct": -0.20839282494838907,
-      "mfe_pct": 3.762444884941618,
+      "mfe_pct": 3.9577304656544854,
       "mae_dato": "2026-11-13T01:46:22.444351+00:00",
-      "mfe_dato": "2026-11-17T03:43:30.947781+00:00",
+      "mfe_dato": "2026-11-18T02:50:52.098521+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
       "orig_stop_pnl_pct": null,
@@ -5018,6 +5028,12 @@
     {
       "date": "2026-11-17",
       "equity_nok": 88905.72901658625,
+      "n_open": 5,
+      "n_pending": 0
+    },
+    {
+      "date": "2026-11-18",
+      "equity_nok": 88364.62829331965,
       "n_open": 5,
       "n_pending": 0
     }
