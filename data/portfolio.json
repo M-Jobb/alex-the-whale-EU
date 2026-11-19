@@ -1,6 +1,6 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-11-18T02:51:42.796895+00:00",
+  "last_updated": "2026-11-19T02:30:12.425296+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 1293.7162325872278,
   "pending_orders": [],
@@ -365,6 +365,11 @@
           "trigger_dato": "2026-11-18T02:50:52.098521+00:00",
           "trigger_pris": 88.62546771808623,
           "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-11-19T02:29:12.235888+00:00",
+          "trigger_pris": 88.62546771808623,
+          "grunn": "for lite kontanter"
         }
       ],
       "signal_snapshot": {
@@ -492,6 +497,11 @@
         },
         {
           "trigger_dato": "2026-11-18T02:50:52.098521+00:00",
+          "trigger_pris": 137.4486076965332,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-11-19T02:29:12.235888+00:00",
           "trigger_pris": 137.4486076965332,
           "grunn": "for lite kontanter"
         }
@@ -5034,6 +5044,12 @@
     {
       "date": "2026-11-18",
       "equity_nok": 88364.62829331965,
+      "n_open": 5,
+      "n_pending": 0
+    },
+    {
+      "date": "2026-11-19",
+      "equity_nok": 87077.26882676691,
       "n_open": 5,
       "n_pending": 0
     }
