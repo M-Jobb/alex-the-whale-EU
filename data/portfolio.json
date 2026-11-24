@@ -1,8 +1,8 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-11-21T02:08:00.669365+00:00",
+  "last_updated": "2026-11-24T05:18:17.725759+00:00",
   "start_kapital_nok": 100000.0,
-  "kontanter_nok": 1293.7162325872278,
+  "kontanter_nok": 17611.781574078923,
   "pending_orders": [],
   "open_positions": [
     {
@@ -452,110 +452,6 @@
       ]
     },
     {
-      "symbol": "TGS.OL",
-      "name": "TGS",
-      "sector": "Energy",
-      "region": "OSLO",
-      "currency": "NOK",
-      "signal_type": "Spring",
-      "fill_type": "limit",
-      "signal_pris_local": 132.60000610351562,
-      "initial_entry_local": 132.73260610961913,
-      "avg_entry_local": 132.73260610961913,
-      "shares": 125,
-      "kostnad_nok": 16690.575763702393,
-      "sizing_method": "capital_capped",
-      "fills": [
-        {
-          "date": "2026-11-12T02:12:37.460540+00:00",
-          "price_local": 132.73260610961913,
-          "shares": 125,
-          "cost_nok": 16690.575763702393,
-          "type": "initial",
-          "fill_type": "limit"
-        }
-      ],
-      "opened_at": "2026-11-12T02:12:37.460540+00:00",
-      "initial_stop_local": 123.16800292968749,
-      "current_stop_local": 131.46799072265622,
-      "target_local": 151.4640124511719,
-      "atr_local": 4.716001586914068,
-      "stop_type": "trailing_atr",
-      "high_water_local": 140.89999389648438,
-      "low_water_local": 132.73260610961913,
-      "pyramid_count": 0,
-      "skipped_pyramids": [
-        {
-          "trigger_dato": "2026-11-13T01:46:22.444351+00:00",
-          "trigger_pris": 137.4486076965332,
-          "grunn": "for lite kontanter"
-        },
-        {
-          "trigger_dato": "2026-11-14T01:24:44.605941+00:00",
-          "trigger_pris": 137.4486076965332,
-          "grunn": "for lite kontanter"
-        },
-        {
-          "trigger_dato": "2026-11-17T03:43:30.947781+00:00",
-          "trigger_pris": 137.4486076965332,
-          "grunn": "for lite kontanter"
-        },
-        {
-          "trigger_dato": "2026-11-18T02:50:52.098521+00:00",
-          "trigger_pris": 137.4486076965332,
-          "grunn": "for lite kontanter"
-        },
-        {
-          "trigger_dato": "2026-11-19T02:29:12.235888+00:00",
-          "trigger_pris": 137.4486076965332,
-          "grunn": "for lite kontanter"
-        }
-      ],
-      "signal_snapshot": {
-        "score": 83.71219625975418,
-        "rs_score": 72.27461888119899,
-        "vsa_score": 80.09936865131493,
-        "wyckoff_phase": "accumulation",
-        "triple_rs": false,
-        "obv_rising": "True",
-        "dato": "2026-11-09"
-      },
-      "mae_local": 130.0,
-      "mfe_local": 140.89999389648438,
-      "mae_pct": -2.058730096327921,
-      "mfe_pct": 6.153264089548638,
-      "mae_dato": "2026-11-12T02:12:37.460540+00:00",
-      "mfe_dato": "2026-11-17T03:43:30.947781+00:00",
-      "orig_stop_truffet": false,
-      "orig_stop_dato": null,
-      "orig_stop_pnl_pct": null,
-      "orig_target_truffet": false,
-      "orig_target_dato": null,
-      "orig_target_pnl_pct": null,
-      "stop_historie": [
-        {
-          "date": "2026-11-12T02:12:37.460540+00:00",
-          "stop_local": 123.16800292968749,
-          "type": "initial_wyckoff"
-        },
-        {
-          "date": "2026-11-13T01:46:22.444351+00:00",
-          "stop_local": 128.96799072265622,
-          "type": "trailing_atr_initial"
-        },
-        {
-          "date": "2026-11-14T01:24:44.605941+00:00",
-          "stop_local": 130.66800292968747,
-          "type": "trailing_atr_update"
-        },
-        {
-          "date": "2026-11-17T03:43:30.947781+00:00",
-          "stop_local": 131.46799072265622,
-          "type": "trailing_atr_update"
-        }
-      ]
-    },
-    {
       "symbol": "ALV.DE",
       "name": "Allianz",
       "sector": "Insurance",
@@ -598,11 +494,11 @@
         "obv_rising": "True",
         "dato": "2026-11-09"
       },
-      "mae_local": 457.5,
+      "mae_local": 450.20001220703125,
       "mfe_local": 479.1000061035156,
-      "mae_pct": -0.729156580806134,
+      "mae_pct": -2.313147717763142,
       "mfe_pct": 3.9577304656544854,
-      "mae_dato": "2026-11-21T02:07:12.722818+00:00",
+      "mae_dato": "2026-11-24T05:17:07.701484+00:00",
       "mfe_dato": "2026-11-18T02:50:52.098521+00:00",
       "orig_stop_truffet": false,
       "orig_stop_dato": null,
@@ -2457,6 +2353,117 @@
       "pnl_pct_local": -0.10355975052961375,
       "reason": "stop_loss",
       "closed_at": "2026-11-11T01:12:03.756099+00:00"
+    },
+    {
+      "symbol": "TGS.OL",
+      "name": "TGS",
+      "sector": "Energy",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Spring",
+      "fill_type": "limit",
+      "signal_pris_local": 132.60000610351562,
+      "initial_entry_local": 132.73260610961913,
+      "avg_entry_local": 132.73260610961913,
+      "shares": 125,
+      "kostnad_nok": 16690.575763702393,
+      "sizing_method": "capital_capped",
+      "fills": [
+        {
+          "date": "2026-11-12T02:12:37.460540+00:00",
+          "price_local": 132.73260610961913,
+          "shares": 125,
+          "cost_nok": 16690.575763702393,
+          "type": "initial",
+          "fill_type": "limit"
+        }
+      ],
+      "opened_at": "2026-11-12T02:12:37.460540+00:00",
+      "initial_stop_local": 123.16800292968749,
+      "current_stop_local": 131.46799072265622,
+      "target_local": 151.4640124511719,
+      "atr_local": 4.716001586914068,
+      "stop_type": "trailing_atr",
+      "high_water_local": 140.89999389648438,
+      "low_water_local": 132.73260610961913,
+      "pyramid_count": 0,
+      "skipped_pyramids": [
+        {
+          "trigger_dato": "2026-11-13T01:46:22.444351+00:00",
+          "trigger_pris": 137.4486076965332,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-11-14T01:24:44.605941+00:00",
+          "trigger_pris": 137.4486076965332,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-11-17T03:43:30.947781+00:00",
+          "trigger_pris": 137.4486076965332,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-11-18T02:50:52.098521+00:00",
+          "trigger_pris": 137.4486076965332,
+          "grunn": "for lite kontanter"
+        },
+        {
+          "trigger_dato": "2026-11-19T02:29:12.235888+00:00",
+          "trigger_pris": 137.4486076965332,
+          "grunn": "for lite kontanter"
+        }
+      ],
+      "signal_snapshot": {
+        "score": 83.71219625975418,
+        "rs_score": 72.27461888119899,
+        "vsa_score": 80.09936865131493,
+        "wyckoff_phase": "accumulation",
+        "triple_rs": false,
+        "obv_rising": "True",
+        "dato": "2026-11-09"
+      },
+      "mae_local": 125.5,
+      "mfe_local": 140.89999389648438,
+      "mae_pct": -5.449004823762726,
+      "mfe_pct": 6.153264089548638,
+      "mae_dato": "2026-11-24T05:17:07.701484+00:00",
+      "mfe_dato": "2026-11-17T03:43:30.947781+00:00",
+      "orig_stop_truffet": false,
+      "orig_stop_dato": null,
+      "orig_stop_pnl_pct": null,
+      "orig_target_truffet": false,
+      "orig_target_dato": null,
+      "orig_target_pnl_pct": null,
+      "stop_historie": [
+        {
+          "date": "2026-11-12T02:12:37.460540+00:00",
+          "stop_local": 123.16800292968749,
+          "type": "initial_wyckoff"
+        },
+        {
+          "date": "2026-11-13T01:46:22.444351+00:00",
+          "stop_local": 128.96799072265622,
+          "type": "trailing_atr_initial"
+        },
+        {
+          "date": "2026-11-14T01:24:44.605941+00:00",
+          "stop_local": 130.66800292968747,
+          "type": "trailing_atr_update"
+        },
+        {
+          "date": "2026-11-17T03:43:30.947781+00:00",
+          "stop_local": 131.46799072265622,
+          "type": "trailing_atr_update"
+        }
+      ],
+      "exit_pris_local": 131.33652273193357,
+      "exit_proceeds_nok": 16318.065341491696,
+      "pnl_nok": -372.51042221069656,
+      "pnl_pct": -2.2318608266397177,
+      "pnl_pct_local": -1.051801376168704,
+      "reason": "stop_loss",
+      "closed_at": "2026-11-24T05:17:07.701484+00:00"
     }
   ],
   "missed_extended": [
@@ -5068,6 +5075,12 @@
       "date": "2026-11-21",
       "equity_nok": 86457.75051622004,
       "n_open": 5,
+      "n_pending": 0
+    },
+    {
+      "date": "2026-11-24",
+      "equity_nok": 85422.05456620784,
+      "n_open": 4,
       "n_pending": 0
     }
   ]
