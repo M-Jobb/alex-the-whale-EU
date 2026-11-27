@@ -1,9 +1,33 @@
 {
   "created_at": "2026-05-12T00:00:00+00:00",
-  "last_updated": "2026-11-26T03:30:16.848713+00:00",
+  "last_updated": "2026-11-27T03:37:26.724897+00:00",
   "start_kapital_nok": 100000.0,
   "kontanter_nok": 17611.781574078923,
-  "pending_orders": [],
+  "pending_orders": [
+    {
+      "symbol": "NOD.OL",
+      "name": "Nordic Semiconductor",
+      "sector": "Technology",
+      "region": "OSLO",
+      "currency": "NOK",
+      "signal_type": "Spring",
+      "signal_pris_local": 165.3000030517578,
+      "stop_local": 157.92,
+      "target_local": 180.06000915527346,
+      "atr_local": 3.6900015258789125,
+      "opprettet_dato": "2026-11-27T03:36:08.255511+00:00",
+      "utloper_dato": "2026-12-07T03:36:08.255511+00:00",
+      "signal_snapshot": {
+        "score": 64.9210683819507,
+        "rs_score": 63.660929781774385,
+        "vsa_score": 72.7426314913946,
+        "wyckoff_phase": "distribution",
+        "triple_rs": false,
+        "obv_rising": "False",
+        "dato": "2026-11-25"
+      }
+    }
+  ],
   "open_positions": [
     {
       "symbol": "FLTR.L",
@@ -5094,6 +5118,12 @@
       "equity_nok": 85525.78549272151,
       "n_open": 4,
       "n_pending": 0
+    },
+    {
+      "date": "2026-11-27",
+      "equity_nok": 85781.54608232112,
+      "n_open": 4,
+      "n_pending": 1
     }
   ]
 }
